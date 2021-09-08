@@ -39,6 +39,7 @@ $<article>
 * [Duisburger Linux User Group](https://dulug.de/)
 * [Kaarster Linux User Group](https://www.kaalug.de/)
 
-
-$</article>
+@last_change:2021-09-08
+;(unset author
++article-end.in
 +footer.in

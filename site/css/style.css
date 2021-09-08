@@ -4,20 +4,26 @@
     --col_dark_blue:  #1B202F; /* #2A324B; */
     --col_dark:       #141824;
     --col_orange:     #FFB200;
+    --col_dim_orange: #e19d0f;
+    --col_dimmer_orange: #a87c18;
     --col_blue:       #184FFF;
     --col_light_blue: #5f8aff;
-    --col_white:      #fcfdf7;
+    --col_white:      #d2cdc3;
+    --col_grey: #535359;
 
     --col_body_bg:         var(--col_dark_blue);
     --col_article_bg:      var(--col_dark);
     --col_article_txt:     var(--col_white);
-    --col_heading_bg:      var(--col_orange);
+    --col_article_foot_txt: var(--col_grey);
+    --col_heading_bg:      var(--col_dim_orange);
+    --col_heading_bg2:     var(--col_dimmer_orange);
     --col_heading_txt:     var(--col_blue);
     --col_btn_bg:          #333;
     --col_btn_txt:         var(--col_orange);
-    --col_btn_akt_bg:      var(--col_orange);
+    --col_btn_akt_bg:      var(--col_dim_orange);
     --col_btn_akt_txt:     var(--col_blue);
     --col_btn_hov_bg:      var(--col_dark_blue);
+
 }
 
 /* content CSS */
@@ -75,8 +81,12 @@ code {
 
 h1 span, h2 span {
     color:               var(--col_heading_txt);
-    background-image:    linear-gradient(to right, var(--col_heading_bg), var(--col_article_bg));
+    /* background-image:    linear-gradient(to right, var(--col_heading_bg), var(--col_article_bg)); */
+    background-image:    linear-gradient(to right, var(--col_heading_bg), var(--col_heading_bg2));
+    /* background-color:    var(--col_heading_bg); */
     float:               right;
+    /* -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: var(--col_dim_orange); */
     padding-top:         5px;
     padding-right:       25px;
     padding-bottom:      1px;
@@ -86,6 +96,7 @@ h1 span, h2 span {
 
 h1 span {
     font-weight:         bold;
+    font-stretch:        expanded;
     letter-spacing:      3px;
 }
 
@@ -141,6 +152,14 @@ nav li a:hover:not(.active) {
     background-color:    var(--col_btn_akt_bg);
     color:               var(--col_btn_akt_txt);
     font-weight:         bold;
+}
+
+.article_footer {
+    font-size:           0.7em;
+    color:               var(--col_grey);
+    text-align:          left;
+    margin-bottom:       0px;
+    margin-top:          40px;
 }
 
 /* EOF */

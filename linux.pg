@@ -1,3 +1,5 @@
++header.in
+$<article>
 === Warum Linux
 
 
@@ -84,9 +86,19 @@ Da kannst du ganz leicht installieren, schaue einfach hier:
 
 ==== Podcasts
 
+* [GnuLinuxNews-Podcast](https://linuxnews.de/category/podcast/)
+
 ==== Webseiten
 
-=== Linux News
-
-
 * [Linux Wiki](http://linuxwiki.de)
+
+==== Linux News Seiten
+
+* [LinuxNews.de](https://linuxnews.de/)
+* [GNU/Linux.ch](https://gnulinux.ch/)
+
+@last_change:2021-09-08
+@author:Alexander Kulbartsch
+@license:CC BY 4.0
++article-end.in
++footer.in

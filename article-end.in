@@ -1,0 +1,16 @@
+$<p class="article_footer">
+(cond-if-set last_change
+$Letzte Änderung: {{last_change}}
+(cond-end
+$<span style="float:right;">
+(cond-if-set license
+$Lizenz: {{license}}
+(cond-if-set author
+$ &nbsp; Autor: {{Author}}
+(cond-end
+$</span></p>
+$</article>
+;;; unset the following
+@last_change:
+@author:
+@license:
