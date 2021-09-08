@@ -1,0 +1,29 @@
+@page:sonne+mond
++header.in
+$<article>
+=== Mond und Sonne
+
+$<br />
+$$$
+<!--- Quellcode Beginn --->
+
+	<!--- Nutzungsbedingung: Die enthaltenen Links und Texte im Quellcode
+	dürfen nicht entfernt werden, ansonsten erlischt das Nutzungsrecht.
+	Bei gewünschten Abweichungen bitte Kontakt per Mail aufnehmen.
+	Mailadresse auf der Homepage.
+
+	Ein kostenloser Service von https://www.Der-Mond.de/ --->
+
+
+		<img border=0 src="https://www.der-mond.de/feature/luna.php?version=5&txue=Mond+aktuell&zeko=1&rand=0&trans=0&julia=1&daem=3&zefu=1&grmo=1&grmoueber=1&txph=1&txmoal=1&txmoph=1&txmobe=1&txmophti=1&txmost=1&txmostau=1&txze=1&zezo=1&zeso=1&format=0&schgr=12&schriftart=Standard&schriftschnitt=0&grafikausdehnung=0&grafikpx=300&faan=1&scro=252&scgr=253&scbl=247&hiro=20&higr=24&hibl=36&grsoho=1&grsohoueber=1&soep=1&txsost=1&txsostau=1&geolagr=6&geolami=51&geolase=0&geola=o&geobrgr=51&geobrmi=12&geobrse=0&geobr=n&lang=de" alt="Der Mond - Geheimnisvoller Begleiter unserer Erde">
+
+
+	<br>
+
+	Von <a href="https://www.der-mond.de/" target="_blank">www.Der-Mond.de</a>
+
+<!--- Quellcode Ende --->
+$$$
+
+$</article>
++footer.in

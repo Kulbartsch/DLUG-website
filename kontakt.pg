@@ -1,0 +1,36 @@
+@page:Kontakt
++header.in
+;
++treffen.in
+;
++mailingliste.in
+;
+$<article>
+=== Matrix-Chat
+
+Neu in der Runde unserer Kommunikationskanäle ist ein [Matrix](https://matrix.org/) Chat-Raum.
+$<br />
+Ein Client dafür ist [Element](https://element.io/).
+
+* Adresse: [#dlug:matrix.org](https://app.element.io/#/room/#dlug:matrix.org)
+
+$</article>
+$<article>
+=== XMPP/Jabber Group-Chat
+
+Klassisch gibt es auch noch den XMPP Chat.
+
+* Adresse: [dlug@chat.gnupg.org](xmpp:dlug@chat.gnupg.org)
+
+$</article>
+$<article>
+=== IRC-Chat
+
+Es gibt auch eine IRC Chat, allerdings ist es dort eher einsam.
+Um dort teilzunehmen brauchst Du einen IRC-Client und die Zugangsdaten:
+* Server: [irc.oftc.net](irc://irc.oftc.net/dlug.de)
+* Kanal: ``#dlug.de``
+
+$</article>
+
++footer.in

@@ -1,0 +1,37 @@
+@page:Home
++header.in
+;
+$<article>
+=== Wer wird sind
+
+Wir sind eine bunt gemischte Gruppe von Leuten, die sich - privat und/oder beruflich - mit Linux beschäftigen und
+regelmäßig, [[online|kontakt.html#Online Treffen]] oder
+im [[wahren Leben|kontakt.html#IRL Treffen]], treffen.
+Natürlich sind auch BSD User und andere Open Source Freunde oder einfach Interessierte
+herzlich auch willkommen.
+
+Außerdem unterhalten wir uns auf unserer [[Mailing-Liste|kontakt.html#Mailingliste]],
+im [[Matrix-Chat|kontakt.html#Matrix-Chat]]
+und anderen [[Plattformen|kontakt.html#XMPP/Jabber Group-Chat]].
+
+=== Unsere Motivation
+
+Mehr Spaß mit Linux zu haben und regelmäßig mit netten Leuten darüber zu plaudern,
+Anlaufstelle für Neulinge
+und Benutzer mit Problemen und Fragen zu sein, die Verbreitung von Linux zu fördern,
+das Ansehen von Linux zu vermehren und das Wissen über Linux zu verbreiten.
+
+Erfahrene Linux-User geben konkrete Hilfestellung bei der Benutzung,
+bei Problemen und bei den ersten und
+zweiten Schritten mit Linux.
+
+$</article>
+;
++aktuelles.in
+;
++support.in
+;
++nahestehend.in
+;
+
++footer.in

@@ -1,0 +1,15 @@
+$</main>
+$<footer>
+
+Linux User Group, Düsseldorf, 2019-2021
+$<br />
+Die Webseite ist unter der [Creative Commons License CC BY-NC 2.5](http://creativecommons.org/licenses/by-nc/2.5/) lizenziert.
+ (Das Bedeutet, die Verwendung der Inhalte ist nur unter Namensnennung und zu nicht kommerziellen Zwecken erlaubt).
+$<br />
+;$<a href="http://validator.w3.org/check?uri=referer" target="new">Valid XHTML 1.0 Transitional</a>
+;$<br />
+Erstellt mit ❤, [AStaticWebSiteGenerator](https://github.com/Kulbartsch/AStaticWebSiteGenerator) und ``$EDITOR``.
+
+$</footer>
+$</body>
+$</html>

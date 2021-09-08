@@ -1,0 +1,146 @@
+/* colors and usage */
+
+:root {
+    --col_dark_blue:  #1B202F; /* #2A324B; */
+    --col_dark:       #141824;
+    --col_orange:     #FFB200;
+    --col_blue:       #184FFF;
+    --col_light_blue: #5f8aff;
+    --col_white:      #fcfdf7;
+
+    --col_body_bg:         var(--col_dark_blue);
+    --col_article_bg:      var(--col_dark);
+    --col_article_txt:     var(--col_white);
+    --col_heading_bg:      var(--col_orange);
+    --col_heading_txt:     var(--col_blue);
+    --col_btn_bg:          #333;
+    --col_btn_txt:         var(--col_orange);
+    --col_btn_akt_bg:      var(--col_orange);
+    --col_btn_akt_txt:     var(--col_blue);
+    --col_btn_hov_bg:      var(--col_dark_blue);
+}
+
+/* content CSS */
+
+body {
+    font-family:         verdana, helvetica, sans-serif;
+    background-color:    var(--col_body_bg);
+    margin:              0;
+    line-height:         1.8;
+}
+
+article, footer {
+    margin:              3%;
+    padding:             3%;
+    /*margin:              14px;*/
+    /*padding:             10px*/
+    background-color:    var(--col_article_bg);
+    /* border-color:        var(--col_ );
+    border-width:        3px;
+    border-radius:       4px;
+    border-style:        solid; */
+    color:               var(--col_article_txt);
+}
+
+header {
+    margin:              0px;
+    background-image:    url('../img/header.jpg');
+    width:               100%;
+    min-height:          450px;
+    background-size:     100%;
+    background-position: center, left;
+    background-repeat:   no-repeat;
+    padding-top:         90px;
+}
+
+nav {
+    margin:              0px;
+    width:               100%;
+}
+
+h3, h4 {
+    color:               var(--col_heading_txt);
+    background-image:    linear-gradient(to right, var(--col_heading_bg), var(--col_article_bg));
+    margin:              0px;
+    padding-left:        5px;
+}
+
+h3 {
+    margin-bottom:       15px;
+}
+
+code {
+    font-size:           1.3em;
+}
+
+h1 span, h2 span {
+    color:               var(--col_heading_txt);
+    background-image:    linear-gradient(to right, var(--col_heading_bg), var(--col_article_bg));
+    float:               right;
+    padding-top:         5px;
+    padding-right:       25px;
+    padding-bottom:      1px;
+    padding-left:        20px;
+    margin-right:        25px;
+}
+
+h1 span {
+    font-weight:         bold;
+    letter-spacing:      3px;
+}
+
+article a:link, footer a:link {
+    color:               var(--col_light_blue);
+    text-decoration:     underline;
+}
+
+article a:visited, footer a:visited {
+    color:               var(--col_light_blue);
+    text-decoration:     none;
+}
+
+article a:hover, footer a:hover {
+    color:               var(--col_orange);
+    text-decoration:     none;
+}
+
+/* CSS for navigation */
+
+nav ul {
+    list-style-type:     none;
+    margin:              0;
+    padding:             0;
+    overflow:            hidden;
+    background-color:    var(--col_article_bg); /* #333; */
+}
+
+nav li {
+    float:               left;
+    border-right:        1px solid var(--col_white);
+    text-decoration:     none;
+}
+
+nav li:last-child {
+    border-right:        none;
+    border-left:         1px solid var(--col_white);
+}
+
+nav li a {
+    display:             block;
+    color:               var(--col_btn_txt);
+    text-align:          center;
+    padding:             8px 16px;
+    text-decoration:     none;
+}
+
+nav li a:hover:not(.active) {
+    background-color:    var(--col_btn_hov_bg);
+}
+
+.current {
+    background-color:    var(--col_btn_akt_bg);
+    color:               var(--col_btn_akt_txt);
+    font-weight:         bold;
+}
+
+/* EOF */

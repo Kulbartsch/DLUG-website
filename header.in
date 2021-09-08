@@ -1,0 +1,61 @@
+$<!DOCTYPE html>
+$<html lang="de">
+$<head>
+$<!-- Meta Data -->
+$<meta charset="utf-8" />
+$<meta name="viewport" content="width=device-width, initial-scale=1" />
+$<meta http-equiv="Content-Type" content="text/html; charset=UTF8" />
+$<meta name="description" content="DLUG - Düsseldorfer Linux User Group - {{page}}" />
+$<meta name="keywords" content="Linux, Open Source, User Group, DLUG, Düsseldorf, Duesseldorf, freie Software, OSS" />
+$<meta name="author" content="Alexander Kulbartsch">
+$<meta name="designer" content="Alexander Kulbartsch">
+$<title>DLUG - Düsseldorfer Linux User Group - {{page}}</title>
+$<link href="css/style.css" type="text/css" rel="stylesheet" />
+$</head>
+$
+$<body>
+$<header>
+$<h1><span>DLUG</span></h1>
+$<br/><br/><br/>
+$<h2><span>Düsseldorfer Linux User Group</span></h2>
+$</header>
+$
+$<nav class="menu">
+$<ul id="navlist">
+;
+(COND-IF-EQUAL page Home
+$<li id="active"><a href="#" class="current">Start</a></li>
+(COND-ELSE
+$<li><a href="index.html">Start</a></li>
+(COND-END
+(COND-IF-EQUAL page Kontakt
+$<li id="active"><a href="#" class="current">Kontakt</a></li>
+(COND-ELSE
+$<li><a href="kontakt.html">Kontakt</a></li>
+(COND-END
+;;;;
+(COND-IF-EQUAL page weiteres
+$<li id="active"><a href="#" class="current">LUGs &amp; Drumherum</a></li>
+(COND-ELSE
+$<li><a href="lug.html">LUGs &amp; Drumherum</a></li>
+(COND-END
+(COND-IF-EQUAL page sonne+mond
+$<li id="active"><a href="#" class="current">Sonne &amp; Mond</a></li>
+(COND-ELSE
+$<li><a href="sonne-mond.html">Sonne &amp; Mond</a></li>
+(COND-END
+;;;
+(COND-IF-EQUAL page Impressum+Datenschutz
+$<li id="active" style="float:right"><a href="#" class="current">Impressum &amp; Datenschutz</a></li>
+(COND-ELSE
+$<li style="float:right"><a href="imp-daten.html">Impressum &amp; Datenschutz</a></li>
+(COND-END
+$</ul>
+$</nav>
+;</div>
+;</div>
+;$
+;$<div id='content_wrapper'>
+;$<div class='spacer'></div>
+;$<div id='left_side'>
+$<main>

@@ -1,0 +1,92 @@
+=== Warum Linux
+
+
+=== Mit Linux Anfangen
+
+Wenn du mit Linux anfangen möchtest und ein paar Leute gefragt hast, hast du bestimmt schon
+Diskussionen über die best Distro, die beste Desktop Umgebung, oder ob man systemd verwendet kann, mitbekommen.
+
+Für dich als Anfänger ist jede halbwegs normale Distro in Ordnung - fang einfach an.
+
+Wenn du aber ziemlich neu dabei bist hilft dir vielleicht die Erklärung von ein paar Begriffen:
+
+==== Was bedeutet was
+
+Mit *Linux* wird umgangssprachlich meistens eine ganze Linux Distribution gemeint.
+Eine *Distribution* ist eine Zusammenstellung (ausgewählter) Komponenten gemeint -
+und oft auch die optische Anpassung.
+
+Das ist vergleichbar mit "Windows" oder "macOS".
+
+Genaugenommen wird aber bei jedem Betriebssystem in mehrere Komponenten unterschieden:
+
+* Der *Kernel* - also der Kern des Betriebssystems, besser das "eigentliche Betriebssystem" \
+  ist das eigentliche von ursprünglich Linus Torwalds entwickelte Betriebssystem. \
+  (Bei //macOS// wäre das //Darwin//).  \
+  Das Betriebssystem kommt ohne weitere Tools, grafische Oberfläche oder Anwendungsprogramme daher.
+* Wichtige *Tools* (also "Werkzeuge") für systemnahe Dienste wie das Login, Systemprotokolle etc, \
+  Kommandozeile kommen bei Linux zum großen Teil aus dem GNU Projekt. \
+  Daher kommt auch oft die Bezeichnung *GNU/Linux*.
+* Der *Anzeige-Server* (display server) ist bei Linux noch meist das [X Window System](https://de.wikipedia.org/wiki/X_Window_System), \
+  wird aber (sehr) langsam durch [Waylnd](https://de.wikipedia.org/wiki/Wayland_(Display-Server-Protokoll)) ersetzt.
+* Der *Windowmanager*
+* Die *(Desktop-Umgebung)[https://de.wikipedia.org/wiki/Desktop-Umgebung]* bietet über den Window-Manager hinaus weitere Tools und Werkzeuge.
+* Die *Anwendungsprogramme*
+
+Die Grenzen zwischen den letzten vier Punkten ist dabei durchaus unscharf. Z.B. kann eine Dateimanager durchaus vom
+Windowmanager als auch von der Desktop-Umgebung bereitgestellt werden.
+
+All das zusammen macht eine *Linux-Distribution* aus.
+
+Für praktisch jeden o.g. Punkt gibt es verschieden Alternativen die - je nach Vorliebe - eingesetzt werden könne.
+Gerade die Nutzung von unterschiedlichen Desktop Umgebungen und individuellen Anpassungen macht eine Distribution aus.
+Für macOS oder Windows gibt es im Prinzip die gleichen Unterteilungen, allerdings nicht in verschiedenen "Geschmacksrichtungen",
+daher wird dort die Unterteilung nicht so wahrgenommen.
+
+Für Anfänger kann das durchaus verwirrend sein. Aber, trotz, dass das hier einmal erklärt wurde,
+sollte dich das nicht weiter belasten.
+Grundsätzlich kannst du mit praktisch jeder "normalen" Distribution anfangen,
+dort wirst du mit den üblichen Windowmanagern oder Desktop-Umgebungen gut zurecht kommen.
+
+==== Welches Gerät und welches Linux
+
+
+
+"Normal" soll bedeuten, dass es schon besondere Distributionen gibt, für spezielle Fälle oder
+welche neue Konzepte ausprobiert. In dem Fall musst du wirklich genau das passende Interesse dafür haben.
+
+Um weiter auf die Frage der Distribution ein zu gehen,
+hier erst mal die Frage auf welchem Gerät du Linux nutzen möchtest?
+
+===== Ein normalen bis sehr guter PC?
+
+Da kannst du dich frei zwischen den Linux Distributionen entscheiden.
+
+===== Einen altersschwachen PC?
+
+Damit sind "normale" Computer gemeint die älter als 10 Jahre sind und 2GB RAM oder weniger haben,
+oder besonders schwachbrüstig sind, wie z.B. NetBooks.
+In diesem Fall solltest du darauf achten eine Linux-Distribution zu nehmen die besonders schlank ist.
+
+===== Einem Raspberry PI
+Ein Raspberry PI ist eine günstige Möglichkeit Linux einfach auf einem eigenen Computer auszuprobieren und zu nutzen
+Mit einem Pi kann man durchaus alltägliche Aufgaben erledigen
+
+Da kannst du ganz leicht installieren, schaue einfach hier:
+
+=== Welches Linux?
+
+
+=== Spielen unter Linux
+
+
+=== Quellen zum durchstarten
+
+==== Podcasts
+
+==== Webseiten
+
+=== Linux News
+
+
+* [Linux Wiki](http://linuxwiki.de)
