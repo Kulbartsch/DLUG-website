@@ -5,7 +5,7 @@ $<article>
 === Wer ist die DLUG
 
 Die *Düsseldorfer Linux User Group* wurde am 26. Juni 1997 in Düsseldorf-Flingern gegr&uuml;ndet.
-Es kamen verschiedene Computer Kenner-, Fachleute und Interessierte an Open Source, Freier Software,
+Es kamen verschiedene Computer Kenner, Fachleute und Interessierte an Open Source, Freier Software,
 Linux, BSD.
 
 
@@ -70,8 +70,8 @@ dem Zugriff durch Dritte ist nicht m&ouml;glich.
 
 ==== Server-Log-Files 
 
-Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten
-Server-Log Files, die Ihr Browser automatisch an uns &uuml;bermittelt. Dies sind:
+Der Provider der Seiten erhebt und speichert automatisch Informationen in
+Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind:
 
 * Browsertyp und Browserversion
 * verwendetes Betriebssystem

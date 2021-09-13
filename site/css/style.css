@@ -1,7 +1,10 @@
+/* CSS for https://DLUG.de */
+/*  DLUG.de Website Design and Layout © 2021 by Alexander Kulbartsch is licensed under CC BY-SA 4.0 */
+
 /* colors and usage */
 
 :root {
-    --col_dark_blue:  #1B202F; /* #2A324B; */
+    --col_dark_blue: #222d42; /* #2A324B; */
     --col_dark:       #141824;
     --col_orange:     #FFB200;
     --col_dim_orange: #e19d0f;

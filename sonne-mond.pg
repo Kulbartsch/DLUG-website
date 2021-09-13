@@ -20,10 +20,29 @@ $$$
 
 	<br>
 
-	Von <a href="https://www.der-mond.de/" target="_blank">www.Der-Mond.de</a>
+	Von <a href="https://www.der-mond.de/" target="_blank">www.Der-Mond.de</a>.
 
 <!--- Quellcode Ende --->
 $$$
+$<p class="article_footer"><span style="float:right;">
+$Das Urheberrecht der obigen Grafik liegt bei <a href="https://www.der-mond.de/" target="_blank">www.Der-Mond.de</a>.
+$Lizenzbedingung siehe <a href="https://www.der-mond.de/homepagetool/mond-aktuell-fuer-ihre-homepage" target="_blank">hier</a>.
+$</span></p>
+$<br /><br />
+
+
+==== Warum gibt es hier Informationen zu Sonne und Mond?
+$<br >
+> Ist das nicht völlig "Off-Topic"?
+
+Vielleicht.
+
+Aber für Nerds ist es interessant zu wissen, wann die Sonne auf geht, so das man früh
+genug die Vorhänge vor das Fenster ziehen kann und nicht vom Sonnenlicht erschreckt wird.
+
+Auch hat man schon gehört, dass bestimmte Computer-Probleme sich nur bei
+Neumond manifestieren, oder bestimmte Konfigurationen nur bei
+Vollmond funktionieren. 😉
 
 $</article>
 +footer.in

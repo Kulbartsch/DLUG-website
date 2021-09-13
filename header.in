@@ -1,6 +1,8 @@
 $<!DOCTYPE html>
 $<html lang="de">
 $<head>
+$<!--  DLUG.de Website Design and Layout © 2021 by Alexander Kulbartsch is licensed under CC BY-SA 4.0 -->
+$<!--  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://dlug.de/">DLUG.de Website Design and Layout</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://kulbartsch.de/">Alexander Kulbartsch</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p> -->
 $<!-- Meta Data -->
 $<meta charset="utf-8" />
 $<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -39,12 +41,12 @@ $<li id="active"><a href="#" class="current">LUGs &amp; Drumherum</a></li>
 (COND-ELSE
 $<li><a href="lug.html">LUGs &amp; Drumherum</a></li>
 (COND-END
+;;;
 (COND-IF-EQUAL page sonne+mond
 $<li id="active"><a href="#" class="current">Sonne &amp; Mond</a></li>
 (COND-ELSE
 $<li><a href="sonne-mond.html">Sonne &amp; Mond</a></li>
 (COND-END
-;;;
 (COND-IF-EQUAL page Impressum+Datenschutz
 $<li id="active" style="float:right"><a href="#" class="current">Impressum &amp; Datenschutz</a></li>
 (COND-ELSE
