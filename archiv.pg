@@ -1,16 +1,12 @@
+@page:Archiv
++header.in
 $<article>
-=== Überschrift Ebene 3
-Lorem Ipsum dolor.
+=== Archiv
+Ein Archiv mit Links zu Themen von unseren Treffen (und
+vielleicht auch mal anderen Dingen).
 
-==== Überschrift Ebene 4
-Sed diam nonumy eirmod tempor invidunt
-ut labore et dolore magna
-aliquyam erat, sed diam voluptua.
+* [[DLUG online Treffen vom 2021-09-09|archiv/2021-09-09_DLUG_Treffen.html]]
 
-=== Überschrift für Eine Liste
-* Aus mehreren Punkten
-* Mit etwas Inhalt
-* Ohne Sinn
-
-@last_change:2021-09-08
+@last_change:2021-09-21
 +article-end.in
++footer.in

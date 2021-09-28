@@ -1,0 +1,18 @@
+@page:Projekte
++header.in
+$<article>
+=== Aktivitäten und Projekte unserer Gruppe
+
+* [[Über LUGs|/projekte/lug.html]]
+
+* [Another Static WebSite Generator](https://github.com/Kulbartsch/AStaticWebSiteGenerator) mit dem auch die DLUG.de erstellt ist. (Alexander)
+
+=== Aktivitäten der uns nahestehenden Gruppen und Menschen
+
+* Ein weitere Liste von Aktivitäten der [Freien Software Freunde](https://freie-software.org/verein/aktivitaeten.html)
+
+=== Sonstige interessante Themen
+
+* [Die 10 Irrtümer über freie Software - Netzpolitik.org](https://netzpolitik.org/2015/die-10-irrtuemer-ueber-freie-software/)
+
++article-end.in

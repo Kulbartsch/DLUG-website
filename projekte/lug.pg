@@ -1,0 +1,46 @@
+@page:LUG
++../header.in
+$<article>
+=== Über Linux User Groups
+
+=== Was ist eine LUG?
+
+ *LUG* steht für *Linux User Group*, also eine Gruppe von Linux Benutzer·innen.
+
+Über [Linux User Groups](https://de.wikipedia.org/wiki/Linux_User_Group) aus Wikipedia, der freien Enzyklopädie:
+>    Eine Linux User Group, kurz LUG, ist
+>    eine Gruppe von Linux-interessierten Personen, die sich regelmäßig treffen. Die meisten LUGs finden
+>    sich in Städten oder Kreisen und veranstalten regelmäßig Treffen oder organisieren
+>    Veranstaltungen rund um Linux, wie beispielsweise Installationspartys. Jedoch sind die Themen meist
+>    nicht auf Linux beschränkt, sondern Linux steht als Symbol für jegliche freie Software.
+
+=== Weitere Linux User Groups
+
+==== LUGs rund um Düsseldorf
+
+* [Duisburger Linux User Group](https://dulug.de/)
+* [Kaarster Linux User Group](https://www.kaalug.de/)
+
+==== Listen von LUGs
+
+* Eine LUG Liste vom [Linux-Magazin](https://www.linux-magazin.de/heft-abo/linux-user-groups/)
+* Eine weitere LUG Liste auf [Pro-Linux.de](http://www.pro-linux.de/lugs/)
+* Und noch eine Liste auf [LinuxUser](https://www.linux-user.de/LUG)
+* [lugslist.com](http://lugslist.com/ctry/germany.php) (funktioniert gerade(?) nicht. - 2021-09-20)
+
+Es gibt ein [LUG Camp](https://lugcamp.org/), welches immer Himmelfahrt stattfindet.
+
+=== Eine LUG gründen
+
+In Deutschland gibt es die [Deutsche Linux User Group - DELUG](http://www.linux-magazin.de/heft-abo/delug)
+vom Linux-Magazin,
+welche die einzelnen LUGs in Deutschland unterstützt.
+
+Weiter Informationen gibt es hier:
+* The [Linux User Group HOWTO](http://www.tldp.org/HOWTO/User-Group-HOWTO.html) \
+  is a guide to founding, maintaining, and growing a Linux User Group.
+
+@last_change:2021-09-08
+;(unset author
++../article-end.in
++../footer.in

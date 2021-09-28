@@ -1,5 +1,5 @@
 @page:Linux
-+header.in
++../header.in
 $<article>
 === Warum Linux
 
@@ -7,9 +7,11 @@ $<article>
 === Mit Linux Anfangen
 
 Wenn du mit Linux anfangen möchtest und ein paar Leute gefragt hast, hast du bestimmt schon
-Diskussionen über die best Distro, die beste Desktop Umgebung, oder ob man systemd verwendet kann, mitbekommen.
+Diskussionen über die beste Linux Distribution (kurz Distro), die beste Desktop Umgebung, oder ob man systemd verwendet kann, mitbekommen.
 
 Für dich als Anfänger ist jede halbwegs normale Distro in Ordnung - fang einfach an.
+
+Die beste Distro für dich als Einsteiger ist vermutlich eh die, die dein·e Nachbar·in order Freund·in nutzt.
 
 Wenn du aber ziemlich neu dabei bist hilft dir vielleicht die Erklärung von ein paar Begriffen:
 
@@ -53,8 +55,6 @@ dort wirst du mit den üblichen Windowmanagern oder Desktop-Umgebungen gut zurec
 
 ==== Welches Gerät und welches Linux
 
-
-
 "Normal" soll bedeuten, dass es schon besondere Distributionen gibt, für spezielle Fälle oder
 welche neue Konzepte ausprobiert. In dem Fall musst du wirklich genau das passende Interesse dafür haben.
 
@@ -72,10 +72,11 @@ oder besonders schwachbrüstig sind, wie z.B. NetBooks.
 In diesem Fall solltest du darauf achten eine Linux-Distribution zu nehmen die besonders schlank ist.
 
 ===== Einem Raspberry PI
+
 Ein Raspberry PI ist eine günstige Möglichkeit Linux einfach auf einem eigenen Computer auszuprobieren und zu nutzen
 Mit einem Pi kann man durchaus alltägliche Aufgaben erledigen
 
-Da kannst du ganz leicht installieren, schaue einfach hier:
+Da kannst du ganz leicht installieren, schaue einfach hier: ...
 
 === Welches Linux?
 
@@ -83,7 +84,14 @@ Da kannst du ganz leicht installieren, schaue einfach hier:
 === Spielen unter Linux
 
 
+=== Besondere Linux Distributionen
+
+*
+
 === Quellen zum durchstarten
+
+==== Videos
+
 
 ==== Podcasts
 
@@ -101,5 +109,5 @@ Da kannst du ganz leicht installieren, schaue einfach hier:
 @last_change:2021-09-08
 @author:Alexander Kulbartsch
 @license:CC BY 4.0
-+article-end.in
-+footer.in
++../article-end.in
++../footer.in

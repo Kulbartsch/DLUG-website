@@ -1,0 +1,59 @@
+@article-name:DLUG online Treffen vom 2021-09-09
+@article-link:/archive/2021-09-09_DLUG_Treffen.html
+(cond-if-set teaser
+* [{{article-name}}]({{article-link}})
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+==== macOS in a Linux VM
+
+* [https://snapcraft.io/install/sosumi/ubuntu](https://snapcraft.io/install/sosumi/ubuntu)
+
+==== Die DLUG.de Webseite wird generiert mit:
+
+* [https://github.com/Kulbartsch/AStaticWebSiteGenerator](https://github.com/Kulbartsch/AStaticWebSiteGenerator)
+
+==== Editoren
+
+* [https://www.gnu.org/software/emacs/](https://www.gnu.org/software/emacs/)
+* The Traditional Vi [http://ex-vi.sourceforge.net/](http://ex-vi.sourceforge.net/)
+* [https://www.vim.org/](https://www.vim.org/)
+* [https://neovim.io/](https://neovim.io/)
+* [https://micro-editor.github.io/](https://micro-editor.github.io/)
+
+==== Linux Thread Report
+
+* [https://www.linux-magazin.de/news/trend-micro-veroeffentlicht-linux-threat-report-2021/](https://www.linux-magazin.de/news/trend-micro-veroeffentlicht-linux-threat-report-2021/)
+
+=== Tastaturen
+
+* [https://www.cherry.de/cherry-mx-board-3-0-s.html](https://www.cherry.de/cherry-mx-board-3-0-s.html)
+* [https://www.cherry.de/cherry-g80-3000n-rgb-tkl.html](https://www.cherry.de/cherry-g80-3000n-rgb-tkl.html)
+* [https://eurkey.steffen.bruentjen.eu/start.html](https://eurkey.steffen.bruentjen.eu/start.html)
+* [https://www.tuxedocomputers.com/de#](https://www.tuxedocomputers.com/de#)
+* [https://en.wikipedia.org/wiki/Compose_key](https://en.wikipedia.org/wiki/Compose_key)
+* [https://fsymbols.com/keyboard/linux/compose/](https://fsymbols.com/keyboard/linux/compose/)
+* [https://cgit.freedesktop.org/xorg/lib/libX11/plain/nls/en_US.UTF-8/Compose.pre](https://cgit.freedesktop.org/xorg/lib/libX11/plain/nls/en_US.UTF-8/Compose.pre)
+* [https://linux.m2osw.com/compose-key-under-linux-keyboard](https://linux.m2osw.com/compose-key-under-linux-keyboard)
+
+==== Haiku
+
+In der aktuellen Folge von RadioTux
+kam ein sehr positiv klingender Beitrag zur aktuellen beta 3:
+$<br />
+ [https://radiotux.de/index.php?/archives/8074-RadioTux-Sendung-August-2021.html](https://radiotux.de/index.php?/archives/8074-RadioTux-Sendung-August-2021.html)
+
+Und die Schweizer Kollegen haben dazu einiges geschrieben in der letzten
+Zeit, was sich spannend anliest. Es scheint wohl sogar eine Version für
+den Pi zu geben:
+$<br />
+ [https://gnulinux.ch/search/Haiku](https://gnulinux.ch/search/Haiku)
+
+@last_change:2021-09-21
++../article-end.in
++../footer.in
+(cond-end
