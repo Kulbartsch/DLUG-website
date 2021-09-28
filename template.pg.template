@@ -1,0 +1,19 @@
+@page:Template
++header.in
+$<article>
+=== Überschrift Ebene 3
+Lorem Ipsum dolor.
+
+==== Überschrift Ebene 4
+Sed diam nonumy eirmod tempor invidunt
+ut labore et dolore magna
+aliquyam erat, sed diam voluptua.
+
+=== Überschrift für Eine Liste
+* Aus mehreren Punkten
+* Mit etwas Inhalt
+* Ohne Sinn
+
+@last_change:2021-09-08
++article-end.in
++footer.in
