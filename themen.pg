@@ -1,4 +1,4 @@
-@page:Projekte
+@page:Themen
 +header.in
 $<article>
 === Aktivitäten und Projekte unserer Gruppe
@@ -10,6 +10,10 @@ $<article>
 === Aktivitäten der uns nahestehenden Gruppen und Menschen
 
 * Ein weitere Liste von Aktivitäten der [Freien Software Freunde](https://freie-software.org/verein/aktivitaeten.html)
+
+=== Tips und Tricks
+
+* ...
 
 === Sonstige interessante Themen
 

@@ -5,6 +5,7 @@
 * `site` enthält die aktuelle Webseite, welche vom Webserver angezeigt werden soll
 * Das Homeverzeichnis des Projekts beinhaltet die Quellcodes der Webseiten.
 * `bin` beinhaltet das Binary des statischen Webseiten-Generators `aswsg` (Linux, Intel Version).
+* Andere Unterverzeichnisse bilden die Unterseiten der Webseite ab. 
 
 ## Webseite bearbeiten
 

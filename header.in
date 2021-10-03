@@ -35,10 +35,10 @@ $<li id="active"><a href="#" class="current">Kontakt</a></li>
 (COND-ELSE
 $<li><a href="/kontakt.html">Kontakt</a></li>
 (COND-END
-(COND-IF-EQUAL page Projekte
-$<li id="active"><a href="#" class="current">Projekte &amp; Aktivitäten</a></li>
+(COND-IF-EQUAL page Themen
+$<li id="active"><a href="#" class="current">Themen</a></li>
 (COND-ELSE
-$<li><a href="/projekte.html">Projekte &amp; Aktivitäten</a></li>
+$<li><a href="/themen.html">Themen</a></li>
 (COND-END
 ;;;
 (COND-IF-EQUAL page weiteres
@@ -58,9 +58,9 @@ $<li id="active"><a href="#" class="current">Sonne &amp; Mond</a></li>
 $<li><a href="/sonne-mond.html">Sonne &amp; Mond</a></li>
 (COND-END
 (COND-IF-EQUAL page Impressum+Datenschutz
-$<li id="active" style="float:right"><a href="#" class="current">Impressum &amp; Datenschutz</a></li>
+$<li id="active" style="float:right"><a href="#" class="current">Impressum</a></li>
 (COND-ELSE
-$<li style="float:right"><a href="/imp-daten.html">Impressum &amp; Datenschutz</a></li>
+$<li style="float:right"><a href="/imp-daten.html">Impressum</a></li>
 (COND-END
 $</ul>
 $</nav>

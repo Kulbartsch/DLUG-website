@@ -1,0 +1,93 @@
+@article-name:Freie Software Freunde und DLUG live Treffen vom 2021-09-29
+@article-link:/archive/2021-09-29_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [{{article-name}}]({{article-link}})
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Bei unserem gemeinsamen Live Treffen der //Freien Software Freunde// und der //DLUG//
+in der Fuchsjagd, waren über die Zeit sechs Kreaturen da.
+Die Reservierung auf den Namen „Linux“ wurde erst verneint und nur auf Nachfrage und Nachschauen gefunden.
+Aber dann konnten wir leckeres [Altbier](https://de.wikipedia.org/wiki/Altbier) genießen.
+
+Die Themen des Abends waren - soweit ich mich erinnere - folgende:
+$<br />
+ (Links habe ich im Nachgang ergänzt.)
+
+==== Notebook
+
+Das [Framework](https://frame.work/) Notebook ist modular; Damit gut reparierbar und nachhaltig.
+Auch [Cory Doctorow](https://pluralistic.net/)
+ [findet es gut](https://pluralistic.net/2021/09/21/monica-byrne/#think-different).
+
+Die M1 basierten Rechner von Apple haben ein sehr gutes Verhältnis von Leistung zu Energieverbrauch.
+Wäre schön wenn es Linux dafür gäbe ... Hold my Füchschen-Beer ... ist in Arbeit: [Asahi Linux](https://asahilinux.org/).
+
+Wor wir schon bei //Acorn RISC Machines// sind, es werden wieder [RiscOS Rechner gebaut](https://www.kickstarter.com/projects/riscos-cloverleaf/risc-os-built-the-future-os-for-your-powersaving-computer/posts/3267757). 😉
+
+Werden wir irgendwann mehr High-End ARM-basierte Notebooks sehen?
+
+==== Windows Subsystem for Linux
+
+[WSL](https://de.wikipedia.org/wiki/Windows-Subsystem_f%C3%BCr_Linux) kann ganz hilfreich sein, wenn man z.B. Python unter Windows installieren möchte. ;)
+
+==== Software Entwicklung
+
+Für Android Entwicklung bietet sich [Kotlin](https://kotlinlang.org/) an.
+Wer hat's erfunden? [JetBrains](https://www.jetbrains.com/).
+
+Mit [Dart](https://dart.dev/)
+und [Flutter](https://flutter.dev/)
+lassen sich auch gut [cross-platform](https://de.wikipedia.org/wiki/Plattformunabh%C3%A4ngigkeit)
+Anwendungen bauen.
+Allerdings ist das Bibliotheks-Ökosystem noch nicht so groß.
+
+
+==== Qualitativ hochwertige Pranks
+
+* [Flyerservice Hahn](https://afd-muell.de/)
+* vom [Zentrum für Politische Schönheit](https://politicalbeauty.de/).
+* Auch gut: [The Yes Men](https://theyesmen.org/)
+** auch auf [YouTube](https://www.youtube.com/c/TheYesMenofficial).
+
+==== Editoren - natürlich
+
+* Vielleicht unterbewertet: [Kate](https://kate-editor.org/)
+* Der Alleskönner: [Emacs](https://de.wikipedia.org/wiki/Emacs)
+* [JetBrains](https://www.jetbrains.com/) IDEs sind auch so gute (unfreie) Editoren, \
+  wie z.B. [Goland](https://www.jetbrains.com/go/). \
+  Es Gibt auch schönes VIM mode plugin dafür.
+
+==== Messenger
+
+* Der Einstieg in dezentrale Messenger ist meist etwas aufwendiger.
+* [XMPP](https://de.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol) ist der dezentrale Klassiker.
+* [Matrix](https://matrix.org/) ist eine moderne, dezentrale OSS Alternative.
+* [Signal](https://signal.org/de/) ist sehr Benutzerfreundlich, braucht aber deine Telefonnummer.
+** Signal ist nicht im F-Droid Store, es gibt aber ein [APK zum Download](https://signal.org/android/apk/).
+* Vielleicht ist [Jami](https://jami.net/) eine telefonnumernfreie Alternative.
+
+==== Bildschirmarbeitsplatz
+
+* Tiling Windowmanager sind überbewertet. 🤓
+* Aber Desktop Layout Manager sind praktisch.
+; Erweiterung für KDE
+* *Große* Arbeitsflächen/Monitore sind schön, besonders von [Eizo](https://www.eizo.de/).
+* Noch mehr "Bildschirmfläche" hat man mit [VR Arbeitsplätzen](https://blog.immersed.team/working-from-orbit-39bf95a6d385).
+
+==== Routing für Öffentliche Verkehrsmittel
+
+Software im [F-Droid Store](https://f-droid.org/de/):
+* [Öffi](https://f-droid.org/de/packages/de.schildbach.oeffi/)
+* [Transportr](https://transportr.app/)
+
+Damit haben wir den Abend beendet und die Fuchsjagd hat hinter uns die Türen geschlossen.
+
+@last_change:2021-09-21
++../article-end.in
++../footer.in
+(cond-end
