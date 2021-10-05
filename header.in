@@ -47,7 +47,7 @@ $<li id="active"><a href="#" class="current">LUGs &amp; Drumherum</a></li>
 $<li><a href="/lug.html">LUGs &amp; Drumherum</a></li>
 (COND-END
 ;;;
-(COND-IF-EQUAL page archiv
+(COND-IF-EQUAL page Archiv
 $<li id="active"><a href="#" class="current">Archiv</a></li>
 (COND-ELSE
 $<li><a href="/archiv.html">Archiv</a></li>

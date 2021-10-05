@@ -79,6 +79,21 @@ Allerdings ist das Bibliotheks-Ökosystem noch nicht so groß.
 * *Große* Arbeitsflächen/Monitore sind schön, besonders von [Eizo](https://www.eizo.de/).
 * Noch mehr "Bildschirmfläche" hat man mit [VR Arbeitsplätzen](https://blog.immersed.team/working-from-orbit-39bf95a6d385).
 
+Gute Schriften gehören natürlich auch dazu, z.B. der [JuliaMono Font](https://juliamono.netlify.app/).
+Dieser unterstützt den schönen alten Font mit durchgestrichener 0, statt einer 0 mit einem Punkt in der Mitte.
+Im Emacs kannst du diesen wie folgt einbinden:
+
+%%%
+(defun my-set-default-frame-font (frame)
+  "Setup my standard font for GUI frames."
+  (with-selected-frame frame
+    (if (> (x-display-pixel-width) 1920)
+      (set-frame-font "-UKWN-JuliaMono-light-*-*-*-20-*-*-*-m-0-iso10646-1")
+      (set-frame-font "-xos4-terminus-medium-r-*-*-16-*-*-*-*-*-iso10646-1"))))
+
+(set-hook 'after-make-frame-functions 'my-set-default-frame-font)
+%%%
+
 ==== Routing für Öffentliche Verkehrsmittel
 
 Software im [F-Droid Store](https://f-droid.org/de/):
