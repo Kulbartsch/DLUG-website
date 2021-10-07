@@ -1,10 +1,10 @@
 $<article>
-$<h3 class="alert">Aktuelles</h3>
+$<h3 class="alert">Aktuelles</h3><br />
 
 ==== Live Treffen
 
 Das Live Treffen findet üblicherweise am letzten Donnerstag des Monats statt.
-Das nächste Treffen findet somit theoretisch am 28.10.2021.
+Das nächste Treffen wäre somit theoretisch am 28.10.2021.
 
  //Es gibt noch keine konkrete Planung für das Treffen. Eventuell fällt es aufgrund von der Corona-Pandemie aus.//
 
@@ -30,6 +30,18 @@ Das nächste Online Treffen findet am 13.10.2021 statt.
 $<br />
 Der Link folgt in der [[Mailing-Liste|kontakt.html#Mailingliste]]
 und im [[Matrix-Chat|kontakt.html#Matrix-Chat]].
+
 $<br />
+
+==== Sonstiges
+
+$$$
+<br />
+<center>
+  <a href="https://www.tux-tage.de/">
+      <img src="http://www.tux-tage.de/wp-content/banner/728x90.png" alt="Tux-Tage Banner" align=center>
+  </a>
+</center>
+$$$
 
 $</article>

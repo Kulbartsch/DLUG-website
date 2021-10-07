@@ -4,7 +4,7 @@ $<footer>
 Linux User Group, Düsseldorf, seit 1997
 
 ;$<br />
- //Soweit nicht anders vermerkt//, sind die Inhalte der Webseite ist unter der [Creative Commons License CC0 Version 1.0 oder spätere](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1) lizenziert.
+ //Soweit nicht anders vermerkt//, sind die Inhalte der Webseite unter der [Creative Commons License CC0 Version 1.0 oder spätere](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1) lizenziert.
  (Das bedeutet, Du kannst das Werk vervielfältigen, verändern, verbreiten und aufführen, auch zu kommerziellen Zwecken, ohne um Erlaubnis zu fragen.)
 
 ;$<br />
@@ -14,7 +14,7 @@ Wir danken der Firma [IACD](https://www.iacd.net/) für die Unterstützung, u.a.
 $<br />
 Die Webseite wurde mit ❤, [AStaticWebSiteGenerator](https://github.com/Kulbartsch/AStaticWebSiteGenerator) und ``$EDITOR`` erstellt.
 $&nbsp;&nbsp;&nbsp;&mdash;&nbsp;&nbsp;&nbsp;
-Informationen zum [Datenschutz](/imp-daten.html#Datenschutzerklärung) im Impressum.
+Informationen zum [Datenschutz](/imp-daten.html#Datenschutzerklärung) sind im Impressum.
 $</footer>
 $</body>
 $</html>
