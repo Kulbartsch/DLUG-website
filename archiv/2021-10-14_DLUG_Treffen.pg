@@ -1,0 +1,133 @@
+@article-name:2021-10-14 - DLUG online Treffen
+@article-link:/archive/2021-10-14_DLUG_Treffen.html
+(cond-if-set teaser
+* [{{article-name}}]({{article-link}})
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+==== Zwei Linux Systeme synchron halten
+
+Daten synchronisieren:
+
+* Mit [Syncthing](https://syncthing.net/) direkt zwischen Computern.
+* Mit [nextcloud](https://nextcloud.com/) mittels Server.
+
+Systemkonfiguration gleich halten:
+
+Eine
+* [Guix](https://guix.gnu.org/) oder
+* [NixOS](https://nixos.org/)
+Konfiguration kann synchron gehalten werden.
+
+Habt ihr noch weitere Tipps?
+
+
+==== Novell NetWare
+
+Einige der Teilnehmer haben noch mit [Novel MetWare](https://de.wikipedia.org/wiki/NetWare) gearbeitet,
+und auch eine Datenbank dafür entwicklet.
+
+Damals™ haben wir noch mit Koaxialkabeln aka [10BASE2](https://de.wikipedia.org/wiki/10BASE2) gebastelt.
+
+==== mobiles Linux
+
+Ein DLUGer hat [/e/](https://e.foundation/) auf seinem Smartphone installiert.
+ [Wikipedia](https://de.wikipedia.org/wiki//e/)
+
+Zwei haben ein [Librem 5 von Pursim](https://puri.sm/products/librem-5/) was leider nicht wirklich brauchbar ist.
+
+Mal schauen wie das mit dem [Pyra](https://pyra-handheld.com/boards/pages/pyra/) wird, wenn es denn endlich geliefert wird.
+
+Auf dem [Thermomix](https://www.chip.de/test/Vorwerk-Thermomix-TM6-im-Test_169450015.html) läuft auch Linux.
+
+
+==== Diverses
+
+Auf der Suche nach Infos zu [Qubes OS](https://www.qubes-os.org/)
+wurde Alexanders Qubes OS Vortrag von den Datenspuren gefunden.
+Siehe [media.ccc.de](https://media.ccc.de/v/ds19-10456-qubes_os_-_eine_einfuhrung)
+oder [YouTube](https://youtu.be/G5rm0rBGv6k).
+
+Am 13. & 14. November sind [Tux Tage](https://www.tux-tage.de/).
+Ein Link dahin ist auch auf unserer [Webseite](https://dlug.de/) zu finden.
+
+Echter Zufall mit [Lavalampen](https://blog.cloudflare.com/randomness-101-lavarand-in-production/)
+ist ein [nichtdeterministischer Zufallsgenerator](https://de.wikipedia.org/wiki/Zufallszahlengenerator#Nichtdeterministische_Zufallszahlengeneratoren).
+
+Das Buch //Permanent Record// von [Edward Snowden](https://de.wikipedia.org/wiki/Edward_Snowden)
+ist gerade [günstig zu bekomme](https://www.mydealz.de/deals/amazon-kindle-buch-engl-permanent-record-von-edward-snowden-1870034).
+
+Dirk hat eine Teleskopsteuerung entwickelt:
+* [Device Control Device](https://sourceforge.net/projects/pygtkindiclient/)
+* [Stellar Mate](https://www.indilib.org/)
+
+==== Lieblingsbücher
+
+Ein paar unserer Lieblingsbücher und natürlich Leseempfehlungen:
+
+* [Neal Stephenson](https://de.wikipedia.org/wiki/Neal_Stephenson)
+** [Snow Crash](https://de.wikipedia.org/wiki/Snow_Crash) (Cyberpunk)
+** [Barock-Zyklus](https://de.wikipedia.org/wiki/Barock-Zyklus)
+** [Cryptonomicon](https://de.wikipedia.org/wiki/Cryptonomicon)
+** [Anathem](https://de.wikipedia.org/wiki/Anathem_%28Roman%29)
+** [Der Aufstieg und Fall des D.O.D.O.](https://en.wikipedia.org/wiki/The_Rise_and_Fall_of_D.O.D.O.)
+* [William Gibson](https://de.wikipedia.org/wiki/William_Gibson)
+** [Neuromancer-Trilogie](https://de.wikipedia.org/wiki/Neuromancer-Trilogie) (Cyberpunk)
+** [Die Differenzmaschine](https://de.wikipedia.org/wiki/Die_Differenzmaschine) \
+   zusammen mit [Bruce Sterling](https://de.wikipedia.org/wiki/Bruce_Sterling) (Steampunk)
+* [Cory Doctorow](https://de.wikipedia.org/wiki/Cory_Doctorow)
+** Little Brother Trilogie [(https://de.wikipedia.org/wiki/Little_Brother_%28Roman%29)
+*** Das erste Buch [Little Brother](https://de.wikipedia.org/wiki/Little_Brother_%28Roman%29) ist [hier](https://archive.org/details/LittleBrother) auf Deutsch frei unter der CC-BY-NC-SA 3.0 verfügbar.
+** [Walkaway](https://en.wikipedia.org/wiki/Walkaway_%28Doctorow_novel%29)
+* [Scott Westerfeld](https://de.wikipedia.org/wiki/Scott_Westerfeld)
+** [Weltensturm](https://www.phantastik-couch.de/titel/3020-weltensturm/)
+
+
+==== Braunkohletagebau
+
+In der Lausitz wird der ehemalige Braunkohletagebau zu einer großen
+[Seenlandschaft](https://www.welt.de/reise/deutschland/article174518356/Lausitz-Wo-Europas-groesste-kuenstliche-Seenplatte-entsteht.html).
+
+Der Hambacher Braunkohletagebau ist [riesig](https://www.google.de/maps/place/Aussichtspunkt+-+Terra+Nova+1/@50.9145874,6.4728166,17658m/data=!3m1!1e3!4m5!3m4!1s0x47bf441d4cfcf235:0xda07f7d2bdaac273!8m2!3d50.9138781!4d6.591959)
+ (Achtung, Google-maps Link).
+Für ein [Folgenutzung als See](https://de.wikipedia.org/wiki/Tagebau_Hambach#Tagebausee) würde Jahrzehnte dauern um dem Tagebau zu füllen.
+Das ein Aussichtspunkt auf den Tagebau [:terra nova](https://www.forumterranova.de/) heißt ist schon euphemistisch.
+$<br />
+Siehe auch [Armageddon Hambi](http://www.mutbuergerdokus.de/html/fundstuecke/2019_07_16-rwe-prueft-erhalt-hambacher-forst.htm).
+
+==== Spiel → Punk
+
+* Ein Teilnehmer spielt gerade [Frostpunk](https://www.frostpunkgame.com/), was an eisiges
+* [Steampunk](https://de.wikipedia.org/wiki/Steampunk) erinnert.
+* Und dann gibt es noch [Cyberpunk](https://de.wikipedia.org/wiki/Cyberpunk),
+* sowie den [Cypherpunk](https://de.wikipedia.org/wiki/Cypherpunk).
+* Ein optimistische Bewegung ist der [Solarpunk](https://de.wikipedia.org/wiki/Solarpunk), der in eine umweltfreundliche Zukunft weist.
+
+
+==== Podcasts
+
+[CRE](https://cre.fm/) bringt leider zu wenig neue Folgen.
+Bei uns sind besonders die Folgen über [Brot](https://cre.fm/cre213-brot),
+ [Bier](https://cre.fm/cre194-bier)
+und [Bitcoin](https://cre.fm/cre182-elektronisches-geld)
+bewusst im Gedächtnis geblieben.
+Aber es gibt noch viele andere spannede [Folgen](https://cre.fm/archiv).
+Auch hörenswert der Podcast von Linus Neumann
+und Tim Primtlove
+über aktuelle digitale Politik und Themen, das [Logbuch:Netzpolitik](https://logbuch-netzpolitik.de/).
+$<br />
+Hier sind alle [Podcasts](https://metaebene.me/podcasts/) der  Metaebene.
+
+Auch unterhaltsam (und) [Alternativlos](https://www.alternativlos.org/) der Podcast
+von [FeFe](https://de.wikipedia.org/wiki/Fefes_Blog)
+und [Frank Riger](https://de.wikipedia.org/wiki/Frank_Rieger),
+z.B. auch die Folge über [Wendelstein 7-X, Kernfusion und Plasmaphysik. ](https://www.alternativlos.org/36/).
+
+@last_change:2021-10-17
++../article-end.in
++../footer.in
+(cond-end
