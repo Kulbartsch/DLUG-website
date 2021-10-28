@@ -1,0 +1,57 @@
+@article-name:2021-09-25 - FYMT - Free Your Model Train Impressionen
+@article-link:/archive/2021-09-25_FYMT.html
+(cond-if-set teaser
+* [{{article-name}}]({{article-link}})
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Am 25.09.2021 hat der [Freien Software Freunde e.V.](https://freie-software.org/) vor der
+Rochus Kirche in Düsseldorf erneut sein Projekt [FYMT](https://freie-software.org/free-your-model-train/)
+präsentiert. Hier sind ein paar Impressionen davon.
+
+$$$
+<center>
+  <p><a href="2021-09-25_FYMT/IMG_7211.jpg">
+      <img src="2021-09-25_FYMT/IMG_7211_s.jpg" alt="FYMT Bild" align=center style="max-width: 100%;">
+  </a></p>
+  <p><a href="2021-09-25_FYMT/IMG_7213.jpg">
+      <img src="2021-09-25_FYMT/IMG_7213_s.jpg" alt="FYMT Bild" align=center style="max-width: 100%;">
+  </a></p>
+  <p><a href="2021-09-25_FYMT/IMG_7234.jpg">
+      <img src="2021-09-25_FYMT/IMG_7234_s.jpg" alt="FYMT Bild" align=center style="max-width: 100%;">
+  </a></p>
+  <p><a href="2021-09-25_FYMT/IMG_7236.jpg">
+      <img src="2021-09-25_FYMT/IMG_7236_s.jpg" alt="FYMT Bild" align=center style="max-width: 100%;">
+  </a></p>
+  <p><a href="2021-09-25_FYMT/IMG_7242.jpg">
+      <img src="2021-09-25_FYMT/IMG_7242_s.jpg" alt="FYMT Bild" align=center style="max-width: 100%;">
+  </a></p>
+  <p><a href="2021-09-25_FYMT/IMG_7245.jpg">
+      <img src="2021-09-25_FYMT/IMG_7245_s.jpg" alt="FYMT Bild" align=center style="max-width: 100%;">
+  </a></p>
+  <p><a href="2021-09-25_FYMT/IMG_7247.jpg">
+      <img src="2021-09-25_FYMT/IMG_7247_s.jpg" alt="FYMT Bild" align=center style="max-width: 100%;">
+  </a></p>
+  <p><a href="2021-09-25_FYMT/IMG_7248.jpg">
+      <img src="2021-09-25_FYMT/IMG_7248_s.jpg" alt="FYMT Bild" align=center style="max-width: 100%;">
+  </a></p>
+  <p><a href="2021-09-25_FYMT/IMG_7251.jpg">
+      <img src="2021-09-25_FYMT/IMG_7251_s.jpg" alt="FYMT Bild" align=center style="max-width: 100%;">
+  </a></p>
+  <p><a href="2021-09-25_FYMT/IMG_7257.jpg">
+      <img src="2021-09-25_FYMT/IMG_7257_s.jpg" alt="FYMT Bild" align=center style="max-width: 100%;">
+  </a></p>
+</center>
+$$$
+
+
+@last_change:2021-09-28
+@author:Bilder © 2021 Alexander Kulbartsch
+@license:CC BY-NC-SA 4.0
++../article-end.in
++../footer.in
+(cond-end

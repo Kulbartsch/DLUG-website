@@ -14,6 +14,7 @@ $<meta name="designer" content="Alexander Kulbartsch">
 $<title>DLUG - Düsseldorfer Linux User Group - {{page}}</title>
 $<link href="/css/style.css" type="text/css" rel="stylesheet" />
 $</head>
+(GT-AS-BLOCKQUOTE TRUE)
 $
 $<body>
 $<header>
