@@ -1,0 +1,33 @@
+@article-name:2021-11-11 - DLUG online Treffen
+@article-link:/archive/2021-11-11_DLUG_Treffen.html
+(cond-if-set teaser
+* [{{article-name}}]({{article-link}})
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+==== Themen
+
+* Generativ Musik machen geht mit
+** [SuperCollider](https://supercollider.github.io/)
+** [Pure Data](https://de.wikipedia.org/wiki/Pure_Data)
+** [Sonic Pi](https://sonic-pi.net/)
+** [QTAU](https://www.qtau.de/)
+* Was ihr auf der [OpenRheinRuhr](Https://openrheinruhr.de/2021/11/06/orr-2021-me-fahrplan/) verpasst habt.
+* [LUKI](https://luki.org/) - Linux User im Bereich der Kirchen e.V.
+* Mechtilde hat mit [Loook](https://mechtilde.de/Loook/) ein Programm geschrieben um in Office-Dokumenten \
+  (und anderen gezippten XML-Dateien) nach Zeichenketten zu suchen.
+* [XRechnung](https://de.wikipedia.org/wiki/XRechnung) aka ZUGFeRD
+** wird von [Fakturama](https://www.fakturama.info/) unterstützt.
+* Um GPG wieder in Thunderbird (ab Version 78.x) zu aktivieren in der Konfiguration → Edit → Einstellungen → Config Editor:
+** ``mail.openpgp.allow_external_gnupg = true`` einstellen
+* Plattenspieler sollten Riemenantrieb haben — Oder du stellst das Cover einfach in das [Gervifonn](https://www.heise.de/select/make/2021/5/2123008022501856363), ein Audio-Player mit Cover-Erkennung.
+
+
+@last_change:2021-11-12
++../article-end.in
++../footer.in
+(cond-end
