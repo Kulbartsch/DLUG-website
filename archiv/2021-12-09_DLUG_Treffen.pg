@@ -1,0 +1,35 @@
+@article-name:2021-12-09 - DLUG online Treffen
+@article-link:/archive/2021-12-09_DLUG_Treffen.html
+(cond-if-set teaser
+* [{{article-name}}]({{article-link}})
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+==== Themen
+
+* [Hostsharing-Vortrag zur ORR-2021](https://text.cowokr.de/p/S1YZHlkvK)
+** [Bearbeitungsansicht](https://text.cowokr.de/RybDMKqzRYKRzBAZLbWcsw)
+* Große Dateien können mit [Wormhole](https://wormhole.app/) ausgetauscht werden.
+* ["Ein Schlückchen Rosé und ich fühle mich wieder frisch wie ein Gänseblümchen"](https://www.spiegel.de/panorama/leute/gerard-depardieu-trinkt-bis-zu-14-flaschen-alkohol-am-tag-a-992730.html)
+* [Request for Comments: 2324](https://datatracker.ietf.org/doc/html/rfc2324) the
+** [Hyper Text Coffee Pot Control Protocol](https://de.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol)
+* Einhändig bedienbare Tastaturen
+** [MessagEase](http://www.exideas.com/ME/index.php) für Touch-Geräte
+** [TAP](https://www.tapwithus.com/) Wearable Keyboard, Mouse & Air Gesture Controller
+** [TiPY](https://tipykeyboard.com/en/home/) one handed keyboard
+** [Twiddler](https://twiddler.tekgear.com/) one-handed, mobile keyboard
+* [Viele Hochwasser-Regionen haben weder Telefon noch Internet. Diese Not möchte Elon Musk nun mit seinem Satelliten-Programm Starlink lindern.](https://www.welt.de/wirtschaft/article232671619/Starlink-Fluthilfe-aus-dem-All-So-hilft-Musk-deutschen-Hochwasser-Opfern.html)
+** [Starlink](https://www.starlink.com/)
+* [Amazon AWS Clous Ausfall](https://www.heise.de/news/Amazons-AWS-Cloud-faellt-aus-und-die-IT-Welt-steht-nicht-still-6289722.html)
+* [NFC Ring](https://store.nfcring.com/)
+** Es geht wesentlich billiger - Ring aus Kaugummiautomat + NFC-Aufkleber [für 69 Cent](https://www.shopnfc.com/de/7-nfc-stickers).
+
+
+@last_change:2021-12-09
++../article-end.in
++../footer.in
+(cond-end

@@ -29,8 +29,8 @@ Danach muss der Kopf der Seite eingebunden werden:
 +header.in
 ```
 
-Achtung! Wenn du eine Unterseite (archiv oder projekte)
-bearbeitetst must du die `+` include-Dateien mit als
+Achtung! Wenn du eine Unterseite (in *archiv* oder *projekte*)
+bearbeitetest must du die `+` include-Dateien mit als
 relativen pfad mit `../` angeben, also z. B. 
  `+../header.in`. 
 Das Gleiche gilt auch für *article-end.in* und *footer.in*!
@@ -81,6 +81,13 @@ footer.in
 
 Einfach das Shellscript `make.sh` im Projektverzeichnis ausführen. 
 Dieses aktualisiert das `site` Verzeichnis.
+
+Bitte beachte, dass das Script das `aswsg` aus dem Verzeichnis
+`bin` nimmt. Dieses ist für _Linux ARM64_
+kompiliert. 
+Solltest du auf einer anderen Platform arbeiten schaue [hier](https://github.com/Kulbartsch/AStaticWebSiteGenerator) 
+nach deiner passenden Version.
+
 
 ## Testen der Webseite
 
