@@ -27,7 +27,7 @@ $<article>
 * Plattenspieler sollten Riemenantrieb haben — Oder du stellst das Cover einfach in das [Gervifonn](https://www.heise.de/select/make/2021/5/2123008022501856363), ein Audio-Player mit Cover-Erkennung.
 
 
-@last_change:2021-11-12
+@last_change:2022-01-13
 +../article-end.in
 +../footer.in
 (cond-end
