@@ -27,6 +27,7 @@ Da wir einen neuen Teilnehmer dabei hatten gab es eine kleine Vorstellungsrunde 
 ==== Alternative Smartphones und Smartphone-Betriebssysteme, etc.
 
 Es kam die Frage auf, welche Alternativen es zu Smartphones geschlossenen Systemen wie Googles Android oder Apple (iOS) gibt.
+
 Ich glaube wir haben hier eine schöne Liste mit Alternativen zusammengestellt:
 
 * [GrapheneOS](https://grapheneos.org/) - The private and secure mobile operating system with Android app compatibility. Developed as a non-profit open source project.
@@ -36,7 +37,8 @@ Ich glaube wir haben hier eine schöne Liste mit Alternativen zusammengestellt:
 * [LineageOS Android](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
 * Das [Fairphone](https://www.fairphone.com/de/) ist nachhaltig
 * Das Open Source [PinePhone](https://www.pine64.org/) auf dem verschiedene Linux Distributionen und Desktop-Environments laufen
-* Purism [Librem 5](https://puri.sm/products/librem-5/) - ein privatsphären orientiertes, Linux basierendes Smartphone
+* Purism [Librem 5](https://puri.sm/products/librem-5/) - ein privatsphären orientiertes, Linux basierendes Smartphone \
+  auf dem das Debian basierte [[PureOS|https://pureos.net/]] läuft
 * [Dateizugriff auf Android-Geräte](https://unix.stackexchange.com/questions/466841/how-to-mount-usb-device-using-jmtpfs-on-linux-debian-9)
 
 
@@ -44,10 +46,10 @@ Ich glaube wir haben hier eine schöne Liste mit Alternativen zusammengestellt:
 
 Im weiteren Verlauf haben sich interessante Diskussionen um folgende Themen ergeben:
 
-* Nach [[Log4Shell|https://de.wikipedia.org/wiki/Log4j#Bekanntwerden_einer_Sicherheitsl%C3%BCcke_im_Dezember_2021]] \
+* Nach [Log4Shell](https://de.wikipedia.org/wiki/Log4j#Bekanntwerden_einer_Sicherheitsl%C3%BCcke_im_Dezember_2021) \
   gibt es nun einen weiteren [[Supply-Chain-Angriff|https://en.wikipedia.org/wiki/Supply_chain_attack]] \
-  auf [[node.js|https://nodejs.org/de/]] \
-  Entwicklungen [npm und color.js-Zeitbombe vom Entwickler](https://borncity.com/win/2022/01/10/entwickler-sabotieren-open-source-colors-js-und-faker-js-module-in-npm-betrifft-tausende-projekte/)
+  auf node.js Entwicklungen
+** [npm und color.js-Zeitbombe vom Entwickler](https://borncity.com/win/2022/01/10/entwickler-sabotieren-open-source-colors-js-und-faker-js-module-in-npm-betrifft-tausende-projekte/)
 * Browse Privately. Explore Freely. [Tor](https://www.torproject.org/)
 * [ed](https://de.wikipedia.org/wiki/Ed_%28Texteditor%29) - der kompatibelste Texteditor
 * [NFTs kurz erklärt](http://www.horsfall.org/Gollum-NFT.jpg)
@@ -62,7 +64,7 @@ Im weiteren Verlauf haben sich interessante Diskussionen um folgende Themen erge
 ** [A Solarpunk Manifesto](http://www.re-des.org/a-solarpunk-manifesto/)
 ** [LOW←TECH MAGAZINE - This is a solar-powered website](https://solar.lowtechmagazine.com/)
 ** [Solarpunk](https://www.appropedia.org/Solarpunk) auf Appropedia
-* [Sono Motors](https://sonomotors.com/de/) &em; Das Auto, das sich selbst lädt.
+* [Sono Motors](https://sonomotors.com/de/) - Das Auto, das sich selbst lädt.
 * [A New Future for GnuPG](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)
 * Rundstrick-Projekt - [Circular Knitic: An Open Hardware Knitting Machine](https://makezine.com/2015/01/07/circular-knitic-an-open-hardware-knitting-machine/)
 * [v4l-utils](https://github.com/gjasny/v4l-utils): Linux utilities and libraries to handle media devices (TV devices, capture devices, radio devices, remote controllers).
