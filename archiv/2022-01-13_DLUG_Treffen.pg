@@ -9,9 +9,13 @@ $<article>
 
 === {{article-name}}
 
-* Buch: [Ada & Zangemann - Ein Märchen über Software, Skateboards und Himbeereis](https://fsfe.org/activities/childrensbook/index.de.html)
+Gleich zu Anfang wurde ein tolles Buch vorgestellt:
+
+* [Ada & Zangemann - Ein Märchen über Software, Skateboards und Himbeereis](https://fsfe.org/activities/childrensbook/index.de.html)
 
 ==== Links aus der Vorstellungsrunde
+
+Da wir einen neuen Teilnehmer dabei hatten gab es eine kleine Vorstellungsrunde mit Hinweisen zu unseren Projekten:
 
 * [Makeable - Der Blog für Maker und OpenHardware-Projekte](http://makeable.de/blog/)
 * [The GNU Privacy Guard](https://www.gnupg.org/)
@@ -22,20 +26,28 @@ $<article>
 
 ==== Alternative Smartphones und Smartphone-Betriebssysteme, etc.
 
+Es kam die Frage auf, welche Alternativen es zu Smartphones geschlossenen Systemen wie Googles Android oder Apple (iOS) gibt.
+Ich glaube wir haben hier eine schöne Liste mit Alternativen zusammengestellt:
+
 * [GrapheneOS](https://grapheneos.org/) - The private and secure mobile operating system with Android app compatibility. Developed as a non-profit open source project.
 * [Jolla Smartphones](https://jolla.com/) mit Sailfish OS
 * [Ubuntu Touch](https://ubuntu-touch.io/de/) Mobil Betriebssystem, läuft z.B. auf dem
 * [Volla Phone](https://volla.online/de/index.html)
 * [LineageOS Android](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
 * Das [Fairphone](https://www.fairphone.com/de/) ist nachhaltig
-* Open Source [PinePhone](https://www.pine64.org/)
+* Das Open Source [PinePhone](https://www.pine64.org/) auf dem verschiedene Linux Distributionen und Desktop-Environments laufen
 * Purism [Librem 5](https://puri.sm/products/librem-5/) - ein privatsphären orientiertes, Linux basierendes Smartphone
 * [Dateizugriff auf Android-Geräte](https://unix.stackexchange.com/questions/466841/how-to-mount-usb-device-using-jmtpfs-on-linux-debian-9)
 
 
 ==== Sonstiges
 
-* [npm und color.js-Zeitbombe vom Entwickler](https://borncity.com/win/2022/01/10/entwickler-sabotieren-open-source-colors-js-und-faker-js-module-in-npm-betrifft-tausende-projekte/)
+Im weiteren Verlauf haben sich interessante Diskussionen um folgende Themen ergeben:
+
+* Nach [[Log4Shell|https://de.wikipedia.org/wiki/Log4j#Bekanntwerden_einer_Sicherheitsl%C3%BCcke_im_Dezember_2021]] \
+  gibt es nun einen weiteren [[Supply-Chain-Angriff|https://en.wikipedia.org/wiki/Supply_chain_attack]] \
+  auf [[node.js|https://nodejs.org/de/]] \
+  Entwicklungen [npm und color.js-Zeitbombe vom Entwickler](https://borncity.com/win/2022/01/10/entwickler-sabotieren-open-source-colors-js-und-faker-js-module-in-npm-betrifft-tausende-projekte/)
 * Browse Privately. Explore Freely. [Tor](https://www.torproject.org/)
 * [ed](https://de.wikipedia.org/wiki/Ed_%28Texteditor%29) - der kompatibelste Texteditor
 * [NFTs kurz erklärt](http://www.horsfall.org/Gollum-NFT.jpg)
@@ -65,8 +77,10 @@ ein [[Brutalist Website|https://brutalistwebsites.com/]] Builder
 ** Projekte und Infos zu (Linux) Zufallszahlengeneratoren \
    [chronox.de](http://chronox.de/)
 
+Mit der Begrüßung des neuen Tages endete dieses schöne Online-Treffen.
 
 @last_change:2022-01-14
+@author:Alexander
 +../article-end.in
 +../footer.in
 (cond-end
