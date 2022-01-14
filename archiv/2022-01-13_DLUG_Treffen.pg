@@ -11,13 +11,13 @@ $<article>
 
 * Buch: [Ada & Zangemann - Ein Märchen über Software, Skateboards und Himbeereis](https://fsfe.org/activities/childrensbook/index.de.html)
 
-==== Links aus der Vorstellungsrunde:
+==== Links aus der Vorstellungsrunde
 
 * [Makeable - Der Blog für Maker und OpenHardware-Projekte](http://makeable.de/blog/)
 * [The GNU Privacy Guard](https://www.gnupg.org/)
 * [FYMT - Free Your Model Train](https://freie-software.org/free-your-model-train/)
 ** [Mehr Bilder von FYMT](https://dlug.de/archiv/2021-09-25_FYMT.html)
-* [Raum Zeit Piraten](www.raumzeitpiraten.com)
+* [Raum Zeit Piraten](https://www.raumzeitpiraten.com/)
 
 
 ==== Alternative Smartphones und Smartphone-Betriebssysteme, etc.
@@ -28,7 +28,7 @@ $<article>
 * [Volla Phone](https://volla.online/de/index.html)
 * [LineageOS Android](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
 * Das [Fairphone](https://www.fairphone.com/de/) ist nachhaltig
-* [PinePhone](https://www.pine64.org/)
+* Open Source [PinePhone](https://www.pine64.org/)
 * Purism [Librem 5](https://puri.sm/products/librem-5/) - ein privatsphären orientiertes, Linux basierendes Smartphone
 * [Dateizugriff auf Android-Geräte](https://unix.stackexchange.com/questions/466841/how-to-mount-usb-device-using-jmtpfs-on-linux-debian-9)
 
@@ -37,26 +37,26 @@ $<article>
 
 * [npm und color.js-Zeitbombe vom Entwickler](https://borncity.com/win/2022/01/10/entwickler-sabotieren-open-source-colors-js-und-faker-js-module-in-npm-betrifft-tausende-projekte/)
 * Browse Privately. Explore Freely. [Tor](https://www.torproject.org/)
-* [ed](https://de.wikipedia.org/wiki/Ed_%20Texteditor%21) - der kompatibelste Texteditor
+* [ed](https://de.wikipedia.org/wiki/Ed_%28Texteditor%29) - der kompatibelste Texteditor
 * [NFTs kurz erklärt](http://www.horsfall.org/Gollum-NFT.jpg)
 * Der Klassiker für die Z80 CPU: [Rodnay Zaks - Programming the Z80](https://archive.org/details/Programming_the_Z-80_2nd_Edition_1980_Rodnay_Zaks)
-* RISC OS
+* [[RISC OS|https://de.wikipedia.org/wiki/RISC_OS]]
 ** [Cloverleaf RISC OS](https://riscoscloverleaf.com/) - The alternative computer operating system
 ** [Kickstarter Projekt um RISC OS auf aktuelle Hardware zu aktualisieren](https://www.kickstarter.com/projects/riscos-cloverleaf/risc-os-built-the-future-os-for-your-powersaving-computer/)
 ** [RISC OS Developments](https://www.riscosdev.com/)
 * [opense-basic - Free software ROM for the Sinclair ZX Spectrum](https://reposcope.com/package/opense-basic)
-* [Solarpunk](https://en.wikipedia.org/wiki/Solarpunk)
+* [Solarpunk](https://de.wikipedia.org/wiki/Solarpunk)
 ** [Solarpunk wants to save the world](http://www.hopesandfears.com/hopes/city/life/215749-solarpunk)
 ** [A Solarpunk Manifesto](http://www.re-des.org/a-solarpunk-manifesto/)
 ** [LOW←TECH MAGAZINE - This is a solar-powered website](https://solar.lowtechmagazine.com/)
-** [Solarpunk](https://www.appropedia.org/Solarpunk)
-* [Sono Motors](https://sonomotors.com/de/) Das Auto, das sich selbst lädt.
+** [Solarpunk](https://www.appropedia.org/Solarpunk) auf Appropedia
+* [Sono Motors](https://sonomotors.com/de/) &em; Das Auto, das sich selbst lädt.
 * [A New Future for GnuPG](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)
 * Rundstrick-Projekt - [Circular Knitic: An Open Hardware Knitting Machine](https://makezine.com/2015/01/07/circular-knitic-an-open-hardware-knitting-machine/)
 * [v4l-utils](https://github.com/gjasny/v4l-utils): Linux utilities and libraries to handle media devices (TV devices, capture devices, radio devices, remote controllers).
 * [Manual USB camera settings in Linux](https://www.kurokesu.com/main/2016/01/16/manual-usb-camera-settings-in-linux/)
 * [HOTGLUE](https://hotglue.me/) - \
-Ein [Brutalist Website](https://brutalistwebsites.com/] Builder
+ein [[Brutalist Website|https://brutalistwebsites.com/]] Builder
 * ((Post)-Quantum) Krypto
 ** [Kyber and Post-Quantum Crypto](https://media.ccc.de/v/rc3-2021-cwtv-230-kyber-and-post-quantum) - rc3 nowehere talk
 ** [Tales from the Quantum Industry](https://media.ccc.de/v/rc3-2021-chaoszone-288-tales-from-the-qu) - rc3 nowehere talk
