@@ -18,12 +18,12 @@ ohne Aufwand, Zugriff auf Deine Dateien bekommen.
 Daher kann es sinnvoll sein sein Home-Verzeichnis zu verschlüsseln.
 >>>
 
-Ich habe in der c't den [[artikel|https://www.heise.de/select/ct/2021/20/2102515390787238153]]
+ich habe in der c't den [[artikel|https://www.heise.de/select/ct/2021/20/2102515390787238153]]
 zur home-verschlüsselung mit gocryptfs
 gelesen, und falls ihr euch dafür interessiert, möchte ich euch empfehlen,
 lieber fscrypt auszuprobieren.
 
-ich glaube, google hat fscrypt ursprünglich für android entwickelt und nutzt
+google hat fscrypt ursprünglich für android entwickelt und nutzt
 es seit längerem dort, um die nutzerdaten lokal zu verschlüsseln. der code war
 gut genug, um offizieller teil des linuxkernels zu werden. das einsatzgebiet
 lässt auch vermuten, daß gute performance ganz besonders im fokus lag (UX,
@@ -75,7 +75,7 @@ verschlüsselte verzeichnisse erzeugen. im normalfall sollte das genügen:
 das (und auch die einrichtung des PAM-moduls) ist im detail alles sehr gut mit
 beispielen erklärt im [[README zum fscrypt-tool|https://github.com/google/fscrypt]].
 
-details zur implementierung im kernel findet man [[hier|https://www.kernel.org/doc/html/v5.0/filesystems/fscrypt.html]]
+details zur implementierung im kernel findet man [[hier|https://www.kernel.org/doc/html/v5.0/filesystems/fscrypt.html]].
 
 >>>
 Was spricht gegen LUKS?
