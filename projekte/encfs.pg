@@ -3,17 +3,20 @@
 $<article>
 === Dateisystem Verschlüsselung mit fscrypt
 
-> Hier ein Beitrag von m.eik aus unserer Mailingliste vom 2021-09-13.
-$<br>
-> Hintergrund: Verschlüssel von Dateien hilft Dir Dateien vor unberechtigtem Zugriff zu schützen.
-> Ohne Verschlüsselung must du dich zwar an deinem Linux-System anmelden und (bei
-> richtiger Konfiguration) kann eine andere·r Nutzer·in auf dem System auch Deine Dateien nicht lesen.
-> Allerdings ist es einfach den Rechner mit einem USB Medium zu starten,
-> oder die Festplatte, resp. SSD, auszubauen und an einen anderen Rechner anzuschließen.
-> Da die Dateien nicht verschlüsselt sind, können diese nun einfach gelesen werden.
-> Außerdem kann sich üblicherweise jede·r, der root Rechte erlangen kann,
-> ohne Aufwand, Zugriff auf Deine Dateien bekommen.
-> Daher kann es sinnvoll sein sein Home-Verzeichnis zu verschlüsseln.
+(GT-AS-BLOCKQUOTE)
+>>>
+Hier ein Beitrag von m.eik aus unserer Mailingliste vom 2021-09-13.
+
+Hintergrund: Verschlüssel von Dateien hilft Dir Dateien vor unberechtigtem Zugriff zu schützen.
+Ohne Verschlüsselung must du dich zwar an deinem Linux-System anmelden und (bei
+richtiger Konfiguration) kann eine andere·r Nutzer·in auf dem System auch Deine Dateien nicht lesen.
+Allerdings ist es einfach den Rechner mit einem USB Medium zu starten,
+oder die Festplatte, resp. SSD, auszubauen und an einen anderen Rechner anzuschließen.
+Da die Dateien nicht verschlüsselt sind, können diese nun einfach gelesen werden.
+Außerdem kann sich üblicherweise jede·r, der root Rechte erlangen kann,
+ohne Aufwand, Zugriff auf Deine Dateien bekommen.
+Daher kann es sinnvoll sein sein Home-Verzeichnis zu verschlüsseln.
+>>>
 
 Ich habe in der c't den [[artikel|https://www.heise.de/select/ct/2021/20/2102515390787238153]]
 zur home-verschlüsselung mit gocryptfs
@@ -74,7 +77,9 @@ beispielen erklärt im [[README zum fscrypt-tool|https://github.com/google/fscry
 
 details zur implementierung im kernel findet man [[hier|https://www.kernel.org/doc/html/v5.0/filesystems/fscrypt.html]]
 
-> Was spricht gegen LUKS?
+>>>
+Was spricht gegen LUKS?
+>>>
 
 dagegen spricht weiterhin nichts, es fokussiert nur einen etwas anderen use
 case.
@@ -90,12 +95,14 @@ wenn die performance es zulässt, kann man beides kombinieren: mit LUKS/dm-
 crypt das system verschlüsseln und darin den usern individuell verschlüsselte
 homes geben.
 
-> Es gibt noch eine Situation wo ich das für vorteilhaft halte:
-$<br>
-> Wenn du dich (auch als einziger Nutzer) remote auf den Rechner anmeldest,
-> kannst du so die Daten verschlüsselt halten während du nicht angemeldet bist.
-> Szenarios sind z.B. du möchtest dich aus der Ferne auf deinen PC
-> daheim anmelden oder auf einen Rechner in einem RZ.
+>>>
+Es gibt noch eine Situation wo ich das für vorteilhaft halte:
+
+Wenn du dich (auch als einziger Nutzer) remote auf den Rechner anmeldest,
+kannst du so die Daten verschlüsselt halten während du nicht angemeldet bist.
+Szenarios sind z.B. du möchtest dich aus der Ferne auf deinen PC
+daheim anmelden oder auf einen Rechner in einem Rechenzentrum.
+>>>
 
 viel spaß damit :: m.eik
 

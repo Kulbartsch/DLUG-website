@@ -82,6 +82,14 @@ code {
     font-size:           1.3em;
 }
 
+blockquote {
+    margin-left: 15px;
+    border-left-width: 3px;
+    border-left-style: solid;
+    padding-left: 10px;
+    font-style: italic;
+}
+
 h1 span, h2 span {
     color:               var(--col_heading_txt);
     /* background-image:    linear-gradient(to right, var(--col_heading_bg), var(--col_article_bg)); */

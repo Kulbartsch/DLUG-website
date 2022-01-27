@@ -35,9 +35,11 @@
 <main>
 <article>
 <h3 id="Dateisystem Verschlüsselung mit fscrypt">Dateisystem Verschlüsselung mit fscrypt</h3>
-<cite>
+<blockquote>
+<p>
 Hier ein Beitrag von m.eik aus unserer Mailingliste vom 2021-09-13.
-<br>
+</p>
+<p>
 Hintergrund: Verschlüssel von Dateien hilft Dir Dateien vor unberechtigtem Zugriff zu schützen.
 Ohne Verschlüsselung must du dich zwar an deinem Linux-System anmelden und (bei
 richtiger Konfiguration) kann eine andere·r Nutzer·in auf dem System auch Deine Dateien nicht lesen.
@@ -47,7 +49,8 @@ Da die Dateien nicht verschlüsselt sind, können diese nun einfach gelesen werd
 Außerdem kann sich üblicherweise jede·r, der root Rechte erlangen kann,
 ohne Aufwand, Zugriff auf Deine Dateien bekommen.
 Daher kann es sinnvoll sein sein Home-Verzeichnis zu verschlüsseln.
-</cite>
+</blockquote>
+</p>
 <p>
 Ich habe in der c't den <a href="https://www.heise.de/select/ct/2021/20/2102515390787238153" >artikel</a>
 zur home-verschlüsselung mit gocryptfs
@@ -114,9 +117,11 @@ beispielen erklärt im <a href="https://github.com/google/fscrypt" >README zum f
 <p>
 details zur implementierung im kernel findet man <a href="https://www.kernel.org/doc/html/v5.0/filesystems/fscrypt.html" >hier</a>
 </p>
-<cite>
+<blockquote>
+<p>
 Was spricht gegen LUKS?
-</cite>
+</blockquote>
+</p>
 <p>
 dagegen spricht weiterhin nichts, es fokussiert nur einen etwas anderen use
 case.
@@ -134,14 +139,17 @@ wenn die performance es zulässt, kann man beides kombinieren: mit LUKS/dm-
 crypt das system verschlüsseln und darin den usern individuell verschlüsselte
 homes geben.
 </p>
-<cite>
+<blockquote>
+<p>
 Es gibt noch eine Situation wo ich das für vorteilhaft halte:
-<br>
+</p>
+<p>
 Wenn du dich (auch als einziger Nutzer) remote auf den Rechner anmeldest,
 kannst du so die Daten verschlüsselt halten während du nicht angemeldet bist.
 Szenarios sind z.B. du möchtest dich aus der Ferne auf deinen PC
-daheim anmelden oder auf einen Rechner in einem RZ.
-</cite>
+daheim anmelden oder auf einen Rechner in einem Rechenzentrum.
+</blockquote>
+</p>
 <p>
 viel spaß damit :: m.eik
 </p>
@@ -158,7 +166,7 @@ Lizenz: CC BY-SA 4.0
 Linux User Group, Düsseldorf, seit 1997
 </p>
 <p>
- <em>Soweit nicht anders vermerkt</em>, sind die Inhalte der Webseite unter der <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1"  rel="external" >Creative Commons License CC0 Version 1.0 oder spätere</a> lizenziert.
+ <em>Soweit nicht anders vermerkt</em>, sind die Inhalte der Webseite unter der <a rel="external"  href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" >Creative Commons License CC0 Version 1.0 oder spätere</a> lizenziert.
  (Das bedeutet, Du kannst das Werk vervielfältigen, verändern, verbreiten und aufführen, auch zu kommerziellen Zwecken, ohne um Erlaubnis zu fragen.)
 </p>
 <p>
