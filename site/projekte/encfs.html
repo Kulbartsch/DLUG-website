@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<!--  DLUG.de Website Design and Layout © 2021 by Alexander Kulbartsch is licensed under CC BY-SA 4.0 -->
+<!--  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://dlug.de/">DLUG.de Website Design and Layout</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://kulbartsch.de/">Alexander Kulbartsch</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p> -->
+<!-- Meta Data -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF8" />
+<meta name="description" content="DLUG - Düsseldorfer Linux User Group - Linux" />
+<meta name="keywords" content="Linux, Open Source, User Group, DLUG, Düsseldorf, Duesseldorf, freie Software, OSS" />
+<meta name="author" content="Alexander Kulbartsch">
+<meta name="designer" content="Alexander Kulbartsch">
+<title>DLUG - Düsseldorfer Linux User Group - Linux</title>
+<link href="/css/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<header>
+<h1><span>DLUG</span></h1>
+<br/><br/><br/>
+<h2><span>Düsseldorfer Linux User Group</span></h2>
+</header>
+
+<nav class="menu">
+<ul id="navlist">
+<li><a href="/index.html">Start</a></li>
+<li><a href="/kontakt.html">Kontakt</a></li>
+<li><a href="/themen.html">Themen</a></li>
+<li><a href="/archiv.html">Archiv</a></li>
+<li><a href="/sonne-mond.html">Sonne &amp; Mond</a></li>
+<li style="float:right"><a href="/imp-daten.html">Impressum</a></li>
+</ul>
+</nav>
+<main>
+<article>
+<h3 id="Dateisystem Verschlüsselung mit fscrypt">Dateisystem Verschlüsselung mit fscrypt</h3>
+<cite>
+Hier ein Beitrag von m.eik aus unserer Mailingliste vom 2021-09-13.
+<br>
+Hintergrund: Verschlüssel von Dateien hilft Dir Dateien vor unberechtigtem Zugriff zu schützen.
+Ohne Verschlüsselung must du dich zwar an deinem Linux-System anmelden und (bei
+richtiger Konfiguration) kann eine andere·r Nutzer·in auf dem System auch Deine Dateien nicht lesen.
+Allerdings ist es einfach den Rechner mit einem USB Medium zu starten,
+oder die Festplatte, resp. SSD, auszubauen und an einen anderen Rechner anzuschließen.
+Da die Dateien nicht verschlüsselt sind, können diese nun einfach gelesen werden.
+Außerdem kann sich üblicherweise jede·r, der root Rechte erlangen kann,
+ohne Aufwand, Zugriff auf Deine Dateien bekommen.
+Daher kann es sinnvoll sein sein Home-Verzeichnis zu verschlüsseln.
+</cite>
+<p>
+Ich habe in der c't den <a href="https://www.heise.de/select/ct/2021/20/2102515390787238153" >artikel</a>
+zur home-verschlüsselung mit gocryptfs
+gelesen, und falls ihr euch dafür interessiert, möchte ich euch empfehlen,
+lieber fscrypt auszuprobieren.
+</p>
+<p>
+ich glaube, google hat fscrypt ursprünglich für android entwickelt und nutzt
+es seit längerem dort, um die nutzerdaten lokal zu verschlüsseln. der code war
+gut genug, um offizieller teil des linuxkernels zu werden. das einsatzgebiet
+lässt auch vermuten, daß gute performance ganz besonders im fokus lag (UX,
+akkulaufzeit).
+</p>
+<p>
+im gegensatz zu gocryptfs ist fscrypt kein FUSE-modul, sondern setzt direkt
+auf dem ext4-dateisystem an -- auch das ist der performance sicherlich
+zuträglich. meine experimente mit gocryptfs liegen ein bißchen zurück; es war
+deutlich performanter als cryFS (das fand ich leider unbenutzbar), aber schien
+mit der größe der verzeichnisse und umfang von datentransfers spürbar
+schwerfälliger zu reagieren. richtig glücklich war ich damit nicht -- als
+option für ein home-verzeichnis hätte ich es nicht in betracht gezogen.
+</p>
+<p>
+jetzt nutze ich seit etwa einem halben jahr intensiv fscrypt und muß sagen,
+daß ich damit sehr zufrieden bin. ich fand es auch etwas einfacher
+einzurichten als gocryptfs, v.a. wenn man es über PAM mit dem login verknüpfen
+will. am besten finde ich dabei, daß fscrypt mit dieser methode beim login
+automatisch <b>alle</b> verzeichnisse entschlüsselt mounten kann, ohne daß man das
+erst noch manuell konfigurieren muß.
+</p>
+<p>
+dabei kommt eine kaskade von schlüsseln zum einsatz: mit dem login wird ein
+"hauptschlüssel" entschlüsselt (ein sog. protector), mit dem dann wiederum die
+individuellen verzeichnisschlüssel entschlüsselt werden (die sog. policies).
+die namen finde ich etwas gewöhnungsbedürftig. aber diese mehrstufige struktur
+ermöglicht es, den "hauptschlüssel" (protector) mehrfach mit unterschiedlichen
+methoden zu sichern, das passwort zu ändern, oder sogar den hauptschlüssel
+ganz auszutauschen. nur die policies, die jeweils ein verzeichnis (rekursiv)
+verschlüsseln, lassen sich nicht ändern, ohne alles neu zu verschlüsseln.
+</p>
+<p>
+das ganze muß von root einmal angelegt werden, danach kann ein user autonom
+verschlüsselte verzeichnisse erzeugen. im normalfall sollte das genügen:
+</p>
+<pre>
+<code>   # verschlüsselung auf einer ext4-partition aktivieren</code>
+<code>   sudo tune2fs -O encrypt /dev/<device></code>
+<code></code>
+<code>   # fscrypt einmalig einrichten</code>
+<code>   sudo fscrypt setup</code>
+<code></code>
+<code>   # metadaten-verzeichnis vorbereiten</code>
+<code>   sudo mount /dev/<device> /mnt/<device></code>
+<code>   fscrypt setup /mnt/<device></code>
+<code></code>
+<code>   # schlüssel erzeugen und verzeichnis verschlüsseln</code>
+<code>   mkdir /mnt/<device>/abgeschlossen</code>
+<code>   fscrypt encrypt /mnt/<device>/abgeschlossen</code>
+</pre>
+<p>
+das (und auch die einrichtung des PAM-moduls) ist im detail alles sehr gut mit
+beispielen erklärt im <a href="https://github.com/google/fscrypt" >README zum fscrypt-tool</a>.
+</p>
+<p>
+details zur implementierung im kernel findet man <a href="https://www.kernel.org/doc/html/v5.0/filesystems/fscrypt.html" >hier</a>
+</p>
+<cite>
+Was spricht gegen LUKS?
+</cite>
+<p>
+dagegen spricht weiterhin nichts, es fokussiert nur einen etwas anderen use
+case.
+</p>
+<p>
+mit LUKS verschlüsselt man ja eher ganze partitionen, fscrypt & co.
+verschlüsseln dagegen einzelne verzeichnisse. das macht u.a. den einsatz
+deutlich komfortabler, wenn man verschiedenen usern ihre home-verzeichnisse
+verschlüsseln will. eine verschlüsselte home-partition würde ja nach dem
+aufschließen allen immer direkt alles zeigen. jedem user eine eigene partition
+zuzuteilen wäre eher mäh.
+</p>
+<p>
+wenn die performance es zulässt, kann man beides kombinieren: mit LUKS/dm-
+crypt das system verschlüsseln und darin den usern individuell verschlüsselte
+homes geben.
+</p>
+<cite>
+Es gibt noch eine Situation wo ich das für vorteilhaft halte:
+<br>
+Wenn du dich (auch als einziger Nutzer) remote auf den Rechner anmeldest,
+kannst du so die Daten verschlüsselt halten während du nicht angemeldet bist.
+Szenarios sind z.B. du möchtest dich aus der Ferne auf deinen PC
+daheim anmelden oder auf einen Rechner in einem RZ.
+</cite>
+<p>
+viel spaß damit :: m.eik
+</p>
+<p class="article_footer">
+Letzte Änderung: 2022-01-27
+<span style="float:right;">
+Lizenz: CC BY-SA 4.0
+ &nbsp; Autor: m.eik
+</span></p>
+</article>
+</main>
+<footer>
+<p>
+Linux User Group, Düsseldorf, seit 1997
+</p>
+<p>
+ <em>Soweit nicht anders vermerkt</em>, sind die Inhalte der Webseite unter der <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1"  rel="external" >Creative Commons License CC0 Version 1.0 oder spätere</a> lizenziert.
+ (Das bedeutet, Du kannst das Werk vervielfältigen, verändern, verbreiten und aufführen, auch zu kommerziellen Zwecken, ohne um Erlaubnis zu fragen.)
+</p>
+<p>
+Wir danken der Firma <a rel="external"  href="https://www.iacd.net/" >IACD</a> für die Unterstützung, u.a. für die Bereitstellung von Webserver, Jitsi-Server, Mailing-Liste und Domäne!
+</p>
+<p>
+Die Webseite wurde mit ❤, <a rel="external"  href="https://github.com/Kulbartsch/AStaticWebSiteGenerator" >AStaticWebSiteGenerator</a> und <code>$EDITOR</code> erstellt.
+&nbsp;&nbsp;&nbsp;&mdash;&nbsp;&nbsp;&nbsp;
+Informationen zum <a rel="external"  href="/imp-daten.html#Datenschutzerklärung" >Datenschutz</a> sind im Impressum.
+</footer>
+</body>
+</html>
+</p>

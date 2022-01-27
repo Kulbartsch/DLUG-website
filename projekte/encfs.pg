@@ -1,0 +1,107 @@
+@page:Linux
++../header.in
+$<article>
+=== Dateisystem Verschlüsselung mit fscrypt
+
+> Hier ein Beitrag von m.eik aus unserer Mailingliste vom 2021-09-13.
+$<br>
+> Hintergrund: Verschlüssel von Dateien hilft Dir Dateien vor unberechtigtem Zugriff zu schützen.
+> Ohne Verschlüsselung must du dich zwar an deinem Linux-System anmelden und (bei
+> richtiger Konfiguration) kann eine andere·r Nutzer·in auf dem System auch Deine Dateien nicht lesen.
+> Allerdings ist es einfach den Rechner mit einem USB Medium zu starten,
+> oder die Festplatte, resp. SSD, auszubauen und an einen anderen Rechner anzuschließen.
+> Da die Dateien nicht verschlüsselt sind, können diese nun einfach gelesen werden.
+> Außerdem kann sich üblicherweise jede·r, der root Rechte erlangen kann,
+> ohne Aufwand, Zugriff auf Deine Dateien bekommen.
+> Daher kann es sinnvoll sein sein Home-Verzeichnis zu verschlüsseln.
+
+Ich habe in der c't den [[artikel|https://www.heise.de/select/ct/2021/20/2102515390787238153]]
+zur home-verschlüsselung mit gocryptfs
+gelesen, und falls ihr euch dafür interessiert, möchte ich euch empfehlen,
+lieber fscrypt auszuprobieren.
+
+ich glaube, google hat fscrypt ursprünglich für android entwickelt und nutzt
+es seit längerem dort, um die nutzerdaten lokal zu verschlüsseln. der code war
+gut genug, um offizieller teil des linuxkernels zu werden. das einsatzgebiet
+lässt auch vermuten, daß gute performance ganz besonders im fokus lag (UX,
+akkulaufzeit).
+
+im gegensatz zu gocryptfs ist fscrypt kein FUSE-modul, sondern setzt direkt
+auf dem ext4-dateisystem an -- auch das ist der performance sicherlich
+zuträglich. meine experimente mit gocryptfs liegen ein bißchen zurück; es war
+deutlich performanter als cryFS (das fand ich leider unbenutzbar), aber schien
+mit der größe der verzeichnisse und umfang von datentransfers spürbar
+schwerfälliger zu reagieren. richtig glücklich war ich damit nicht -- als
+option für ein home-verzeichnis hätte ich es nicht in betracht gezogen.
+
+jetzt nutze ich seit etwa einem halben jahr intensiv fscrypt und muß sagen,
+daß ich damit sehr zufrieden bin. ich fand es auch etwas einfacher
+einzurichten als gocryptfs, v.a. wenn man es über PAM mit dem login verknüpfen
+will. am besten finde ich dabei, daß fscrypt mit dieser methode beim login
+automatisch *alle* verzeichnisse entschlüsselt mounten kann, ohne daß man das
+erst noch manuell konfigurieren muß.
+
+dabei kommt eine kaskade von schlüsseln zum einsatz: mit dem login wird ein
+"hauptschlüssel" entschlüsselt (ein sog. protector), mit dem dann wiederum die
+individuellen verzeichnisschlüssel entschlüsselt werden (die sog. policies).
+die namen finde ich etwas gewöhnungsbedürftig. aber diese mehrstufige struktur
+ermöglicht es, den "hauptschlüssel" (protector) mehrfach mit unterschiedlichen
+methoden zu sichern, das passwort zu ändern, oder sogar den hauptschlüssel
+ganz auszutauschen. nur die policies, die jeweils ein verzeichnis (rekursiv)
+verschlüsseln, lassen sich nicht ändern, ohne alles neu zu verschlüsseln.
+
+das ganze muß von root einmal angelegt werden, danach kann ein user autonom
+verschlüsselte verzeichnisse erzeugen. im normalfall sollte das genügen:
+
+%%%
+   # verschlüsselung auf einer ext4-partition aktivieren
+   sudo tune2fs -O encrypt /dev/<device>
+
+   # fscrypt einmalig einrichten
+   sudo fscrypt setup
+
+   # metadaten-verzeichnis vorbereiten
+   sudo mount /dev/<device> /mnt/<device>
+   fscrypt setup /mnt/<device>
+
+   # schlüssel erzeugen und verzeichnis verschlüsseln
+   mkdir /mnt/<device>/abgeschlossen
+   fscrypt encrypt /mnt/<device>/abgeschlossen
+%%%
+
+das (und auch die einrichtung des PAM-moduls) ist im detail alles sehr gut mit
+beispielen erklärt im [[README zum fscrypt-tool|https://github.com/google/fscrypt]].
+
+details zur implementierung im kernel findet man [[hier|https://www.kernel.org/doc/html/v5.0/filesystems/fscrypt.html]]
+
+> Was spricht gegen LUKS?
+
+dagegen spricht weiterhin nichts, es fokussiert nur einen etwas anderen use
+case.
+
+mit LUKS verschlüsselt man ja eher ganze partitionen, fscrypt & co.
+verschlüsseln dagegen einzelne verzeichnisse. das macht u.a. den einsatz
+deutlich komfortabler, wenn man verschiedenen usern ihre home-verzeichnisse
+verschlüsseln will. eine verschlüsselte home-partition würde ja nach dem
+aufschließen allen immer direkt alles zeigen. jedem user eine eigene partition
+zuzuteilen wäre eher mäh.
+
+wenn die performance es zulässt, kann man beides kombinieren: mit LUKS/dm-
+crypt das system verschlüsseln und darin den usern individuell verschlüsselte
+homes geben.
+
+> Es gibt noch eine Situation wo ich das für vorteilhaft halte:
+$<br>
+> Wenn du dich (auch als einziger Nutzer) remote auf den Rechner anmeldest,
+> kannst du so die Daten verschlüsselt halten während du nicht angemeldet bist.
+> Szenarios sind z.B. du möchtest dich aus der Ferne auf deinen PC
+> daheim anmelden oder auf einen Rechner in einem RZ.
+
+viel spaß damit :: m.eik
+
+
+@last_change:2022-01-27
+@author:m.eik
+@license:CC BY-SA 4.0
++../article-end.in
++../footer.in
