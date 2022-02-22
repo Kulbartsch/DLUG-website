@@ -1,0 +1,42 @@
+@article-name:2022-02-10 - DLUG Online Treffen
+@article-link:/archive/2022-02-10_DLUG_Treffen.html
+(cond-if-set teaser
+* [{{article-name}}]({{article-link}})
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren unter anderem:
+
+* [Alpine Linux](https://www.alpinelinux.org/) 🏔️ ist ein schlankes Linux *ohne systemd*. 🙃
+* Ein Drucker, der gut mix Linux zusammen funktioniert ist der *Brother MFC-L3770CDW*.
+* Automatisierung mit [Ansible](https://www.ansible.com/)
+* Pager-Empfehlung und //cat// Ersatz [bat](https://linuxiac.com/bat-command/). 🦇
+* Lisp mit weniger 〖 Klammern 〗 Vortrag der FOSDEM [Lisp, but Beautiful; Lisp for Everyone](https://fosdem.org/2022/schedule/event/lispforeveryone/)
+* Das semantische Web werden Daten im HTML beschrieben, z.B. [FOAF - Friend Of A Friend](https://de.wikipedia.org/wiki/FOAF) \
+  und [SOLID Vokabulare](https://solidproject.org/developers/vocabularies/use/quickstart)
+* Ein Spiegel Kommentar zum [Meta-2nd-Life-Deja-Vu](https://www.spiegel.de/wissenschaft/mensch/meta-boersenabsturz-das-metaversum-kommt-aber-noch-nicht-jetzt-kolumne-a-b3d0bef5-588c-4797-b794-b730240f5fb0).
+* Tesla will in 2022 [Autoverkauf beenden](https://www.businessinsider.de/gruenderszene/automotive-mobility/drehmoment-tesla-will-keine-autos-mehr-verkaufen-b/). 🚗
+* [GNU Hurd](https://de.wikipedia.org/wiki/GNU_Hurd)
+* Arch Linux basierte Handheld Spielekonsole: [Steamdeck](https://www.steamdeck.com/de/) 🎮 - vielleicht auch ein cooler, portabler Linux PC.
+* [Valgrind](https://valgrind.org/) ist ein Analyse-Tool für C.
+* //Thunderbird// unterstützt das GPG/[Enigmail](https://www.enigmail.net/index.php/en/)-Plugin \
+  [nicht mehr](https://www.enigmail.net/index.php/en/home/news/71-2021-08-31-end-of-support-for-thunderbird). 😤
+* [Postbox](https://www.postbox-inc.com/) ist eine Alternative - leider kommerziell und nur für //macOS// und //Windows//
+* Vielleicht doch [NeoMutt](https://neomutt.org/) oder
+  einfach [Mutt](http://www.mutt.org/) verwenden?! 🐕
+** Mutt hat auch ein [Lisp](http://www.mutt.org/doc/manual/#muttlisp) eingebaut. 😬
+* [GPG](https://www.gnupg.org/) ein Scheme (irgendwo),
+** womit wir bei [TinyScheme](https://sourceforge.net/p/tinyscheme/news/) sind.
+** Ein FOSDEM Vortrag über die Weiterentwicklung von [TinyScheme zu TR7](https://fosdem.org/2022/schedule/event/tinyscheme/).
+* Cross-Platform Datei Synchronisierung geht mit [Unison](https://www.cis.upenn.edu/~bcpierce/unison/). 🔁
+
+
+@last_change:2022-02-22
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

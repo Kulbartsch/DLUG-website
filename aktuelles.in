@@ -26,7 +26,7 @@ $<br />
 
 ==== Online Treffen
 
-Das nächste Online Treffen findet am 10.02.2022 statt.
+Das nächste Online Treffen findet wieder am zweiten Donnerstag im Monat am 10.03.2022 statt.
 $<br />
 Der Link folgt in der [[Mailing-Liste|kontakt.html#Mailingliste]]
 und im [[Matrix-Chat|kontakt.html#Matrix-Chat]].
@@ -36,6 +36,7 @@ $<br />
 ;
 ==== Sonstiges
 
+;;;
 $<center><br>
 $<a href="https://fosdem.org/2022/">
 $<img src="https://fosdem.org/2022/assets/style/bg-visual-panel-73f1975ffc7435da092f7de492966249bd09606d7e9d6241cc31591203c5a2d6.png" alt="FOSDEM Logo" style="max-width: 100%;">
@@ -46,7 +47,11 @@ FOSDEM is a free event for software developers to meet, share ideas and collabor
 $</center>
 
 $$$
-<hr><br />
+<hr>
+;;;
+
+$$$
+<br />
 <center>
   <a href="https://chemnitzer.linux-tage.de/2022/de">
       <img src="https://chemnitzer.linux-tage.de/2022/static/img/logo_de.png" alt="Chemnitzer Linux-Tage am 12. und 13. März 2022" align=center style="max-width: 150%;">
