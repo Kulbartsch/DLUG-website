@@ -1,0 +1,56 @@
+@article-name:2022-03-10 - DLUG Online Treffen
+@article-link:/archive/2022-03-10_DLUG_Treffen.html
+(cond-if-set teaser
+* [{{article-name}}]({{article-link}})
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== Mal wieder (alternative) Smartphones
+* Links dazu hatten wir schon in unserem [Januar 2022 Treffen](https://dlug.de/archiv/2022-01-13_DLUG_Treffen.html)
+* c't Podcast mit dem [Thema Android ohne Google](https://www.heise.de/ct/artikel/c-t-uplink-1-6-Android-ohne-Google-Watch-Dogs-Wolfenstein-The-New-Order-Google-Auto-2211649.html)
+* MiniPC oder Smartphone mit Tastatur? PDA/Communicator:
+** [Cosmo Communicator](https://www.www3.planetcom.co.uk/cosmo-communicator)
+** [Gemini](https://www.www3.planetcom.co.uk/gemini-pda)
+* Den [Pyra](https://pyra-handheld.com/boards/pages/pyra/) gibt es auch mit Mobilfunk.
+* Oder das [Steamdeck](https://www.steamdeck.com/de/) mit UMTS Stick?
+
+==== Aktuelle Linux Sicherheitslücke
+* [Dirty Pipe Vulnerability](https://dirtypipe.cm4all.com/)
+
+==== Eigene Tastatureinstellungen definieren
+* Eine Keymap erstellen, und z.B. hier ``/etc/X11/usr/share/X11/xkb/symbols.us`` ablegen.
+* Und in der ``~/.xsession`` folgendes eintragen ``setxkbmap -model pc101 -layout us_intl -option ""``
+
+==== Git(Lab)
+* Das [Lomiri GitLab Repo](https://gitlab.manjaro.org/manjaro-arm/packages/community/lomiri-dev) besteht aus vielen einzelnen Repos.\
+  Wie kann man die einfach alle clonen?
+* Ein Podcast zu [Multiplen Monorepos](https://tilpod.net/episode/til006-multiple-monorepos).
+
+==== Aktuelles
+* Ende der Woche, am 12. und 13. März 2022 sind die [Chemnitzer Linux-Tage](https://chemnitzer.linux-tage.de/2022/de).
+* Voraussichtlich am 20. und 21. August wird [FroSCon](https://www.froscon.de/) stattfinden, vermutlich live in der Hochschule Bonn-Rhein-Sieg.
+
+==== Moderne Login_Mechanismen
+* GPGagent mit eigenem ssh-agent
+** ``ssh add``
+** Den Public-Key für deinen Server bekommst du mit ``gpg --export-ssh-key USERID``.
+* Andere Logins ohne Passwort
+** [SQRL - Secure Quick Reliable Login](https://www.grc.com/sqrl/sqrl.htm)
+** Heise Artikel - [Passwortloses Anmelden mit FIDO2](https://www.heise.de/ct/artikel/Passwortloses-Anmelden-dank-FIDO2-4494951.html)
+
+==== Tracking mit LoRaWAN
+* Heise Artikel "[GPS-Tracker mit LoRaWAN einrichten](https://www.heise.de/ratgeber/GPS-Tracker-mit-LoRaWAN-einrichten-4156782.html?wt_mc=intern.abo.plus.plus_buehne.startseite.cam_teaser.cam_teaser_personal&hg=1&hgi=0&hgf=false)"
+* [Meshtastic - GPS mesh communicator](https://meshtastic.org/)
+
+
+@last_change:2022-03-11
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

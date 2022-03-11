@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<!--  DLUG.de Website Design and Layout © 2021 by Alexander Kulbartsch is licensed under CC BY-SA 4.0 -->
+<!--  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://dlug.de/">DLUG.de Website Design and Layout</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://kulbartsch.de/">Alexander Kulbartsch</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p> -->
+<!-- Meta Data -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF8" />
+<meta name="description" content="DLUG - Düsseldorfer Linux User Group - 2022-03-10 - DLUG Online Treffen" />
+<meta name="keywords" content="Linux, Open Source, User Group, DLUG, Düsseldorf, Duesseldorf, freie Software, OSS" />
+<meta name="author" content="Alexander Kulbartsch">
+<meta name="designer" content="Alexander Kulbartsch">
+<title>DLUG - Düsseldorfer Linux User Group - 2022-03-10 - DLUG Online Treffen</title>
+<link href="/css/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<header>
+<h1><span>DLUG</span></h1>
+<br/><br/><br/>
+<h2><span>Düsseldorfer Linux User Group</span></h2>
+</header>
+
+<nav class="menu">
+<ul id="navlist">
+<li><a href="/index.html">Start</a></li>
+<li><a href="/kontakt.html">Kontakt</a></li>
+<li><a href="/themen.html">Themen</a></li>
+<li><a href="/archiv.html">Archiv</a></li>
+<li><a href="/sonne-mond.html">Sonne &amp; Mond</a></li>
+<li style="float:right"><a href="/imp-daten.html">Impressum</a></li>
+</ul>
+</nav>
+<main>
+<article>
+<h3 id="2022-03-10 - DLUG Online Treffen">2022-03-10 - DLUG Online Treffen</h3>
+<p>
+Themen des Abends waren:
+</p>
+<h4 id="Mal wieder (alternative) Smartphones">Mal wieder (alternative) Smartphones</h4>
+<ul>
+<li>Links dazu hatten wir schon in unserem <a href="https://dlug.de/archiv/2022-01-13_DLUG_Treffen.html"  rel="external" >Januar 2022 Treffen</a></li>
+<li>c't Podcast mit dem <a rel="external"  href="https://www.heise.de/ct/artikel/c-t-uplink-1-6-Android-ohne-Google-Watch-Dogs-Wolfenstein-The-New-Order-Google-Auto-2211649.html" >Thema Android ohne Google</a></li>
+<li>MiniPC oder Smartphone mit Tastatur? PDA/Communicator:</li>
+<ul>
+<li><a rel="external"  href="https://www.www3.planetcom.co.uk/cosmo-communicator" >Cosmo Communicator</a></li>
+<li><a rel="external"  href="https://www.www3.planetcom.co.uk/gemini-pda" >Gemini</a></li>
+</ul>
+<li>Den <a rel="external"  href="https://pyra-handheld.com/boards/pages/pyra/" >Pyra</a> gibt es auch mit Mobilfunk.</li>
+<li>Oder das <a rel="external"  href="https://www.steamdeck.com/de/" >Steamdeck</a> mit UMTS Stick?</li>
+</ul>
+<h4 id="Aktuelle Linux Sicherheitslücke">Aktuelle Linux Sicherheitslücke</h4>
+<ul>
+<li><a rel="external"  href="https://dirtypipe.cm4all.com/" >Dirty Pipe Vulnerability</a></li>
+</ul>
+<h4 id="Eigene Tastatureinstellungen definieren">Eigene Tastatureinstellungen definieren</h4>
+<ul>
+<li>Eine Keymap erstellen, und z.B. hier <code>/etc/X11/usr/share/X11/xkb/symbols.us</code> ablegen.</li>
+<li>Und in der <code>~/.xsession</code> folgendes eintragen <code>setxkbmap -model pc101 -layout us_intl -option ""</code></li>
+</ul>
+<h4 id="Git(Lab)">Git(Lab)</h4>
+<ul>
+<li>Das <a rel="external"  href="https://gitlab.manjaro.org/manjaro-arm/packages/community/lomiri-dev" >Lomiri GitLab Repo</a> besteht aus vielen einzelnen Repos.  Wie kann man die einfach alle clonen?</li>
+<li>Ein Podcast zu <a rel="external"  href="https://tilpod.net/episode/til006-multiple-monorepos" >Multiplen Monorepos</a>.</li>
+</ul>
+<h4 id="Aktuelles">Aktuelles</h4>
+<ul>
+<li>Ende der Woche, am 12. und 13. März 2022 sind die <a rel="external"  href="https://chemnitzer.linux-tage.de/2022/de" >Chemnitzer Linux-Tage</a>.</li>
+<li>Voraussichtlich am 20. und 21. August wird <a rel="external"  href="https://www.froscon.de/" >FroSCon</a> stattfinden, vermutlich live in der Hochschule Bonn-Rhein-Sieg.</li>
+</ul>
+<h4 id="Moderne Login_Mechanismen">Moderne Login_Mechanismen</h4>
+<ul>
+<li>GPGagent mit eigenem ssh-agent</li>
+<ul>
+<li><code>ssh add</code></li>
+<li>Den Public-Key für deinen Server bekommst du mit <code>gpg --export-ssh-key USERID</code>.</li>
+</ul>
+<li>Andere Logins ohne Passwort</li>
+<ul>
+<li><a rel="external"  href="https://www.grc.com/sqrl/sqrl.htm" >SQRL - Secure Quick Reliable Login</a></li>
+<li>Heise Artikel - <a rel="external"  href="https://www.heise.de/ct/artikel/Passwortloses-Anmelden-dank-FIDO2-4494951.html" >Passwortloses Anmelden mit FIDO2</a></li>
+</ul>
+</ul>
+<h4 id="Tracking mit LoRaWAN">Tracking mit LoRaWAN</h4>
+<ul>
+<li>Heise Artikel "<a href="https://www.heise.de/ratgeber/GPS-Tracker-mit-LoRaWAN-einrichten-4156782.html?wt_mc=intern.abo.plus.plus_buehne.startseite.cam_teaser.cam_teaser_personal&hg=1&hgi=0&hgf=false"  rel="external" >GPS-Tracker mit LoRaWAN einrichten</a>"</li>
+<li><a rel="external"  href="https://meshtastic.org/" >Meshtastic - GPS mesh communicator</a></li>
+</ul>
+<p class="article_footer">
+Letzte Änderung: 2022-03-11
+<span style="float:right;">
+ &nbsp; Autor: Alexander
+</span></p>
+</article>
+</main>
+<footer>
+<p>
+Linux User Group, Düsseldorf, seit 1997
+</p>
+<p>
+ <em>Soweit nicht anders vermerkt</em>, sind die Inhalte der Webseite unter der <a rel="external"  href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" >Creative Commons License CC0 Version 1.0 oder spätere</a> lizenziert.
+ (Das bedeutet, Du kannst das Werk vervielfältigen, verändern, verbreiten und aufführen, auch zu kommerziellen Zwecken, ohne um Erlaubnis zu fragen.)
+</p>
+<p>
+Wir danken der Firma <a href="https://www.iacd.net/"  rel="external" >IACD</a> für die Unterstützung, u.a. für die Bereitstellung von Webserver, Jitsi-Server, Mailing-Liste und Domäne!
+</p>
+<p>
+Die Webseite wurde mit ❤, <a rel="external"  href="https://github.com/Kulbartsch/AStaticWebSiteGenerator" >AStaticWebSiteGenerator</a> und <code>$EDITOR</code> erstellt.
+&nbsp;&nbsp;&nbsp;&mdash;&nbsp;&nbsp;&nbsp;
+Informationen zum <a href="/imp-daten.html#Datenschutzerklärung"  rel="external" >Datenschutz</a> sind im Impressum.
+</footer>
+</body>
+</html>
+</p>
