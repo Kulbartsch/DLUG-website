@@ -58,18 +58,18 @@ verschlüsselte verzeichnisse erzeugen. im normalfall sollte das genügen:
 
 %%%
    # verschlüsselung auf einer ext4-partition aktivieren
-   sudo tune2fs -O encrypt /dev/<device>
+   sudo tune2fs -O encrypt /dev/&lt;device&gt;
 
    # fscrypt einmalig einrichten
    sudo fscrypt setup
 
    # metadaten-verzeichnis vorbereiten
-   sudo mount /dev/<device> /mnt/<device>
-   fscrypt setup /mnt/<device>
+   sudo mount /dev/&lt;device&gt; /mnt/&lt;device&gt;
+   fscrypt setup /mnt/&lt;device&gt;
 
    # schlüssel erzeugen und verzeichnis verschlüsseln
-   mkdir /mnt/<device>/abgeschlossen
-   fscrypt encrypt /mnt/<device>/abgeschlossen
+   mkdir /mnt/&lt;device&gt;/abgeschlossen
+   fscrypt encrypt /mnt/&lt;device&gt;/abgeschlossen
 %%%
 
 das (und auch die einrichtung des PAM-moduls) ist im detail alles sehr gut mit
