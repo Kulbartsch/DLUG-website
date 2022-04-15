@@ -1,6 +1,6 @@
+@last_change:2022-04-14
 @article-name:2022-04-14 - DLUG Online Treffen
 @article-link:/archive/2022-04-14_DLUG_Treffen.html
-@last_change:2022-03-11
 @author:Alexander
 (cond-if-set teaser
 * [{{article-name}}]({{article-link}})
@@ -16,10 +16,10 @@ in der wir folgende Themen intensiv diskutiert haben:
 
 * Window-Manager und Desktop-Environments werden immer komplexer und es ist inzwischen nicht mehr ganz unkompliziert die \
   [Desktop-Umgebung zu wechseln](https://wiki.manjaro.org/index.php/Install_Desktop_Environments#The_Risks_of_Using_Multiple_DEs), \
-  siehe z.B. [hier](https://forum.manjaro.org/t/problems-with-kde-switching-to-xfce/39867).
+  siehe z.B. auch [hier](https://forum.manjaro.org/t/problems-with-kde-switching-to-xfce/39867).
 ** Es gibt aber noch schlichte Software, die weniger Probleme macht, wie [i3](https://i3wm.org/), \
    der [awesome window manager](https://awesomewm.org/), \
-   oder die *[sukless software](https://suckless.org/)*.
+   oder [sukless software](https://suckless.org/).
 * Open Source Lizenzen, Copyleft, wie unscharf der Begriff ist und welche Auswirkung \
   der Einsatz der GPL-Varianten in kommerziellen Projekten hat.
 * Darüber kamen wir zu der unglücklichen Entwicklung bei Mozilla, \
