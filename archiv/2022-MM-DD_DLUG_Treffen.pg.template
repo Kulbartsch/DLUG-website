@@ -1,0 +1,27 @@
+@article-name:2022-MM-DD - DLUG Online Treffen
+@article-link:/archive/2022-MM-DD_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== bla
+* Lorem [externer link](https://meshtastic.org/)
+* Ipsum
+
+==== sowieso
+* Heise Artikel [[interner link name|https://dlug.de]]
+
+
+
+@last_change:2022-MM-DD
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

@@ -1,0 +1,117 @@
+@article-name:2022-04-27 - Freie Software Freunde Online Treffen
+@article-link:/archive/2022-04-27_FS_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+Aktuelles:
+Am 29. April 2022 gibt/gab es wieder die BigBrotherAwards. Hier kannst du Karten
+kaufen oder findest den Stream:
+* [https://digitalcourage.de/blog/2022/bba-programm](https://digitalcourage.de/blog/2022/bba-programm)
+
+
+Elon Musk hat hat Twitter gekauft.
+Hier sind alternative, dezentrale Soziale-Netze:
+* [https://digitalcourage.de/digitale-selbstverteidigung/fediverse](https://digitalcourage.de/digitale-selbstverteidigung/fediverse)
+* [https://joinmastodon.org/](https://joinmastodon.org/)  oder  [https://instances.social/](https://instances.social/)
+Oder auch Peer-to-Peer (P2P) basiert:
+* [https://scuttlebutt.nz/](https://scuttlebutt.nz/)
+
+Vielleicht auch mal einen deutschen, privatsphären-freundlichen E-Mail
+Anbieter nutzen:
+* [https://digitalcourage.de/digitale-selbstverteidigung/vertrauenswuerdige-e-mail-anbieter](https://digitalcourage.de/digitale-selbstverteidigung/vertrauenswuerdige-e-mail-anbieter)
+* [https://mailbox.org/de/](https://mailbox.org/de/)
+* [https://posteo.de/de](https://posteo.de/de)
+* [https://tutanota.com/de/](https://tutanota.com/de/)
+
+Wie man Thunderbird dazu bringt E-Mails in einzelnen Dateien (maildir Format)
+zu speichern:
+* [https://support.mozilla.org/de/kb/maildir-format-thunderbird](https://support.mozilla.org/de/kb/maildir-format-thunderbird)
+
+
+Fabians coole 3D-Druck Seite:
+* [https://jugendlich.digital/3d-druck.html](https://jugendlich.digital/3d-druck.html)
+
+
+Alexander erzählte was von Agenten, Verschlüsselung, Akonadi, Kmail und
+anderen Bestandteilen des "Personal Information Managers" Kontact. Darunter
+auch den katastrophalen Import der Einstellungen von Thunderbird.
+* [https://de.wikipedia.org/wiki/Kontact](https://de.wikipedia.org/wiki/Kontact)
+* [https://docs.kde.org/](https://docs.kde.org/)
+* [https://kontact.kde.org/components/kmail/](https://kontact.kde.org/components/kmail/)
+* The KMail Handbook - [https://docs.kde.org/stable5/en/kmail/kmail2/kmail2.pdf](https://docs.kde.org/stable5/en/kmail/kmail2/kmail2.pdf)
+
+
+Hat einer Verschlüsselung gesagt?
+Hier findest du GPG Verschlüsselung für Outlook:
+* [https://gpg4win.de/](https://gpg4win.de/)
+Und die Doku (PDF) dazu:
+* [https://files.gpg4win.org/doc/gpg4win-compendium-de.pdf](https://files.gpg4win.org/doc/gpg4win-compendium-de.pdf)
+
+Wenn die Empfängerin partout kein PGP nutzen will kann man mit Tutanota (s.o.)
+dennoch eine Verschlüsselte Nachricht verschicken; Man muss der Empfängerin
+nur auf sicherem Wege ein Kennwort mitteilen:
+* [https://tutanota.com/de/](https://tutanota.com/de/)
+
+Scuttlebutt verschlüsselt private Nachrichten auch. (siehe auch oben)
+* [https://scuttlebutt.nz/](https://scuttlebutt.nz/)
+
+Wie man sich die Metadaten einer E-Mail in Outlook anschaut steht hier:
+* [https://office-watch.com/2021/show-an-entire-raw-email-message-in-outlook/](https://office-watch.com/2021/show-an-entire-raw-email-message-in-outlook/)
+
+Seit schon fast 140 Jahren wissen wir das Verschlüsselungsalgorithmen nicht
+geheim gehalten werden sollen, sondern nur der Schlüssel - das "Kerckhoffs’
+Prinzip":
+* [https://kryptografie.de/kryptografie/kerckhoffs-prinzip.htm](https://kryptografie.de/kryptografie/kerckhoffs-prinzip.htm)
+
+
+Kleine Linux Distros die vom Stick oder Disk laufen und für Systemrettungen
+interessant sind:
+* [https://www.system-rescue.org/](https://www.system-rescue.org/)
+* [https://grml.org/](https://grml.org/)
+* [http://www.knoppix.org/](http://www.knoppix.org/)
+
+
+Debian Med für Mediziner·innen und so:
+* [https://www.debian.org/devel/debian-med/](https://www.debian.org/devel/debian-med/)
+
+
+Es ein Treffen der freien Software Freunde auf der FrOSCon geben, welche am 20. + 21. August 2022 stattfindet. Auch mit FYMT!
+* [https://www.froscon.de/](https://www.froscon.de/)
+* [https://freie-software.org/free-your-model-train/](https://freie-software.org/free-your-model-train/)
+
+Weitere News sind auch auf der DLUG Homepage zu finden.
+* [https://dlug.de/](https://dlug.de/)
+
+
+Lese Empfehlung für einem Klassiker:
+  Der Suchmaschinen-Robot und der Webdesigner
+  Ein unidirektionales, virtuelles Märchen aus Düsseldorf
+von unserem Freien Software Freund Rainer.
+* [http://www.woodshed.de/publikationen/dialog-robot.html](http://www.woodshed.de/publikationen/dialog-robot.html)
+Squeak, eine Smalltalk Programmierumgebung mit eigenem Desktop
+* [HTTPS://squeak.org/](HTTPS://squeak.org/)
+
+
+Die Programmiersprache Go ist in Version 1.8 erschienen, u.a. mit Generics und
+Fuzzing:
+* [https://go.dev/](https://go.dev/)
+* [https://go.dev/blog/go1.18](https://go.dev/blog/go1.18)
+
+
+Hier gibt es eine umfangreiche Erklärung zur GPL (PDF):
+* [https://www.ifross.org/Druckfassung/Die_GPL_kommentiert_und_erklaert.pdf](https://www.ifross.org/Druckfassung/Die_GPL_kommentiert_und_erklaert.pdf)
+
+
+@last_change:2022-05-20
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

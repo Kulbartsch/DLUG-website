@@ -1,0 +1,122 @@
+@article-name:2022-05-12 - DLUG Online Treffen
+@article-link:/archive/2022-05-12_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Hallo liebe Linux[*](#Fußnote)- und Freie-Software-Freundinnen und Freunde!
+
+Themen des Abends waren:
+
+==== Aktuelles
+Die [Froscon](https://www.froscon.de) findet dieses Jahr wieder in Präsenz an der Hochschule Bonn-Rhein-Sieg,
+Grantham-Allee 20, 53757 Sankt Augustin, statt!<br>
+Und der [Freie Software Freunde e.V.](https://freie-software.org/) wird auch dort sein,<br>
+mit [FYMT](https://freie-software.org/free-your-model-train/), der Befreiungsinitiative für Modelleisenbahnen
+und vielleicht einem Mitglieder-Treffen.
+
+==== GnuPG & Secure Shell
+Du kannst einen GPG Key verwenden um dich via ssh an einem System anzumelden.<br>
+Deinen ssh-Key kannst du wie folgt exportieren:
+    gpg --export-ssh-key &lt;key_id&gt; &gt; &lt;my_ssh_key.pub&gt;
+
+
+==== Programmiersprachen &amp; Typisierung
+Ob //statische// oder //dynamische// Typisierung besser ist, darüber lässt sich nett diskutieren, was mir auch gemacht haben.
+Hier sind die Programmiersprachen die wir erwähnt haben und ihre Typisierung:
+* [Java](https://de.wikipedia.org/wiki/Java_%28Programmiersprache%29) - [stark typisiert](https://de.wikipedia.org/wiki/Starke_Typisierung)
+* [Python](https://de.wikipedia.org/wiki/Python_%28Programmiersprache%29) - [dynamisch typisiert](https://de.wikipedia.org/wiki/Dynamische_Typisierung) und [Duck-Typing](https://de.wikipedia.org/wiki/Duck-Typing)
+* [Go](https://de.wikipedia.org/wiki/Go_%28Programmiersprache%29) - stark mit [Typinferenz](https://de.wikipedia.org/wiki/Typinferenz)
+* [Groovy](https://de.wikipedia.org/wiki/Groovy) läuft auf der [JVM](https://de.wikipedia.org/wiki/Java_Virtual_Machine) - kann [statische](https://de.wikipedia.org/wiki/Statische_Typisierung) und dynamische Typisierung
+* [Ruby](https://de.wikipedia.org/wiki/Ruby_%28Programmiersprache%29) - nutzt auch Duck-Typing \
+  und erlaubt [Metaprogrammierung](https://de.wikipedia.org/wiki/Ruby_%28Programmiersprache%29#Metaprogrammierung) \
+  und auch einen [dynamischen Methoden-Aufruf](https://ruby-doc.org/core-2.6.3/BasicObject.html), ohne das die aufgerufene Methode zuvor definiert wurden \
+  ([Beispiel](https://gist.github.com/yangsu/4652898)).
+* [Haskel](https://de.wikipedia.org/wiki/Haskell_%28Programmiersprache%29) - nutzt [Typinferenz nach Hindley-Milner](https://de.wikipedia.org/wiki/Typinferenz_nach_Hindley-Milner)
+* [Common Lisp](https://de.wikipedia.org/wiki/Common_Lisp) - dynamisch typisiert, [Funktionsparameter können stark typisiert werden](https://de.wikipedia.org/wiki/Common_Lisp#Definieren_neuer_Funktionen)
+
+
+==== Die Hölle ist zugefroren
+[Nividia Open Sourced Teile seine Grafikkarten-Treiber für Linux.](https://lwn.net/Articles/894861)
+
+
+==== Ada und Zangemann
+\[//Ein Märchen über Software, Skateboards und Himbeereis//](https://fsfe.org/activities/childrensbook/index.de.html) <br>
+Ein schön bebildertes, modernes Märchen, das die Freude am Tüfteln vermittelt und zum selbstbestimmten Umgang mit (freier) Software aufruft.<br>
+Geschrieben hat das Buch Matthias Kirschner &ndash; [Präsident der Free Software Foundation Europe](https://fsfe.org/about/people/kirschner/) &ndash;
+und [Sandra Brandstätter](http://sandra-brandstaetter.com/) hat das Buch illustriert. (ISBN 978-3-96009-190-5)
+
+
+==== Projekt Gemini
+\*Gemini* ist ein neues Internet-Protokoll, welches umfangreicher als //Gopher// ist, aber leichtgewichtiger als das //Web//.
+* Die Projektseite ist [gemini.circumlunar.space](https://gemini.circumlunar.space/)
+* Eine Gemini Portal/Startseite ist [admin.flounder.online](https://admin.flounder.online/). \
+  Hier der [Gemini-Link](gemini://gemini.circumlunar.space/).
+* Ein deutscher [c't Artikel zu Gemini](https://www.heise.de/hintergrund/Minimalistisches-Internet-Projekt-Gemini-als-Retro-Web-5065097.html?seite=all).
+* [Agregore](https://agregore.mauve.moe/) wurde initial als Webbrowser für Peer-to-Peer Protokolle, \
+  wie [HYPER](https://hypercore-protocol.org/) oder [IPFS](https://ipfs.io/), entwickelt. \
+  Inzwischen entwickelt er sich zu einem [Multiprotokollbrowser](https://agregore.mauve.moe/protocols) weiter, der unter anderem //Gemini// unterstützt.
+* Auf der Kommandozeile kannst du [Bombadillo](https://bombadillo.colorfield.space/) verwenden. \
+  Der Browser unterstützt neben Gemini auch Gopher und Finger.
+
+
+==== Erfahrungsbericht zu Fritz!-Box und statischer IP
+* Die Konfiguration neuer Fritz!-Box-Router hat sich geändert. \
+  Es ist problematisch diese als Modem zu Nutzen.
+* Das weiterleiten einer statischen IP funktioniert nicht mehr. (so einfach?)
+* IPv4 vs IPv6 - Aus dem Kabel-Netz von //Vodafone// sind nicht alle Seiten erreichbar, z.B. [NASA.dov](NASA.dov).
+
+
+==== Und wieder Programmiersprachen
+Man kann an seinen Einstiegsprogrammiersprachen hängen bleiben,
+z.B. an [Perl](https://www.perl.org/), ([WP](https://de.wikipedia.org/wiki/Perl_%28Programmiersprache%29)).
+
+Mit [TCL/TK](https://www.tcl.tk/) konnte &ndash; und kann &ndash; man schnell GUIs programmieren
+
+Alle(?) Sprachen leiden an [//Feature Creep//](https://de.wikipedia.org/wiki/Anti-Pattern#Feature_creep).
+Sie werden so lange erweitert, bis sie fast alle Programmierparadigmen beherrschen. <br>
+Außer [Common Lisp](https://lisp-lang.org/),
+das hat dieses Leiden nicht, denn es kann schon alle Paradigmen und Features.
+Wenn dich Lisp interessiert, kannst du mal hier rein schauen:
+* Lisp-Einstiegs-Webseite "[A Road to Common Lisp](https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/) von Steve Losh
+* Ein gutes Einsteiger (E-)Book ist "[COMMON LISP: A Gentle Introduction to Symbolic Computation](https://www.cs.cmu.edu/~dst/LispBook/)" von David S. Touretzky
+* (E-)Book Klassiker "[Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/index.html)" \
+  von Harold Abelson, Gerald Jay Sussman und Julie Sussman.
+* Das Buch "[Land of Lisp](http://landoflisp.com/)" gab es auch auf deutsch. (ISBN 978-3826691638)
+* Video (YouTube) "[The Last Programming Language](https://youtu.be/P2yr-3F6PQo)" von Robert "Uncle Bob" Martin.
+* Paul Grahams Essay "[Beating the averages](http://www.paulgraham.com/avg.html)" ist lesenswert.
+* Noch ein Essay: "[The Rise of Worse is Better](https://www.dreamsongs.com/RiseOfWorseIsBetter.html)" von Richard P. Gabriel
+
+Oder ist blockbasierte, grafische Programmierung die Zukunft?
+* [LabVIEW](https://de.wikipedia.org/wiki/LabVIEW) ist ein grafisches Programmiersystem
+* Arduino-Roboter (auch virtuell) blockbasiert programmieren mit [Open Roberta](https://www.open-roberta.org/) und der Programmiersprache NEPO.
+** Direkt ins [Lab](https://lab.open-roberta.org/)
+** Die [Roberta-Initiative](https://www.roberta-home.de/lab/)
+
+==== KDE Energy Efficient
+Mit dem [KDE Eco Projekt](https://eco.kde.org/de/) energieeffiziente und
+umweltfreundlich OSS entwickeln.<br>
+Es gibt sogar einen blaue Engel Software.
+
+==== *Fußnote
+Oder Harmony OS ². Harmony OS geht auch.<br>
+Nein. Tatsächlich ist jede·r willkommen - egal
+welches Betriebssystem sie/er einsetzt!
+
+² Harmony OS ist ein von Huawei entwickeltes Betriebssystem
+für Mobilgeräte. Auslöser für die Entwicklung von Harmony
+waren die US Handelsbeschränkungen 2019.
+* [https://de.wikipedia.org/wiki/Harmony_OS](https://de.wikipedia.org/wiki/Harmony_OS)
+* [https://www.harmonyos.com/en/](https://www.harmonyos.com/en/)
+
+
+@last_change:2022-05-20
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end
