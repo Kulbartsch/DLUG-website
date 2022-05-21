@@ -20,11 +20,13 @@ Und der [Freie Software Freunde e.V.](https://freie-software.org/) wird auch dor
 mit [FYMT](https://freie-software.org/free-your-model-train/), der Befreiungsinitiative für Modelleisenbahnen
 und vielleicht einem Mitglieder-Treffen.
 
+;;;
+(comment Das hatten wir schon im März
 ==== GnuPG & Secure Shell
 Du kannst einen GPG Key verwenden um dich via ssh an einem System anzumelden.<br>
 Deinen ssh-Key kannst du wie folgt exportieren:
     gpg --export-ssh-key &lt;key_id&gt; &gt; &lt;my_ssh_key.pub&gt;
-
+;;;
 
 ==== Programmiersprachen &amp; Typisierung
 Ob //statische// oder //dynamische// Typisierung besser ist, darüber lässt sich nett diskutieren, was mir auch gemacht haben.
@@ -103,12 +105,12 @@ Mit dem [KDE Eco Projekt](https://eco.kde.org/de/) energieeffiziente und
 umweltfreundlich OSS entwickeln.<br>
 Es gibt sogar einen blaue Engel Software.
 
-==== *Fußnote
-Oder Harmony OS ². Harmony OS geht auch.<br>
+==== * Fußnote
+Oder Harmony OS. Harmony OS geht auch.<br>
 Nein. Tatsächlich ist jede·r willkommen - egal
 welches Betriebssystem sie/er einsetzt!
 
-² Harmony OS ist ein von Huawei entwickeltes Betriebssystem
+Harmony OS ist ein von Huawei entwickeltes Betriebssystem
 für Mobilgeräte. Auslöser für die Entwicklung von Harmony
 waren die US Handelsbeschränkungen 2019.
 * [https://de.wikipedia.org/wiki/Harmony_OS](https://de.wikipedia.org/wiki/Harmony_OS)
