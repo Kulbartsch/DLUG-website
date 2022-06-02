@@ -1,5 +1,5 @@
 @article-name:2021-10-14 - DLUG online Treffen
-@article-link:/archive/2021-10-14_DLUG_Treffen.html
+@article-link:/archiv/2021-10-14_DLUG_Treffen.html
 (cond-if-set teaser
 * [{{article-name}}]({{article-link}})
 (cond-else

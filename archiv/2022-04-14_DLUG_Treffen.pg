@@ -1,6 +1,6 @@
 @last_change:2022-04-14
 @article-name:2022-04-14 - DLUG Online Treffen
-@article-link:/archive/2022-04-14_DLUG_Treffen.html
+@article-link:/archiv/2022-04-14_DLUG_Treffen.html
 @author:Alexander
 (cond-if-set teaser
 * [{{article-name}}]({{article-link}})

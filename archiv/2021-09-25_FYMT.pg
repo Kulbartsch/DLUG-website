@@ -1,5 +1,5 @@
 @article-name:2021-09-25 - FYMT - Free Your Model Train Impressionen
-@article-link:/archive/2021-09-25_FYMT.html
+@article-link:/archiv/2021-09-25_FYMT.html
 (cond-if-set teaser
 * [{{article-name}}]({{article-link}})
 (cond-else
