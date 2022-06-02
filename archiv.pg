@@ -5,6 +5,10 @@ $<article>
 Ein Archiv mit Links zu Themen von unseren Treffen (und
 vielleicht auch mal anderen Dingen).
 
+@ASWSG-INCLUDE-REVERSE:T
+@teaser:T
++archiv/*.pg
+;;;
 * [[2022-05-12 - DLUG Online Treffen|archiv/2022-05-12_DLUG_Treffen.html]]
 * [[2022-04-27 - Freie Software Freunde Online Treffen|archiv/2022-04-27_FS_Treffen.html]]
 * [[2022-04-14 - DLUG online Treffen|archiv/2022-04-14_DLUG_Treffen.html]]
@@ -17,6 +21,7 @@ vielleicht auch mal anderen Dingen).
 * [[2021-09-29 - Freie Software Freunde und DLUG live Treffen|archiv/2021-09-29_FS_DLUG_Treffen.html]]
 * [[2021-09-25 - FYMT - Free Your Model Train Impressionen|archiv/2021-09-25_FYMT.html]]
 * [[2021-09-09 - DLUG online Treffen|archiv/2021-09-09_DLUG_Treffen.html]]
+;;;
 
 @last_change:2022-02-22
 +article-end.in

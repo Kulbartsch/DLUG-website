@@ -28,7 +28,7 @@ do
   ../bin/aswsg "$f" > "../site/archiv/${b}.html"
 done
 
-## generate website
+## generate website projekte
 
 cd ../projekte
 

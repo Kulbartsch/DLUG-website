@@ -83,16 +83,16 @@ Gute Schriften gehören natürlich auch dazu, z.B. der [JuliaMono Font](https://
 Dieser unterstützt den schönen alten Font mit durchgestrichener 0, statt einer 0 mit einem Punkt in der Mitte.
 Im Emacs kannst du diesen wie folgt einbinden:
 
-%%%
-(defun my-set-default-frame-font (frame)
-  "Setup my standard font for GUI frames."
-  (with-selected-frame frame
-    (if (> (x-display-pixel-width) 1920)
-      (set-frame-font "-UKWN-JuliaMono-light-*-*-*-20-*-*-*-m-0-iso10646-1")
-      (set-frame-font "-xos4-terminus-medium-r-*-*-16-*-*-*-*-*-iso10646-1"))))
-
-(set-hook 'after-make-frame-functions 'my-set-default-frame-font)
-%%%
+$<pre>
+$    (defun my-set-default-frame-font (frame)
+$      "Setup my standard font for GUI frames."
+$      (with-selected-frame frame
+$        (if (> (x-display-pixel-width) 1920)
+$          (set-frame-font "-UKWN-JuliaMono-light-*-*-*-20-*-*-*-m-0-iso10646-1")
+$          (set-frame-font "-xos4-terminus-medium-r-*-*-16-*-*-*-*-*-iso10646-1"))))
+$
+$    (set-hook 'after-make-frame-functions 'my-set-default-frame-font)
+$</pre>
 
 ==== Routing für Öffentliche Verkehrsmittel
 
