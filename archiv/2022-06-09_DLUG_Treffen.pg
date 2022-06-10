@@ -33,7 +33,7 @@ $</pre><br>
 * Programmieren wie damals auf dem Homecomputer mit [EndBASIC](https://www.endbasic.dev/)
 * Das minimale Linux [Void](https://voidlinux.org/) nutzt [runit](http://smarden.org/runit/) als [init](https://de.wikipedia.org/wiki/Init)-System.
 * Bei [Arch-Linux](https://archlinux.org/) kann man [alternative init-Systeme](https://wiki.archlinux.org/title/Init) installieren
-* [Devuan](https://www.devuan.org/) - gesprochen "dev-one" - nutzt standardmäßig [sysvinit](http://savannah.nongnu.org/projects/sysvinit)
+* [Devuan](https://www.devuan.org/) – gesprochen "dev-one" – nutzt standardmäßig [sysvinit](http://savannah.nongnu.org/projects/sysvinit)
 * [Alpine Linux](https://www.alpinelinux.org/) ist sehr schlank und leichtgewichtig und nutzt [OpenRC](https://wiki.gentoo.org/wiki/OpenRC)
 * [Eine Liste mit Linux-Distros, welche nicht systemd nutzen](https://www.devuan.org/os/init-freedom)
 * Man kann [systemd](https://systemd.io/) aber auch problemlos verwenden und mögen: \
@@ -47,11 +47,11 @@ $</pre><br>
 * Wir hatten auch wieder mal Gemini-Space: \
   *Gemini* ist ein neues Internet-Protokoll, welches umfangreicher als *Gopher* ist, aber leichtgewichtiger als das *Web*. \
   Hier der Link zu den letzten, ergänzten [[Projekt-Gemini Notizen|/archiv/2022-05-12_DLUG_Treffen.html#Projekt_Gemini]]
-** Fabians Gemini-Homepage [gemini://metalune.xyz/](gemini://metalune.xyz/) - oder klassisch [https://metalune.xyz/](https://metalune.xyz/) \
+** Fabians Gemini-Homepage [gemini://metalune.xyz/](gemini://metalune.xyz/) – oder klassisch [https://metalune.xyz/](https://metalune.xyz/) \
    oder als [GIT-Repo](https://codeberg.org/metalune/homepage/src/branch/main/index.md)
 * Der P2P-[Hypercore](https://hypercore-protocol.org/) basierte [Beaker Browser](https://beakerbrowser.com/) kann auch Markdown rendern.
-* [mutt](http://www.mutt.org/) - der klassische TUI E-Mail-Client
-* [aerc](https://aerc-mail.org/) - ein ziemlich guter TUI E-Mail-Client
+* [mutt](http://www.mutt.org/) – der klassische TUI E-Mail-Client
+* [aerc](https://aerc-mail.org/) – ein ziemlich guter TUI E-Mail-Client
 * [KMail](https://apps.kde.org/de/kmail2/) rockt, \
   man sollte aber über das grundlegende [Akonadi-Framework](https://userbase.kde.org/Akonadi/de) \
   bescheid wissen
@@ -60,7 +60,7 @@ $</pre><br>
 ==== Terminals die wir nutzen
 
 * [kitty](https://sw.kovidgoyal.net/kitty/) - mit GPU Beschleunigung.
-* [xterm](https://invisible-island.net/xterm/xterm.html) bzw *uxterm* mit UTF8 Support - der Klassiker, kann den Terminal Inhalt als HTML speichern.
+* [xterm](https://invisible-island.net/xterm/xterm.html) bzw *uxterm* mit UTF8 Support – der Klassiker, kann den Terminal Inhalt als HTML speichern.
 * KDEs [Konsole](https://konsole.kde.org/), kann den Terminal Inhalt als HTML speichern.
 
 ==== Filme und Serien die man gesehen haben sollte
