@@ -56,6 +56,7 @@ und [Sandra Brandstätter](http://sandra-brandstaetter.com/) hat das Buch illust
 
 ==== Projekt Gemini
 \*Gemini* ist ein neues Internet-Protokoll, welches umfangreicher als //Gopher// ist, aber leichtgewichtiger als das //Web//.
+* Statt //WWW// wird das Gemini-Netzwerk //GeminiSpace// genannt.
 * Gemini auf [Wikipedia](https://de.wikipedia.org/wiki/Geminispace)
 * [Was ist Gemini?](https://was-ist-gemini.de/)
 * Die Projektseite ist [gemini.circumlunar.space](https://gemini.circumlunar.space/)
@@ -67,7 +68,8 @@ und [Sandra Brandstätter](http://sandra-brandstaetter.com/) hat das Buch illust
   wie [HYPER](https://hypercore-protocol.org/) oder [IPFS](https://ipfs.io/), entwickelt. \
   Inzwischen entwickelt er sich zu einem [Multiprotokollbrowser](https://agregore.mauve.moe/protocols) weiter, \
   der unter anderem Gemini unterstützt.
-* Auf der Kommandozeile kannst du [Bombadillo](https://bombadillo.colorfield.space/) verwenden. \
+* [Amfora](https://github.com/makeworld-the-better-one/amfora) ist ein Gemini-Client für das Terminal.
+* Ebenfalls für die Nutzung im Terminal ist [Bombadillo](https://bombadillo.colorfield.space/). \
   Der Browser unterstützt neben Gemini auch Gopher und Finger.
 
 
