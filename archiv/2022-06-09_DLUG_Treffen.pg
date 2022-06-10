@@ -1,0 +1,95 @@
+@article-name:2022-06-09 - DLUG Online Treffen
+@article-link:/archiv/2022-06-09_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Hallo liebe Linux[*](#__Fu_note)- und Freie-Software-Freundinnen und Freunde!
+
+Themen des Abends waren:
+
+==== Debian Reunion Meeting Hamburg
+
+Hier sind die [Videos](https://meetings-archive.debian.net/pub/debian-meetings/2022/Debian-Reunion-Hamburg/).
+
+==== Network Manager mit fixem DNS
+
+In der Datei ``/etc/NetworkManager/system-connections/&lt;connection&gt;`` DNS-Einträge pflegen und automatische DNS Einträge verhindern:
+
+$<pre>
+$[ipv4]
+$dns=1.1.1.1;8.8.8.8;9.9.9.9;
+$ignore-auto-dns=true
+$</pre><br>
+
+==== Minimalistisches Computing
+
+* Einer der ersten Personal-Computer, der [Commodore PET](https://de.wikipedia.org/wiki/PET_2001)
+* Programmieren wie damals auf dem Homecomputer mit [EndBASIC](https://www.endbasic.dev/)
+* Das minimale Linux [Void](https://voidlinux.org/) nutzt [runit](http://smarden.org/runit/) als [init](https://de.wikipedia.org/wiki/Init)-System.
+* Bei [Arch-Linux](https://archlinux.org/) kann man [alternative init-Systeme](https://wiki.archlinux.org/title/Init) installieren
+* [Devuan](https://www.devuan.org/) - gesprochen "dev-one" - nutzt standardmäßig [sysvinit](http://savannah.nongnu.org/projects/sysvinit)
+* [Alpine Linux](https://www.alpinelinux.org/) ist sehr schlank und leichtgewichtig und nutzt [OpenRC](https://wiki.gentoo.org/wiki/OpenRC)
+* [Eine Liste mit Linux-Distros, welche nicht systemd nutzen](https://www.devuan.org/os/init-freedom)
+* Man kann [systemd](https://systemd.io/) aber auch problemlos verwenden und mögen: \
+  [Auf jedenfall!](https://www.geekbundle.org/systemd-auf-jedenfall/), \
+  [21st century service management](https://opensource.com/article/21/5/systemd), \
+  [awesome](https://chriswarrick.com/blog/2015/01/30/systemd-is-awesome/), \
+  [blame game](https://www.linux.com/training-tutorials/more-systemd-fun-blame-game-and-stopping-services-prejudice/), \
+  [Infos auf freedesktop](https://www.freedesktop.org/wiki/Software/systemd/)
+* [lab6](https://lab6.com) setzt sich für ein stabiles Web ein und nutzt dafür PDF.
+**> We are drowning in churn and noise. I am fighting back by switching this website from HTML to PDF.
+* Wir hatten auch wieder mal Gemini-Space: \
+  *Gemini* ist ein neues Internet-Protokoll, welches umfangreicher als *Gopher* ist, aber leichtgewichtiger als das *Web*. \
+  Hier der Link zu den letzten, ergänzten [[Projekt-Gemini Notizen|/archiv/2022-05-12_DLUG_Treffen.html#Projekt_Gemini]]
+** Fabians Gemini-Homepage [gemini://metalune.xyz/](gemini://metalune.xyz/) - oder klassisch [https://metalune.xyz/](https://metalune.xyz/) \
+   oder als [GIT-Repo](https://codeberg.org/metalune/homepage/src/branch/main/index.md)
+* Der P2P-[Hypercore](https://hypercore-protocol.org/) basierte [Beaker Browser](https://beakerbrowser.com/) kann auch Markdown rendern.
+* [mutt](http://www.mutt.org/) - der klassische TUI E-Mail-Client
+* [aerc](https://aerc-mail.org/) - ein ziemlich guter TUI E-Mail-Client
+* [KMail](https://apps.kde.org/de/kmail2/) rockt, \
+  man sollte aber über das grundlegende [Akonadi-Framework](https://userbase.kde.org/Akonadi/de) \
+  bescheid wissen
+* [maddy](https://maddy.email/), ein all-in-one Mailserver
+
+==== Terminals die wir nutzen
+
+* [kitty](https://sw.kovidgoyal.net/kitty/) - mit GPU Beschleunigung.
+* [xterm](https://invisible-island.net/xterm/xterm.html) bzw *uxterm* mit UTF8 Support - der Klassiker, kann den Terminal Inhalt als HTML speichern.
+* KDEs [Konsole](https://konsole.kde.org/), kann den Terminal Inhalt als HTML speichern.
+
+==== Filme und Serien die man gesehen haben sollte
+
+* [Waynes World](https://de.wikipedia.org/wiki/Wayne%E2%80%99s_World) (Film)
+* [Kleine Haie](https://de.wikipedia.org/wiki/Kleine_Haie) (Film)
+* [Farscape](https://de.wikipedia.org/wiki/Farscape) (Serie)
+* [The Walking Dead](https://de.wikipedia.org/wiki/The_Walking_Dead_%28Fernsehserie%29) (Serie)
+* [Arcane](https://de.wikipedia.org/wiki/Arcane_%28Fernsehserie%29) (Serie)
+
+==== * Fußnote
+
+Oder AmigaOS. AmigaOS geht auch.
+
+Nein. Tatsächlich ist jede·r willkommen - egal
+   welches Betriebssystem sie/er einsetzt!
+
+AmigaOS kam 1985 auf dem Markt und wurde mit
+   dem Commodore Amiga Homecomputer ausgeliefert.
+   Es war seinerzeit eines der modernsten
+   Betriebssysteme u.a. mit 32-Bit-Architektur,
+   grafischer Benutzeroberfläche, Mikrokernel
+   und präemptivem Multitasking.
+
+* [https://de.wikipedia.org/wiki/AmigaOS](https://de.wikipedia.org/wiki/AmigaOS)
+
+
+@last_change:2022-06-10
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

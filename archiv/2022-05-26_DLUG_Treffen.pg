@@ -1,0 +1,26 @@
+@article-name:2022-05-26 - DLUG Live Treffen
+@article-link:/archiv/2022-05-26_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Wir haben uns schon am frühen Nachmittag bei guten Wetter im //Tigges// getroffen und gute Gespräche geführt.
+
+Aus den vielen Unterhaltungen am Tisch habe ich nur drei Links mitgenommen:
+
+* Podcast: [CoRecursive](https://corecursive.com/) - The Stories Behind The Code
+* Ein moderner, Terminal-basierter Editor mit "normalen" Desktop-key-bindings und vielen Features: [micro](https://micro-editor.github.io/)
+* Einfach PDFs manipulieren: [PDF Arranger](https://github.com/pdfarranger/pdfarranger), [deutscher Artikel](https://wiki.ubuntuusers.de/PDF_Arranger/)
+
+
+
+@last_change:2022-06-10
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

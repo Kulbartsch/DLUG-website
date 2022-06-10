@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<!--  DLUG.de Website Design and Layout © 2021 by Alexander Kulbartsch is licensed under CC BY-SA 4.0 -->
+<!--  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://dlug.de/">DLUG.de Website Design and Layout</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://kulbartsch.de/">Alexander Kulbartsch</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p> -->
+<!-- Meta Data -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF8" />
+<meta name="description" content="DLUG - Düsseldorfer Linux User Group - 2022-06-09 - DLUG Online Treffen" />
+<meta name="keywords" content="Linux, Open Source, User Group, DLUG, Düsseldorf, Duesseldorf, freie Software, OSS" />
+<meta name="author" content="Alexander Kulbartsch">
+<meta name="designer" content="Alexander Kulbartsch">
+<title>DLUG - Düsseldorfer Linux User Group - 2022-06-09 - DLUG Online Treffen</title>
+<link href="/css/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<header>
+<h1><span>DLUG</span></h1>
+<br/><br/><br/>
+<h2><span>Düsseldorfer Linux User Group</span></h2>
+</header>
+
+<nav class="menu">
+<ul id="navlist">
+<li><a href="/index.html">Start</a></li>
+<li><a href="/kontakt.html">Kontakt</a></li>
+<li><a href="/themen.html">Themen</a></li>
+<li><a href="/archiv.html">Archiv</a></li>
+<li><a href="/sonne-mond.html">Sonne &amp; Mond</a></li>
+<li style="float:right"><a href="/imp-daten.html">Impressum</a></li>
+</ul>
+</nav>
+<main>
+<article>
+<h3 id="2022-06-09_-_DLUG_Online_Treffen">2022-06-09 - DLUG Online Treffen</h3>
+<p>
+Hallo liebe Linux<a rel="external"  href="#__Fu_note" >*</a>- und Freie-Software-Freundinnen und Freunde!
+</p>
+<p>
+Themen des Abends waren:
+</p>
+<h4 id="Debian_Reunion_Meeting_Hamburg">Debian Reunion Meeting Hamburg</h4>
+<p>
+Hier sind die <a rel="external"  href="https://meetings-archive.debian.net/pub/debian-meetings/2022/Debian-Reunion-Hamburg/" >Videos</a>.
+</p>
+<h4 id="Network_Manager_mit_fixem_DNS">Network Manager mit fixem DNS</h4>
+<p>
+In der Datei <code>/etc/NetworkManager/system-connections/&lt;connection&gt;</code> DNS-Einträge pflegen und automatische DNS Einträge verhindern:
+</p>
+<pre>
+[ipv4]
+dns=1.1.1.1;8.8.8.8;9.9.9.9;
+ignore-auto-dns=true
+</pre><br>
+<h4 id="Minimalistisches_Computing">Minimalistisches Computing</h4>
+<ul>
+<li>Einer der ersten Personal-Computer, der <a rel="external"  href="https://de.wikipedia.org/wiki/PET_2001" >Commodore PET</a></li>
+<li>Programmieren wie damals auf dem Homecomputer mit <a href="https://www.endbasic.dev/"  rel="external" >EndBASIC</a></li>
+<li>Das minimale Linux <a rel="external"  href="https://voidlinux.org/" >Void</a> nutzt <a rel="external"  href="http://smarden.org/runit/" >runit</a> als <a rel="external"  href="https://de.wikipedia.org/wiki/Init" >init</a>-System.</li>
+<li>Bei <a rel="external"  href="https://archlinux.org/" >Arch-Linux</a> kann man <a rel="external"  href="https://wiki.archlinux.org/title/Init" >alternative init-Systeme</a> installieren</li>
+<li><a rel="external"  href="https://www.devuan.org/" >Devuan</a> - gesprochen "dev-one" - nutzt standardmäßig <a rel="external"  href="http://savannah.nongnu.org/projects/sysvinit" >sysvinit</a></li>
+<li><a rel="external"  href="https://www.alpinelinux.org/" >Alpine Linux</a> ist sehr schlank und leichtgewichtig und nutzt <a rel="external"  href="https://wiki.gentoo.org/wiki/OpenRC" >OpenRC</a></li>
+<li><a href="https://www.devuan.org/os/init-freedom"  rel="external" >Eine Liste mit Linux-Distros, welche nicht systemd nutzen</a></li>
+<li>Man kann <a rel="external"  href="https://systemd.io/" >systemd</a> aber auch problemlos verwenden und mögen:   <a rel="external"  href="https://www.geekbundle.org/systemd-auf-jedenfall/" >Auf jedenfall!</a>,   <a rel="external"  href="https://opensource.com/article/21/5/systemd" >21st century service management</a>,   <a rel="external"  href="https://chriswarrick.com/blog/2015/01/30/systemd-is-awesome/" >awesome</a>,   <a href="https://www.linux.com/training-tutorials/more-systemd-fun-blame-game-and-stopping-services-prejudice/"  rel="external" >blame game</a>,   <a rel="external"  href="https://www.freedesktop.org/wiki/Software/systemd/" >Infos auf freedesktop</a></li>
+<li><a rel="external"  href="https://lab6.com" >lab6</a> setzt sich für ein stabiles Web ein und nutzt dafür PDF.</li>
+<ul>
+<blockquote>
+<li>We are drowning in churn and noise. I am fighting back by switching this website from HTML to PDF.</li>
+</blockquote>
+</ul>
+<li>Wir hatten auch wieder mal Gemini-Space:   <b>Gemini</b> ist ein neues Internet-Protokoll, welches umfangreicher als <b>Gopher</b> ist, aber leichtgewichtiger als das <b>Web</b>.   Hier der Link zu den letzten, ergänzten <a href="/archiv/2022-05-12_DLUG_Treffen.html#Projekt_Gemini" >Projekt-Gemini Notizen</a></li>
+<ul>
+<li>Fabians Gemini-Homepage <a rel="external"  href="gemini://metalune.xyz/" >gemini://metalune.xyz/</a> - oder klassisch <a rel="external"  href="https://metalune.xyz/" >https://metalune.xyz/</a>    oder als <a rel="external"  href="https://codeberg.org/metalune/homepage/src/branch/main/index.md" >GIT-Repo</a></li>
+</ul>
+<li>Der P2P-<a rel="external"  href="https://hypercore-protocol.org/" >Hypercore</a> basierte <a rel="external"  href="https://beakerbrowser.com/" >Beaker Browser</a> kann auch Markdown rendern.</li>
+<li><a rel="external"  href="http://www.mutt.org/" >mutt</a> - der klassische TUI E-Mail-Client</li>
+<li><a rel="external"  href="https://aerc-mail.org/" >aerc</a> - ein ziemlich guter TUI E-Mail-Client</li>
+<li><a rel="external"  href="https://apps.kde.org/de/kmail2/" >KMail</a> rockt,   man sollte aber über das grundlegende <a rel="external"  href="https://userbase.kde.org/Akonadi/de" >Akonadi-Framework</a>   bescheid wissen</li>
+<li><a rel="external"  href="https://maddy.email/" >maddy</a>, ein all-in-one Mailserver</li>
+</ul>
+<h4 id="Terminals_die_wir_nutzen">Terminals die wir nutzen</h4>
+<ul>
+<li><a rel="external"  href="https://sw.kovidgoyal.net/kitty/" >kitty</a> - mit GPU Beschleunigung.</li>
+<li><a rel="external"  href="https://invisible-island.net/xterm/xterm.html" >xterm</a> bzw <b>uxterm</b> mit UTF8 Support - der Klassiker, kann den Terminal Inhalt als HTML speichern.</li>
+<li>KDEs <a rel="external"  href="https://konsole.kde.org/" >Konsole</a>, kann den Terminal Inhalt als HTML speichern.</li>
+</ul>
+<h4 id="Filme_und_Serien_die_man_gesehen_haben_sollte">Filme und Serien die man gesehen haben sollte</h4>
+<ul>
+<li><a rel="external"  href="https://de.wikipedia.org/wiki/Wayne%E2%80%99s_World" >Waynes World</a> (Film)</li>
+<li><a rel="external"  href="https://de.wikipedia.org/wiki/Kleine_Haie" >Kleine Haie</a> (Film)</li>
+<li><a href="https://de.wikipedia.org/wiki/Farscape"  rel="external" >Farscape</a> (Serie)</li>
+<li><a rel="external"  href="https://de.wikipedia.org/wiki/The_Walking_Dead_%28Fernsehserie%29" >The Walking Dead</a> (Serie)</li>
+<li><a rel="external"  href="https://de.wikipedia.org/wiki/Arcane_%28Fernsehserie%29" >Arcane</a> (Serie)</li>
+</ul>
+<h4 id="__Fu_note">* Fußnote</h4>
+<p>
+Oder AmigaOS. AmigaOS geht auch.
+</p>
+<p>
+Nein. Tatsächlich ist jede·r willkommen - egal
+   welches Betriebssystem sie/er einsetzt!
+</p>
+<p>
+AmigaOS kam 1985 auf dem Markt und wurde mit
+   dem Commodore Amiga Homecomputer ausgeliefert.
+   Es war seinerzeit eines der modernsten
+   Betriebssysteme u.a. mit 32-Bit-Architektur,
+   grafischer Benutzeroberfläche, Mikrokernel
+   und präemptivem Multitasking.
+</p>
+<ul>
+<li><a rel="external"  href="https://de.wikipedia.org/wiki/AmigaOS" >https://de.wikipedia.org/wiki/AmigaOS</a></li>
+</ul>
+<p class="article_footer">
+Letzte Änderung: 2022-06-10
+<span style="float:right;">
+ &nbsp; Autor: Alexander
+</span></p>
+</article>
+</main>
+<footer>
+<p>
+Linux User Group, Düsseldorf, seit 1997
+</p>
+<p>
+ <em>Soweit nicht anders vermerkt</em>, sind die Inhalte der Webseite unter der <a rel="external"  href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" >Creative Commons License CC0 Version 1.0 oder spätere</a> lizenziert.
+ (Das bedeutet, Du kannst das Werk vervielfältigen, verändern, verbreiten und aufführen, auch zu kommerziellen Zwecken, ohne um Erlaubnis zu fragen.)
+</p>
+<p>
+Wir danken der Firma <a rel="external"  href="https://www.iacd.net/" >IACD</a> für die Unterstützung, u.a. für die Bereitstellung von Webserver, Jitsi-Server, Mailing-Liste und Domäne!
+</p>
+<p>
+Die Webseite wurde mit ❤, <a href="https://github.com/Kulbartsch/AStaticWebSiteGenerator"  rel="external" >AStaticWebSiteGenerator</a> und <code>$EDITOR</code> erstellt.
+&nbsp;&nbsp;&nbsp;&mdash;&nbsp;&nbsp;&nbsp;
+Informationen zum <a href="/imp-daten.html#Datenschutzerklärung" >Datenschutz</a> sind im Impressum.
+</footer>
+</body>
+</html>
+</p>
