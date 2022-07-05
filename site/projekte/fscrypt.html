@@ -96,19 +96,19 @@ das ganze muß von root einmal angelegt werden, danach kann ein user autonom
 verschlüsselte verzeichnisse erzeugen. im normalfall sollte das genügen:
 </p>
 <pre>
-<code>   # verschlüsselung auf einer ext4-partition aktivieren</code>
-<code>   sudo tune2fs -O encrypt /dev/&lt;device&gt;</code>
+<code># verschlüsselung auf einer ext4-partition aktivieren</code>
+<code>sudo tune2fs -O encrypt /dev/&lt;device&gt;</code>
 <code></code>
-<code>   # fscrypt einmalig einrichten</code>
-<code>   sudo fscrypt setup</code>
+<code># fscrypt einmalig einrichten</code>
+<code>sudo fscrypt setup</code>
 <code></code>
-<code>   # metadaten-verzeichnis vorbereiten</code>
-<code>   sudo mount /dev/&lt;device&gt; /mnt/&lt;device&gt;</code>
-<code>   fscrypt setup /mnt/&lt;device&gt;</code>
+<code># metadaten-verzeichnis vorbereiten</code>
+<code>sudo mount /dev/&lt;device&gt; /mnt/&lt;device&gt;</code>
+<code>fscrypt setup /mnt/&lt;device&gt;</code>
 <code></code>
-<code>   # schlüssel erzeugen und verzeichnis verschlüsseln</code>
-<code>   mkdir /mnt/&lt;device&gt;/abgeschlossen</code>
-<code>   fscrypt encrypt /mnt/&lt;device&gt;/abgeschlossen</code>
+<code># schlüssel erzeugen und verzeichnis verschlüsseln</code>
+<code>mkdir /mnt/&lt;device&gt;/abgeschlossen</code>
+<code>fscrypt encrypt /mnt/&lt;device&gt;/abgeschlossen</code>
 </pre>
 <p>
 das (und auch die einrichtung des PAM-moduls) ist im detail alles sehr gut mit
@@ -163,7 +163,7 @@ Lizenz: CC BY-SA 4.0
 </main>
 <footer>
 <p>
-Linux User Group, Düsseldorf, seit 1997
+ <b>Düsseldorfer Linux User Group</b>, seit 1997
 </p>
 <p>
  <em>Soweit nicht anders vermerkt</em>, sind die Inhalte der Webseite unter der <a rel="external"  href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" >Creative Commons License CC0 Version 1.0 oder spätere</a> lizenziert.

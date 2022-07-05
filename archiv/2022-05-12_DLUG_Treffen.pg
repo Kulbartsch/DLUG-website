@@ -9,7 +9,7 @@ $<article>
 
 === {{article-name}}
 
-Hallo liebe Linux[*](#__Fu_note)- und Freie-Software-Freundinnen und Freunde!
+Hallo liebe Linux[[*|#__Fu_note]]- und Freie-Software-Freundinnen und Freunde!
 
 Themen des Abends waren:
 
@@ -68,6 +68,7 @@ und [Sandra Brandstätter](http://sandra-brandstaetter.com/) hat das Buch illust
   wie [HYPER](https://hypercore-protocol.org/) oder [IPFS](https://ipfs.io/), entwickelt. \
   Inzwischen entwickelt er sich zu einem [Multiprotokollbrowser](https://agregore.mauve.moe/protocols) weiter, \
   der unter anderem Gemini unterstützt.
+* [Castor](https://sr.ht/~julienxx/Castor/) ist ein in Rust/GTK programmierter Client, der Gemini, Gopher und das Finger-Protokoll unterstützt.
 * [Amfora](https://github.com/makeworld-the-better-one/amfora) ist ein Gemini-Client für das Terminal.
 * Ebenfalls für die Nutzung im Terminal ist [Bombadillo](https://bombadillo.colorfield.space/). \
   Der Browser unterstützt neben Gemini auch Gopher und Finger.

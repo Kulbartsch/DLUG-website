@@ -9,7 +9,7 @@ $<article>
 
 === {{article-name}}
 
-Hallo liebe Linux[*](#__Fu_note)- und Freie-Software-Freundinnen und Freunde!
+Hallo liebe Linux[[*|#__Fu_note]]- und Freie-Software-Freundinnen und Freunde!
 
 Themen des Abends waren:
 
@@ -21,11 +21,12 @@ Hier sind die [Videos](https://meetings-archive.debian.net/pub/debian-meetings/2
 
 In der Datei ``/etc/NetworkManager/system-connections/&lt;connection&gt;`` DNS-Einträge pflegen und automatische DNS Einträge verhindern:
 
-$<pre>
-$[ipv4]
-$dns=1.1.1.1;8.8.8.8;9.9.9.9;
-$ignore-auto-dns=true
-$</pre><br>
+%%%
+[ipv4]
+dns=1.1.1.1;8.8.8.8;9.9.9.9;
+ignore-auto-dns=true
+%%%
+$<br>
 
 ==== Minimalistisches Computing
 

@@ -4,15 +4,18 @@
 /* colors and usage */
 
 :root {
-    --col_dark_blue: #222d42; /* #2A324B; */
+    --col_dark_blue:  #222d42; /* #2A324B; */
+    --col_dark_grey:  #222d42; /* #2A324B; */
     --col_dark:       #141824;
     --col_orange:     #FFB200;
     --col_dim_orange: #e19d0f;
     --col_dimmer_orange: #a87c18;
     --col_blue:       #184FFF;
     --col_light_blue: #5f8aff;
+    --col_mid_blue:   #1740cb;
     --col_white:      #d2cdc3;
-    --col_grey: #535359;
+    --col_grey:       #535359;
+    --col_light_grey: #ccd;
 
     --col_body_bg:         var(--col_dark_blue);
     --col_article_bg:      var(--col_dark);
@@ -20,13 +23,15 @@
     --col_article_foot_txt: var(--col_grey);
     --col_heading_bg:      var(--col_dim_orange);
     --col_heading_bg2:     var(--col_dimmer_orange);
-    --col_heading_txt:     var(--col_blue);
+    --col_heading_txt:     var(--col_mid_blue);
     --col_btn_bg:          #333;
     --col_btn_txt:         var(--col_orange);
     --col_btn_akt_bg:      var(--col_dim_orange);
-    --col_btn_akt_txt:     var(--col_blue);
+    --col_btn_akt_txt:     var(--col_mid_blue);
     --col_btn_hov_bg:      var(--col_dark_blue);
-
+    --col_pre_border:      #000;
+    --col_pre_bg:          var(--col_dark_blue);
+    --col_pre_txt:         var(--col_light_grey);
 }
 
 /* content CSS */
@@ -54,12 +59,15 @@ article, footer {
 header {
     margin:              0px;
     background-image:    url('../img/header.jpg');
+    padding-top:         10vw;
     width:               100%;
-    min-height:          450px;
+    /* min-height:          450px; */
+    height:              50vw;
+    min-height:          230px;
+    max-height:          450px;
     background-size:     100%;
     background-position: center, left;
     background-repeat:   no-repeat;
-    padding-top:         90px;
 }
 
 nav {
@@ -67,9 +75,13 @@ nav {
     width:               100%;
 }
 
+h1, h2, h3, h4 {
+    text-shadow:         0.5px 0.5px #111, -0.5px -0.5px #eee;
+}
+
 h3, h4 {
     color:               var(--col_heading_txt);
-    background-image:    linear-gradient(to right, var(--col_heading_bg), var(--col_article_bg));
+    background-image:    linear-gradient(to right, var(--col_heading_bg), var(--col_heading_bg2));
     margin:              0px;
     padding-left:        5px;
 }
@@ -103,6 +115,7 @@ h1 span, h2 span {
     padding-bottom:      1px;
     padding-left:        20px;
     margin-right:        25px;
+    opacity:             90%;
 }
 
 h1 span {
@@ -163,6 +176,21 @@ nav li a:hover:not(.active) {
     background-color:    var(--col_btn_akt_bg);
     color:               var(--col_btn_akt_txt);
     font-weight:         bold;
+}
+
+pre {
+    display:             block;
+    font-family:         monospace;
+    font-size:           0.85em;
+    white-space:         pre;
+    tab-size:            4;
+    padding:             1em;
+    margin:              1em;
+    border:              3px solid var(--col_pre_border);
+    background:          var(--col_pre_bg);
+    color:               var(--col_pre_txt);
+    box-shadow:          inset 0px 0px 15px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow:  inset 0px 0px 15px 0px rgba(0,0,0,0.5);
 }
 
 .article_footer {

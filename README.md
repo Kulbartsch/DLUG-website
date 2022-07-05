@@ -77,6 +77,21 @@ Am Ende der Seite wird der Fuß eingebunden.
 footer.in
 ```
 
+## Links 
+
+ *Interne* Links sollten in der Form `[[text|URL]]` angegeben werden. 
+Zum Beispiel so:
+```
+[[Mailing-Liste|kontakt.html#Mailingliste]]
+```
+
+ *Externe* Links sollten in der Form `[text](URL)` definiert werden, dann wird das Attribut `rel=external` hinzugefügt. 
+Zum Beispiel so:
+```
+[Wikipedia](https://www.wikipedia.de/)
+```
+
+
 ## Neue Webseite generieren 
 
 Einfach das Shellscript `make.sh` im Projektverzeichnis ausführen. 
@@ -133,7 +148,7 @@ Mit [ngrok](https://ngrok.com/) kannst du die Seite sogar aus dem Internet teste
 ### sonstiges
 
 Natürlich geht auch der Apache httpd, nginx und andere.
-Das Setup ist nur evtl. aufwendiger. 
+Das Setup ist evtl. aufwendiger. 
 
 ## Webseite veröffentlichen
 
