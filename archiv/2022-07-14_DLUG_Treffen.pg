@@ -1,0 +1,111 @@
+@article-name:2022-07-14 - Freie Software Freunde und  - Online Treffen
+@article-name:2022-07-14 - Freie Software Freunde und DLUG - Online Treffen
+@article-link:/archiv/2022-07-14_DLUG_FS_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Wir hatten einen wieder einen schönen Abend, mit tollen Teilnehmer·innen und interessanten Gesprächen.
+
+
+==== Vorstellungsrunde
+
+Da ein paar Neue dabei waren haben wir eine kleine Vorstellungsrunde gemacht.
+Hier wurden interessante Projekte der Teilnehmer·innen genannt:
+
+* Dirks [MediaWiki to LaTeX](https://mediawiki2latex.wmflabs.org/) online Konverter.
+* Michael hat von seinem [ocrpdf-tk](https://canzeley.de/tools.html#ocrpdf-tk) erzählt,
+* Mechtilde vom Fortschritt ihres [Debianpaketierbuchs](https://salsa.debian.org/ddp-team/dpb).
+* Alexanders Projekte sind [hier](http://kulbartsch.de/) zu finden, sein Repo [hier](https://github.com/kulbartsch).
+
+Wir haben uns auch sehr über das Lob gefreut, das unsere Online-Meetings //Inspirierend// sind und
+eine //Digitale Inklusion// für Menschen bieten, die aus unterschiedlichen Gründen nicht einfach an live-Treffen teilnehmen können.
+Dankeschön!
+
+* Am 20.-21. August wird die [FrOSCon](https://www.froscon.de/) als Präsenz-Veranstaltung stattfinden. \
+  Die Freien Software Freunde werden auch mit ein
+
+==== Firefox
+* Speichert
+
+
+
+==== GitHub
+
+
+https://gnulinux.ch/github-aufgeben
+- https://sourcehut.org/
+- https://codeberg.org/
+
+=== Übersetzung
+ gettext
+
+
+
+
+==== welches Linux
+
+Welche Distro
+* Die Deines Nachbarn - wenn er nicht
+
+[balenaEtcher](https://www.balena.io/etcher/)
+# Erst mal
+# Ausprobieren ohne
+# In einer VM Ausprobieren
+# Auf einem zweiten Rechner ausprobieren
+#
+
+Je nach Typ
+* Sanfter Übergang
+* Hardcore
+** Grundlagen verstehen
+*** Arch
+*** Gentoo
+*** [Linux From Scratch](https://www.linuxfromscratch.org/)
+
+==== Gemini
+interner Link
+New Aggregator
+
+
+==== Google Fonts Tracking
+
+Auch Scripte Javascript
+
+==== Barrierefreiheit
+
+https://www.knopper.net/knoppix-adriane/index.html
+https://raul.de/
+* Barrierefreiheit mit [axe](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/) testen.
+aria attribute
+Semantische HTML Tags verwenden
+
+
+==== Selber Wbseiten erstellen
+
+Unser Wissen wird ja nicht weniger wenn wir es teilen - Augustino von Hippo
+
+
+==== Office
+
+[https://www.onlyoffice.com/de/]
+* [https://softmaker.de/](SoftMaker) ein Office aus Deutschland
+* Es gibt auch was Microsoft -
+
+
+==== Programmierung
+
+* Mann kann seine Geheimnisse auch in [Perl](https://de.wikipedia.org/wiki/Obfuscated_Perl_Contest) [verstecken](https://perl.plover.com/obfuscated/).
+* Sei ein Rockstar Programmer und singe Deine Programme! Mehr dazu in Dylan Beattie unterhaltsammen und lehrreichem Vortrag [The Art of Code](https://youtu.be/6avJHaC3C2U). (Link zu YouTube)
+* Auch der Vortrag [Plain Text](https://youtu.be/_mZBa3sqTrI) (Link zu YouTube) von Dylan Beattie ist empfehlenswert!
+
+@last_change:2022-07-14
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end
