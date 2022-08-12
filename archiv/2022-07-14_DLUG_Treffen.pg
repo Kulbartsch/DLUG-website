@@ -19,30 +19,28 @@ Da ein paar Neue dabei waren haben wir eine kleine Vorstellungsrunde gemacht.
 Hier wurden interessante Projekte der Teilnehmer·innen genannt:
 
 * Dirks [MediaWiki to LaTeX](https://mediawiki2latex.wmflabs.org/) online Konverter.
-* Michael hat von seinem [ocrpdf-tk](https://canzeley.de/tools.html#ocrpdf-tk) erzählt,
+* Michael hat von seinem [ocrpdf-tk](https://canzeley.de/tools.html#ocrpdf-tk) Tool erzählt, eine GUI-Anwendung um einfach eingescannten PDF mit durchsuchbaren Text zu hinterlegen.
 * Mechtilde vom Fortschritt ihres [Debianpaketierbuchs](https://salsa.debian.org/ddp-team/dpb).
 * Alexanders Projekte sind [hier](http://kulbartsch.de/) zu finden, sein Repo [hier](https://github.com/kulbartsch).
+* Rainers [Mastodon NRW-Profil](https://nrw.social/@RainerRoessler).
 
 Wir haben uns auch sehr über das Lob gefreut, das unsere Online-Meetings //Inspirierend// sind und
 eine //Digitale Inklusion// für Menschen bieten, die aus unterschiedlichen Gründen nicht einfach an live-Treffen teilnehmen können.
 Dankeschön!
 
-* Am 20.-21. August wird die [FrOSCon](https://www.froscon.de/) als Präsenz-Veranstaltung stattfinden. \
-  Die Freien Software Freunde werden auch mit ein
-
-==== Firefox
-* Speichert
+* Am 20.-21. August wird die [FrOSCon](https://www.froscon.de/) als Präsenz-Veranstaltung stattfinden.
+;  Die Freien Software Freunde werden auch mit ein
 
 
 
 ==== GitHub
-
 
 https://gnulinux.ch/github-aufgeben
 - https://sourcehut.org/
 - https://codeberg.org/
 
 === Übersetzung
+
  gettext
 
 
@@ -70,23 +68,25 @@ Je nach Typ
 
 ==== Gemini
 interner Link
-New Aggregator
+News Aggregator
 
 
 ==== Google Fonts Tracking
 
 Auch Scripte Javascript
 
+
 ==== Barrierefreiheit
 
-https://www.knopper.net/knoppix-adriane/index.html
-https://raul.de/
-* Barrierefreiheit mit [axe](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/) testen.
-aria attribute
-Semantische HTML Tags verwenden
+* [axe](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/) - Web Accessibilty Checker Extension für Firefox
+* Artikel auf heise online - [Firefox mit neuen Tools für ein barrierefreies Web](https://www.heise.de/newsticker/meldung/Firefox-mit-neuen-Tools-fuer-ein-barrierefreies-Web-4571249.html)
+* https://www.knopper.net/knoppix-adriane/index.html
+* [Raul Krauthausens Blog](https://raul.de/) - Raul ist Aktivist für Inklusion und Barrierefreiheit
+* aria attribute
+* Semantische HTML Tags verwenden
 
 
-==== Selber Wbseiten erstellen
+==== Selber Webseiten erstellen
 
 Unser Wissen wird ja nicht weniger wenn wir es teilen - Augustino von Hippo
 

@@ -1,0 +1,68 @@
+@article-name:2022-08-11 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2022-08-11_DLUG_FS_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+==== Vorstellungsrunde
+
+=> http://www.querulantin.de/Vortraege/ Princess Webseite mit Ihren Vorträgen zu digitalem Fußabdruck und wie man sich im Netz vor Überwachung und Stalkern schützt
+=> https://www.shackspace.de/ - shack - der Stuttgart Hackerspace
+=> https://wolkenbruch.net/ Alexanders Informationen zu Datenschutz, Datensicherheit und Schutz der Privatsphäre
+=> https://jugendlich.digital/ (L-)Fabians jugendlich.digital Webseite mit spannenden Themen von 3D-Druck bis Wärmebilder
+=> https://metalune.xyz/ "metalune's dungeon of pleasure" mit vielen spannenden Projekten und Themen
+=> https://salsa.debian.org/ddp-team/dpb Mechtildes umfangreiches "Debianpaketierbuch"
+=> https://netzspielplatz.org/about carrabelloys mastodon Instanz
+
+==== Links zu Themen des Abends
+
+=> https://www.youtube.com/watch?v=ZSRHeXYDLko Sehenswerter Vortrag: "Preventing the Collapse of Civilization" von Jonathan Blow. A discussion about how they make software and what this means.
+
+Tunnel-Dienste und Software um Dienste von daheim zu betreiben:
+=> http://pagekite.net/
+=> https://ngrok.com/
+=> https://github.com/skx/tunneller
+=> https://github.com/anderspitman/awesome-tunneling Eine umfangreiche Liste von solchen Tunnel-Lösungen
+=> https://www.wireguard.com/ Wireguard - ein klassisches VPN mit dem man sich das selbst bauen kann
+
+Raspberry Pi Alternativen (unvollständige List:
+=> http://www.orangepi.org/ Orange Pi
+=> https://www.pine64.org/ Single Board Computer von Pine64
+=> https://www.olimex.com/Products/OLinuXino/open-source-hardware OLinuXino - Open Source Hardware Single Boards
+
+=> https://github.com/rhboot/shim shim, a first-stage UEFI bootloader
+
+=> https://taler.net/de/ Das Bezahlsystem *GNU Taler* ermöglicht das schnelle und einfache Geldüberweisen mit Datenschutz und hoher technischer Sicherheit.
+=> https://gnulinux.ch/gln020-podcast - GNU Taler im Podcast
+=> https://wolkenbruch.net/snowden_nth.html "Zu argumentieren, dass Ihnen das Recht auf Privatsphäre gleichgültig ist, weil Sie nichts zu verbergen haben, ist nicht anders als zu sagen, dass Ihnen die Redefreiheit gleichgültig ist, weil Sie nichts zu sagen haben." – Edward Snowden
+=> https://sibylleberg.com/buecher/grm-brainfuck Buchempfehlung: "GRM - Brainfuck" von Sibylle Berg über Überwachungsdiktatur, Autokratie, Menschen und Revolution.
+=> https://zwiebelfreunde.de/ Um für Tor zu spenden am besten an die Zwiebelfreunde
+
+=> https://www.latex-project.org/ LaTeX – A document preparation system
+=> http://www2.informatik.uni-freiburg.de/~frank/Kurse_Ideen/Kurse/WS0809/LaTeX/Latex-Erstie-Kurs.html LaTeX Erstie Kurs
+
+=> https://git.sr.ht/~sircmpwn/scdoc scdoc - man-pages aus markdown erstellen
+
+=> https://git.sr.ht/~rjarry/aerc/ aerc - Ein moderner, ziemlich guter TUI E-Mail-Client
+=> http://www.beedub.com/exmh/ Exmh - ein klassische GUI E-Mail-Client
+=> Alexander sagt:https://www.oreilly.com/openbook/mh/figs/exmdis.gif - Exmh Screenshot, ca. 1994 (O'Reilly)
+=> Alexander sagt:https://www.heise.de/imgs/18/3/4/7/7/2/7/exmh-0de405ab4cee1c54.gif - Exmh Screenshot, ca. 1998 (Heise)
+
+=> https://www.libravatar.org/ Libravatar -Eine Freie Avatar Service (Alternative zu Gravatar)
+=> https://freiheitsrechte.org/ Gesellschaft für Freiheitsrechte
+=> https://www.freepascal.org/ Freepascal - Open source compiler for Pascal and Object Pascal
+=> https://www.lazarus-ide.org/ Lazarus - Eine freie Pascal IDE (für Freepascal)
+
+
+
+
+@last_change:2022-MM-DD
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

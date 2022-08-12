@@ -5,19 +5,19 @@ $<article>
 ; List-Subscribe: <mailto:dlug-list-request@dlug.de?subject=subscribe dlug-list@dlug.de>
 ; List-Unsubscribe: <mailto:dlug-list-request@dlug.de?subject=unsubscribe dlug-list@dlug.de>
 
-Um dich in die Mailingliste einzutragen:
+Um dich in die Mailingliste *einzutragen*:
 * Schreibe eine Email an ``[dlug-list-request@dlug.de](mailto:dlug-list-request@dlug.de?subject=subscribe dlug-list@dlug.de)``
 * mit dem Betreff ``subscribe dlug-list@dlug.de``
 Dann beantworte noch die Bestätigungsmail.
 
-Zum Austragen aus der Liste:
+Danach kannst du dann an die Mailingliste schreiben mit der Adresse: ``[dlug-list@dlug.de](mailto:dlug-list@dlug.de)``
+
+Zum *Austragen* aus der Liste:
 * Schreibe eine Email an: ``[dlug-list-request@dlug.de](mailto:dlug-list-request@dlug.de?subject=unsubscribe dlug-list@dlug.de)``
 * mit dem Betreff: ``unsubscribe dlug-list@dlug.de``
 
 (comment  Ist das noch so:?
 ;Mit help im Subject wird ein Hilfetext zur Mailingliste DLUG-list und mailman gesendet.
-
-Schreiben kannst du dann an die Mailingliste mit: ``[dlug-list@dlug.de](mailto:dlug-list@dlug.de)``
 
 
 $</article>
