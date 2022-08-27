@@ -12,7 +12,7 @@ $<article>
 ==== Vorstellungsrunde
 
 => http://www.querulantin.de/Vortraege/ Princess Webseite mit Ihren Vorträgen zu digitalem Fußabdruck und wie man sich im Netz vor Überwachung und Stalkern schützt
-=> https://www.shackspace.de/ - shack - der Stuttgart Hackerspace
+=> https://www.shackspace.de/ … shackspace - der Stuttgart Hackerspace
 => https://wolkenbruch.net/ Alexanders Informationen zu Datenschutz, Datensicherheit und Schutz der Privatsphäre
 => https://jugendlich.digital/ (L-)Fabians jugendlich.digital Webseite mit spannenden Themen von 3D-Druck bis Wärmebilder
 => https://metalune.xyz/ "metalune's dungeon of pleasure" mit vielen spannenden Projekten und Themen
@@ -30,15 +30,17 @@ Tunnel-Dienste und Software um Dienste von daheim zu betreiben:
 => https://github.com/anderspitman/awesome-tunneling Eine umfangreiche Liste von solchen Tunnel-Lösungen
 => https://www.wireguard.com/ Wireguard - ein klassisches VPN mit dem man sich das selbst bauen kann
 
-Raspberry Pi Alternativen (unvollständige List:
+Raspberry Pi Alternativen (unvollständige Liste):
 => http://www.orangepi.org/ Orange Pi
 => https://www.pine64.org/ Single Board Computer von Pine64
 => https://www.olimex.com/Products/OLinuXino/open-source-hardware OLinuXino - Open Source Hardware Single Boards
 
+Sonstiges
+
 => https://github.com/rhboot/shim shim, a first-stage UEFI bootloader
 
 => https://taler.net/de/ Das Bezahlsystem *GNU Taler* ermöglicht das schnelle und einfache Geldüberweisen mit Datenschutz und hoher technischer Sicherheit.
-=> https://gnulinux.ch/gln020-podcast - GNU Taler im Podcast
+=> https://gnulinux.ch/gln020-podcast … GNU Taler im Podcast
 => https://wolkenbruch.net/snowden_nth.html "Zu argumentieren, dass Ihnen das Recht auf Privatsphäre gleichgültig ist, weil Sie nichts zu verbergen haben, ist nicht anders als zu sagen, dass Ihnen die Redefreiheit gleichgültig ist, weil Sie nichts zu sagen haben." – Edward Snowden
 => https://sibylleberg.com/buecher/grm-brainfuck Buchempfehlung: "GRM - Brainfuck" von Sibylle Berg über Überwachungsdiktatur, Autokratie, Menschen und Revolution.
 => https://zwiebelfreunde.de/ Um für Tor zu spenden am besten an die Zwiebelfreunde
@@ -50,18 +52,16 @@ Raspberry Pi Alternativen (unvollständige List:
 
 => https://git.sr.ht/~rjarry/aerc/ aerc - Ein moderner, ziemlich guter TUI E-Mail-Client
 => http://www.beedub.com/exmh/ Exmh - ein klassische GUI E-Mail-Client
-=> Alexander sagt:https://www.oreilly.com/openbook/mh/figs/exmdis.gif - Exmh Screenshot, ca. 1994 (O'Reilly)
-=> Alexander sagt:https://www.heise.de/imgs/18/3/4/7/7/2/7/exmh-0de405ab4cee1c54.gif - Exmh Screenshot, ca. 1998 (Heise)
+=> Alexander sagt:https://www.oreilly.com/openbook/mh/figs/exmdis.gif … Exmh Screenshot, ca. 1994 (O'Reilly)
+=> Alexander sagt:https://www.heise.de/imgs/18/3/4/7/7/2/7/exmh-0de405ab4cee1c54.gif … Exmh Screenshot, ca. 1998 (Heise)
 
-=> https://www.libravatar.org/ Libravatar -Eine Freie Avatar Service (Alternative zu Gravatar)
+=> https://www.libravatar.org/ Libravatar - Eine Freie Avatar Service (Alternative zu Gravatar)
 => https://freiheitsrechte.org/ Gesellschaft für Freiheitsrechte
 => https://www.freepascal.org/ Freepascal - Open source compiler for Pascal and Object Pascal
 => https://www.lazarus-ide.org/ Lazarus - Eine freie Pascal IDE (für Freepascal)
 
 
-
-
-@last_change:2022-MM-DD
+@last_change:2022-08-26
 @author:Alexander
 +../article-end.in
 +../footer.in

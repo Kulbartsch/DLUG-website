@@ -1,9 +1,18 @@
 @page:Themen
 +header.in
 $<article>
-=== Aktivitäten und Projekte unserer Gruppe
+=== Themen
 
 * [[Über LUGs|/projekte/lug.html]]
+* [[Hinweise für Linux-Einsteiger|/projekte/linux.html]]
+* [[Infos zu Gemini|/projekte/gemini.html]] - einem Internet-Protokoll, welches eine leichtgewichtigere Alternative zum Web ist.
+
+=== Tips und Tricks
+
+* [[Dateisystem Verschlüsselung mit fscrypt|/projekte/fscrypt.html]]
+
+=== Aktivitäten und Projekte unserer Gruppe
+
 * [MediaWiki to LaTeX converts Wiki pages to LaTeX and PDF](https://mediawiki2latex.wmflabs.org/) von Dirk.
 * [Another Static WebSite Generator](https://github.com/Kulbartsch/AStaticWebSiteGenerator) mit dem auch die DLUG.de erstellt ist. (von Alexander)
 * Die Webseite von [Mechtilde](https://mechtilde.de/).
@@ -11,14 +20,9 @@ $<article>
   Zusammen mit freiwilligen Helfern macht er [The Simple Web Project](https://simple-web.org/), \
   welches privatsphärenfreundliche Versionen von Web-Diensten ohne Bloat erstellt.
 
-
 === Aktivitäten der uns nahestehenden Gruppen und Menschen
 
 * Ein weitere Liste von Aktivitäten der [Freien Software Freunde](https://freie-software.org/verein/aktivitaeten.html)
-
-=== Tips und Tricks
-
-* [[Dateisystem Verschlüsselung mit fscrypt|/projekte/fscrypt.html]]
 
 === Sonstige interessante Themen
 

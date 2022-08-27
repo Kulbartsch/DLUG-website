@@ -1,4 +1,4 @@
-@article-name:DLUG online Treffen vom 2021-09-09
+@article-name:2021-09-09 - DLUG online Treffen vom
 @article-link:/archiv/2021-09-09_DLUG_Treffen.html
 (cond-if-set teaser
 * [{{article-name}}]({{article-link}})

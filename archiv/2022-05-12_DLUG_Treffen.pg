@@ -53,26 +53,8 @@ Ein schön bebildertes, modernes Märchen, das die Freude am Tüfteln vermittelt
 Geschrieben hat das Buch Matthias Kirschner &ndash; [Präsident der Free Software Foundation Europe](https://fsfe.org/about/people/kirschner/) &ndash;
 und [Sandra Brandstätter](http://sandra-brandstaetter.com/) hat das Buch illustriert. (ISBN 978-3-96009-190-5)
 
-
 ==== Projekt Gemini
-\*Gemini* ist ein neues Internet-Protokoll, welches umfangreicher als //Gopher// ist, aber leichtgewichtiger als das //Web//.
-* Statt //WWW// wird das Gemini-Netzwerk //GeminiSpace// genannt.
-* Gemini auf [Wikipedia](https://de.wikipedia.org/wiki/Geminispace)
-* [Was ist Gemini?](https://was-ist-gemini.de/)
-* Die Projektseite ist [gemini.circumlunar.space](https://gemini.circumlunar.space/)
-* Eine Gemini Portal/Startseite ist [admin.flounder.online](https://admin.flounder.online/). \
-  Hier der [Gemini-Link](gemini://gemini.circumlunar.space/).
-* Ein deutscher [c't Artikel zu Gemini](https://www.heise.de/hintergrund/Minimalistisches-Internet-Projekt-Gemini-als-Retro-Web-5065097.html?seite=all).
-* [Lagrange](https://flathub.org/apps/details/fi.skyjake.Lagrange) ist ein schöner Gemini-Client. ([GitHub](https://github.com/skyjake/lagrange))
-* [Agregore](https://agregore.mauve.moe/) wurde initial als Webbrowser für Peer-to-Peer Protokolle, \
-  wie [HYPER](https://hypercore-protocol.org/) oder [IPFS](https://ipfs.io/), entwickelt. \
-  Inzwischen entwickelt er sich zu einem [Multiprotokollbrowser](https://agregore.mauve.moe/protocols) weiter, \
-  der unter anderem Gemini unterstützt.
-* [Castor](https://sr.ht/~julienxx/Castor/) ist ein in Rust/GTK programmierter Client, der Gemini, Gopher und das Finger-Protokoll unterstützt.
-* [Amfora](https://github.com/makeworld-the-better-one/amfora) ist ein Gemini-Client für das Terminal.
-* Ebenfalls für die Nutzung im Terminal ist [Bombadillo](https://bombadillo.colorfield.space/). \
-  Der Browser unterstützt neben Gemini auch Gopher und Finger.
-
+Es gibt nun eine DLUG [[Gemini-Project Seite|/projekte/linux.html]] auf der Informationen gesammelt werden.
 
 ==== Erfahrungsbericht zu Fritz!-Box und statischer IP
 * Die Konfiguration neuer Fritz!-Box-Router hat sich geändert. \

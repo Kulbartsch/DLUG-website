@@ -122,6 +122,8 @@ Das ist total einfach, z.B. mit:
 
 ### Python
 
+Alternativ für Python als Webserver, ersetze Schritt 3 mit:
+
 * `python[3] -m http.server 8910`
 
 oder
@@ -130,7 +132,12 @@ oder
 
 ### Node.js
 
+Alternativ für den node.js http-server als Webserver, ersetze Schritt 1 mit: 
+
 * Installiere http-server mit `npm install -g http-server`
+
+Und Schritt 3 mit:
+
 * Starte den Server mit `http-server -p 8910`
 
 ### darkhttpd

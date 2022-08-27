@@ -1,4 +1,4 @@
-@article-name:Freie Software Freunde und DLUG live Treffen vom 2021-09-29
+@article-name:2021-09-29 - DLUG und Freie Software Freunde Live Treffen
 @article-link:/archiv/2021-09-29_FS_DLUG_Treffen.html
 (cond-if-set teaser
 * [{{article-name}}]({{article-link}})

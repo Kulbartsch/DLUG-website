@@ -1,0 +1,57 @@
+@page:Gemini
++../header.in
+$<article>
+=== Projekt Gemini
+
+\*Gemini* ist ein neues Internet-Protokoll, welches umfangreicher als //Gopher// ist, aber leichtgewichtiger als das //Web//.
+* Statt //WWW// wird das Gemini-Netzwerk //GeminiSpace// genannt.
+* Aus //Webseiten// werden //Capsules//.
+* Gemini unterstützt auch Feeds, ähnlich wie RSS. Diese werden //Gemlog// genannt.
+
+* Gemini auf [Wikipedia](https://de.wikipedia.org/wiki/Geminispace)
+* [Was ist Gemini?](https://was-ist-gemini.de/)
+* Die Projektseite ist [gemini.circumlunar.space](https://gemini.circumlunar.space/)
+* Eine Gemini Portal/Startseite ist [admin.flounder.online](https://admin.flounder.online/).
+* Ein deutscher [c't Artikel zu Gemini](https://www.heise.de/hintergrund/Minimalistisches-Internet-Projekt-Gemini-als-Retro-Web-5065097.html?seite=all).
+
+==== Gemini-Space Browser (Clients)
+
+* [Lagrange](https://flathub.org/apps/details/fi.skyjake.Lagrange) ist ein schöner Gemini-Client. ([GitHub](https://github.com/skyjake/lagrange))
+* [Agregore](https://agregore.mauve.moe/) wurde initial als Webbrowser für Peer-to-Peer Protokolle, \
+  wie [HYPER](https://hypercore-protocol.org/) oder [IPFS](https://ipfs.io/), entwickelt. \
+  Inzwischen entwickelt er sich zu einem [Multiprotokollbrowser](https://agregore.mauve.moe/protocols) weiter, \
+  der unter anderem Gemini unterstützt.
+* [Castor](https://sr.ht/~julienxx/Castor/) ist ein in Rust/GTK programmierter Client, der Gemini, Gopher und das Finger-Protokoll unterstützt.
+* [Amfora](https://github.com/makeworld-the-better-one/amfora) ist ein Gemini-Client für das Terminal.
+* Ebenfalls für die Nutzung im Terminal ist [Bombadillo](https://bombadillo.colorfield.space/). \
+  Der Browser unterstützt neben Gemini auch Gopher und Finger.
+
+==== Gemini Links
+
+Um die folgenden Links aufzurufen, musst du einen Gemini-Space-Browser installiert haben
+und in deinem Web-Browser das Protocoll `gemini:` mit diesem verknüpft haben.
+
+Infos zu Gemini
+
+=> gemini://gemini.circumlunar.space/ Gemini Project Homepage
+=> gemini://geminiquickst.art/ Gemini Quickstart!
+=> gemini://gemini.circumlunar.space/docs/specification.gmi Gemini specification
+=> gemini://admin.flounder.online/ Flounder - Eine Gemini Portal/Startseite
+
+Einstiegs-Seiten
+
+=> gemini://geminispace.info/ Gemini-Space Suchmaschine
+=> gemini://calcuode.com/gmisub-aggregate.gmi Gemini Feed Aggregator
+=> gemini://gemi.dev/cgi-bin/waffle.cgi News-Waffle ist ein Proxy für News-Seiten aus dem Internet, aber ohne Bloat und Werbung.
+
+Homepages
+
+=> gemini://gemini.ctrl-c.club/ Ctrl-C.club's Gemini server
+=> gemini://metalune.xyz/ metalune's dungeon of pleasure
+=> gemini://capsule.usebox.net/ reidrac's capsule
+
+
+@last_change:2022-08-27
+@author:Alexander
++../article-end.in
++../footer.in

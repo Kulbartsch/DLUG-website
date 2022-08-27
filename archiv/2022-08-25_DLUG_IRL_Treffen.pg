@@ -1,0 +1,27 @@
+@article-name:2022-08-25 - DLUG Live Treffen
+@article-link:/archiv/2022-08-25_DLUG_IRL_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Bei diesem Live Treffen waren wir, über den Abend verteilt, neun Teilnehmer·innen.
+Bei knapp 30°C haben wir diverse kühle Getränke genossen und uns gut Unterhalten,
+ein Teil waren die unterhaltsammen Vorträge von Dylan Beattie (englisch):
+
+=> https://invidious.snopyta.org/watch?v=6avJHaC3C2U The Art of Code
+=> https://invidious.snopyta.org/watch?v=_mZBa3sqTrI Plain Text
+
+Und ernster, von Jonathan Blow:
+
+=> https://www.youtube.com/watch?v=ZSRHeXYDLko "Preventing the Collapse of Civilization" . A discussion about how they make software and what this means.
+
+@last_change:2022-08-26
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

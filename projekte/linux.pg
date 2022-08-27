@@ -1,7 +1,10 @@
 @page:Linux
 +../header.in
 $<article>
-=== Warum Linux
+
+ *ACHTUNG! Die Seite ist in Arbeit und noch nicht vollständig!*
+
+; === Warum Linux
 
 
 === Mit Linux Anfangen
@@ -11,7 +14,7 @@ Diskussionen über die beste Linux Distribution (kurz Distro), die beste Desktop
 
 Für dich als Anfänger ist jede halbwegs normale Distro in Ordnung - fang einfach an.
 
-Die beste Distro für dich als Einsteiger ist vermutlich eh die, die dein·e Nachbar·in order Freund·in nutzt.
+Die beste Distro für dich als Einsteiger ist vermutlich eh die, die dein·e Nachbar·in order Freund·in nutzt (wenn diese nicht gerade besonders spezialisiert ist).
 
 Wenn du aber ziemlich neu dabei bist hilft dir vielleicht die Erklärung von ein paar Begriffen:
 
@@ -34,9 +37,9 @@ Genaugenommen wird aber bei jedem Betriebssystem in mehrere Komponenten untersch
   Daher kommt auch oft die Bezeichnung *GNU/Linux*.
 * Der *Anzeige-Server* (display server) ist bei Linux noch meist das [X Window System](https://de.wikipedia.org/wiki/X_Window_System), \
   wird aber (sehr) langsam durch [Waylnd](https://de.wikipedia.org/wiki/Wayland_(Display-Server-Protokoll)) ersetzt.
-* Der *Windowmanager*
+* Der *Windowmanager* verwaltet die Fenster.
 * Die *(Desktop-Umgebung)[https://de.wikipedia.org/wiki/Desktop-Umgebung]* bietet über den Window-Manager hinaus weitere Tools und Werkzeuge.
-* Die *Anwendungsprogramme*
+* Die *Anwendungsprogramme*.
 
 Die Grenzen zwischen den letzten vier Punkten ist dabei durchaus unscharf. Z.B. kann eine Dateimanager durchaus vom
 Windowmanager als auch von der Desktop-Umgebung bereitgestellt werden.
@@ -76,22 +79,62 @@ In diesem Fall solltest du darauf achten eine Linux-Distribution zu nehmen die b
 Ein Raspberry PI ist eine günstige Möglichkeit Linux einfach auf einem eigenen Computer auszuprobieren und zu nutzen
 Mit einem Pi kann man durchaus alltägliche Aufgaben erledigen
 
-Da kannst du ganz leicht installieren, schaue einfach hier: ...
+;Das kannst du ganz leicht installieren, schaue einfach hier: ...
 
-=== Welches Linux?
+==== Welches Linux?
+
+Welcher Nutzer Typ bist du?
+* Nutzer: Du möchtest einfach mit Linux arbeiten möchte, ohne viel Einarbeitung in Linux.
+* Gamer: Du möchtest Spielen, und hast vielleicht auch einen Steam Account? Dann sollte Dein Linux möglichst aktuell sein und bleiben.
+* Hacker: Du möchtest hacken lernen.
+* Nerd: Du möchtest dich tief in Linux einarbeiten und alle Grundlagen lernen
+* Neue Hardware: Dann sollte Dein Linux möglichst aktuell sein und bleiben
+* Server: Du möchtest ein stabiles und kompaktes Linux für Server oder Container haben
+
+@ASWSG-TABLE-ALIGNMENT:LCCCCCCCC
+| Distribution                                            | Nutzer | Gamer | Hacker | Nerd | Neue Hardware | schwache HW | Server |
+| Mint                                                    | ++     | +     | o      | o    | +             | o           | --     |
+| Manjaro                                                 | ++     | ++    | +      | o    | ++            | o           | -      |
+| Fedora                                                  | +      | +     | +      | o    | +             | o           | o      |
+| Arch                                                    | -      | o     | o      | ++   | ++            | +           | -      |
+| Debian                                                  | +      | -     | +      | +    | --            | +           | ++     |
+| Kali                                                    | --     | --    | ++     | +    | o             | -           | --     |
+| [Parrot](https://parrotsec.org/)                        | --     | --    | ++     | +    |               | -           | --     |
+| [Alpine](https://www.alpinelinux.org/)                  | -      | -     | +      | +    | o             | ++          | ++     |
+| [Linux From Scratch](https://www.linuxfromscratch.org/) | --     | -     | +      | ++   |               | +           | -      |
+; TODO: CSS für Tabelle
+
+ //Ja, die Liste ist nicht vollständig und subjektiv!//
+; TODO: Links zu alternativen Entscheidungsfindungen heise-netzplan, gnuliuxch, distrochooser
+
+==== Welchen Window-Manager/Desktop?
+
+Zum einstieg erst mal einen Normalen wie:
+* Gnome
+* KDE Plasma
+* Xfce
+* Mate (basiert auf Gnome 2)
+* Cinnamon (basiert auf Gnome 3)
 
 
-=== Spielen unter Linux
+==== Wie soll ich einsteigen?
 
+Zuerst installierst du das ISO-Image auf einem USB Stick.
+Das geht am einfachsten mit [balenaEtcher](https://www.balena.io/etcher/).
 
-=== Besondere Linux Distributionen
+# Erst mal kann man eine Linux-Distro meist direkt vom Stick ausprobieren ohne diese zu installieren. \
+  Es können dann aber keine Änderungen oder Daten gespeichert werden.
+# Du kannst Linux in einer Virtuellen Maschine ausprobieren, z.B. [VirtualBox](https://www.virtualbox.org/)
+# Da Linux wenig Ressourcen braucht, kann man es auch auf einem alten Rechner ausprobieren
+# Wenn du es als Haupt-System installierst, kannst du auch Windows in einer Virtuellen Maschine unter Linux installieren.
 
-*
+==== Besondere Linux Distributionen
 
-=== Quellen zum durchstarten
+* [KNOPPIX-ADRIANE](https://www.knopper.net/knoppix-adriane/index.html) ist ein einfach zu benutzendes, sprechendes Desktop-System mit optionaler Braille-Unterstützung, das auch völlig ohne visuelle Ausgabegeräte auskommt.
 
-==== Videos
+==== Quellen zum durchstarten
 
+;==== Videos
 
 ==== Podcasts
 
