@@ -91,19 +91,19 @@ Welcher Nutzer Typ bist du?
 * Neue Hardware: Dann sollte Dein Linux möglichst aktuell sein und bleiben
 * Server: Du möchtest ein stabiles und kompaktes Linux für Server oder Container haben
 
-Mit der folgenden Tabelle kannst du nun etwa abschätzen, welches Linux für dich geeignet ist.
+Mit der folgenden Tabelle kannst du nun etwa abschätzen, welche GNU/Linux-Distribution für dich geeignet ist.
 
 @ASWSG-TABLE-ALIGNMENT:LCCCCCCCC
-| Distribution                                            | Nutzer | Gamer | Hacker | Nerd | Neue Hardware | schwache HW | Server |
+| Distribution                                            | Nutzer | Gamer | Hacker | Nerd | neue Hardware | schwache HW | Server |
 | Mint                                                    | ++     | +     | o      | o    | o             | o           | --     |
-| Manjaro                                                 | ++     | ++    | +      | o    | ++            | o           | -      |
-| Fedora                                                  | +      | +     | +      | o    | +             | o           | o      |
-| Arch                                                    | -      | o     | o      | ++   | ++            | +           | -      |
-| Debian                                                  | +      | -     | +      | +    | --            | +           | ++     |
+| Manjaro                                                 | ++     | ++    | o      | o    | ++            | o           | -      |
+| Fedora                                                  | +      | +     | o      | o    | +             | o           | o      |
+| Arch                                                    | -      | o     | +      | ++   | ++            | +           | -      |
+| Debian                                                  | +      | -     | o      | +    | --            | +           | ++     |
 | Kali                                                    | --     | --    | ++     | +    | o             | -           | --     |
 | [Parrot](https://parrotsec.org/)                        | --     | --    | ++     | +    |               | -           | --     |
-| [Alpine](https://www.alpinelinux.org/)                  | -      | -     | +      | +    | o             | ++          | ++     |
-| [Linux From Scratch](https://www.linuxfromscratch.org/) | --     | -     | +      | ++   |               | +           | -      |
+| [Alpine](https://www.alpinelinux.org/)                  | -      | -     | -      | +    | o             | ++          | ++     |
+| [Linux From Scratch](https://www.linuxfromscratch.org/) | --     | -     | o      | ++   |               | +           | -      |
 ; TODO: CSS für Tabelle
 
  //Ja, die Liste ist nicht vollständig und subjektiv!//
