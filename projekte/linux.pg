@@ -2,7 +2,7 @@
 +../header.in
 $<article>
 
- *ACHTUNG! Die Seite ist in Arbeit und noch nicht vollständig!*
+ *ACHTUNG! Die Seite ist eine erste Beta-Version!*
 
 ; === Warum Linux
 
@@ -38,7 +38,7 @@ Genaugenommen wird aber bei jedem Betriebssystem in mehrere Komponenten untersch
 * Der *Anzeige-Server* (display server) ist bei Linux noch meist das [X Window System](https://de.wikipedia.org/wiki/X_Window_System), \
   wird aber (sehr) langsam durch [Waylnd](https://de.wikipedia.org/wiki/Wayland_(Display-Server-Protokoll)) ersetzt.
 * Der *Windowmanager* verwaltet die Fenster.
-* Die *(Desktop-Umgebung)[https://de.wikipedia.org/wiki/Desktop-Umgebung]* bietet über den Window-Manager hinaus weitere Tools und Werkzeuge.
+* Die *[Desktop-Umgebung](https://de.wikipedia.org/wiki/Desktop-Umgebung)* bietet über den Window-Manager hinaus weitere Tools und Werkzeuge.
 * Die *Anwendungsprogramme*.
 
 Die Grenzen zwischen den letzten vier Punkten ist dabei durchaus unscharf. Z.B. kann eine Dateimanager durchaus vom
@@ -91,9 +91,11 @@ Welcher Nutzer Typ bist du?
 * Neue Hardware: Dann sollte Dein Linux möglichst aktuell sein und bleiben
 * Server: Du möchtest ein stabiles und kompaktes Linux für Server oder Container haben
 
+Mit der folgenden Tabelle kannst du nun etwa abschätzen, welches Linux für dich geeignet ist.
+
 @ASWSG-TABLE-ALIGNMENT:LCCCCCCCC
 | Distribution                                            | Nutzer | Gamer | Hacker | Nerd | Neue Hardware | schwache HW | Server |
-| Mint                                                    | ++     | +     | o      | o    | +             | o           | --     |
+| Mint                                                    | ++     | +     | o      | o    | o             | o           | --     |
 | Manjaro                                                 | ++     | ++    | +      | o    | ++            | o           | -      |
 | Fedora                                                  | +      | +     | +      | o    | +             | o           | o      |
 | Arch                                                    | -      | o     | o      | ++   | ++            | +           | -      |
@@ -109,13 +111,12 @@ Welcher Nutzer Typ bist du?
 
 ==== Welchen Window-Manager/Desktop?
 
-Zum einstieg erst mal einen Normalen wie:
+Als Einsteiger beginne erst mal mit einem normalen Desktop wie:
 * Gnome
 * KDE Plasma
 * Xfce
 * Mate (basiert auf Gnome 2)
 * Cinnamon (basiert auf Gnome 3)
-
 
 ==== Wie soll ich einsteigen?
 
@@ -133,7 +134,7 @@ Das geht am einfachsten mit [balenaEtcher](https://www.balena.io/etcher/).
 * [KNOPPIX-ADRIANE](https://www.knopper.net/knoppix-adriane/index.html) ist ein einfach zu benutzendes, sprechendes Desktop-System mit optionaler Braille-Unterstützung, das auch völlig ohne visuelle Ausgabegeräte auskommt.
 
 ==== Quellen zum durchstarten
-
+<br>
 ;==== Videos
 
 ==== Podcasts
