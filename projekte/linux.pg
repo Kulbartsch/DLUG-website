@@ -37,7 +37,7 @@ Genaugenommen wird aber bei jedem Betriebssystem in mehrere Komponenten untersch
   Daher kommt auch oft die Bezeichnung *GNU/Linux*.
 * Der *Anzeige-Server* (display server) ist bei Linux noch meist das [X Window System](https://de.wikipedia.org/wiki/X_Window_System), \
   wird aber (sehr) langsam durch [Waylnd](https://de.wikipedia.org/wiki/Wayland_(Display-Server-Protokoll)) ersetzt.
-* Der *Windowmanager* verwaltet die Fenster.
+* Der *[Fenster-Manager](https://de.wikipedia.org/wiki/Fenstermanager)* (window manager) verwaltet die Fenster.
 * Die *[Desktop-Umgebung](https://de.wikipedia.org/wiki/Desktop-Umgebung)* bietet über den Window-Manager hinaus weitere Tools und Werkzeuge.
 * Die *Anwendungsprogramme*.
 
@@ -56,10 +56,10 @@ sollte dich das nicht weiter belasten.
 Grundsätzlich kannst du mit praktisch jeder "normalen" Distribution anfangen,
 dort wirst du mit den üblichen Windowmanagern oder Desktop-Umgebungen gut zurecht kommen.
 
-==== Welches Gerät und welches Linux
-
 "Normal" soll bedeuten, dass es schon besondere Distributionen gibt, für spezielle Fälle oder
 welche neue Konzepte ausprobiert. In dem Fall musst du wirklich genau das passende Interesse dafür haben.
+
+==== Welches Gerät und welches Linux
 
 Um weiter auf die Frage der Distribution ein zu gehen,
 hier erst mal die Frage auf welchem Gerät du Linux nutzen möchtest?
@@ -132,6 +132,7 @@ Das geht am einfachsten mit [balenaEtcher](https://www.balena.io/etcher/).
 ==== Besondere Linux Distributionen
 
 * [KNOPPIX-ADRIANE](https://www.knopper.net/knoppix-adriane/index.html) ist ein einfach zu benutzendes, sprechendes Desktop-System mit optionaler Braille-Unterstützung, das auch völlig ohne visuelle Ausgabegeräte auskommt.
+; TODO: Tails
 
 ==== Quellen zum durchstarten
 <br>
