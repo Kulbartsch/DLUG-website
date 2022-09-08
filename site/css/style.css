@@ -201,4 +201,18 @@ pre {
     margin-top:          40px;
 }
 
+table {
+    border-collapse:     collapse;
+}
+
+th, td {
+    border-style:        solid;
+    border-width:        1px;
+    border-color:        var(--col_dark_blue);
+    padding-top:         3px;
+    padding-bottom:      0px;
+    padding-left:        5px;
+    padding-right:       5px;
+}
+
 /* EOF */

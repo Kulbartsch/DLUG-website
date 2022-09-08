@@ -1,0 +1,93 @@
+@article-name:2022-09-08 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2022-09-08_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Gleich zu Anfang unseres Treffens wurden wir von Nachrichten über den Tod von Queen Elizabeth überrollt.
+
+=> https://www.dw.com/de/britische-k%C3%B6nigin-elizabeth-ii-ist-tot/a-63060451 Queen Elizabeth II. sei mit 96 Jahren friedlich auf ihrem schottischen Landsitz Schloss Balmoral gestorben, teilte der Buckingham Palast mit.
+=> https://www.gala.de/royals/briten/sorge-um-queen-elizabeth--so-sehen-die-tage-nach-ihrem-tod-aus-22502076.html Das passiert jetzt in den Tagen nach ihrem Tod
+
+==== Rund um "News"
+
+=> https://www.makeuseof.com/linus-torvalds-announceslinux-5-19-released-on-apple-silicon/ Linus Torvalds Upstages Linux 5.19 Kernel Release By Announcing It on Apple Silicon-powered MacBook Air
+
+=> https://git.sr.ht/~metalune/goreader goreader - Ein einfaches CLI-Tool, um deine aktuell ungelesenen Artikel von deinem GReader API kompatiblen RSS Server (wie FreshRSS) zu holen und mit ihnen zu interagieren - von metalune
+=> https://newsboat.org/ Newsboat - ein TUI RSS-Reader (ohne GReader API)
+
+=> https://www.mdr.de/nachrichten/podcast/kemfert-klima/index.html Kemferts Klima-Podcast - aktuell mit dem Thema "Wie teuer werden Strom und Gas im Winter?"
+
+=> https://sourcehut.org/ sourcehut ist eine gute GitHub Alternative - schnell und leichtgewichtig, ohne Javascript, aber mit Mailing-Lists und 'git send-email' Unterstützung.
+=> https://spacepub.space/videos/watch/ad258d23-0ac6-488c-83fc-2bacf578de3a How to use git.sr.ht's send-email feature [Video]
+
+=> https://netzpolitik.org/ Netzpolitik.org - eine sehr gute News-Seite (Vorsicht, Inhalte können deprimierend sein)
+=> https://netzpolitik.org/2022/smartwatches-fuer-schulkinder-quietschbunte-handschelle/ Quietschbunte Kinder-Handschellen (Netzpolitik.org)
+
+==== Tastaturen
+
+=> https://de.wikipedia.org/wiki/Dvorak-Tastaturbelegung Dvorak-Tastaturbelegung (Wikipedia)
+=> https://de.wikipedia.org/wiki/Neo_(Tastaturbelegung) Neo-Tastaturbelegung (Wikipedia)
+=> https://twiddler.tekgear.com/ Twiddler einhand Tastatur
+=> https://www.exideas.com/ME/index.php MessagEase Touch-Screen Tastatur
+=> https://www.cherry.de/cherry-g80-3000.html CHERRY G80-3000 Die robuste, zeitlose Tastatur
+
+==== FOMO
+
+=> https://www.aok.de/pk/magazin/koerper-psyche/psychologie/jomo-gegen-fomo-tipps-gegen-die-fear-of-missing-out/ FOMO (Fear of Missing out): Was kann man gegen die Angst, etwas zu verpassen, tun?
+
+==== Pi-hole
+
+=> https://pi-hole.net/ Pi-hole blockt Werbung im ganzen Netzwerk
+
+==== Musik
+
+=> https://haniarani.com/ Hania Rani Homepage
+=> https://www.arte.tv/de/videos/107064-002-A/hania-rani-beim-piano-day/ "Hania Rani gelingt es mit wenigen Noten, die Menschen zu berühren. Ein kleines Wunder, das sich ständig wiederholt, wie ihr Konzert beim Piano Day zeigt." (arte)
+=> https://youtu.be/J5oZ80Daduc Hania Rani live at Invalides, in Paris, France (YouTube)
+
+=> https://www.youtube.com/watch?v=zwJQE0HkYZw Yiruma - River Flows In You (YouTube)
+
+=> https://youtu.be/ktvTqknDobU  Imagine Dragons - Radioactive (YouTube)
+
+==== Arcane
+
+Von Musik kamen wir zu der wunderbaren Serie "Arcane".
+
+=> https://youtu.be/D9G1VOjN_84 Imagine Dragons x J.I.D - Enemy (from the series Arcane League of Legends)
+=> https://de.wikipedia.org/wiki/Arcane_(Fernsehserie) Arcane auf Wikipedia (DE)
+=> https://en.wikipedia.org/wiki/Arcane_(TV_series) Die englische Wikipedia hat etwas mehr Infos
+=> https://arcane.com/de-de/ Homepage zum Film
+=> https://www.netflix.com/de/title/81435684 Arcane ist auf Netflix zu finden
+=> https://www.imdb.com/title/tt11126994/ IMDB Bewertung 9,0 (von 10)
+=> https://www.rottentomatoes.com/tv/arcane_league_of_legends 100% Average Tomatometer - 96% Average Audience Score auf Rotten Tomatoes
+
+==== Manchmal braucht's Popcorn
+
+=> https://github.com/popcorn-official/popcorn-desktop Popcorn Time - A multi-platform, free software BitTorrent client that includes an integrated media player.
+
+==== Wikis
+
+=> https://twiki.org/ TWiki ist keine Empfehlung mehr
+=> https://de.wikipedia.org/wiki/Wiki_Wiki_Web Wiki Wiki Web war 1995 die erste Wiki-Website …
+=> https://de.wikipedia.org/wiki/Ward_Cunningham … entwickelt von Ward Cunningham
+=> https://en.wikipedia.org/wiki/Comparison_of_wiki_software Heute ist die Auswahl an Wikis sehr groß
+
+==== GPL Durchsetzung
+
+Manche Firmen haben eine seltsame Vorstellung wie die GPL erfüllt werden kann:
+Der GPL basierte Source Code könnte zu Arbeitszeiten im Büro in Shenzhen abgeholt werden.
+Da wird sich doch eine Nerd finden ... 😂
+=> https://piped.kavin.rocks/watch?v=Vj04MKykmnQ "Getting GPLv2 Compliance From A Chinese Company- In Person!"
+
+
+@last_change:2022-09-09
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

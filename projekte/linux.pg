@@ -65,17 +65,17 @@ Um weiter auf die Frage der Distribution ein zu gehen,
 hier erst mal die Frage auf welchem Gerät du Linux nutzen möchtest?
 
 ===== Ein normalen bis sehr guter PC?
-
+; TODO: verschieben zu "Welches Linux -> Nutzer"
 Da kannst du dich frei zwischen den Linux Distributionen entscheiden.
 
 ===== Einen altersschwachen PC?
-
+; TODO: verschieben zu "Welches Linux -> Schwache Hw"
 Damit sind "normale" Computer gemeint die älter als 10 Jahre sind und 2GB RAM oder weniger haben,
 oder besonders schwachbrüstig sind, wie z.B. NetBooks.
 In diesem Fall solltest du darauf achten eine Linux-Distribution zu nehmen die besonders schlank ist.
 
 ===== Einem Raspberry PI
-
+; TODO: verschieben zu "wie soll ich einsteigen"
 Ein Raspberry PI ist eine günstige Möglichkeit Linux einfach auf einem eigenen Computer auszuprobieren und zu nutzen
 Mit einem Pi kann man durchaus alltägliche Aufgaben erledigen
 
@@ -87,24 +87,24 @@ Welcher Nutzer Typ bist du?
 * Nutzer: Du möchtest einfach mit Linux arbeiten möchte, ohne viel Einarbeitung in Linux.
 * Gamer: Du möchtest Spielen, und hast vielleicht auch einen Steam Account? Dann sollte Dein Linux möglichst aktuell sein und bleiben.
 * Hacker: Du möchtest hacken lernen.
-* Nerd: Du möchtest dich tief in Linux einarbeiten und alle Grundlagen lernen
-* Neue Hardware: Dann sollte Dein Linux möglichst aktuell sein und bleiben
-* Server: Du möchtest ein stabiles und kompaktes Linux für Server oder Container haben
+* Nerd: Du möchtest dich tief in Linux einarbeiten und alle Grundlagen lernen.
+* Neue Hardware: Du setzt neueste Hardware ein, dann sollte Dein Linux möglichst aktuell sein und bleiben.
+* schwache Hardware: Ein alter/leistungsschwacher PC soll flüssig laufen, dann brauchst du eine schlanke Linux Distribution mit sparsamen Desktop.
+* Server: Du möchtest ein stabiles und kompaktes Linux für Server oder Container haben.
 
 Mit der folgenden Tabelle kannst du nun etwa abschätzen, welche GNU/Linux-Distribution für dich geeignet ist.
 
 @ASWSG-TABLE-ALIGNMENT:LCCCCCCCC
 | Distribution                                            | Nutzer | Gamer | Hacker | Nerd | neue Hardware | schwache HW | Server |
-| Mint                                                    | ++     | +     | o      | o    | o             | o           | --     |
-| Manjaro                                                 | ++     | ++    | o      | o    | ++            | o           | -      |
-| Fedora                                                  | +      | +     | o      | o    | +             | o           | o      |
-| Arch                                                    | -      | o     | +      | ++   | ++            | +           | -      |
-| Debian                                                  | +      | -     | o      | +    | --            | +           | ++     |
-| Kali                                                    | --     | --    | ++     | +    | o             | -           | --     |
-| [Parrot](https://parrotsec.org/)                        | --     | --    | ++     | +    |               | -           | --     |
+| [Linux Mint](https://linuxmint.com/)                    | ++     | +     | o      | o    | o             | o           | --     |
+| [Manjaro](https://manjaro.org/)                         | ++     | ++    | o      | o    | ++            | o/+         | -      |
+| [Fedora](https://getfedora.org/)                        | +      | +     | o      | o    | +             | o           | o      |
+| [Arch](https://archlinux.org/)                          | -      | o     | +      | ++   | ++            | +           | -      |
+| [Debian](https://www.debian.org/)                       | +      | -     | o      | +    | --            | +           | ++     |
+| [Kali](https://www.kali.org/)                           | --     | --    | ++     | -    | o             | -           | --     |
+| [Parrot](https://parrotsec.org/)                        | --     | --    | ++     | o    | o             | -           | --     |
 | [Alpine](https://www.alpinelinux.org/)                  | -      | -     | -      | +    | o             | ++          | ++     |
-| [Linux From Scratch](https://www.linuxfromscratch.org/) | --     | -     | o      | ++   |               | +           | -      |
-; TODO: CSS für Tabelle
+| [Linux From Scratch](https://www.linuxfromscratch.org/) | --     | -     | o      | ++   | o             | +           | -      |
 
  //Ja, die Liste ist nicht vollständig und subjektiv!//
 ; TODO: Links zu alternativen Entscheidungsfindungen heise-netzplan, gnuliuxch, distrochooser
@@ -133,11 +133,15 @@ Das geht am einfachsten mit [balenaEtcher](https://www.balena.io/etcher/).
 
 * [KNOPPIX-ADRIANE](https://www.knopper.net/knoppix-adriane/index.html) ist ein einfach zu benutzendes, sprechendes Desktop-System mit optionaler Braille-Unterstützung, das auch völlig ohne visuelle Ausgabegeräte auskommt.
 ; TODO: Tails
+; TODO: Raspberry Pi Images für Heim-Autom, Musik+Mediaplayer, Pi-Hole, Server, ...
 
-==== Quellen zum durchstarten
-<br>
-;==== Videos
+==== Quellen zum durchstarten und informieren
 
+Der Fokus liegt auf deutschsprachigen Quellen.
+
+;===== Videos
+
+; TODO: CSS für Header Level 5
 ===== Podcasts
 
 * [GnuLinuxNews-Podcast](https://linuxnews.de/category/podcast/)
