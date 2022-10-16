@@ -1,0 +1,154 @@
+@article-name:2022-10-13 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2022-10-13_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Es began mit ...
+=> https://lists.debian.org/debian-devel/2022/09/msg00258.html Am 14. Oktober 2022 beginnt die Debian Bug Squashing Party (BSP) in Karlsruhe
+ ... womit wir zu folgendem kamen, dem
+
+==== Linux Distro-Naming
+
+=> https://de.wikipedia.org/wiki/Debian Debian bereitet also den Freeze für Bookworm vor. Das ist nach Buster und Bullseye das dritte "B"-Names-Release in Folge.
+=> https://de.wikipedia.org/wiki/Android_(Betriebssystem) Bei Android sind die Codenamen alphabetisch.
+=> https://de.wikipedia.org/wiki/Ubuntu Ebenso bei Ubuntu.
+
+==== Bahnfahren
+
+* Die Bahncard Prozente gelten auch für Regionalverkehr.
+=> https://www.tagesschau.de/inland/gesellschaft/49-euro-ticket-103.html Vielleicht kommt doch ein 49€ Ticket? (Tagesschau)
+=> https://www.heise.de/news/Ticket-7307590.html - Die Verkehrsminister des Bundes und der Länder haben sich wohl geeinigt. (heise)
+
+==== Shells
+
+=> https://www.zsh.org/ zsh ist cool,
+=> https://ohmyz.sh/ ... besonders mit "Oh My Zsh".
+=> https://www.gnu.org/software/bash/ Bash ist auch gut,
+=> https://ohmybash.nntoan.com/ ...und kann mit "Oh My BASH" gepimpt werden.
+
+* In der Bash und und zsh kann man mit `CTRL-R` kann man in der Historie suchen.
+* In der zsh kann man auch die ersten Zeichen eines Kommandos eingeben und mit den Cursortasten nach allem damit Beginnendem suchen.
+
+==== Linux, Window-Manager, Desktop-Environments und so
+
+=> https://archlinux.org/ Arch Linux "from scratch" installieren ist mühsam.
+=> https://manjaro.org/ Manjaro macht gute Arbeit mit seiner Arch basierten Distro.
+=> https://github.com/Manjaro-Sway/manjaro-sway Die Manjaro (ARM) Sway Version ist auch schön vorkonfiguriert.
+=> https://www.debian.org/ Debian ist auch an der Uni eine Referenz.
+
+=> https://xfce.org/ XFCE ist ein schlanker Window-Manger.
+=> https://kde.org/de/plasma-desktop/ KDE Plasma - eine gute, klassische Desktop-Umgebung.
+=> https://www.gnome.org/ Gnome - eine gute, klassische Desktop-Umgebung.
+=> https://ice-wm.org/ Es wurde gerade ein neues Release des schlanken IceWM veröffentlicht.
+=> https://wiki.debian.org/DebianJr Die Debian Jr. Distribution für Kids nutzt auch IceWM.
+=> https://swaywm.org/ Der tiling Window-Manager SWAY ist auch sehr schlank und nutzt ...
+=> https://wayland.freedesktop.org/ Wayland - eine moderen Alternative für X11.
+=> https://i3wm.org/ Der X11 basierte i3 Window-Manager ist Vorlage für Sway.
+
+=> https://www.tuxedocomputers.com/ Über 50% der Teilnehmer an diesem Abend nutzen TUXEDO Computer.
+
+ <br/>Kommentar Zu Debian auf Tuxedo, mit minimalen Treibern:
+> Es muss nicht alles perfekt laufen - Ich bin Linux-User.
+ <br/>
+
+=> https://github.com/pimutils/khal Khal ist ein standardbasiertes CLI- und Terminal-Kalenderprogramm, das mit CalDAV-Servern synchronisieren kann.
+
+=> https://de.wikipedia.org/wiki/Darwin_(Betriebssystem) Darwin ist der Kernel von macOS. \
+   Dieser soll die Vorteile eines monolithischen Kernels (basierend auf FreeBSD) \
+   mit den Vorteilen eines Microkernels (basierend auf Mach 3) verbinden.
+
+
+==== Programmiersprachen
+
+immer wieder gerne.
+
+=> https://de.wikipedia.org/wiki/C_(Programmiersprache) C rockt noch immer.
+=> https://isocpp.org/ C++ ist in den letzten Jahrzehnten recht gut geworden.
+=> https://www.gtkmm.org/en/ gtkmm - Ein C++ Interfaces for GTK and GNOME.
+=> https://www.qt.io/ QT für Cross-Platform (GUI) Entwicklung.
+=> https://go.dev/ Go ist recht schnell und einfach.
+=> https://fyne.io/ Fyne ist ein Cross-Platform GUI toolkit für Go.
+=> https://www.python.org/ Python ist langsam und verbraucht zu viele Ressourcen.
+=> https://de.wikipedia.org/wiki/Lisp Lisp ist immer noch eine sehr gute Programmiersprache - nur die (einfache) Syntax kann gewöhnungsbedürftig sein.
+=> https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs "SICP - Structure and Interpretation of Computer Programs" ist das Standard-Werk zu Lisp ...
+=> https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/ &nbsp;- bei MIT Press
+=> https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs &nbsp;- Artikel auf Wikipedia
+=> https://archive.org/details/pdfy-x0q2Q4K6h-gsWbes/page/n1/mode/2up &nbsp;- Download auf archive.org.
+=> https://kulbartsch.de/jumper/ Ein Algorithmus zur Lösung des Springer Problems implementiert in 7 Programmiersprachen. (von Alexander)
+
+==== Intermezzo
+
+=> https://www.gnu.org/software/emacs/ Der Klassiker - EMACS ist ein gutes Betriebssystem ...
+=> https://orgmode.org/ ... und Org-Mode rulez!
+=> http://www.orgzly.com/ Org-Mode for Android.
+=> https://www.latex-project.org/ Die Informatiker ander Uni Bonn verwenden LaTeX.
+=> https://www.gnu.org/software/hurd/ GNU Hurd wird bestimmt bald in Debian aufgenommen 😂 ...
+
+==== Linux Nutzung
+
+Dann haben wir etwas über die Verbreitung und Nutzung von Linux geredet.
+
+* Der Linux Anteil am Desktop sinkt gefühlt.
+* LUGs sind ein "Museums Verein".
+* Es gibt wenig Junge Leute, die sich für Linux interessieren.
+
+Linux User·innen sind:
+* Einfache Nutzer·innen, die nur einen Browser um mal eine Testverarbeitung für einen Brief brauchen. Da tut's halt.
+* Menschen die die coolen technischen Konzepte von Linux mögen.
+* User·innen, welche die Philosophie der "Freiheit" bzw. Freier Software wertschätzen.
+* Software-Entwickler·innen, die Linux als Entwicklungsplattform nutzen.
+
+Dazwischen gibt es viele Nutzer, die o.g. Ideen nicht interessieren und/oder mit ihrer Software an Windows oder macOS hängen bleiben.
+
+ &mdash;
+
+Im Nachgang habe ich Statistiken zu Linux auf dem Desktop recherchiert. Je nach Quelle gibt es deutliche Abweichungen.
+Linux auf dem Desktop scheint aber um die 2.x% zu liegen, in Deutschland aber ein vermutlich höher. Quellen:
+ [statista](https://www.statista.com/statistics/218089/global-market-share-of-windows-7/),
+ [Wikipedia](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems),
+ [statcounter](https://gs.statcounter.com/os-market-share/desktop/worldwide),
+ [Truelist](https://truelist.co/blog/linux-statistics/)
+
+==== Chat aka Messenger
+
+=> https://de.wikipedia.org/wiki/Matrix_(Kommunikationsprotokoll) Matrix - will manchmal nicht entschlüsseln.
+=> https://de.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol XMPP - zickt auch rum.
+Vielleicht mal eine funktionierende Verschlüsselung verwenden.
+=> https://profanity-im.github.io/ XMPP Profanity ist ein Terminal XMPP Client. Stefan hat dafür PGP Verschlüsselung (nach XEP-0373,374) implementiert.
+=> https://xmpp.org/extensions/xep-0027.html XEP-0027: Current Jabber OpenPGP Usage – ist obsolete.
+=> https://xmpp.org/extensions/xep-0373.html XEP-0373: OpenPGP for XMPP - ist aktuell aber noch experimental und Grundlage für
+=> https://xmpp.org/extensions/xep-0374.html XEP-0374: OpenPGP for XMPP Instant Messaging - ist aktuell aber gerade zurückgestellt.
+
+Der Status der OpenPGP Unterstützung (kurz *OX*) einzelner Clients:
+=> https://conversations.im/ Conversations - OpenPGP implementierung unklar (Java; APP; Android)
+=>   https://github.com/iNPUTmice/Conversations/issues/3813 &nbsp;&nbsp;→&nbsp;Quelle
+=> https://conversejs.org/ converse.js - Laut Wikipedia (s.u.) ja. (Javascript; WebApp; Web-Browser)
+=> https://dino.im/ Dino - Unterstützt nur den alten XEP-0027 OpenPGP Standard (Vala; GUI; Linux)
+=>   https://dino.im/blog/2020/01/dino-0.1-release/ &nbsp;&nbsp;→&nbsp;Quelle
+=> https://gajim.org/ Gajim - Ja! (Python; GUI GTK3; Linux, Windows, BSD-artige, macOS)
+=>   https://dev.gajim.org/gajim/gajim-plugins/-/wikis/OpenPGPplugin &nbsp;&nbsp;→&nbsp;Quelle
+=> https://monal-im.org/ Monal IM - Ja! (Objective-C, Swift; GUI; iOS, macOS)
+=>   https://monal-im.org/supportedxeps/ &nbsp;&nbsp;→&nbsp;Quelle
+=> https://profanity-im.github.io/ Profanity Ja! ☺ (C; console; Linux, FreeBSD, OpenBSD, macOS, Windows, Android via Termux)
+=>   https://profanity-im.github.io/xeps.html &nbsp;&nbsp;→&nbsp;Quelle
+=> https://psi-plus.com/ PSI+ - Kein OX (C++; Gui; Linux, macOS, Windows, FreeBSD)
+
+=> https://omemo.top/ Übersicht über den OMEMO Fortschritt bei XMPP-Clients.
+=> https://en.wikipedia.org/wiki/Comparison_of_XMPP_clients Eine Umfangreiche Vergleichsliste von XMPP-Clients. (Wikipedia EN)
+
+Matrix Server:
+=> https://www.ejabberd.im/ ejabberd - Empfehlung für größere Server.
+=> https://prosody.im/ Prosŏdy IM - Empfehlung für kleinere Server.
+
+
+@last_change:2022-10-14
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

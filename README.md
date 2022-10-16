@@ -115,7 +115,7 @@ Das ist total einfach, z.B. mit:
 1. Installiere das [Caddy](https://caddyserver.com/v2) Binary aus deiner Paketverwaltung,
    oder schaue [hier](https://caddyserver.com/docs/install).
 2. Im Terminal wechsel in das das site Verzeichnis `.../DLUG-website/site`.
-3. Starte caddy mit `caddy file-server -listen :8910`
+3. Starte caddy mit `caddy file-server --listen :8910`
 4. Öffne die lokale DLUG-Webseite mit [http://localhost:8910](http://localhost:8910).
 
 (Du kannst den Port 8910 natürlich durch einen Anderen ersetzen.)
