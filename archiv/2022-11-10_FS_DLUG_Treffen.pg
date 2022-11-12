@@ -1,0 +1,104 @@
+@article-name:2022-11-10 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2022-11-10_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+==== Aktuelles 
+
+Am 11. bis 13.11.2022 finden die 
+=> https://www.tux-tage.de/ Tux-Tage 2022 (online)
+und 
+=> https://wiki.das-labor.org/w/Labortage_2022 Labortage in Bochum (vom LABOR e.V. Hackerspace Bochum)
+statt. 
+
+---
+
+Themen des Abends waren ...
+
+==== Java
+
+=> https://www.oracle.com/java/technologies/downloads/#java17 Oracle unterteilt die Downloads nicht mehr in JDK (Java Development Kit) und Java Runtime. 
+=> https://adoptium.net/de/ Adoptium ist eine freie Java Entwicklungsumgebung und Runtime.
+
+
+==== China 
+
+* Wir haben einen Gast aus China, der von uns über eine Matrix Gruppe erfahren hat.
+* Die Matrix Gruppe [#videochat_deutsch:matrix.org](https://matrix.to/#/#videochat_deutsch:matrix.org) \
+  informiert über deutschsprachige Video-Chats, die frei zugänglich sind.
+
+
+=== Österreich 
+
+Wir hatten einige Gäste aus Österreich.
+
+* [Linux User Group in Vorarlberg](https://www.lugv.at/)
+* Der erste [GNU/LinuxDay in Vorarlberg](https://www.linuxday.at/) war 1999. 
+
+
+=== GnuPG & Smartcards
+
+=> https://www.gnupg.org/documentation/howtos.html#sec-1-3 GnuPG SmartcardHOWTO
+=> https://github.com/drduh/YubiKey-Guide drduhs YubiKey-Guide
+
+
+==== Spracherkennung 
+
+=> https://shop.nuance.de/store/nuanceeu/de_DE/Content/pbPage.home Die High-End Spracherkennung Dragon von Nuance macht Probleme.
+=> https://www.net-usb.com/virtual-usb/virtualbox-usb-passthrough/
+=> https://www.nuance.com/de-de/dragon/dragon-for-pc/home-edition.html
+=> http://dragon-spracherkennung.forumprofi.de/t3221f10-Word-Office-Pro-Plus-stuerzt-ab-friert-ein.html "Word (Office Pro 2016 Plus) stürzt ab/friert ein" (Anwenderforum für die Dragon-Spracherkennung)
+
+Alternativen:
+=> https://www.grundig-gbs.com/loesungen/workflow-diktieren/digtasoft-pro/ DigtaSoft Pro von Grundig (Windows)
+=> https://www.it-zoom.de/it-mittelstand/e/cortana-bitte-zum-diktat-17084/ "Cortana, bitte zum Diktat - Ein neues Addon für Microsoft Office integriert Cortana als Diktierfunktion. So schlägt sich das Tool im Vergleich mit der Profilösung Dragon Professional 15" (2017) - Windows
+=> https://alphacephei.com/vosk/ Vosk is a speech recognition toolkit
+=> https://www.wolfram.com/language/12/new-in-audio-processing/recognize-speech.html.de Sprache erkennen von Wolfram
+
+
+==== Fotos von iOS mit Linux synchronisieren
+
+=> https://docs.nextcloud.com/server/19/benutzerhandbuch/pim/sync_ios.html mit der eigenen Nextcloud
+=> https://www.photosync-app.com/de/index.html mit der PhotoSync-App.
+=> https://libimobiledevice.org/ A cross-platform FOSS library written in C to communicate with iOS devices natively.
+=> https://github.com/libimobiledevice/ifuse A fuse filesystem implementation to access the contents of iOS devices.
+
+
+==== Daten Café - Trink einen Kaffee mit deinen Daten
+
+=> https://opendata.ch/de/projekte/data-cafe/
+=> https://www.datacafe.ch/home-de
+
+
+==== Pflanzen / Gentechnik / Saatgut
+
+=> https://qph.cf2.quoracdn.net/main-qimg-b371a40d1e611f22d776b9dcfa50b06a-lq So sahen Bananen "früher" aus.
+=> https://schnelleinfachgesund-15d42.kxcdn.com/wp-content/uploads/Banane-Gentechnik-nein-DAnke-500x296.webp Noch ein Vergleich von Bananen heute und früher.
+=> https://www.gartenpaten.org/sites/default/files/public/styles/overlay/public/content/tipp/2017-02-08/samenfest.png?itok=66zQ59l6 Darstellung wie Hybride Früchte nur eine Generation "funktionieren"
+=> https://www.gruenertiger.de/shop/saatgut-alter-kulturpflanzen/fruchtgemuese/mais/2293/urmais-teosinte?c=49 Urmais
+=> http://www.mutbuergerdokus.de/html/aktionen/2022_02_19_mini-saatgutfestival-koeln.htm Kölner Saatgutfestival (MutbürgerDokus)
+=> https://s.yimg.com/os/creatr-uploaded-images/2022-02/f5497490-8dbd-11ec-bd5e-f676380172a6 Cashew am Baum
+=> https://en.wikipedia.org/wiki/Clerodendrum_trichotomum Erdnussbutterbaum
+
+==== Sonstiges
+
+=> https://www.spice-space.org/ PC fernsteuern mit SPICE
+=> https://noyb.eu/de NOYB setzt sich täglich für dein Recht auf Privatsphäre ein (NOYB wurde von Max Schrems gegründet)
+=> https://www.nicovideo.jp/ nicovideo.jp (ich habe keine Ahnung in welchem Kontext das kam)
+=> https://www.joelonsoftware.com/ Interessantes Blog über Software von Joel Spolsky, dem Gründer von Stack-Exchange
+=> https://workadventu.re/ Virtuelle Meetings mit Workadventure (OSS) – wird gerne bei Hacker-Online-Events verwendet
+=> https://sonomotors.com/de/ Sion, ein Auto mit Solarzellen – damit kann das Fahrzeug durchschnittlich 112 km pro Woche zusätzliche Reichweite durch Sonnenenergie gewinnen.
+=> https://twistednut.de/ "Twisted Nut" – Erdnussbutter aus Berlin.
+
+
+@last_change:2022-11-11
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end
