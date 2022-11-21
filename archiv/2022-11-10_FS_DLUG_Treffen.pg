@@ -9,6 +9,7 @@ $<article>
 
 === {{article-name}}
 
+;;;
 ==== Aktuelles 
 
 Am 11. bis 13.11.2022 finden die 
@@ -18,7 +19,7 @@ und
 statt. 
 
 ---
-
+;;;
 Themen des Abends waren ...
 
 ==== Java
@@ -61,6 +62,9 @@ Alternativen:
 => https://alphacephei.com/vosk/ Vosk is a speech recognition toolkit
 => https://www.wolfram.com/language/12/new-in-audio-processing/recognize-speech.html.de Sprache erkennen von Wolfram
 
+Nach dem Online-Treffen noch nachgeliefert:
+=> https://mycroft.ai/ Mycroft AI
+=> https://jasperproject.github.io/ "Jasper is an open source platform for developing always-on, voice-controlled applications" – ein Sprach-Assistent
 
 ==== Fotos von iOS mit Linux synchronisieren
 
