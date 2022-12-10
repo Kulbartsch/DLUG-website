@@ -1,0 +1,197 @@
+@article-name:2022-12-08 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2022-12-08_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== bla
+* Lorem [externer link](https://meshtastic.org/)
+* Ipsum
+
+==== sowieso
+* DLUG Homepage [[interner link name|https://dlug.de]]
+
+
+==== Das Jahr 2038 Problem 
+
+=> https://de.wikipedia.org/wiki/Jahr-2038-Problem Jahr-2038-Problem
+Das Jahr 2063 ist eine Primzahl
+Januar 2038 ist ein 32 Bit Overflow für Das
+
+
+==== Kult Filme 
+
+Im wesentlichen haben wir uns über das SciFi und Cyberpunk Genre ausgetauscht.
+
+=> https://de.wikipedia.org/wiki/Raumpatrouille_%E2%80%93_Die_phantastischen_Abenteuer_des_Raumschiffes_Orion Raumpatrouille Orion aka Raumschiff Orion (1966)
+=> https://de.wikipedia.org/wiki/Star_Trek Die "Star Trek" Serien (1966 ff)
+=> https://memory-alpha.fandom.com/wiki/Sela Sela ist die Mutter von Natasha Yar (und die gleiche Schauspielerin)
+=> https://de.wikipedia.org/wiki/Star_Trek:_Picard "Star Trek: Picard" ist eher kein typischer Star Trek. 
+=> https://de.wikipedia.org/wiki/Star_Trek:_Discovery Auch "Star Trek: Discovery" kommt nicht so gut bei den Zuschauern an. (Die Zuschauerwertung bei Rotten Tomatoes liegt nur bei 38%, was gegenwärtig den schlechtesten Wert einer Star-Trek-Serie darstellt)
+* Ausstrahlung der 1. Star Trek Folge: 8. September 1966 
+* Ausstrahlung der 1. Raumpatrouille Orion Folge: 17. September 1966
+=> https://de.wikipedia.org/wiki/Blade_Runner Blade Runner
+=> https://www.gog.com/game/blade_runner?pp=22d200f8670dbdb3e253a90eee5098477c95c23d
+=> https://www.youtube.com/watch?v=adjfTktpIzg Blade Runner - re:View (Youtube)
+=> https://de.wikipedia.org/wiki/Blade_Runner_2049 "Blade Runner 2049" Sequel (2017)
+
+=> https://www.marjolijndijkman.com/?rd_project=164&lang=en "Wandering through the Future" - Ein Film mit Szenen aus Science Fiction Filmen die chronologisch entsprechend deren Handlungsrahmen angeordnet ist,
+=> https://www.marjolijndijkman.com/old/app/webroot/img/uploads/file/timeline.pdf dort ist auch ein PDF mit der Timeline zu finden. 
+
+
+=> https://www.werstreamt.es/ Bei werstreamt.es kann man herausfinden wo eine Film oder Serie im Stream ist. 
+
+—
+2007
+
+
+=> https://de.wikipedia.org/wiki/2001%3A_Odyssee_im_Weltraum
+
+=> https://www.marjolijndijkman.com/old/app/webroot/img/uploads/file/timeline.pdf
+
+=> https://de.wikipedia.org/wiki/%E2%80%A6_Jahr_2022_%E2%80%A6_die_%C3%BCberleben_wollen
+
+=> https://memory-alpha.fandom.com/wiki/Portal:Main
+
+
+
+=> https://de.wikipedia.org/wiki/Westworld_(Fernsehserie)
+
+=> https://www.heroines-of-sound.com/festival-2022/ Frauen und Synthesizer-Musik
+
+=> https://de.wikipedia.org/wiki/Dark_Star_(Film)
+
+=> https://www.google.de/url?sa=i&url=https%3A%2F%2Fmemory-alpha.fandom.com%2Fwiki%2FSela&psig=AOvVaw2T5dw6NdVPotZK3YjLhUoD&ust=1670615260087000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKiKwfvk6vsCFQAAAAAdAAAAABAE
+
+=> https://memory-alpha.fandom.com/wiki/Sela
+
+=> https://www.youtube.com/watch?v=KaOC9danxNo
+
+=> https://de.wikipedia.org/wiki/Der_Tag,_an_dem_die_Erde_stillstand_(1951)
+
+=> https://de.wikipedia.org/wiki/Django_(1966)
+
+=> https://de.wikipedia.org/wiki/Django_Unchained
+
+=> https://www.werstreamt.es/
+
+=> https://typesetinthefuture.com/2014/12/01/alien/
+
+
+=> https://de.wikipedia.org/wiki/Unheimliche_Begegnung_der_dritten_Art Unheimliche Begegnung der dritten Art (1977, Regie Seven Spielberg)
+
+=> https://archive.org/details/Programming_the_Z-80_2nd_Edition_1980_Rodnay_Zaks/page/n5/mode/2up
+
+
+==== Kult Bücher
+
+=> https://de.wikipedia.org/wiki/Tr%C3%A4umen_Androiden_von_elektrischen_Schafen%3F "Träumen Androiden von elektrischen Schafen?" ist der Roman auf dem Blade Runner basiert.
+=> https://en.wikipedia.org/wiki/Cryptonomicon
+=> https://de.wikipedia.org/wiki/Van-Eck-Phreaking
+=> https://en.wikipedia.org/wiki/Neuromancer
+=> http://zlibrary24tuxziyiyfr7zd46ytefdqbqd2axkmxm4o5374ptpc52fad.onion/ zlibrabry
+
+
+#### 
+
+=> https://mediawiki2latex.wmflabs.org/
+
+
+https://dlug.de/archiv/2022-01-13_DLUG_Treffen.html
+
+https://dlug.de/archiv.html
+
+=> https://dlug.de/projekte/gemini.html Wir haben uns wieder über das Schlanke Gemini Protokoll unterhalten. Dazu gibt es schon einen eigenen Artikel auf DLUG.de. 
+
+=> https://github.com/jgm/pandoc/issues/6747 -> Gemini Export per pandoc - fehlt
+=> https://git.sr.ht/~kr1sp1n/awesome-gemini#tools
+
+=> https://pandoc.org/ Dabei ist uns aufgefallen, dass es kein PanDoc Plugin für GemText gibt.
+
+
+In Orgmode (EMACS) kann man so was machen:
+%%%
+foo bar @@html:<whatever>@@
+%%%
+Wird dann nur beim Generieren von HTML berücksichtigt.
+
+
+
+=> https://media.ccc.de/c/bub2022
+
+=> https://github.com/davidgiven/wordgrinder
+
+=> https://media.ccc.de/v/bitsundbaeume-20182-digitaler-co2-fuabdruck
+
+=> https://kulbartsch.de/jumper/
+
+=> https://www.jedsoft.org/jed/ jed – ein kleiner Editor
+=> https://www.jedsoft.org/ - Das andere Zeug von John E. Davis ist auch cool.
+
+=> https://media.ccc.de/v/bitsundbaeume-19721-energieverbrauch-von-software-eine-anleitung-zum-selbermessen
+
+=> https://blog.oeko.de/energieverbrauch-von-software-eine-anleitung-zum-selbermessen/
+
+=> https://github.com/oekoj/softwarefootprint
+
+=> https://kulbartsch.de/jumper/index.html#Performance%20results
+
+
+ McCabe hat zum Beispiel Source-Code auf tote Verzweigungen analysiert (geht auch automatisch) und z.B. "zyklomatischer Komplexität" identifiziert
+https://de.wikipedia.org/wiki/McCabe-Metrik
+
+=> https://julialang.org/
+=> https://viralinstruction.com/posts/goodjulia/ Blogpost "What's great about Julia?" (2022-12-07)
+=> https://juliamono.netlify.app/
+
+
+ CLT 11.+12.03.2023
+=> https://chemnitzer.linux-tage.de/2023/de
+
+
+=> https://www.youtube.com/@OutdoorChiemgau
+
+==== Blackout  
+
+Stromausfall und Kommunikation 
+
+=> https://www.schnifis.at/Blackout_Information_der_Gemeinde
+=> https://de.wikipedia.org/wiki/Blackout_%E2%80%93_Morgen_ist_es_zu_sp%C3%A4t
+=> https://de.wikipedia.org/wiki/Liste_historischer_Stromausf%C3%A4lle
+=> https://www.cs.auckland.ac.nz/~pgut001/misc/mercury.txt
+=> https://media.ccc.de/search/?q=honkhase
+
+=> https://netzsin.us/
+
+=> https://www.hackerspace-bamberg.de/Netzsinus
+
+=> https://media.ccc.de/v/35c3chaoswest-3-der-strom-kommt-aus-der-steckdose-oder-
+
+=> https://media.ccc.de/v/MRMCD2014_-_5985_-_de_-_tiefbaustelle_s21_-_201409051830_-_https_netzsin_us_-_dem_stromnetz_auf_die_finger_geguckt_-_gonium
+
+=> https://meshtastic.org/
+
+==== Tandy Radio Shack TRS80
+
+Diesen Computer haben ein paar von uns noch verwendet.
+
+=> https://oldcomputers.net/trs80i.html TRS80
+=> https://www.reddit.com/r/trs80/comments/2d44vx/trs80_model_100/ TRS80 Model 100
+=> https://www.clockworkpi.com/home-devterm eine moderne Alternative zum TRS80 Model 100
+
+
+
+==== 
+
+@last_change:2022-12-10
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end
