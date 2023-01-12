@@ -1,0 +1,81 @@
+@article-name:2023-01-12 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2023-01-12_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== ChatGPT & Co
+
+ [ChatGPT](https://chat.openai.com/) ist ein eine textbasierten Dialogsystems (Chatbot) von [OpenAI](https://openai.com/), das auf künstlicher Intelligenz (KI) beruht.  
+
+(GT-AS-BLOCKQUOTE T)
+Der ChatGPT hat für einen Teilnehmer des Abends ein Karnevalslied auf Kölsch geschrieben:
+%%%
+"De Karneval es do, de Stroße sin wääd un fröjlich, dat Lääve weed e bessche lässijer, die Sorge sen verjesse. 
+De Narren sen ungerwäägs, met köölsche Kostüüme un Masken, se danse un singe, dä Karneval es en vollem Gange.
+Dä Karneval, dä Karneval, dat es de schönste Zick des Johres, mir feiere un mir lacke, de Stimmung es jradios.
+Et jitt Kringele un Alkohol, de Stimmung weed immer mieh, de Karnevalszick es do, mir feiere ohne Sorge.
+Mir sin all Narren, en dä Tääg voller Froad, de Karnevalszick es do, mir feiere bes zum Morjejrauen.
+Dä Karneval, dä Karneval, dat es de schönste Zick des Johres, mir feiere un mir lacke, de Stimmung es jradios.
+De Karnevalszick es do, lohß uns feiere un uns amüseere, dat Lääve es zoh koot, öm nit ze feiere un ze lacke.
+Dä Karneval, dä Karneval, dat es de schönste Zick des Johres, mir feiere un mir lacke, de Stimmung es jradios."
+%%%
+
+Chat GPT kann auch Musik generieren. Auftrag an OpenAI/ChatGPT:
+> schreibe die noten eines reggae-songs in abc-Notation in maximal 100 Noten
+
+$<br />
+=> https://de.wikipedia.org/wiki/ELIZA ELIZA ist ein 1966 von Joseph Weizenbaum entwickeltes Computerprogramm, das die Möglichkeiten der Kommunikation zwischen einem Menschen und einem Computer über natürliche Sprache aufzeigen sollte.
+=> https://wandb.ai/telidavies/ml-news/reports/Craiyon-Image-Generator-From-Text-Online-Demo-formerly-DALL-E-Mini---VmlldzoyMTY5Nzk5 Craiyon zum rendern nach Sprache
+=> https://www.heise.de/news/Drei-Sekunden-Input-reichen-Microsofts-KI-Vall-E-imitiert-menschliche-Sprache-7454767.html Drei Sekunden Input reichen: Microsofts KI Vall-E imitiert menschliche Sprache
+=> https://uncutnews.ch/es-lebt-die-ki-von-google-soll-empfindungsfaehig-werden/ Es lebt? Die KI von Google soll „empfindungsfähig“ werden
+
+
+==== Heimautomatisierung
+
+Zum dem Thema Heimautomatisierung wird es nächsten Monat einen Vortrag geben.
+Vorab schon mal ein paar Links:
+
+=> https://www.home-assistant.io/ Home Assistant - Open source home automation that puts local control and privacy first.
+=> https://nodered.org/ Node-RED - Low-code programming for event-driven applications
+
+Anbieter von [IoT](https://de.wikipedia.org/wiki/Internet_der_Dinge) Geräten:
+=> https://www.netatmo.com/de-de Netatmo
+=> https://www.aqara.com/eu/home.html Aqara
+=> https://www.shelly.cloud/de Shelly
+
+
+==== Dezentralisierung und Peer-to-Peer Systeme
+
+$<br />
+Das Thema [[Dezentralisierung und Peer-to-Peer Systeme|/projekte/dezentralisierung.html]] hat eine eigene Seite bekommen.
+$<br /><br />
+
+==== Sonstige
+
+=> https://apps.kde.org/de/kalarm/ KAlarm - Planer für Alarm-Nachrichten, Befehle und E-Mails
+
+=> https://www.funkfeuer.at/ FunkFeuer ist ein freies, experimentelles Gemeinschaftsnetz. (Österreich) "Wir haben uns freie Kommunikation und Informationszugang ohne kommerzielle Interessen und Anbieter zur Aufgabe gemacht und betreiben gemeinschaftlich unabhängige Infrastruktur."
+=> https://map.funkfeuer.at/ - FunkFeuer Maps
+
+=> https://www.br.de/mediathek/podcast/der-mann-in-merkels-rechner-jagd-auf-putins-hacker/853 Der Mann in Merkels Rechner - Jagd auf Putins Hacker (Podcast - Serie)
+=> https://de.wikipedia.org/wiki/Operation_Entebbe Die Operation Entebbe, Operation Thunderbolt oder Operation Yonatan (Mivtsa Yonatan), war eine militärische Befreiungsaktion in der Nacht zum 4. Juli 1976 auf dem Flughafen von Entebbe in Uganda, mit der israelische Sicherheitskräfte die einwöchige Entführung eines Passagierflugzeugs der Air France durch palästinensische und deutsche Terroristen beendeten.
+
+=> https://de.wikipedia.org/wiki/2001:_Odyssee_im_Weltraum Wurde die Mondlandung am Set von "2001: Odyssee im Weltraum" aufgenommen? *Nein!*
+
+* Mehr vom Weltraum sehen:
+=> https://de.wikipedia.org/wiki/Hubble-Weltraumteleskop Hubble-Weltraumteleskop (Start 1990)
+=> https://de.wikipedia.org/wiki/James-Webb-Weltraumteleskop James-Webb-Weltraumteleskop (Start 2021)
+
+@last_change:2022-MM-DD
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

@@ -1,4 +1,4 @@
-@page:Linux
+@page:fscrypt
 +../header.in
 $<article>
 === Dateisystem Verschlüsselung mit fscrypt
@@ -7,7 +7,7 @@ $<article>
 >>>
 Hier ein Beitrag von m.eik aus unserer Mailingliste vom 2021-09-13.
 
-Hintergrund: Verschlüssel von Dateien hilft Dir Dateien vor unberechtigtem Zugriff zu schützen.
+Hintergrund: Verschlüsseln von Dateien hilft Dir Dateien vor unberechtigtem Zugriff zu schützen.
 Ohne Verschlüsselung must du dich zwar an deinem Linux-System anmelden und (bei
 richtiger Konfiguration) kann eine andere·r Nutzer·in auf dem System auch Deine Dateien nicht lesen.
 Allerdings ist es einfach den Rechner mit einem USB Medium zu starten,
