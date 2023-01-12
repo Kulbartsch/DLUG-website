@@ -1,0 +1,50 @@
+@page:fscrypt
++../header.in
+$<article>
+=== Dezentralisierung und Peer-to-Peer Systeme
+
+=> https://kulbartsch.de/ Alexanders Präsentation zu Peer2Peer Systeme ist im Abschnitt "Zentralisierung, Dezentralisierung und Peer-to-Peer-Systeme" zu finden.
+=> https://kulbartsch.de/data/2021-11_Dezentralisierung_P2P.pdf Direkter Link zu Präsentation (137 Seiten, 25MB)
+
+==== Protokolle 
+
+=> https://ipfs.tech/ IPFS - A peer-to-peer hypermedia protocol designed to preserve and grow humanity's knowledge by making the web upgradeable, resilient, and more open.
+=> https://dat-ecosystem.org/ Dat Ecosystem - Is comprised of many projects bulding on top of the Hypercore protocol. But it's also more - a constellation of people and shared values.
+=> https://holepunch.to/ Holepunch is a platform for creating apps that don’t use any servers whatsoever. No arbitrary limits just better apps that can be shipped instantly, directly to your users. Basiert auf Hypercore.
+=> https://gun.eco/ GUN is a small, easy, and fast protocol for syncing data. Because GUN is small, it can be added to your app to improve a single feature.
+
+==== Apps 
+
+=> https://www.scuttlebutt.nz/ Scuttlebutt - social network - a decentralised platform
+=> https://keet.io/ Keet - Peer-to-Peer Chat. Video & Text. Private & Encrypted. Unparalleled Quality.
+=> https://github.com/AgregoreWeb/agregore-browser Agregore - A minimal multiprotocol web browser for the distributed web
+=> https://github.com/mafintosh/hyperphone hyperphone - A p2p telephone over Hyperbeam
+=> https://cabal.chat/ cabal - experimental p2p community chat platform
+=> https://github.com/peerlinks/peerlinks-desktop Links - Distributed Secure IRC | Desktop client for PeerLinks protocol
+=> https://radicle.xyz/ Radicle 🌱 enables developers 🧙 to securely 🔐 collaborate on software over a peer-to-peer network 🌐 built on Git.
+=> https://www.ricochetrefresh.net/ Ricochet Refresh is an open-source project to allow private and anonymous instant messaging
+=> https://briarproject.org/ Briar - Secure messaging, anywhere for Android 
+
+=> https://github.com/beakerbrowser/beaker Beaker Browser - total cool - leider archiviert (keine Weiterentwicklung)
+
+==== Hardware & Infrastruktur
+
+=> https://meshtastic.org/ Meshtastic -  An open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices
+
+=> https://freifunk.net/ Freifunk steht für freie Kommunikation in digitalen Datennetzen
+=> https://www.funkfeuer.at/ FunkFeuer ist ein freies, experimentelles Gemeinschaftsnetz. (Österreich) "Wir haben uns freie Kommunikation und Informationszugang ohne kommerzielle Interessen und Anbieter zur Aufgabe gemacht und betreiben gemeinschaftlich unabhängige Infrastruktur."
+
+==== Sonstiges
+
+=> https://cobox.cloud/ CoBox is a distributed, encrypted, offline-enabled data hosting cloud platform.
+=> https://datdot.org/ DatDot team is building an autonomous hosting network for p2p data systems.
+=> https://anytype.io/en anytype - Your very own set of tools to build and explore the new internet. From private notes to decentralized communities.
+=> https://disco.coop/ DisCO.ccop are a way for people to work together.
+=> https://p2pfoundation.net/ P2P Foundation
+
+
+@last_change:2023-01-12
+@author:Alexander
+@license:CC BY-SA 4.0
++../article-end.in
++../footer.in
