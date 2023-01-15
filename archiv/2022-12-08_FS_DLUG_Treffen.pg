@@ -24,13 +24,12 @@ Im wesentlichen haben wir uns über das SciFi und Cyberpunk Genre ausgetauscht.
 
 => https://de.wikipedia.org/wiki/Raumpatrouille_%E2%80%93_Die_phantastischen_Abenteuer_des_Raumschiffes_Orion Raumpatrouille Orion aka Raumschiff Orion (1966)
 => https://de.wikipedia.org/wiki/Star_Trek Die "Star Trek" Serien (1966 ff)
-=> https://memory-alpha.fandom.com/wiki/Sela Sela ist die Mutter von Natasha Yar (und die gleiche Schauspielerin)
-=> https://de.wikipedia.org/wiki/Star_Trek:_Picard "Star Trek: Picard" ist eher kein typischer Star Trek. 
+=> https://de.wikipedia.org/wiki/Star_Trek:_Picard "Star Trek: Picard" ist eher kein typischer Star Trek.
 => https://de.wikipedia.org/wiki/Star_Trek:_Discovery Auch "Star Trek: Discovery" kommt nicht so gut bei den Zuschauern an. (Die Zuschauerwertung bei Rotten Tomatoes liegt nur bei 38%, was gegenwärtig den schlechtesten Wert einer Star-Trek-Serie darstellt)
 * Ausstrahlung der 1. Star Trek Folge: 8. September 1966 
 * Ausstrahlung der 1. Raumpatrouille Orion Folge: 17. September 1966
-=> https://de.wikipedia.org/wiki/Blade_Runner Blade Runner
-=> https://www.gog.com/game/blade_runner?pp=22d200f8670dbdb3e253a90eee5098477c95c23d
+=> https://de.wikipedia.org/wiki/Blade_Runner Blade Runner (1982)
+=> https://www.gog.com/game/blade_runner?pp=22d200f8670dbdb3e253a90eee5098477c95c23d Es gibt auch das Spiel "Blade Runner" (1997)
 => https://www.youtube.com/watch?v=adjfTktpIzg Blade Runner - re:View (Youtube)
 => https://de.wikipedia.org/wiki/Blade_Runner_2049 "Blade Runner 2049" Sequel (2017)
 => https://www.marjolijndijkman.com/?rd_project=164&lang=en "Wandering through the Future" - Ein Film mit Szenen aus Science Fiction Filmen die chronologisch entsprechend deren Handlungsrahmen angeordnet ist,
@@ -45,11 +44,11 @@ Im wesentlichen haben wir uns über das SciFi und Cyberpunk Genre ausgetauscht.
 => https://de.wikipedia.org/wiki/Unheimliche_Begegnung_der_dritten_Art Unheimliche Begegnung der dritten Art (1977, Regie Seven Spielberg)
 
 => https://memory-alpha.fandom.com/wiki/Portal:Main Memory Alpha - Die Star Trek Enzyklopädie
-=> https://memory-alpha.fandom.com/wiki/Sela Denise Crosby spielte in Star Trek sowohl Tasha Yar als auch ihre Tochter Sela (alternative Zeitlinie)
+=> https://memory-alpha.fandom.com/wiki/Sela – Denise Crosby spielte in Star Trek sowohl Tasha Yar als auch ihre Tochter Sela (alternative Zeitlinie)
 
 => https://www.heroines-of-sound.com/festival-2022/ Frauen und Synthesizer-Musik
 => https://www.youtube.com/watch?v=KaOC9danxNo "Space Oddity" Cover von Commander Chris Hafield an Bord der Internationalen Raumstation (ISS). (Youtube)
-=> https://typesetinthefuture.com/2014/12/01/alien/
+=> https://typesetinthefuture.com/2014/12/01/alien/ Für Font Nerds: Typeset In The Future - ALIEN
 
 => https://www.werstreamt.es/ Bei werstreamt.es kann man herausfinden bei welchem Anbieter eine Film oder Serie im Stream ist.
 
@@ -72,7 +71,7 @@ Im wesentlichen haben wir uns über das SciFi und Cyberpunk Genre ausgetauscht.
 => https://dlug.de/projekte/gemini.html Wir haben uns wieder über das Schlanke Gemini Protokoll unterhalten. Dazu gibt es schon einen eigenen Artikel auf DLUG.de. 
 => https://pandoc.org/ Dabei ist uns aufgefallen, dass es kein PanDoc Plugin für GemText gibt.
 => https://github.com/jgm/pandoc/issues/6747 -> Gemini Export per pandoc - fehlt
-=> https://git.sr.ht/~kr1sp1n/awesome-gemini#tools
+=> https://git.sr.ht/~kr1sp1n/awesome-gemini#tools Gemini-Tools
 
 In Orgmode (EMACS) kann man beim Generieren von HTML (oder anderen Ziel-Formaten) Code
 explizit für das Zielformat berücksichtigen.
@@ -117,7 +116,7 @@ Stromausfall und Kommunikation
 => https://media.ccc.de/search/?q=honkhase Honkhase hält interessante Vorträge zu Kritischer Infrastruktur (media.ccc.de)
 => https://www.youtube.com/@OutdoorChiemgau YouTube Kanal "Outdoor Chiemgau / Mr. Blackout - Krisenschutz"
 => https://www.hackerspace-bamberg.de/Netzsinus Netzfrequenz messen
-=> https://netzsin.us/ https://netzsin.us/ ist gerade down 
+=> https://netzsin.us/ https://netzsin.us/ (ist down) 
 => https://media.ccc.de/v/MRMCD2014_-_5985_-_de_-_tiefbaustelle_s21_-_201409051830_-_https_netzsin_us_-_dem_stromnetz_auf_die_finger_geguckt_-_gonium netzsin.us - Dem Stromnetz auf die Finger geguckt (media.ccc.de)
 => https://media.ccc.de/v/35c3chaoswest-3-der-strom-kommt-aus-der-steckdose-oder- Der Strom kommt aus der Steckdose, oder? (media.ccc.de)
 => https://meshtastic.org/ Meshtastic - An open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices
@@ -133,7 +132,7 @@ Diesen Computer haben ein paar von uns noch verwendet.
 
 
 
-@last_change:2023-01-11
+@last_change:2023-01-15
 @author:Alexander
 +../article-end.in
 +../footer.in
