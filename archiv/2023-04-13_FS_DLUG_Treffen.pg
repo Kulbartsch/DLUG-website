@@ -1,0 +1,123 @@
+@article-name:2023-04-13 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2023-04-13_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== Schriften aka Fonts (Suche nach Bodoni)
+
+=> https://tug.org/FontCatalogue/ LaTeX Font Catalogue
+=> https://fonts.google.com/ Google Fonts gibt eine gute Übersicht Schriften.
+=> https://github.com/impallari/Libre-Bodoni Libre Bodoni Font
+=> https://www.heise.de/tipps-tricks/Eigene-Schriftart-erstellen-so-geht-s-7343138.html Eigene (Hand-)Schriftarten erstellen
+
+==== Spiele Programmierung
+
+=> https://scratch.mit.edu/ Scratch - grafisch im Browser
+=> https://ebitengine.org/ Ebit Engine - 2D mit Go
+=> https://godotengine.org/ Godot Engine - 3D in Profi Liga
+
+==== Spracherkennung und Audio Desktop
+
+=> https://de.wikipedia.org/wiki/Nuance_Communications Am 12. April 2021 kaufte Microsoft Nuance für 19,7 Milliarden Dollar auf.
+=> https://www.knopper.net/knoppix-adriane/ ADRIANE ist ein einfach zu benutzendes, sprechendes Desktop-System mit optionaler Braille-Unterstützung, das auch völlig ohne visuelle Ausgabegeräte auskommt. Es erleichtert insbesondere den Zugang zu den Standard-Internetdiensten E-Mail und Surfen im World Wide Web, das Einscannen und Vorlesen lassen von gedruckten Dokumenten und vieles mehr.
+=> https://alphacephei.com/vosk/ Vosk is a speech recognition toolkit.
+
+Vosk ist einfach zu benutzen:
+
+%%%
+> vosk-transcriber -i test.mp4 -t srt -o test.srt
+> vosk-transcriber -i test.mp4 -t txt test.txt
+%%%
+
+==== Diverses
+
+=> https://www.youtube.com/@LinuxGuides/about LinuxGuides – wöchentliche Videos rund um Linux- und Open Source (YouTube)
+
+=> https://sandstorm.io/ Sandstorm ist ein cooler Meta-Server für verschiedene Online Services
+
+=> https://github.com/yt-dlp/yt-dlp yt-dlp – ein youtube-dl fork mit zusätzlichen Funktionen und Bugfixes
+=> https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux – hier der Link zum Download
+=> https://www.smtube.org/de/info SMTube ist eine Anwendung die es ermöglicht, nach YouTube-Videos zu stöbern, zu suchen und sie abzuspielen.
+
+=> https://learn.microsoft.com/de-de/virtualization/hyper-v-on-windows/ Virtualisierung mit Hyper-V in Windows 10
+
+==== Musik machen
+
+=> https://www.rosegardenmusic.com/ Rosegarden ist eine freie Digital Audio Workstation mit Audio- und MIDI-Sequenzer und Notenschreibfunktion.
+=> https://ardour.org/ Ardour ist ein professionelles Audio-Workstation-Programm für Linux, macOS und Windows.
+=> https://youtu.be/cdFHE73aOMI Tangerine Dream | Boiler Room x Dekmantel Festival 2018 (YouTube)
+=> https://surge-synthesizer.github.io/ Surge XT - Free Open Source Hybrid Synthesizer von ...
+=> https://surge-synth-team.org/ Surge Synth Team
+=> https://mod.audio/ ModDwarf - A compact and powerful standalone guitar effects ecosystem to express your creativity at home, in the studio and on stage
+=> https://musical-artifacts.com/artifacts/738 FluidR3_GM.sf2 Professional Instruments.
+=> https://ubuntustudio.org/ Ubuntu Studio is a multimedia-orientated operating system. It comes preinstalled with a selection of the most common free multimedia applications available, and is configured for best performance for various purposes: Audio, Graphics, Video, Photography and Publishing.
+=> https://wiki.ubuntuusers.de/Ubuntu_Studio/Installation/ - Ubuntu Studio Installation
+=> https://www.drumgizmo.org/ DrumGizmo is an open source, multichannel, multilayered, cross-platform drum plugin and stand-alone application. It enables you to compose drums in midi and mix them with a multichannel approach. It is comparable to that of mixing a real drumkit that has been recorded with a multimic setup.
+=> https://www.youtube.com/watch?v=Nui4cqtigWU Late Night Impromptu Livestream // Bitwig Ambient and playing with Spitfire Audio stuff (YouTube)
+=> https://www.youtube.com/watch?v=eHxNIgisaW0 Live stream // Bitwig Ambient Improv - checking out Phase Plant and Spitfire libraries (YouTube)
+=> https://www.youtube.com/watch?v=iZBgJJwBZSk schöne feedback-gitarren :) (YouTube)
+=> https://www.tubeohm.com/jeannie-main.html TubeOhm Jeannie -  the TubeOhm Synth - you are not only buying a synthesizer but also the experience of building your own musical instrument
+=> https://www.youtube.com/watch?v=IJG8ZXRnR94 hier auch noch ein gutes beispiel für den feedback-sound von anathema (YouTube)
+
+==== Floor 796
+
+ *Vorsicht!* //Zeitfresser//! 
+=> https://floor796.com/ Floor796 - Eine super coole animierte 3D Pixel Welt voller Figuren aus Filmen und Memes ...
+
+==== Linux Pakeformate und Paketmanager
+
+Linux Paketverwaltung wird durch komplexe Abhängigkeiten von verschienden Bibliotheken in unterschiedlichen Versionen erschwert.
+Dieser Herausforderung wird mit alternativen Lösungen wie //Docker// oder //Podman// meist im Server-Bereich oder
+mit //Flatpak//, //Snap// und //AppImage// im Desktop-Bereich begegnet.
+Diese Paketverwaltungen bringen ihre benötigten Bibliotheken selbst mit.
+
+Der Vorteil ist, dass die damit erstellten Pakete auf praktisch jeden Linux funktionieren. 
+Die Software-Entwickler müssen ihre Anwendungen nur einmal paketieren und nicht für verschiedene Distributionen.
+
+Der Nachteil ist, dass sich Anwender nun mit verschiedenen Quellen auseinandersetzen müssen. 
+Auch sind die neuen Paketformate deutlich größer, da sie ja alle benötigten Bibliotheken selbst bringen 
+und diese nun redundant auf einem System installiert werden.
+
+Hier könne neue Paket-Verwaltungen bessere Lösungen bieten, wie sie zum Beispiel die folgenden Linux-Distributionen mitbringen:
+
+=> https://guix.gnu.org/ Guix ist eine ist sowohl ein Betriebssystem als auch ein Paketmanager mit einer transaktionalen Paketverwaltung, die es ermöglicht, Pakete zu aktualisieren, ohne dass die Abhängigkeiten anderer Pakete verletzt werden.
+=> https://nixos.org/ NixOS ist ein Linux-Distribution, die auf der funktionalen und deklarativen Paketverwaltung Nix basiert.
+
+==== Security
+
+=> https://www.gnupg.org/blog/20230321-adsk.html ADSK is short for Additional Decryption SubKey which is a new OpenPGP feature to make the use of end-to-end encryption more compatible with standard business procedures.
+
+=> https://dangerzone.rocks/ Dangerzone - Konvertiere potenziell gefährliche Dateien in sichere PDFs.  (Homepage)
+=> https://github.com/freedomofpress/dangerzone - GitHub Repo
+Dangerzone wurde von Qubes trusted PDF inspiriert, funktioniert aber auch auf Nicht-Qubes-Betriebssystemen. 
+Es verwendet Container als Sandboxen anstelle von virtuellen Maschinen (mit Docker für macOS, Windows und Debian/Ubuntu und podman für Fedora).
+Dangerzone ist ein Projekt der //Freedom of the Press Foundation// und ist Open Source.
+
+=> https://www.qubes-os.org/ Qubes OS - A reasonably secure operating system
+=> https://media.ccc.de/v/ds19-10456-qubes_os_-_eine_einfuhrung QUBES OS - Eine Einführung (Video auf media.ccc.de)
+
+=> https://delta.chat/de/ Delta Chat ist eine Chat-App, die mit Autocrypt PGP verschlüsselte E-Mails versendet und als Chat anzeigt.
+
+=> https://briarproject.org/ Briar - Peer-to-peer encrypted Messaging und Foren, funktioniert auch ohne Internet
+=> https://briarproject.org/how-it-works/ - so funktioniert es
+
+=> https://www.ctrl.blog/entry/append-only-social.html Artikel: "Secure Scuttlebutt (SSB) is an alternative, self-governed, distributed social network without gatekeepers."
+=> https://news.ycombinator.com/item?id=35560577 - und Hacker News Diskussion zu dem Artikel
+
+=> https://github.com/freedomofpress/securedrop SecureDrop ist ein Open-Source-System für Whistleblower, das Medienorganisationen nutzen können, um Dokumente von anonymen Quellen sicher anzunehmen und mit ihnen zu kommunizieren. Es wurde ursprünglich von dem verstorbenen Aaron Swartz entwickelt und wird derzeit von der Freedom of the Press Foundation verwaltet.
+
+
+
+@last_change:2022-04-30
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

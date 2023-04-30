@@ -1,0 +1,113 @@
+@article-name:2023-03-09 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2023-03-09_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+Nächstes Treffen im 
+=> https://www.zakk.de/
+
+==== Tunnels und VPNs
+
+ *Services vom PC online verfügbar machen*
+
+=> https://pagekite.net/
+=> https://ngrok.com/
+=> https://github.com/skx/tunneller/blob/master/README.md
+=> https://github.com/anderspitman/awesome-tunneling
+=> https://eighty-twenty.org/2023/01/27/sirtunnel-personal-ngrok
+=> https://gitlab.com/pyjam.as/tunnel
+
+
+ //Nachtrag:// In der c't 7/2023 S.18 gabe es kurz darauf auch eine Artikelstrecke
+zum Thema Peer-to-Peer VPNs. 
+Die Artikel sind hinter einer Paywall, aber die Links zu den Projekten sind frei zugänglich:
+
+=> https://www.heise.de/ratgeber/VPN-Netz-aufsetzen-Geraete-und-Heimnetze-mit-ZeroTier-vernetzen-7527042.html VPN-Netz aufsetzen: Geräte und Heimnetze mit ZeroTier vernetzen (heise 2023-03-17)
+=> https://www.heise.de/ratgeber/Eigenes-VPN-einrichten-Sicheres-Internet-mit-ZeroTier-Gateway-7661211.html Eigenes VPN einrichten: Sicheres Internet mit ZeroTier-Gateway (heise 2023-04-05)
+=> https://www.heise.de/ratgeber/Netzwerk-Hypervisor-ZeroTier-im-Ueberblick-7330748.html  Netzwerk-Hypervisor ZeroTier im Überblick (heise 2022-11-11)
+
+=> https://www.heise.de/select/ct/2023/7/2302311184435543707 Was Peer-to-Peer-VPNs leisten, wie Pretty Good Phone Privacy Smartphones schützt (c't 7/2023 S. 18)
+=> https://www.heise.de/select/ct/2023/7/2302311213589441827 Für Fernwartung und Freigaben: Vier VPN-Anwendungen mit Peer-to-Peer-Technik (c't 7/2023 S. 20)
+=> https://www.heise.de/select/ct/2023/9/2306010085443184891 Sicher im Internet mit eigenem VPN und ZeroTier-Gateway (c't 9/2023 S. 170)
+
+Es werden folgende Projekte vorgestellt:
+
+=> https://www.zerotier.com/ ZeroTier lets you build modern, secure multi-point virtualized networks of almost any type.
+=> https://github.com/slackhq/nebula Nebula is a scalable overlay networking tool with a focus on performance, simplicity and security. It lets you seamlessly connect computers anywhere in the world.
+=> https://www.twingate.com/ Twingate makes Zero Trust Network Access easy to deploy, even easier to use, and always secure. 
+=> https://tailscale.com/ Tailscale connects your team's devices and development environments for easy access to remote resources.
+=> https://github.com/netbirdio/netbird NetBird is an open-source VPN management platform built on top of WireGuard® making it easy to create secure private networks for your organization or home.
+=> https://github.com/yggdrasil-network/yggdrasil-go Yggdrasil is an early-stage implementation of a fully end-to-end encrypted IPv6 network.
+
+=> https://invisv.com/pgpp/ Pretty Good Phone Privacy: privacy-preserving mobile service (von INVISV)
+
+
+==== Debian Raspberry PiImages
+
+=> https://wiki.debian.org/RaspberryPiImages
+
+==== Self Hosting
+
+=> http://www.duckdns.org/ DuckDNS - Free Dynamic DNS Service
+=> https://caddyserver.com/ Caddy Webserver (einfach zu konfigurieren - mit automatischer SSL-Zertifikat Erstellung von Let's Encrypt)
+=> https://github.com/dehydrated-io/dehydrated "dehydrated rules" (Let's Encrypt client)
+
+==== Verschiedenes
+
+=> https://digitalcourage.de/blog/2023/datenschutzcafe Digitalcourage - Datenschutzcafé
+
+=> https://aiva.ai/ Sehr gutes KI-Programm für Musik-Komposition ist Aiva
+=> https://www.youtube.com/@aiva1828 Aiva auf Youtube
+=> https://www.youtube.com/watch?v=Emidxpkyk6o I am AI - AI Composed Music by AIVA (youtube)
+
+=> https://launchpad.net/wicd wicd - A network connection manager that aims to simplify wired and wireless networking in Linux.
+
+=> https://www.c3s.cc/ Die C3S ist eine europäische Genossenschaft mit dem Ziel, als Verwertungsgesellschaft tätig zu werden. Es ist geplant, musikalische Werke zu verwerten, die unter einer Creative-Commons-Lizenz veröffentlicht wurden, aber auch Werke, die unter keiner expliziten Lizenz stehen.
+
+===== Muss man für Weihnachtslieder die man auf weihnachtsfeiern singt gema gebühren bezahlen?
+
+> Ja, in der Regel muss man für das öffentliche Aufführen von urheberrechtlich geschützten Weihnachtsliedern auf einer Weihnachtsfeier GEMA-Gebühren zahlen. Die GEMA ist die Gesellschaft für musikalische Aufführungs- und mechanische Vervielfältigungsrechte und vertritt die Rechte von Komponisten und Textdichtern.
+> Wenn Sie also auf Ihrer Weihnachtsfeier Musik spielen oder singen möchten, für die GEMA-Gebühren fällig sind, müssen Sie diese bei der GEMA anmelden und entsprechende Lizenzgebühren zahlen. Die genauen Gebühren hängen von verschiedenen Faktoren ab, wie z.B. der Art der Veranstaltung, der Anzahl der Teilnehmer und der Art und Anzahl der gespielten Lieder. Weitere Informationen zur Anmeldung von Musiknutzungen und den entsprechenden Gebühren finden Sie auf der Website der GEMA.
+
+=> https://www.tipps-tricks-kniffe.de/singen-im-advent-weihnachtslieder-ohne-gema-gebuhren-singen-und-auffuhren/
+=> https://www.sekada.de/organisation/recht-im-sekretariat/artikel/weihnachtsfeier-vorsicht-gema-melden-sie-musikalische-darbietungen-an/
+
+=> https://www.youtube.com/watch?v=GaoLU6zKaws ziemlich cool ist careless whisper cover 🤨 (youtube)
+
+==== Self Hosting - Teil 2
+
+=> https://gitea.io Ein einfacher Git-Server mit Web-Interface
+
+=> https://maddy.email/ Maddy - ein einfacher Mail-Server
+=> https://github.com/mjl-/mox Mox - noch ein einfacher Mail-Server
+
+==== Effizienz von Programmiersprachen / Forth
+
+Eine Diskussion über die Effizienz von Programmiersprachen führte zu Forth.
+
+=> https://kulbartsch.de/jumper/ //Solving The Knight's Tour Problem in 7+ programming languages// - mit Performance Vergleich und einer Fort Version
+=> https://forth-ev.de/ Forth e.V.
+=> https://www.youtube.com/watch?v=AEr-zGCeQNc  Matthias Koch: Compileroptimierungen für Forth im Microcontroller (youtube)
+=> https://www.youtube.com/watch?v=a8Dg08DkILo Matthias Koch: Compileroptimierungen für Forth im Microcontroller (englisch, youtube)
+=> https://media.ccc.de/v/32c3-7520-compileroptimierungen_fur_forth_im_microcontroller Matthias Koch: Compileroptimierungen für Forth im Microcontroller (media.ccc.de)
+=> https://www.heise.de/hintergrund/Forth-die-ewig-junge-Programmiersprache-4988866.html Forth – die ewig junge Programmiersprache (heise.de)
+=> https://ratfactor.com/forth/forth_talk_2023.html Forth: The programming language that writes itself / Charles H. Moore and the pursuit of simplicity. 
+
+==== Lehmputz
+
+=> https://www.youtube.com/watch?v=GskqgqUBuKA&t=311s Working with clay-plaster (youtube)
+
+
+@last_change:2022-04-30
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

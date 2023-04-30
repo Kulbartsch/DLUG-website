@@ -1,0 +1,24 @@
+@article-name:2023-02-09 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2023-02-09_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Ekki hat einen Vortrag zur *"Hausautomatisierung mit Home-Assistant"* gehalten.
+
+=> https://www.home-assistant.io/ Home-Assistant Homepage
+=> https://hub.docker.com/r/homeassistant/home-assistant Docker Image
+
+ (Es gab auch eine Aufzeichnung, die irgendwann hoffentlich geschnitten ist und online geht.)
+
+
+@last_change:2022-04-30
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end
