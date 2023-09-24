@@ -1,0 +1,24 @@
+@article-name:2023-08-30 - DLUG und Freie Software Freunde Live Treffen
+@article-link:/archiv/2023-08-30_FS_DLUG_IRL_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Das Live-Treffen fand in einem kleinen Kreis statt. 
+Unter anderem wurde über folgende Themen gesprochen: 
+
+* [DEBIAN wurde 30](https://linuxnews.de/debian-wird-30-wir-gratulieren/)
+* Sinnlose und nicht notwendige Kontroversen (wie init.d vs systemd, EMACS vs Vim, KDE vs Gnome)
+* Pimp your Shellscripts with [gum](https://github.com/charmbracelet/gum)
+* Webseite mit TLS (HTTPS) in einer Zeile konfigurieren mit [Caddy](https://caddyserver.com/) (kein Scherz)
+
+@last_change:2023-09-23
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

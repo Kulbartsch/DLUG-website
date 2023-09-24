@@ -1,0 +1,30 @@
+@article-name:2023-07-26 - DLUG und Freie Software Freunde Live Treffen mit einem Vortrag zum Thema "advanced GnuPG"
+@article-link:/archiv/2023-07-26_FS_DLUG_IRL_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Alexander hat einen Vortrag zum Thema "*advanced GnuPG*" gehalten
+
+Im – mit einer Pause – gut 2 Stunden langen Vortrag 
+gab eine etwas tiefere Einführung in die Kommandozeilennutzung von gpg, 
+mit Hintergrundinformationen zur Struktur von OpenPGP-Schlüsseln, 
+einigen Details die kaum bekannt sind,
+sowie einem Ausblick, wie man GnuPG in eigenen Programmen nutzen kann.
+
+Die Präsentation wurde auf der Kommandozeile gezeigt und hatte viele 
+interaktive Beispiele.
+Der Markdown basierte Quelltext der Präsentation 
+ist [hier zu finden](https://git.sr.ht/~kulbartsch/advanced_gpg/tree/master/item/10_advanced_gpg.md).
+
+
+@last_change:2022-09-24
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

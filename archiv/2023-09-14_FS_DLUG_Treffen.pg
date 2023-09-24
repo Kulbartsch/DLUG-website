@@ -1,0 +1,112 @@
+@article-name:2023-09-14 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2023-09-14_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== Jitsi Quality
+
+* Jitsi Quality (via Punktemenü)
+** höchste Performance - nur Ton
+** höchste Qualität - mit Bild
+
+==== Unsichere E-Mails mit/zwischen Medizinern
+
+=> https://www.gematik.de/anwendungen/kim/ KIM | gematik - "KIM steht für Kommunikation im Medizinwesen und ist der einheitliche Standard(?) für die elektronische Übermittlung medizinischer Dokumente."
+=> https://datenschutz-agentur.de/blog/e-mail-kommunikation-zwischen-arzt-und-patient/ E-Mail zwischen Arzt und Patient - Datenschutz Agentur (Hier wrd GPG und S/MIME genannt.)
+=> https://www.aerzteblatt.de/archiv/19053/E-Mail-Versand-im-Gesundheitswesen-Regeln-fuer-die-sichere-digitale-Kommunikation  E-Mail-Versand im Gesundheitswesen: Regeln f�r die sichere digitale Kommunikation
+=> https://solidproject.org/ Das von Sir Tim Berners Lee ins Leben gerufene Projekt "Solid" wird in Großbrinatnien u.a. für medinzinische Daten verwendet. "Solid is a specification that lets people store their data securely in decentralized data stores called Pods. Pods are like secure personal web servers for data. When data is stored in someone's Pod, they control which people and applications can access it."
+ 
+==== Voice Control 
+
+=> https://numenvoice.org/ Numen Voice Control
+=> https://commonvoice.mozilla.org/de Common Voice (Mozilla)
+=> https://github.com/mozilla/DeepSpeech mozilla/DeepSpeech: DeepSpeech is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspberry Pi 4 to high power GPU servers.
+=> https://fosspost.org/open-source-speech-recognition/ Top 10 Open Source Speech Recognition/Speech-to-Text Systems
+
+==== Security and Privacy, ...
+
+=> https://xkcd.com/538/ xkcd: Security
+=> https://xkcde.dapete.net/ xkcDE – Eine deutsche Version von xkcd (leider nicht aktuell)
+=> https://fsfe.org/ FSFE - Free Software Foundation Europe
+=> https://noyb.eu/de  NOYB enforces your right to privacy everyday
+=> https://noyb.eu/de/european-commission-gives-eu-us-data-transfers-third-round-cjeu Europäische Kommission gibt EU-US-Datentransfers 3. Runde beim EuGH (NOYB)
+=> https://www.heise.de/news/USA-Erster-grosser-Wettbewerbsprozess-gegen-Google-laeuft-an-9303350.html Kartellrecht: Gegen diese Vorwürfe muss sich Google jetzt verteidigen | heise online
+=> https://netzpolitik.org/2023/usa-gegen-google-startschuss-fuer-prozess-gegen-google/ USA gegen Google: Startschuss für Prozess gegen Google – netzpolitik.org
+=> https://blog.kagi.com/small-web Kagi - As a part of our ongoing pursuit to humanize the web, we are pleased to announce the launch of the Kagi Small Web initiative.
+=> https://netzpolitik.org/2023/auskunftsanfragen-so-findest-du-heraus-was-datenhaendler-ueber-dich-gespeichert-haben/ Auskunftsanfragen: So findest du heraus, was Datenhändler über dich gespeichert haben – netzpolitik.org
+
+passend dazu Fabians Projekte:
+=> https://www.privoxy.org/ Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data and HTTP headers, controlling access, and removing ads and other obnoxious Internet junk. Privoxy has a flexible configuration and can be customized to suit individual needs and tastes. It has application for both stand-alone systems and multi-user networks.
+=> https://www.fabiankeil.de/gehacktes/electrobsd/ ElectroBSD - The might to deliver onions - Free as in free (electro) beer and freedom
+=> https://www.fabiankeil.de/gehacktes/hardenedbsd/ Installing ElectroBSD the "hard" way ... by exploiting HardenedBSD
+
+Mehr BSDs:
+=> https://www.dragonflybsd.org/ DragonFlyBSD: DragonFly BSD
+=> https://hellosystem.github.io/docs/ helloSystem User Guide
+=> https://hardenedbsd.org/ HardenedBSD
+
+und Versionsverwaltung
+=> https://gameoftrees.org/  Game of Trees (Got) is a version control system which prioritizes ease \
+of use and simplicity over flexibility. \
+Got is still under development; it is being developed on  OpenBSD and its main target audience \
+are OpenBSD developers.  Got uses  Git repositories to store versioned data.
+=> https://fossil-scm.org/ Fossil is a simple, high-reliability, distributed software configuration management system 
+
+==== E-Mail und Sicherheit
+
+Werner sagt:
+
+> Background: The problem with encrypted subjects is that
+> 
+>1 it is not possible to filter messages without first \
+   decrypting them.  Being able to filter messages on \
+   the subject is essential for a smooth mail work flow.
+>
+>2 decrypting the message automatically takes some time \
+    and requires that the key or the token holding the key \
+    has been unlocked.  This requires user attention.
+>
+>3 Automatically decrypting all messages to replace \
+    the three dots subject with the real one in the \
+    message folder view, opens the box for a wide \
+    variety of side-channel attacks which in the \
+    worst case can lead to a compromise of the key.
+> 
+> For easier recognition of message threads, it would be better
+> to offer an option to use a random nonsense subject than to use
+> a fixed one like those three dots.  The best solution, however,
+> is to educate users that meta information, like the subject, are
+> not encrypted so that they can take any necessary precautions. 
+
+=> https://aerc-mail.org/  aerc - a pretty good email client aerc is an email client that runs in your terminal. It's highly efficient and extensible, perfect for the discerning hacker.
+=> https://www.claws-mail.org/ Claws Mail - The user-friendly, lightweight, and fast e-mail client
+=> https://maddy.email/ Composable all-in-one mail server. \
+Maddy Mail Server implements all functionality required to run a e-mail \
+server. It can send messages via SMTP (works as MTA), accept messages via SMTP \
+(works as MX) and store messages while providing access to them via IMAP. \
+In addition to that it implements auxiliary protocols that are mandatory \
+to keep email reasonably secure (DKIM, SPF, DMARC, DANE, MTA-STS).
+=> https://mailinabox.email/ Take back control of your email with this easy-to-deploy mail server in a box.
+=> https://de.wikipedia.org/wiki/Mixmaster-Remailer Ein  Mixmaster-Remailer (auch  Typ-II-Remailer) ist ein  anonymisierender Internetdienst, der E-Mails annimmt und weiterleitet (   Remailer ). Hierbei werden vor der Weiterleitung der Nachricht alle Informationen, die auf die Herkunft und den Absender schließen lassen, entfernt.
+=> https://de.wikipedia.org/wiki/Mixminion Mixminionist eine Software zum anonymen Versenden und Empfangen von digitalen Nachrichten (Remailer). (Wikipedia)
+=> https://katzenpost.network/  Katzenpost, Verkehrsanalyse-resistente Kommunikation: "Katzenpost is a free software project. \
+   We write mix network protocol libraries. What is a mix network? It is an anonymous communications system… \
+   however the word anonymous is problematic because some government authorities equate anonymity with terrorism. \
+   We prefer to instead call it “network security” because you can feel more secure when you communicate \
+   using traffic analysis resistant communications protocols."
+=> https://github.com/Katzenpost/ Katzenpost auf GitHub
+
+
+@last_change:2023-09-24
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end
