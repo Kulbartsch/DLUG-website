@@ -11,17 +11,16 @@ $<article>
 
 Themen des Abends waren:
 
-=> https://www.swi-prolog.org/ SWI-Prolog
-=> https://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/ P-99: Ninety-Nine Prolog Problems
-
 => https://sourceforge.net/projects/skychart/ Sky Chart / Cartes du Ciel download | SourceForge.net
 
+==== Programmieren
+
+=> https://www.swi-prolog.org/ SWI-Prolog
+=> https://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/ P-99: Ninety-Nine Prolog Problems
 => https://de.wikipedia.org/wiki/Turbo_Pascal Turbo Pascal – Wikipedia
 => https://de.wikipedia.org/wiki/Haskell_(Programmiersprache) Haskell (Programmiersprache) – Wikipedia
-
 => https://www.haskell.org/ Haskell Language - An advanced, purely functional programming language
 => https://mediawiki2latex.wmflabs.org/ MediaWiki2LaTeX - by Dirk
-
 => https://awesome-go.com/ Awesome Go -  A curated list of awesome Go frameworks, libraries, and software.
 => https://racket-lang.org Racket - A Scheme mit der Möglichkeit einfach DSLs zu erstellen
 => https://kulbartsch.de/jumper/ Auf "Jumpsaround - Solving The Knight's Tour Problem in 7+ programming languages" ist auch Racket dabei.
@@ -38,16 +37,20 @@ Themen des Abends waren:
 
 => https://the.exa.website/ exa - A modern replacement for ls
 
-=> https://github.com/entwicklerkollektiv-wien/wiener-git
+==== Lesen, hören, Ansehen
 
 => https://www.deutschunddeutlich.de/contentLD/GD/GT67cTischistTisch.pdf Ein Tisch ist ein Tisch (Peter Bichsel) [pdf]
-* hanns dieter hüsch: "hagenbuch und die wörter"
 => https://www.youtube.com/watch?v=ngOQJn7p_lE  Hanns Dieter Hüsch - Hagenbuch und die Wörter - Teil 1/2 - YouTube
 =>  https://www.arte.tv/de/videos/009329-000-A/down-by-law/ Down by Law - [Arte, Film]
 => https://www.arte.tv/de/videos/003982-000-A/night-on-earth/ Night on Earth | ARTE
 => https://de.wikipedia.org/wiki/The_Man_From_Earth The Man From Earth (Film) Wikipedia
 
 => https://mcj.sourceforge.net/frm_main_menus.html XFig User Manual
+
+==== Software Versionsverwaltung
+
+=> https://github.com/entwicklerkollektiv-wien/wiener-git
+
 => https://fossil-scm.org/home/doc/trunk/www/index.wiki Fossil - A nice compact DVCS with wiki and bug tracker made by D. Richard Hipp, the creator of SQLite
 => https://git-scm.com/docs/git-svn Git - git-svn Documentation
 => https://www.mercurial-scm.org/ Mercurial (Hg) - Distributed version control system
