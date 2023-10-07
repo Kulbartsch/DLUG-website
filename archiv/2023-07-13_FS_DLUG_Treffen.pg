@@ -1,0 +1,59 @@
+@article-name:2023-07-13 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2023-07-13_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+* "Spracherkennung im Eigenbau" - c't 14/2023 S.140 
+
+=> https://mailbox.org/de/ Mailbox.org - Sichere E-Mail für Privat- und Geschäftskunden | mailbox.org
+=> https://posteo.de/de Posteo - E-Mail, Kalender, Adressbuch, Notizen - Grün, Sicher, Werbefrei
+=> https://proton.me/de/mail Proton Mail: Privates, sicheres und verschlüsseltes E-Mail-Konto
+=> https://www.hetzner.com/de/webhosting Webhosting Schnell und E-Mail
+=> https://pep.foundation/ Die p≡p-Stiftung setzt sich für Privatsphäre ein.
+=> https://www.gnupg.org/ GnuPG - OpenPGP Implementierung für Verschlüsselung von Daten und E-Mails.
+=> https://mailvelope.com/de  Mailvelope: PGP für Gmail & Webmailer
+
+=> https://peertube.luga.at Beertube - Die Peetube Instanz der 
+=> https://www.luga.at/ Linux User Group Austria (LUGA)
+
+=> https://sozi.baierouge.fr/ Sozi - Sozi is a zooming presentation editor and player. 
+=> http://sozi.guide/en/ Sozi - This is not a slideshow - The ultimate guide to create your presentations with Sozi
+=> https://prezi.com/ Sozi ist eine freie Alternative zu Prezi
+
+=> https://kdenlive.org/de/ Kdenlive - Video Editing Freedom
+=> http://heroinewarrior.com/cinelerra.php  Heroine Virtual Ltd: Cinelerra - Video editing on a Linux box.
+=> https://www.youtube.com/watch?v=T-e9FFZ0yps&pp=ygUIa2RlbmxpdmU%3D Videos schneiden mit KdenLive - Tutorial I -   Einstieg + schneiden - YouTube
+=> https://de.wikipedia.org/wiki/Liste_von_Videobearbeitungssoftware Liste von Videobearbeitungssoftware – Wikipedia
+=> https://www.youtube.com/watch?v=T-e9FFZ0yps&pp=ygU Videos schneiden mit KdenLive - Tutorial I -   Einstieg + schneiden - YouTube
+ 
+=> https://opensource.com/article/20/12/stream-deck Stream Deck - How I use Stream Deck on Linux with open source tools | Opensource.com
+
+=> https://www.grannophone.de/ Das Grannophone - ein Videotelefon für Senior*innen und Demenzerkrankte
+
+=> https://deckboard.app/ - Deckboard - Computer Macros and OBS Remote for Android
+=> https://www.berrybase.de/adafruit-macropad-rp2040-3x4-tasten-encoder-oled-display-starter-kit Adafruit MacroPad RP2040, 3x4 - BerryBase
+=> https://nullbits.co/tidbit/ TIDBIT - Customizable 19-Key Numpad Kit
+=> https://www.madnoodleprototypes.com/product-page/the-noodle-pad-v1-0-custom-macro-pad The Noodle Pad v1.0: Custom Macro-Pad | The Mad Noodle
+=> https://shop.pimoroni.com/products/keybow?variant=21246333190227 Keybow Kit (12-key) with Pi Zero WH - Clicky keys - Pimoroni
+
+=> https://www.youtube.com/watch?v=UB5YCFl_ggI Buchscanner A3 selbst gebaut - YouTube
+
+=> https://en.wikipedia.org/wiki/Anna%27s_Archive Anna's Archive - Wikipedia
+=> https://de.annas-archive.org/about Anna’s Archive
+
+=> https://de.wikipedia.org/wiki/Crypto_AG Crypto AG – Wikipedia
+=> https://www.youtube.com/watch?v=VWImO1Qz4Zo Cryptoleaks – Wie CIA und BND mit Schweizer Hilfe weltweit spionierten | Doku | SRF Dok - YouTube
+
+@last_change:2022-10-07
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

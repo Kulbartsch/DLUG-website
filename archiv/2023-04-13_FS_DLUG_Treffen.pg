@@ -72,9 +72,9 @@ Vosk ist einfach zu benutzen:
  *Vorsicht!* //Zeitfresser//! 
 => https://floor796.com/ Floor796 - Eine super coole animierte 3D Pixel Welt voller Figuren aus Filmen und Memes ...
 
-==== Linux Pakeformate und Paketmanager
+==== Linux Paketformate und Paketmanager
 
-Linux Paketverwaltung wird durch komplexe Abhängigkeiten von verschienden Bibliotheken in unterschiedlichen Versionen erschwert.
+Linux Paketverwaltung wird durch komplexe Abhängigkeiten von verschieden Bibliotheken in unterschiedlichen Versionen erschwert.
 Dieser Herausforderung wird mit alternativen Lösungen wie //Docker// oder //Podman// meist im Server-Bereich oder
 mit //Flatpak//, //Snap// und //AppImage// im Desktop-Bereich begegnet.
 Diese Paketverwaltungen bringen ihre benötigten Bibliotheken selbst mit.

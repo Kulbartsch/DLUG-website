@@ -1,0 +1,103 @@
+@article-name:2023-05-11 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2023-05-11_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+=> https://de.wikipedia.org/wiki/Mathematica Mathematica [Wikipedia]
+
+==== Fremdsprachen
+
+=> https://www.assimil.com/de/ Sprachen sprechen lernen mit "Assimil - Fremdsprache ohne Mühe"
+* Chinesisch lern Buch: "The Discovery of Genesis" von C.H. Kang; E. R. Nelson, ISBN 0-570-03792-1
+
+=> https://www.ndr.de/kultur/norddeutsche_sprache/Neunjaehrige-aus-Ukraine-gewinnt-plattdeutschen-Lesewettbewerb,plattdeutsch810.html  Neunjährige aus Ukraine gewinnt plattdeutschen Lesewettbewerb | NDR.de - Kultur - Norddeutsche Sprache
+
+
+==== Musik (Shoegazing)
+
+=> https://youtu.be/K1aVadenHN8 Frankie Goes To Hollywood - Welcome To The Pleasuredome, Liverpool 7/5/23 - YouTube
+=> https://www.youtube.com/watch?v=i-84ACQOJ3k The Trooper By Iron Maiden - Songs That Changed Music - YouTube
+=> https://www.youtube.com/watch?v=G0LIO138Z-A Slowdive - Souvlaki Space Station - YouTube
+=> https://de.wikipedia.org/wiki/Shoegazing Shoegazing als sehr schwelgerische Musik ist zumeist durch dichte, aber melodische, extrem mehrstimmige Gitarrenwände gekennzeichnet, die mit Hilfe elektronischer Effektgeräte und Synthesizer erzeugt werden. (Wikipedia)
+=> https://www.youtube.com/watch?v=deFHPh9ID3o&pp=ygUManVzdCBtdXN0YXJk Just Mustard | Boiler Room with Jameson Connects - YouTube
+=> https://www.youtube.com/watch?v=dtJlz1wqxjk&pp=ygUNYW5nc3RhbHQgd2llbg%3D%3D /'angstalt/ [live 17.XI.2012, vienna] (Youtube)
+
+
+==== Zwei Projektverzeichnisse vergleichen
+
+%%%
+diff -rq Projekt_alt Projekt_neu
+%%%
+ 
+Der Befehl “diff” geht nun alle Verzeichnisse durch und vergleicht die gefundenen Dateien aus beiden Ordnern nach ihrem Inhalt.
+
+Der Parameter "r" bewirkt dabei, dass rekursiv alle Verzeichnisebenen durchwandert werden und das "q" sorgt für die Unterdrückung der Ausgabe von Dateien ohne Unterschiede.
+
+==== IRL Adressen
+
+=> http://sedamo.info service d'adresse mondial - worldwide address service
+
+==== PDFs generieren
+
+=> https://pandoc.org/ aus allem - Pandoc
+%%%
+pandoc a.html a.pdf
+%%%
+
+=> https://orgmode.org/ oder eben org-mode
+* scnr
+
+
+==== Go
+
+=> https://www.youtube.com/watch?v=eqSjKOPt7dg&pp=ygUPZ29sYW5nIHR1dG9yaWFs Go (Golang): Eine Einführung in 130 Minuten // deutsch - YouTube
+
+
+==== Vosk transcriber
+
+=> https://alphacephei.com/vosk/ 
+
+Der Vosk-transcriber kann videos transcriber.
+
+Installation:
+%%%
+pip3 install vosk
+%%%
+
+Nutzung:
+%%%
+vosk-transcriber -i v.mp4 -t srt -o v.srt
+vosk-transcriber -l de -i v.mp4 -t srt -o v.srt
+~/.local/bin/vosk-transcriber -l de -i Gruss.webm -t srt -o Gruss.srt
+%%%
+
+Und in die `.bashrc`
+%%%
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+then
+    PATH="$HOME/.local/bin😒HOME/bin:$PATH"
+fi
+export PATH
+%%%
+
+
+==== LUGA - Linux User Group Austria
+
+=> https://lists.luga.at/mailman/listinfo/luga-announce Webseite zum anmelden bei der LUGA-announce Mailingliste. \
+Auf dieser Mailinglist werden Veranstaltungen der LUGA (und eventuell auch andere Dinge) angekündigt.
+
+
+@last_change:2022-10-07
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

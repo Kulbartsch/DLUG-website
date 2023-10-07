@@ -1,0 +1,133 @@
+@article-name:2023-06-08 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2023-06-08_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+$<!-- Österreichisches "Yin und Yang"
+$+ LEIWAND
+$- OASCH
+$(Wandspruch im Hackerspace)  -->
+
+;-komplexität
+;-bequemlichkeit
+
+
+==== freie Smartphones und Smartphone-Betriebssysteme und (privatsphärenfreundliche) Tarife
+
+=> https://grapheneos.org/history/ GrapheneOS (sicherers Android OS) - History
+
+=> https://silent.link/ Silent Link - Anonymous eSIM
+=> https://puri.sm/products/librem-awesim/  Purism – Librem AweSIM - AweSIM, SIMple and SIMple Plus cellular plans
+
+; => https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwifnYLPn7T_AhUQpaQKHUWKBPQQFnoECBgQAQ&url=https%3A%2F%2Fforums.linuxmint.com%2Fviewtopic.php%3Ft%3D328519&usg=AOvVaw2ujNBu5U1Hy0yoFkC3oK0L
+
+=> https://delta.chat  Delta Chat - The e-mail messenger - "💬 Message anyone with an e-mail address  even if they don’t use Delta Chat."
+
+=> https://www.thelightphone.com/ The Light Phone - Minimalistisches Mobiltelefon mit e-Paper Bildschirm.
+=> https://mudita.com/products/phones/mudita-pure/ Mudita Pure - A Modern Minimalist Phone. Mindful design, essential functionalities, an eye-friendly E Ink display, an open source OS and ultralow SAR value.
+;=> https://koshercell.org/
+* KosherCell - Kosher Phones and Devices
+=> https://jolla.com/ Jolla Smartphone mit Sailfish OS
+=> https://e.foundation/e-os/  /e/OS - e Foundation - "deGoogled unGoogled smartphone operating systems and online services - your data is your data"
+=> https://www.fairphone.com/de/  Fairphone | Das Smartphone, das sich für Mensch und Umwelt einsetzt
+=> https://murena.com/  Murena - deGoogled and privacy by design smartphones and cloud services.
+
+
+==== Gesundes Essen
+
+=> https://www.bulletproof.com/recipes/keto-recipes/keto-cobb-salad-recipe-2b/ Keto Cobb Salad With Golden Vinaigrette
+=> https://www.onceuponachef.com/recipes/cauliflower-fried-rice.html  Cauliflower Fried Rice - "This Chinese-style cauliflower fried rice is a healthy, low-carb dish that’s hearty enough to serve as a main course."
+
+
+==== Stress mit Akonadi
+
+%%%
+> cat fuckakonadi.sh
+akonadictl stop
+akonadictl start &
+akonadictl fsck
+%%%
+
+
+==== Terminal basierte (TUI) Mail-Clients
+
+=> http://www.mutt.org/  The Mutt E-Mail Client -  "All mail clients suck.  This one just sucks less."
+=> https://aerc-mail.org/  aerc - a pretty good email client: "aerc is an email client that runs in your terminal. \
+It's highly efficient and extensible, perfect for the discerning hacker."
+
+=> https://www.knopper.net/knoppix-adriane/  ADRIANE - Audio Desktop Reference Implementation and Networking Environment - \
+ADRIANE ist ein einfach zu benutzendes, sprechendes Desktop-System mit \
+optionaler Braille-Unterstützung, das auch völlig ohne visuelle Ausgabegeräte \
+auskommt. Es erleichtert insbesondere den Zugang zu den \
+Standard-Internetdiensten E-Mail und Surfen im World Wide Web, das Einscannen und Vorlesen \
+lassen von gedruckten Dokumenten und vieles mehr.
+=> https://www.youtube.com/watch?v=-0B3K2yXxWk  LIT2023: ADRIANE - YouTube
+
+=> https://www.grund-wissen.de/linux/shell/mutt.html  Der Email-Client mutt (Grund-wissen.de)
+=> https://tomzai.ch/mutt-mail-client-step-by-step/ Mutt Mail-Client Step by Step - Tom Zai
+=> https://forum.ubuntuusers.de/topic/mutt-fuer-pop3-konfigurieren/  Mutt für POP3 Konfigurieren? (Ubuntu Forum)
+=> https://github.com/sup-heliotrope/sup  GitHub - sup-heliotrope/sup: A curses threads-with-tags style email client
+
+
+==== Verschwörhaus Drama
+
+=> https://verschwoerhaus-bleibt.de/ Verschwörhaus bleibt - Offener Brief an die Stadtverwaltung Ulm
+=> https://www.ulm.de/leben-in-ulm/digitale-stadt/meldungen/2022_06_juni/vsh_verein_abstimmung_juni2022  Stadt Ulm - Verschwörhaus öffnet sich neuen Gruppen
+=> https://netzpolitik.org/2023/hackspace-in-ulm-verschwoerhaus-verliert-seinen-namen-an-die-stadt/  Hackspace in Ulm: Verschwörhaus verliert seinen Namen an die Stadt – netzpolitik.org
+
+
+==== Digitalisierung
+
+=> https://digitaleinitiativen.at/  Plattform für digitale Initiativen – Den Funken der Digitalisierung in den Menschen der Region zünden
+=> https://digitalcourage.de/digitalzwang  Digitalzwang | Digitalcourage
+=> https://www.gem2go.at/  GEM2GO - Die Gemeinde Info und Service App
+=> https://www.untis.at/ Untis - Das Gesamtpaket für die Schulorganisation (AT)
+=> https://www.microsoft.com/de-de/education Microsoft Bildung
+=> https://www.microsoft.com/de-de/education/products/microsoft-365   Microsoft 365 Education – Microsoft Education (kostenfreies anfüttern)
+=> https://sandstorm.io/  Sandstorm is an open source platform for self-hosting web apps
+=> https://en.wikipedia.org/wiki/Gemini_(protocol)  Gemini (protocol) - Wikipedia
+* Siehe auch unsere [Gemini Themenseite](/projekte/gemini.html).
+; Habe ich (AK) nicht erwähnt.
+=> https://kulbartsch.de/data/2021-11_Dezentralisierung_P2P.pdf "Zentralisierung / Dezentralisierung und Peer-to-Peer Systeme" (pdf)
+
+
+==== kompakte Programmiersprachen
+
+=> https://julialang.org/  The Julia Programming Language
+=> https://ziglang.org/  ⚡Zig Programming Language ⚡A Simple Language ⚡
+=> https://tinygo.org/  TinyGo - A Go Compiler For Small Places - Go on embedded systems and WebAssembly
+
+
+==== Terminal basierte TUI Web-Browser
+
+=> https://w3m.sourceforge.net/index.en.html  W3M Homepage
+=> https://www.heise.de/select/ct/2023/13/2311607581457009568 Shellsurfer (c't 13/2023 S. 148)
+=> https://www.brow.sh/  Browsh
+=> https://github.com/fathyb/carbonyl fathyb/carbonyl: Chromium running inside your terminal (GitHub)
+=> http://www.elinks.cz/  ELinks - Full-Featured Text WWW Browser - \
+ELinks is an advanced and well-established feature-rich text mode web \
+(HTTP/FTP/..) browser.  ELinks can render both frames and tables, is highly \
+customizable and can be extended via Lua or Guile scripts. It is quite \
+portable and runs on a variety of platforms.
+
+
+==== Tidbits
+
+=> https://mcj.sourceforge.net/  XFig User Manual
+
+=> https://youtu.be/ZSRHeXYDLko  Preventing the Collapse of Civilization / Jonathan Blow (Thekla, Inc) - YouTube
+
+
+@last_change:2022-09-29
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

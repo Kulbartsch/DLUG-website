@@ -1,0 +1,43 @@
+@page:MinimalComputing
++../header.in
+$<article>
+=== Minimal Computing
+
+- Minimal Computing
+- Resiliente Systeme
+- Effizientes Computing
+
+==== Vorteile:
+
+* Läuft auf niedrigen Ressourcen, benötigt wenig RAM, CPU, Disk
+* Text User Interfaces sind auch Benutzerfreundlich
+* Gut für Menschen mit Sehschwäche geeignet (Braille, Screenreader)
+* Benötigt wenig Energie
+* Einfache remote Nutzung via ssh
+
+==== Anforderungen:
+
+* TUI Anwendungen bevorzugen, da Anwenderfreundlich
+* Compilierte Programme bevorzugt
+* Interpretierte (Script) Sprachen  möglichst vermeiden \
+  (benötigen mehr CPU Leistung zur Ausführung)
+* Komplexe Programme vermeiden.\
+  Diese haben viele Abhängigkeiten und sind damit\
+  fehleranfälliger und benötigen mehr Ressourcen.
+* Browser-Anwendungen vermeiden.\
+  Browser (auch embeded) benötigen viel Ressourcen
+* ⇒ Keine Elektron Anwendungen
+
+
+==== Beispiele
+
+- w3m
+
+
+Siehe Themen vom [[Online Treffen 2023-06-08|/archiv/2023-06-08_FS_DLUG_Treffen.html]]
+
+@last_change:2023-10-07
+@author:Alexander, Uli
+@license:CC BY-SA 4.0
++../article-end.in
++../footer.in
