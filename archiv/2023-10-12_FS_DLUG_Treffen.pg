@@ -1,0 +1,90 @@
+@article-name:2023-10-12 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2023-10-12_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Wieder mit Teilnehmern aus Österreich vom [Linux User Group Austria](https://www.luga.at/)
+
+Themen des Abends waren:
+
+==== Verschiedenes
+
+=> https://servers.joinmatrix.org/ 
+
+> In Emacs eine Shell öffen um vim zu starten.
+
+=> https://github.com/doomemacs/doomemacs Doom Emacs - An Emacs configuration for the stubborn martian vimmer
+
+=> https://www.heise.de/news/cURL-Infos-zu-schlimmster-Sicherheitsluecke-seit-Langem-kommen-am-11-Oktober-9326134.html
+=> https://curl.se/docs/CVE-2023-38546.html
+
+=> https://git.sr.ht/~kulbartsch/links Alexander hat das programm "links" geschrieben um Links in Textdateien \
+   mit Informationen aus Header uns Paragraphen zu ergänzen.
+
+=> https://pkg.go.dev/net/http@go1.21.3#hdr-HTTP_2 HTTP/2 Implementierung in Go
+
+=> https://cryptpad.fr/ Offizielle Instanz von CryptPad, der durchgängig verschlüsselten und quelloffenen Collaboration-Suite.
+
+
+==== Vortragsvideos
+
+=> https://media.ccc.de/ CCC Video Archiv
+=> https://www.youtube.com/@mediacccde CCC Video (teil) Archiv auf Youtube
+
+=> https://peertube.luga.at Beertube - Die Peetube Instanz der LUG Austria
+=> https://www.youtube.com/@mieb-wiedaschaun Michies Youtube Kanal mit über 300 Aufzeichnungen von Talks (vor Beertube)) 
+
+=> https://www.youtube.com/watch?v=ZSRHeXYDLko Preventing the Collapse of Civilization / Jonathan Blow (YouTube)
+
+==== Programmierung
+
+* Bericht über einen referenzwürdigen Software Entwicklungsprozess mit  
+=> https://de.wikipedia.org/wiki/C%2B%2B C++
+
+=> https://github.com/carbon-language/carbon-lang/ Carbon Language: An experimental successor to C++
+
+==== DeltaChat
+
+=> https://delta.chat/de/ Delta Chat ist ein Messenger, der über E-Mail funktioniert
+
+==== GnuPG
+
+=> https://www.gnupg.org/blog/20230321-adsk.html GnuPG ADSK: The Additional Decryption Subkey
+=> https://www.gnupg.org/download/index.html GnuPG Download; da gibt es auch ein AppImage  
+
+==== Vortragsvideos von Leyrer zu IT
+
+=> https://www.youtube.com/watch?v=dpQOKwYOhLQ leyrer: Kinder, es tut mir undendlich leid ... (Youtube)
+=> https://media.ccc.de/search?p=leyrer Videos von Leyrer (Youtube) 
+
+==== Minimal Computing
+
+=> https://dlug.de/projekte/minimal_computing.html Minimal Computing - DLUG Projektseite
+=> https://dlug.de/projekte/gemini.html Gemini Protokoll - DLUG Projektseite 
+=> https://dlug.de/archiv/2022-12-08_FS_DLUG_Treffen.html wurde auch hier besprochen: 2022-12-08 - DLUG und Freie Software Freunde Online Treffen
+=> https://dlug.de/archiv/2022-12-08_FS_DLUG_Treffen.html#Software_und_Energieverbrauch wie viel Energie verbraucht Software?
+=> https://github.com/SerenityOS/serenity SerenityOS - The world's most beautiful operating system
+=> https://ladybird.dev/ Ladybird - A simple, fast, and secure web browser, vom SerenityOS Team, aber auch für Linux
+=> https://de.wikipedia.org/wiki/RISC_OS RISC OS – Wikipedia
+=> https://www.riscosopen.org/content/ RISC OS Open
+=> https://www.riscosopen.org/content/downloads/raspberry-pi - RISC OS for Raspberry Pi
+=> https://milkv.io/ RISCV Hardware
+
+==== Musik
+
+=> https://angstalt.bandcamp.com/ /'angstalt/ Hannover, Germany - founded in 1995 and still active with all original\
+   founding members. save haven and valve, to get us through life. played with cranes, sometree, and the truth about,\
+   recorded with endraum's roman rütten. (Bandcamp)
+
+
+@last_change:2022-10-13
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

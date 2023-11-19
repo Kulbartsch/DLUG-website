@@ -1,0 +1,81 @@
+@article-name:2023-11-09 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2023-11-09_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== Das Protokol zum Abend erstellen
+
+=> https://github.com/Kulbartsch/DLUG-website The source of the DLUG website
+=> https://github.com/Kulbartsch/AStaticWebSiteGenerator
+=> https://git.sr.ht/~kulbartsch/links "links" – a script to detect URLs/links in a protocoll, format them in gemini style and fetch title and header from the website
+
+=> https://cryptpad.digitalcourage.de/    Collaboration Suite von Digitalcourage zum Kooperativem online Schreiben
+=> https://cryptpad.digitalcourage.de/code/#/2/code/edit/ii3vkbcFp2hJFIvbSjJ56qMj/ Cryptopad vom 09. Nov. 2023
+
+
+==== devices mounten
+
+=> https://www.man7.org/linux/man-pages/man5/systemd.automount.5.html
+=> https://wiki.ubuntuusers.de/fstab/#Automount-mit-systemd
+
+
+==== IOT
+
+via LoRaWAN
+=> https://www.thethingsnetwork.org/ "The Things Network" is a global collaborative Internet of Things ecosystem that creates networks, devices and solutions using LoRaWAN®.
+=> https://iot-shop.de/shop/gem-hh-tabs-tbhh100-temperatur-und-luftfeuchtigkeitssensor-4434 Temperatur und Luftfeuchtigkeit im iot-shop.de
+
+
+==== Erstellung der DLUG Webseite
+
+=> https://github.com/Kulbartsch/DLUG-website
+=> https://github.com/Kulbartsch/AStaticWebSiteGenerator verwendet Alexanders "Another Static WebSite Generator" (in go)
+
+
+==== Klage zu Safe-Harbor-Abkommen und EU-US Privacy Shield
+
+=> https://noyb.eu/de
+=> https://noyb.eu/de/meta-facebook-instagram-move-pay-your-rights-approach
+
+
+==== privacy
+
+=> https://www.ctrl-verlust.net/ Michael Seemans Blog "ctrl+verlust", hier ist auch
+=> https://www.ctrl-verlust.net/buch1/ das Buch "Das neue Spiel" zu finden:
+> Datenschutz, Urheberrecht, Staatsgeheimnisse. Wir haben die Kontrolle verloren. Daten, von denen wir nicht wussten, dass es sie gibt, finden Wege, die nicht vorgesehen waren und offenbaren Dinge, auf die wir nie gekommen wären.
+>
+> Wir befinden uns mitten in einem gewaltigen Umbruch. Die Verdatung der Welt stößt die postindustrielle Ordnung in die Krise. All unsere Institutionen und unser ganzes Verständnis von Freiheit sind vom Kontrollverlust bedroht.
+>
+> Doch der Krieg ist nicht verloren. Ein Neues Spiel hat begonnen. Es anzunehmen, heißt, sich auf ein neues Denken und eine radikal neue Ethik einzulassen und die Freiheit an anderen Orten zu suchen. Welche Strategien funktionieren nicht mehr, welche um so besser, welche neuen gibt es?
+
+==== Suchmaschinen alternativen
+
+=> https://yacy.net/de YaCy is free software for your own search engine.
+
+
+==== Webseiten
+
+* Sollten nur Webseiten angezeigt werden in syntaktisch einwandfrei sind?
+* HTML ist komplex geworden:
+=> https://drewdevault.com/2020/03/18/Reckless-limitless-scope.html The reckless, infinite scope of web browsers (Drew DeVault)
+=> https://dillo.org/ Dillo Webbrowser (minimalistisch)
+
+=> https://pi-hole.net/ Mit Pi-hole dich vor Online-Werbung schützen.
+
+
+=> https://www.spektrum.de/news/mythos-signal-licht-und-schatten-beim-nicht-kommerziellen-messenger/2190072 Kritik am Signal Messenger (spektrum.de)
+
+
+@last_change:2023-09-24
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

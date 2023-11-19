@@ -1,0 +1,78 @@
+@page:Hacker-Events 2024
++../header.in
+$<article>
+=== Hacker-Events 2024 
+
+==== Hack im Pott ??
+* Wann: 2024-01- ??? – scheint nicht stattzufinden
+* Wo: Essen
+=> https://chaospott.de/calendar.html
+
+==== FOSDEM'24
+* Wann: 2024-02-03 - 2024-02-04
+* Wo: Brüssel
+=> https://fosdem.org/2024/
+
+=== Easterhegg
+* Wann: 2024-03-29 – 2024-04-01
+* Wo: Regensburg
+=> http://www.easterhegg.eu/
+
+==== Chemnitzer Linux-Tage
+* Wann: 2024-03-16 - 2024-03-17
+* Wo: Chemnitz
+=> https://chemnitzer.linux-tage.de/2024/de/
+
+==== Gulaschprogrammiernacht (GPN) 
+* Wann: 2024-05-30 - 2024-06-02
+* Wo: Karlsruhe
+=> https://entropia.de/GPN22
+
+==== T-DOSE
+* Wann: 2024-06-01 – 2024-06-02
+* Wo: Geldrop (near Eindhoven)
+=> https://t-dose.org/2024/
+
+==== Intergalaktische Erfahrungsreise (IGER)
+=> Wann: 2024-07 ???
+=> Wo: Bamberg
+=> https://www.fairydust.reisen/
+
+==== FrOSCon
+* Wann: 2024-08-17 – 2024-08-18
+* Wo: Sankt Augustin an der Hochschule Bonn-Rhein-Sieg
+=> https://froscon.org/
+
+==== Chaos Communication Camp 
+* Erst wieder 2027-08- ???
+
+==== MetaRheinMainChaosDays (MRMCD) 
+* Wann: 2024-09- ???
+* Wo: ...
+=> https://mrmcd.net
+
+==== Datenspuren
+* Wann: 2024-09- ???
+* Wo: Dresden
+=> https://www.datenspuren.de/
+
+=== Labortage
+* Wann: 2024-11- ??? wohl noch nicht geplant
+* Wo: Bochum
+=> https://wiki.das-labor.org/w/LABOR_Wiki
+
+=== Open-Rhein-Ruhr ??
+* Wann: war mal im November
+* findet wohl *nicht* statt.
+=> http://openrheinruhr.de/
+
+==== 38C3
+* Wo: Hamburg, CCH ???
+* Wann: 2024-12-27 – 2024-12-30 
+
+
+@last_change:2023-11-19
+@author:Alexander
+@license:CC BY-SA 4.0
++../article-end.in
++../footer.in
