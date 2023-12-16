@@ -1,0 +1,102 @@
+@article-name:2023-12-14 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2023-12-14_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren ...
+
+==== Verschiedenes 
+
+=> https://whatthecommit.com/ Commit Message Generator
+=> https://github.com/ngerakines/commitment ... hier ist das Repo mit  mehr Infos und Plugins für VS-Code. 😆
+
+=> https://sr.ht/~sircmpwn/scdoc/ einfach roff (man-pages) aus Markdown erstellen mit scdoc
+=> https://git.sr.ht/~sircmpwn/scdoc/tree/master/item/scdoc.5.scd ... das verwendete Markdown
+
+=> https://lwn.net/Articles/954285/ Ext4 data corruption in stable kernels (LWN)
+
+=> https://www.youtube.com/watch?v=Eluzi70O-P4 Revolution OS, 2001 - Synopsis: Revolution OS ist ein Dokumentarfilm aus dem Jahr 2001, der die zwanzigjährige Geschichte von GNU, Linux, Open Source und der Bewegung für freie Software nachzeichnet. - Unter der Regie von J. T. S. Moore enthält der Film Interviews mit prominenten Hackern und Unternehmern wie Richard Stallman, Michael Tiemann, Linus Torvalds, Larry Augustin, Eric S. Raymond, Bruce Perens, Frank Hecker und Brian Behlendorf. - (Mit mehrsprachigen Untertiteln, auch auf Deutsch - youtube)
+
+
+==== Qualityland (von Marc-Uwe Kling)
+
+=> https://de.wikipedia.org/wiki/Qualityland Qualityland auf Wikipedia
+=> https://qualityland.de/ Qualityland Homepage
+=> https://media.ccc.de/v/34c3-9285-qualityland  QualityLand  (media.ccc.de)
+=> https://media.ccc.de/v/rc3-11595-lesung_qualityland_2_0  Lesung: Qualityland 2.0  (media.ccc.de)
+
+
+==== Eigener Solarstrom und Akku
+
+Ekki hat uns spontan Präsentiert wie man mit Sonnenenergie und Batterien sein externen Strom Bedarf
+auf praktisch null senken kann. Zusätzlich bekommt man mit eine Notstromversorgung.
+
+=> https://sites.google.com/view/ekkiweb/solar Ekkis Web-Dokumentation "Solar" mit vielen Grafiken und weiterführenden Links
+
+=> https://www.solarserver.de/pv-anlage-online-berechnen/  PV-Ertragsrechner: Solarertrag berechnen - Solarserver
+=> https://www.wien.gv.at/stadtentwicklung/energie/themenstadtplan/solarpotenzial/ Solarpotenzialkataster - Dachflächen fär Solarenergie
+=> https://www.energieatlas.nrw.de/site/karte_solarkataster  Energieatlas NRW
+=> https://www.dwd.de/DE/leistungen/solarenergie/strahlungskarten_sum.html?nn=16102 Wetter und Klima - Deutscher Wetterdienst   -  Leistungen - Global-, Diffus- und Direktstrahlung (Monats- und Jahressummen sowie Abweichungen)
+=> https://pluginfestivals.de/  Plug-in Festivals - Stromspeicher
+=> https://media.ccc.de/v/ds23-243-netzstabilisierung-durch-demand-response-lasten-im-europischen-stromnetz-am-beispiel-von-bitcoin-mining  Netzstabilisierung durch Demand-Response-Lasten im europäischen Stromnetz am Beispiel von Bitcoin-Mining (media.ccc.de)
+=> https://www.homepowersolutions.de/produkt/ Stromspeicher basierend auf Wasserstoff und Solarenergie
+=> https://www.suntastic.solar/smartflower-pop/ smartflower – All-in-One-Solarsystem – Made in Austria - suntastic.solar
+=> https://www.primesolar.eu/komplettanlage/solarblume
+
+=> https://thedriven.io/2023/05/16/petrol-and-diesel-cars-20-times-more-likely-to-catch-fire-than-evs/ Petrol and diesel cars 20 times more likely to catch fire than EVs 
+
+
+==== Geräte Fernsteuern
+
+Auf der Suche nach (Open Source) Alternativen zu 
+=> https://www.teamviewer.com/de/ Teamviewer
+
+Um Geräte fernsteuern zu können, wird mindestens eine Software benötigt, die das Bild und die Eingaben von Tastatur und Maus in die entgegengesetzte Richtung überträgt. Das wird z.B. als "Remote Desktop" bezeichnet.
+
+Wenn sich die beiden Geräte nicht direkt im Netzwerk "sehen" können, muss die Verbindung über einen Relay-Server oder VPN ermöglicht werden.
+
+Teamviewer ist ein Produkt, bei dem der Anbieter ein Relay zur Verfügung stellt.
+
+
+Remote Desktops mit Relay:
+
+=> https://anydesk.com/de AnyDesk Remote-Desktop-Anwendung (kommerziell)
+=> https://rustdesk.com/ RustDesk – The Open Source (dual license) Remote Desktop Access Software
+
+Remote Desktops (ohne Relay, evtl. wird zusätzlich ein VPN benötigt):
+
+=> https://wiki.x2go.org/doku.php  X2Go is an OSS Remote Desktop solution which enables you to access a graphical desktop of a computer over a low bandwidth (or high bandwidth) connection.
+=> https://de.wikipedia.org/wiki/Virtual_Network_Computing VNC - der Klassiker mit verschiedenen Implementierungen
+=> https://remotedesktop.google.com/ Chrome Remote Desktop
+
+VPNs: 
+
+=> https://www.wireguard.com/ WireGuard - ein modernes VPN
+=> https://tailscale.com/  Tailscale, ein einfaches VPN (free tier), basiert auf WireGuard
+=> https://headscale.net/  Headscale, Open Source Tailscale Variante, basiert auf WireGuard
+
+Sonstiges zum Thema:
+
+=> https://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software  Comparison of remote desktop software (Wikipedia)
+=> https://screego.net/ Screego allows you to share your screen with good quality and low latency. Screego is an addition to existing software and only helps to share your screen.
+=> https://palava.tv/  palava.tv ist eine kostenlose, einfach benutzbare, sichere und quelloffene Plattform für Videogespräche. Sie wird von einer gemeinnützigen Organisation mit Sitz in der EU entwickelt und betrieben. palava.tv läuft direkt im Webbrowser und die Benutzung erfordert keine Registrierung.
+
+
+==== und dann war da noch
+
+=> https://simplex.chat/ SimpleX (messenger)
+
+=> https://keybase.io/jitsibot/chat jitsibot (Jitsi Meeting Bot) | Keybase
+
+
+@last_change:2023-12-16
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

@@ -18,15 +18,20 @@ $<article>
 * Wo: Graz / Austria
 => https://elevate.at/
 
+==== Chemnitzer Linux-Tage
+* Wann: 2024-03-16 - 2024-03-17
+* Wo: Chemnitz
+=> https://chemnitzer.linux-tage.de/2024/de/
+
 ==== Easterhegg
 * Wann: 2024-03-29 – 2024-04-01
 * Wo: Regensburg
 => http://www.easterhegg.eu/
 
-==== Chemnitzer Linux-Tage
-* Wann: 2024-03-16 - 2024-03-17
-* Wo: Chemnitz
-=> https://chemnitzer.linux-tage.de/2024/de/
+==== OpenInfra Day Germany x Sovereign
+* Wann: 2024-05-14 – 2024-05-15
+* Wo: Berlin
+=> https://openinfra.dev/blog/openinfra-events-2024 
 
 ==== Gulaschprogrammiernacht (GPN) 
 * Wann: 2024-05-30 - 2024-06-02
@@ -39,8 +44,8 @@ $<article>
 => https://t-dose.org/2024/
 
 ==== Intergalaktische Erfahrungsreise (IGER)
-=> Wann: 2024-07 ???
-=> Wo: Bamberg
+* Wann: 2024-07 ???
+* Wo: Bamberg
 => https://www.fairydust.reisen/
 
 ==== FrOSCon
@@ -57,9 +62,9 @@ $<article>
 => https://mrmcd.net
 
 ==== Datenspuren
-* Wann: 2024-09- ???
+* Wann: 2024-09-20 - 2024-09-22
 * Wo: Dresden
-=> https://www.datenspuren.de/
+=> https://www.datenspuren.de/2024/
 
 === Labortage
 * Wann: 2024-11- ??? wohl noch nicht geplant
@@ -76,7 +81,7 @@ $<article>
 * Wann: 2024-12-27 – 2024-12-30 
 
 
-@last_change:2023-11-19
+@last_change:2023-12-16
 @author:Alexander
 @license:CC BY-SA 4.0
 +../article-end.in
