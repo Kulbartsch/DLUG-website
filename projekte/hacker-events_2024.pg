@@ -18,6 +18,11 @@ $<article>
 * Wo: Graz / Austria
 => https://elevate.at/
 
+==== Winterkongress der Digitalen Gesellschaft
+* Wann: 2024-03-01 – 2024-03-02
+* Wo: Winterthur / Schweiz
+=> https://www.winterkongress.ch/2024/
+
 ==== Chemnitzer Linux-Tage
 * Wann: 2024-03-16 - 2024-03-17
 * Wo: Chemnitz
@@ -27,6 +32,16 @@ $<article>
 * Wann: 2024-03-29 – 2024-04-01
 * Wo: Regensburg
 => http://www.easterhegg.eu/
+
+====  BigBrotherAwards
+* Wann: 2024-04-12
+* Wo: Bielefeld
+=> https://bigbrotherawards.de/
+
+==== FSCK 2024
+* Wann: 2024-05-03 – 2024-05-05
+* Wo: Backnang (etwa zwischen Heilbronn und Stuttgart)
+=> https://wiki.events.hacknang.de/2024/
 
 ==== OpenInfra Day Germany x Sovereign
 * Wann: 2024-05-14 – 2024-05-15
@@ -42,6 +57,16 @@ $<article>
 * Wann: 2024-06-01 – 2024-06-02
 * Wo: Geldrop (near Eindhoven)
 => https://t-dose.org/2024/
+
+==== Hacken Open Air 2::24
+* Wann: 2024-07-09 – 2024-07-12
+* Wo: Gifhorn
+=> https://hackenopenair.de/
+
+==== Hackover
+* Wann: (noch?) kein Termin für 2024 (war 2023 im Juli)
+* Wo: Nordstadt in Hannover
+=> https://hackover.de/
 
 ==== Intergalaktische Erfahrungsreise (IGER)
 * Wann: 2024-07 ???
@@ -66,22 +91,50 @@ $<article>
 * Wo: Dresden
 => https://www.datenspuren.de/2024/
 
-=== Labortage
-* Wann: 2024-11- ??? wohl noch nicht geplant
+==== Hacks on the Harbour – Maker & Hacker Festival
+* Wann: (noch?) kein Termin für 2024 (war 2023 im September)
+* Wo: Sønderborg / Dänemark
+=> https://hoth.info/de/
+
+==== Labortage
+* Wann: 2024-11- ??? wohl noch nicht geplant    
 * Wo: Bochum
 => https://wiki.das-labor.org/w/LABOR_Wiki
 
-=== Open-Rhein-Ruhr ??
+==== Nook
+* Wann: (noch?) kein Termin für 2024 (war 2023 im November)
+* Wo: Lübeck
+=> https://nook-luebeck.de
+
+==== Open-Rhein-Ruhr ??
 * Wann: war mal im November
 * findet wohl *nicht* statt.
 => http://openrheinruhr.de/
+
+==== #FIfFKon
+* Wann: (noch?) kein Termin für 2024 (war mal November/Dezember)
+* Wo: (wechselnde Lokationen)
+=> https://www.fiffkon.de/
 
 ==== 38C3
 * Wo: Hamburg, CCH ???
 * Wann: 2024-12-27 – 2024-12-30 
 
 
-@last_change:2023-12-16
+=== Weitere Veranstaltungen
+
+==== Jugend hackt
+* Diverse Termine and unterscheidlichen Orten
+=> https://jugendhackt.org/
+
+==== Ankündigung von CCC Events
+=> https://events.ccc.de/
+
+==== Ankündigung von CCC Friends Events
+=> https://events.ccc.de/category/friends/
+
+
+@last_change:2024-01-03
 @author:Alexander
 @license:CC BY-SA 4.0
 +../article-end.in
