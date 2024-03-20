@@ -1,0 +1,111 @@
+@article-name:2024-02-11 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2024-02-11_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== Berechtigungen 
+
+=> https://wiki.ubuntuusers.de/umask/
+=> https://wiki.ubuntuusers.de/Rechte/
+
+%%%
+chmod g+s /path/to/parent_directory
+%%%
+
+
+=== FOSDEM 2024
+
+==== Cyber Resiliance Act
+
+- Compliance Anforderungen 
+- Third party Audit (nicht kommerziell reicht eine Selbst-Zertifizierung)
+- Hohe security Anforderungen
+
+=> https://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act
+=> https://netzpolitik.org/2023/interessensverband-warnt-cyber-resilience-act-gefaehrdet-open-source/
+
+==== DRucken und Scannen 
+
+Uns wurden coole 3D-Druck Dinge gezeigt.
+
+Und 2D scanner HW+SW:
+
+=> https://wiki.ubuntuusers.de/tesseract-ocr/ tesseract-ocr ist ein Kommandozeilenprogramm zur Texterkennung. 
+=> https://gscan2pdf.sourceforge.net/ gscan2pdf - A GUI to produce PDFs or DjVus from scanned documents (sourceforge.net)
+=> https://wiki.ubuntuusers.de/gscan2pdf/ gscan2pdf (ubuntuusers.de)
+=> https://www.linux-community.de/ausgaben/linuxuser/2010/10/scannen-und-ocr-mit-gscan2pdf/ Scannen und OCR mit Gscan2pdf (linux-community.de)
+=> https://canzeley.de/tools.html#ocrpdf-tk ocrpdf-tk ist eine graphische Benutzeroberfläche für OCRmyPDF. OCRmyPDF erzeugt eine durchsuchbare PDF/A-Datei aus einer gewöhnlichen PDF-Datei, die nur Bilder enthält, weil Dokumente eingescannt worden sind.
+=> https://store.brother.de/catalogs/brothergermany/geraete/scanner/ads/ads2800w Brother ADS-2800W - Dokumentenscanner
+
+=> https://packages.debian.org/bookworm/netpbm Netpbm ist ein Werkzeugsammlung zum Manipulieren von Bildern und enthält auch die Möglichkeit diese in verschiedene Formate umzuwandeln.
+=> https://francoismalan.com/how-to-batch-separate-crop-multiple-scanned-photos/ How to Batch Separate & Crop Multiple Scanned Photos - Fotografie @ francoisMalan
+=> https://odyssee-kiel.de/diascan-service/ Dia-Scan Service – ODYSSEE e.V. in Kiel
+=> https://bandsalat.eu/impressum/ Filmservice Bandsalat - Audio Video Film Digitalisierung
+=> http://www.peaceman.de/blog/index.php/super-8-in-hoher-qualitat-digitalisieren Super 8 in hoher Qualität digitalisieren
+=> https://www.isuper8.de/filmen/agl-tmp-19.html Schmalfilm-Digitalisierungsautomat (c't Mach flott den Schrott)
+
+=> https://docs.opencv.org/4.x/index.html OpenCV is an open-source library that includes several hundreds of computer vision algorithms. - \
+Including "Automatically detecting the corners of photos within a scanned document is a more complex task and typically involves image processing techniques such as edge detection and corner detection. You can achieve this using Python with libraries such as OpenCV, which provides a wide range of functions for image processing and computer vision tasks."
+
+
+==== Keyboards
+
+=> https://www.clickykeyboards.com/ ClickyKeyboards.com
+=> https://www.pckeyboard.com/page/product/NEW_M Unicomp, Inc.: New Model M
+=> https://www.cherry.de/kw-3000 CHERRY KW 3000 | Geräuscharme Funktastatur ohne Kabel
+=> https://www.pckeyboard.com/mm5/merchant.mvc?Screen=PROD&Product_Code=UB40B5A Endlich mal wieder mit genügend Funktionstasten. - Unicomp, Inc.: PC 122 Black 5250 Buckling Spring USB
+
+
+==== Gemischte Tüte
+
+=> https://ollama.ai/ Ollama - Get up and running with large language models, locally
+
+=> https://www.damnsmalllinux.org/ The New DSL 2024 has been reborn as a compact Linux distribution tailored for low-spec x86 computers. It packs a lot of applications into a small package. All the applications are chosen for their functionality, small size, and low dependencies. DSL 2024 also has many text-based applications that make it handy to use in a term window or TTY.
+
+=> https://hacktivis.me/projects/badwolf BadWolf is a minimalist and privacy-oriented WebKitGTK+ browser.
+
+=> https://www.heise.de/select/ct/2022/20/softlinks/yxkm Analyse von PDF- und Office-Dateien - Links (c't)
+
+=> https://docs.paperless-ngx.com/ Paperless-ngx is a community-supported open-source document management system that transforms your physical documents into a searchable online archive so you can keep, well, less paper.
+
+=> https://freetubeapp.io/ FreeTube - The Private YouTube Client
+
+=> https://www.heise.de/news/Videokonferenz-voller-KI-Klone-Angestellter-schickt-Betruegern-24-Millionen-Euro-9618064.html Videokonferenz voller KI-Klone: Angestellter schickt Betrügern 24 Millionen Euro (heise+)
+
+
+==== Audio Tracking
+
+=> https://www.sec.cs.tu-bs.de/pubs/2017a-eurosp.pdf Privacy Threats through Ultrasonic Side Channels on Mobile Devices (Paper, TUBraunschweig, pdf)
+=> http://sonicontrol.fhstp.ac.at/ SoniControl – the ultrasonic firewall
+=> https://media.ccc.de/v/ccchh-extras-56164-lauscht-mein-smartpho Lauscht mein Smartphone heimlich mit? (media.ccc.de)
+=> https://media.ccc.de/v/35c3chaoswest-25-track-me-if-you-oh- Track me, if you … oh. (media.ccc.de)
+=> https://media.ccc.de/v/37c3-11974-die_akte_xandr_ein_tiefer_blick_in_den_abgrund_der_datenindustrie Die Akte Xandr - media.ccc.de
+
+
+==== Linux auf dem Stick
+
+=> http://www.knoppix.org/ KNOPPIX Linux Live CD
+=> https://tails.net/index.de.html Tails ist ein tragbares Betriebssystem das Dich gegen Überwachung und Zensur schützt.
+=> https://www.pcwelt.de/article/1170810/linux-auf-dem-stick-die-nutzlichsten-distributionen.html Linux auf dem Stick: Die nützlichsten Distributionen - PC-WELT
+=> https://www.ventoy.net/en/index.html Ventoy - Boote verschiedene ISOs von einem USB-Stick
+
+oder einfach sicher 
+
+=> https://www.qubes-os.org/ Qubes OS: A reasonably secure operating system
+=> https://media.ccc.de/v/ds19-10456-qubes_os_-_eine_einfuhrung QUBES OS - Eine Einführung (media.ccc.de)
+
+
+
+@last_change:2022-03-20
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

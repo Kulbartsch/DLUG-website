@@ -1,0 +1,102 @@
+@article-name:2024-03-14 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2024-03-14_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Dieses Treffen fand am [Pi-Day](https://de.wikipedia.org/wiki/Pi-Tag) statt.
+
+Frank hat eine Kurzgeschichte über Mathematik geschrieben: [[Magnus Asinus Abenteuer des Zählens|/projekte/macount.pdf]]
+$<br>
+Die Geschichte ist auch in "[[Themen – Aktivitäten und Projekte unserer Gruppe|/themen.html#Aktivit_ten_und_Projekte_unserer_Gruppe]]" verlinkt.
+
+Weitere Themen des Abends waren:
+
+==== eBook Reader
+
+=> https://arstechnica.com/gadgets/2008/02/iliad-review/ Putting pen to e-paper: iRex iLiad ebook reader review (2008, arstechnica)
+=> https://remarkable.com/ Remarkable - The paper tablet
+=> https://xournalpp.github.io/ Take handwritten notes with ease. - Xournal++ is a handwriting notetaking software for Linux with PDF annotation support.
+
+==== Autos
+
+Die Fetten
+=> https://www.ford.de/nutzfahrzeuge-modelle/ford-ranger-raptor# Ford Ranger Raptor
+=> https://www.ram.com/de/ Dodge Ram Trucks
+
+Die Kleinen (und Vernünftigen)
+=> https://microlino-car.com/de/microlino Microlino
+=> https://electricbrands.de/ XBUS
+=> https://evetta.com/ Evetta
+=> https://de.wikipedia.org/wiki/Mitsubishi_i-MiEV Mitsubishi i-MiEV
+=> https://www.nissan.de/fahrzeuge/neuwagen/leaf.html Nissan Leaf
+=> https://www.ora-motor.de/ Funky Cat
+=> https://www.citroen.de/marke-technologie/concept-cars/citroen-oli.html Citroën Oli
+
+==== Dies und Das
+
+=> https://github.com/dgtlmoon/changedetection.io Change Detection - Detect website content changes and perform meaningful actions - trigger notifications via Discord, Email, Slack, Telegram, API calls and many more.
+
+=> https://github.com/ka7/story_auf_der_flucht/blob/master/46.md Story "46" (und mehr)
+
+=> https://www.sudo.ws/ Das logo von `sudo` ist ein Sandwich wegen ...
+=> https://xkcd.com/149/ xkcd 149
+
+=> https://xkcd.com/books/ randall munroe: the books
+
+=> https://git-annex.branchable.com/ git-annex allows managing files with git, without checking the file contents into git.
+
+
+==== Dokumente erstellen
+
+=> https://www.latex-project.org LaTeX Project
+=> https://orgmode.org/ Org mode - Your life in plain text
+=> https://media.ccc.de/v/3713-org-mode-manage-your-life-in-plain-text ... Org mode - manage your life in plain text (media.ccc.de Video)
+=> https://asciidoc.org/ AsciiDoc is a plain text markup language for writing technical content.
+
+
+==== (Selbst) Organisation
+
+=> https://obsidian.md/ Obsidian - A second brain, for you, forever.
+=> https://orgmode.org/ Org mode - Your life in plain text
+=> http://doc.norang.ca/org-mode.html ... (video)
+=> https://taskwarrior.org/ Taskwarrior is Free and Open Source Software that manages your TODO list from the command line.
+=> http://todotxt.org/ todo.txt - A simple and extensible shell script for managing your todo.txt file.
+=> https://zim-wiki.org/ Zim is a graphical text editor used to maintain a collection of wiki pages.
+=> https://www.zettlr.com/ Zettlr - A Markdown Editor for the 21st century.
+=> https://asana.com/de Asana - Organize your work. All in one place.
+=> https://joplinapp.org/ Joplin is an open source note-taking app.
+=> https://standardnotes.com/ Standard Notes is a private notes app that features unmatched simplicity, end-to-end encryption, powerful extensions, and open-source applications.
+=> https://zettelstore.de/home/doc/trunk/www/index.wiki Zettelstore is a software that collects and relates your notes (“zettel”) to represent and enhance your knowledge.
+=> https://todoist.com/de Todoist - non free ToDo App
+=> https://www.notion.so/ Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.
+=> https://de.wikipedia.org/wiki/Zettelkasten Zettelkasten - Wikipedia
+=> https://logseq.com/ Logseq is the open toolbox for workflows that deal with lots of information
+=> https://ikiwiki.info/ Ikiwiki is a wiki compiler.
+=> http://wiki.c2.com/ Das erste Wiki von Ward Cunningham
+=> https://de.wikipedia.org/wiki/Wiki_Wiki_Web ... Wiki Wiki Web (Wikipedia)
+
+* Oder einfach in E-Mails
+* Oder einfach in Textdateien schreiben und per Git syncen.
+
+==== Sammler
+
+=> https://www.youtube.com/watch?v=G69Wdfwmqng "Leaving the Field Behind - How the Best get Better" - Paul Rulkens (youtube)
+=> https://www.youtube.com/watch?v=Unzc731iCUY MIT "How to Speak", IAP 2018 - Instructor: Patrick Winston (youtube)
+=> https://www.youtube.com/watch?v=C0fHstDPwmo Pispers - "Wem gehören die Medien" (youtube)
+
+=> https://alternativeto.net/ AlternativeTO - Apps & Software Alternatives
+
+=> https://www.howtoforge.com/how-to-install-nextcloud-on-debian-11/#download-nextcloud-source-code How to Install Nextcloud on Debian 11
+
+
+@last_change:2024-03-14
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

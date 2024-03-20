@@ -1,5 +1,5 @@
-@article-name:2023-MM-DD - DLUG und Freie Software Freunde Online Treffen
-@article-link:/archiv/2023-MM-DD_FS_DLUG_Treffen.html
+@article-name:2024-MM-DD - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2024-MM-DD_FS_DLUG_Treffen.html
 (cond-if-set teaser
 * [[{{article-name}}|{{article-link}}]]
 (cond-else
@@ -19,7 +19,7 @@ Themen des Abends waren:
 * DLUG Homepage [[interner link name|https://dlug.de]]
 
 
-@last_change:2022-MM-DD
+@last_change:2024-MM-DD
 @author:Alexander
 +../article-end.in
 +../footer.in
