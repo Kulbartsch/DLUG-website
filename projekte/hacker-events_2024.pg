@@ -1,7 +1,7 @@
 @page:Hacker-Events 2024
 +../header.in
 $<article>
-=== Hacker-Events 2024 
+=== Hacker-Events 2024
 
 ==== Hack im Pott ??
 * Wann: 2024-01- ??? – scheint nicht stattzufinden
@@ -66,9 +66,9 @@ $<article>
 ==== OpenInfra Day Germany x Sovereign
 * Wann: 2024-05-14 – 2024-05-15
 * Wo: Berlin
-=> https://openinfra.dev/blog/openinfra-events-2024 
+=> https://openinfra.dev/blog/openinfra-events-2024
 
-==== Gulaschprogrammiernacht (GPN) 
+==== Gulaschprogrammiernacht (GPN)
 * Wann: 2024-05-30 - 2024-06-02
 * Wo: Karlsruhe
 => https://entropia.de/GPN22
@@ -98,19 +98,19 @@ $<article>
 * Wo: Sankt Augustin an der Hochschule Bonn-Rhein-Sieg
 => https://froscon.org/
 
-==== Chaos Communication Camp 
+==== Chaos Communication Camp
 * Erst wieder 2027-08- ???
+
+==== Håck ma's Castle
+* Wann: 2024-08-28 - 2024-09-01
+* Wo: Ottenschlag, Österreich
+=> https://hack-mas.at/
 
 ==== Akademy 2024
 * Akademy is the annual world summit for KDE Community members, developers, translators, designers, and friends.
 * Wo: Würzburg, Germany und Online
 * Wann: 2024-09-07 – 2024-09-12
   => https://akademy.kde.org/2024/
-
-==== MetaRheinMainChaosDays (MRMCD) 
-* Wann: 2024-09- ???
-* Wo: ...
-=> https://mrmcd.net
 
 ==== EuroBSDCon 2024
 * Wo: Dublin, Ireland
@@ -132,8 +132,13 @@ $<article>
 * Wo: Sønderborg / Dänemark
 => https://hoth.info/de/
 
+==== MetaRheinMainChaosDays (MRMCD)
+* Wann: 2024-10-03 - 2024-10-06
+* Wo: TU Darmstadt
+=> https://mrmcd.net
+
 ==== Labortage
-* Wann: 2024-11- ??? wohl noch nicht geplant    
+* Wann: 2024-11- ??? wohl noch nicht geplant
 * Wo: Bochum
 => https://wiki.das-labor.org/w/LABOR_Wiki
 
@@ -154,7 +159,7 @@ $<article>
 
 ==== 38C3
 * Wo: Hamburg, CCH ???
-* Wann: 2024-12-27 – 2024-12-30 
+* Wann: 2024-12-27 – 2024-12-30
 
 
 === Weitere Veranstaltungen

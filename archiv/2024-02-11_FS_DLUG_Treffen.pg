@@ -11,7 +11,7 @@ $<article>
 
 Themen des Abends waren:
 
-==== Berechtigungen 
+==== Berechtigungen
 
 => https://wiki.ubuntuusers.de/umask/
 => https://wiki.ubuntuusers.de/Rechte/
@@ -25,20 +25,20 @@ chmod g+s /path/to/parent_directory
 
 ==== Cyber Resiliance Act
 
-- Compliance Anforderungen 
+- Compliance Anforderungen
 - Third party Audit (nicht kommerziell reicht eine Selbst-Zertifizierung)
 - Hohe security Anforderungen
 
 => https://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act
 => https://netzpolitik.org/2023/interessensverband-warnt-cyber-resilience-act-gefaehrdet-open-source/
 
-==== DRucken und Scannen 
+==== Drucken und Scannen
 
 Uns wurden coole 3D-Druck Dinge gezeigt.
 
 Und 2D scanner HW+SW:
 
-=> https://wiki.ubuntuusers.de/tesseract-ocr/ tesseract-ocr ist ein Kommandozeilenprogramm zur Texterkennung. 
+=> https://wiki.ubuntuusers.de/tesseract-ocr/ tesseract-ocr ist ein Kommandozeilenprogramm zur Texterkennung.
 => https://gscan2pdf.sourceforge.net/ gscan2pdf - A GUI to produce PDFs or DjVus from scanned documents (sourceforge.net)
 => https://wiki.ubuntuusers.de/gscan2pdf/ gscan2pdf (ubuntuusers.de)
 => https://www.linux-community.de/ausgaben/linuxuser/2010/10/scannen-und-ocr-mit-gscan2pdf/ Scannen und OCR mit Gscan2pdf (linux-community.de)
@@ -97,7 +97,7 @@ Including "Automatically detecting the corners of photos within a scanned docume
 => https://www.pcwelt.de/article/1170810/linux-auf-dem-stick-die-nutzlichsten-distributionen.html Linux auf dem Stick: Die nützlichsten Distributionen - PC-WELT
 => https://www.ventoy.net/en/index.html Ventoy - Boote verschiedene ISOs von einem USB-Stick
 
-oder einfach sicher 
+oder einfach sicher
 
 => https://www.qubes-os.org/ Qubes OS: A reasonably secure operating system
 => https://media.ccc.de/v/ds19-10456-qubes_os_-_eine_einfuhrung QUBES OS - Eine Einführung (media.ccc.de)
