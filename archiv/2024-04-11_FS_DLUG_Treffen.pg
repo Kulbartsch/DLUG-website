@@ -1,0 +1,162 @@
+@article-name:2024-04-11 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2024-04-11_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== Warmup
+
+=> https://www.victoria-bikes.com/ Victoria Fahrräder
+
+* Glasfaseranschluss verlegt, funktioniert aber nicht und wird nicht repariert.
+
+* Aktives Bremssystem ist deaktiviert weil die Onboard Kamera abgestürzt ist.
+
+==== Werden Innovationen unsere Zukunft retten?
+
+Können wir uns auf Innovationen verlassen können, um die Klimakrise zu bewältigen?
+
+Wir meandern durch das Thema und kommen dabei an Politik, Wirtschaft, Bildung und Solzialkritik vorbei.
+
+* Patentanmeldung gehen zurück. (Quelle?)
+
+Kapitalismus ist auch nicht die Lösung.
+
+* Sind Konzerne zu mächtig und kaufen Startups auf?
+=> https://www.youtube.com/watch?v=-mRQ0AcoCkI Volker Pispers - Bis neulich lange Version! 2014 (youtube)
+
+=> https://economicsociology.org/wp-content/uploads/2014/10/shareholder-value-maximization.jpg Yes, the planet got destroyed. But for a beautiful moment in time we created a lot of value for shareholders!
+
+In der IT gehen viele Grundlagen verloren
+
+=> https://youtu.be/ZSRHeXYDLko?si=SInXJd0AyG83Ltx0 Preventing the Collapse of Civilization / Jonathan Blow (youtube)
+
+Cookies werden durch abgelehnte Cookie-Banner werden dennoch gespeichert.
+
+* Oder auch Apps, wie bei der Bahn.
+=> https://digitalcourage.de/blog/2023/db-tracking-update DB Schnüffel-Navigator (Digitalcourage)
+=> https://www.heise.de/news/Bahn-App-Buergerrechtler-klagen-gegen-DB-Schnueffel-Navigator-7314938.html Bahn-App: Bürgerrechtler klagen gegen "DB Schnüffel-Navigator" (heise)
+
+Seit  50 Jahren wird uns versprochen, dass Fusionsreaktoren in 20 Jahren kommen.
+
+* Die Zeit wird nicht reichen darauf zu warten.
+=> https://mastodon.social/@peterjelinek Peter Jelinek auf Mastodon ("🌱 Klima- & Biodiversitätskrise lösen")
+
+Wird unsere Ausbildung schwächer?
+
+=> https://youtu.be/VG5QzQ7F8pI Schulphysik ohne Physik
+=> https://youtu.be/LKiBlGDfRU8 My dream died, and now I'm here (youtube)
+=> https://www.math.columbia.edu/~woit/wordpress/?p=13907 i fell out of love with academia
+
+=> https://blog.shimps.de/ SHIMPS (Sherlock Homes Institute for Mathematics, Physics and Science) Blog von Frank auf deutsch
+=> https://blog.shimps.org/ und das SHIMPS Blog auf englisch. (Die beiden Blogs haben unterschiedlichen Inhalt.)
+
+=> https://en.wikipedia.org/wiki/Timothy_Gowers Timothy Gowers (Wikipedia)
+=> https://www.youtube.com/playlist?list=PLOft35kj95aajgXAFHKklygbpsESMQUid  Thinking about maths problems in real time: mostly invariants problems (youtube)
+
+Und in Österreich so ...
+
+=> https://www.derstandard.at/story/3000000215183/kanzleramt-sah-klimaschutz-nicht-als-menschenrecht-und-unterstuetzte-schweiz-vor-gericht "Kanzleramt sah Klimaschutz nicht als Menschenrecht – und unterstützte Schweiz vor Gericht" (Der Standard)
+
+=> https://de.wikipedia.org/wiki/Lutz_(Fluss) Die Lutz (Fluss, Wikiepdia) ändert seinen Flußlauf und droht bebaute Gebiete zu überschwämmen. \
+   Es werden in der Region Maßnahmen ergriffen, um die Bevölkerung zu schützen.
+=> https://de.wikipedia.org/wiki/Murgang Ein Murgang ist eine weitere Gefahr für die Menschen in der Region. (Wikipedia)
+
+=> https://de.wikipedia.org/wiki/Vulkaneifel#K%C3%BCnftige_Entwicklung Wann ein Vulkanausbruch in der Vulkaneifel zu erwarten ist, ist unklar. (Wikipedia)
+
+Noch mal die Bahn und App-Zwang.
+=> https://www.heise.de/news/Wissing-Digitalisierung-hat-auch-was-Altruistisches-9680487.html Wissing: Bahntickets soll es nur noch elektronisch geben, die Bahn braucht die Daten (heise)
+=> https://www.tagesschau.de/wirtschaft/verbraucher/bahncard-digitalisierung-deutsche-bahn-100.html Ab dem 9. Juni bekommen DB-Kunden ihre BahnCard 25 oder 50 nicht mehr als Plastikkarte, sondern müssen sie digital nutzen. Das geht nur mit Kundenkonto in der App - was zu diversen Problemen führen kann." (Tagesschau)
+=> https://digitalcourage.de/blog/2024/ohne-kundenkonto-kein-guenstiges-ticket Die Bahn zwingt Bahncard-Kund.innen ein Online-Kundenkonto auf. Angeblich zum Wohle der Umwelt. Oder geht es doch um etwas ganz anderes? (Digitalcourage)
+=> https://digitalcourage.de/digitalzwang Digitalzwang - Das gute digitale Leben setzt voraus, dass wir Digitalisierung nicht mit Überwachung gleichsetzen und immer auch Wahlfreiheit haben, analog zu bleiben. (Digitalcourage)
+>  Das Geschäftsmodell der Bahn funktioniert dadurch, dass Sie die Menschen verspätet zum Flughafen bringt.
+
+=> https://www.sportschau.de/wintersport/asiatische-winterspiele-saudi-arabien-trojena-100.html
+
+
+==== Hacker Events in Österreich
+
+> griaseich.
+
+> servas.
+
+=> https://www.linuxday.at/ https://www.linuxday.at/ Der nächste GNU/LinuxDay in Vorarlberg ist am 280. Sept. 2024
+
+=> https://media.ccc.de/c/glt24 Videos der Grazer Linuxtage 2024 auf media.ccc.de
+
+=> https://dlug.de/projekte/hacker-events_2024.html Unsere Liste der Hacker Events 2024
+
+=> https://www.luga.de/static/LIT-2024/ Augsburger Linux-Infotag 2024 am 20. April 2024
+
+Sollten wir mal ein Live-Treffen in Uganda machen?
+
+=> https://rail.cc/train/lisbon-to-seoul Rail CC: von Lisabon nach Seoul für ca. 500 euro
+
+=> https://de.wikipedia.org/wiki/Club-Mate#Mate-Mixgetr%C3%A4nke Gibt's da auch Tschunk? (Wikipedia)
+=> https://en.wikipedia.org/wiki/Club-Mate#Tschunk Tschunk ist ein Highball. (Wikipedia en)
+=> https://de.wikipedia.org/wiki/Highball Ein Highball ist ein Cocktail, bei der der Anteil nichtalkoholischen Zutaten überwiegt.
+
+=> https://bilder.lugv.at/v/LinuxDay/linuxday-2023/kiko/20230930_201141.jpg.html Käse Knöpfli auf der LUGV
+
+=> https://axebase.net/blog/2019/03/17/chemnitzer-catering-tage/ Chemnitzer Catering-Tage
+$<br />
+$<img src="https://andreas.scherbaum.la/post/2024-03-20_chemnitzer-linux-tage-2024-rueckblick/catering-tage.jpg" alt="Ein Plakat auf dem steht 'Teilchen essen' darunter drei Pinguine, die Teilchen essen, darunter steht 'Chemnitzer Catering-Tage' und in klein 'mit Linux-Vorträgen'." align=center style="max-width: 100%;">
+=> https://andreas.scherbaum.la/post/2024-03-20_chemnitzer-linux-tage-2024-rueckblick/ (Quelle)
+
+==== Verschiedenes
+
+=> https://qgis.org/en/site/ QGIS - A Free and Open Source Geographic Information System.
+
+=> https://weblate.org/ Weblate Webbasierte kontinuierliche Lokalisierung (FOSS)
+
+Sind Deine Daten in einem Datenleck?
+=> https://haveibeenpwned.com/ have i been pwned? - Prüfe ob deine Email Adresse in einem Datenleck ist
+=> https://haveibeenpwned.com/PwnedWebsites ... und schau dir an welche Websites gehackt wurden
+
+Mit weniger Technik leben.
+=> https://dlug.de/projekte/minimal_computing.html Minimal Computing (DLUG)
+=> https://de.wikipedia.org/wiki/Star_Trek:_Der_Aufstand Star Trek: Der Aufstand (Wikipedia)
+
+
+==== Ökologie
+
+=> https://www.ebay.at/itm/256045742935 Pellets selber machen mit einer Pelletspresse (ebay)
+=> https://de.wikipedia.org/wiki/Badgir Ein Badgir ist als Windturm ein traditionelles persisches Architekturelement, welches seit Jahrhunderten zur natürlichen Lüftung von Gebäuden verwendet wird (Wikipedia)
+=> https://en.wikipedia.org/wiki/Windcatcher Windcatcher (Wikipedia en)
+=> https://futurezone.at/science/termiten-huegel-vorbild-energie-effizient-gebaeude-kuehlung-klimatisierung-andreen-soar/402466331
+=> https://de.wikipedia.org/wiki/Earthship Als Earthship (englisch für ‚Erdschiff‘) bezeichnet man Gebäude einer bestimmten Bauweise, die nur durch passive solare Wärmegewinne und die Speicherung dieser mittels Masse geheizt oder durch natürliche Luftzirkulation gekühlt werden. Sie zeichnen sich zudem durch eine weitgehende Nutzung natürlicher und recycelter Baustoffe sowie ihre völlige Autarkie hinsichtlich Wärme, elektrischer Energie, Wasser und Abwasser aus. (Wikipedia)
+=> https://www.youtube.com/watch?v=NezYjcw7WUw Traditionelle Windtürme kühlen iranische Stadt seit Jahrhunderten | AFP (youtube)
+=> https://de.wikipedia.org/wiki/Dogtrot-Haus Dogtrot-Haus (Wikipedia)
+=> https://de.wikipedia.org/wiki/Aufwindkraftwerk In einem Aufwindkraftwerk (vereinzelt auch Thermikkraftwerk genannt) wird Luft von der Sonne erwärmt und steigt wegen natürlicher Konvektion in einem Kamin auf. Eine oder mehrere Turbinen erzeugen aus dieser Luftströmung elektrischen Strom. (Wikipedia)
+=> http://www.ringwallspeicher.de/  Ringwallspeicher-Hybridkraftwerk
+=> https://www.wasserpumpe-widder.ch/funktionsprinzip.asp Funktionsprinzip des Wasserpumpen-Widders
+=> https://de.wikipedia.org/wiki/Wasserwirbelkraftwerk Wasserwirbelkraftwerk (Wikipedia)
+=> https://de.wikipedia.org/wiki/Hydraulischer_Widder Hydraulischer Widder (Wikipedia)
+
+
+==== Dies und Das
+
+=> https://www.computerbild.de/artikel/avf-News-Fernseher-Samsung-The-Terrace-Fernseher-26228419.html Samsung The Terrace Fernseher - zum Thema Dekadenz (Computerbild)
+
+=> https://joinmastodon.org/ Join Mastodon
+
+=> https://chemnitzer.linux-tage.de/2024/de/programm/beitrag/186 Wie funktioniert ChatGPT? Gibt es das auch als Open Source? (Chemnitzer Linux-Tage 2024)
+
+=> https://doc.tiki.org/Cookie-Consent  Cookie Consent - What is it for? (Tiki Wiki CMS Groupware)
+
+=> https://www.open-xchange.com/ Open-Xchange
+
+
+
+@last_change:2024-04-27
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

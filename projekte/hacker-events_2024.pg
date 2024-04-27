@@ -48,6 +48,11 @@ $<article>
 * Wo: Eisenstadt / Österreich
 => http://linuxwochen.at/eisenstadt/
 
+==== Augsburger Linux-Infotag
+* Wann: 2024-04-20
+* Wo: Augsburg
+=> https://www.luga.de/static/LIT-2024/
+
 ==== FSCK 2024
 * Wann: 2024-05-03 – 2024-05-05
 * Wo: Backnang (etwa zwischen Heilbronn und Stuttgart)
@@ -175,7 +180,7 @@ $<article>
 => https://events.ccc.de/category/friends/
 
 
-@last_change:2024-01-03
+@last_change:2024-04-11
 @author:Alexander
 @license:CC BY-SA 4.0
 +../article-end.in
