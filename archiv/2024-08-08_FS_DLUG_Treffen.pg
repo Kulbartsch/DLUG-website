@@ -1,0 +1,113 @@
+@article-name:2024-08-08 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2024-08-08_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== Theoretische Informatik: Fleißiger Biber
+
+ *Busy Beaver* sind spezielle [Turingmaschinen](https://de.wikipedia.org/wiki/Turingmaschine), die möglichst viele Einsen auf das Band schreiben und die nach einer endlichen Anzahl Rechenschritte den Halt-Zustand einnehmen.
+
+=> https://de.wikipedia.org/wiki/Flei%C3%9Figer_Biber Fleißiger Biber (wikipedia)
+=> https://bbchallenge.org/ The Busy Beaver Challenge is a competition to find the largest Busy Beaver number for a given number of states. (bbchallenge.org)
+
+Am 2024-07-02 wurde nun die Turingmaschine *BB(5)* ermittelt, die 47.176.870 Einsen auf das Band schreibt und einen Halt-Zustand einnimmt.
+Dazu mussten 88.664.064 Turingmaschinen simuliert werden um zu prüfen ob sie einen Halt-Zustand erreichen.
+
+=> https://www.youtube.com/watch?v=z5wJrB4S6TI "Mathe-News: 🚨 BB(5) wurde ermittelt!" (youtube)
+=> https://www.quantamagazine.org/amateur-mathematicians-find-fifth-busy-beaver-turing-machine-20240702/ With Fifth Busy Beaver, Researchers Approach Computation’s Limits (quantamagazine.org)
+
+==== Fragerunde
+
+Frage: //Ist die EU-Ökodesign-Verordnung schon in Kraft?//
+=> https://www.umweltbundesamt.de/themen/neue-oekodesign-verordnung-fuer-nachhaltige Antwort: Ja. ... Am 18.07.2024 ist die neue EU-Verordnung für das Ökodesign nachhaltiger Produkte (ESPR) in Kraft getreten. Damit wird der Anwendungsbereich auf neue Umweltaspekte und nahezu alle Produkte erweitert und künftig werden auch vermehrt Rohstoffe gespart.
+
+;=> https://www.qubes-os.org/
+;=> https://www.secunet.com/en/loesungen/sina-workstation-s
+; Was ist der Unterschied zwischen gpg --gen-random 1, 2 oder 3
+
+
+==== Kryptographie und Zufallszahlen
+
+=> https://peertube.funkfeuer.at/w/hMHQneB3LNeSWYayqi7r1Z Alexanders Vortrag "Advanced GnuPG - GnuPG für (etwas) fortgeschrittene User" (peertube.funkfeuer.at)
+Wir hatten eine kleine Nachlese zum dem Vortrag von Alexanderüber GnuPG mit
+weiteren Fragen die live geklärt wurden.
+
+=> https://en.wikipedia.org/wiki/Lavarand Lavarand, auch bekannt als Wall of Entropy, war ein Hardware-Zufallszahlengenerator,\
+   der von Silicon Graphics entwickelt wurde. Er funktionierte, indem er Bilder von den Mustern des\
+   schwimmenden Materials in Lavalampen aufnahm, Zufallsdaten aus den Bildern extrahierte und das\
+   Ergebnis zum Seeden eines Pseudozufallszahlengenerators verwendete.
+=> https://de.wikipedia.org/wiki/Zufallszahlengenerator#Physikalischer_Zufallszahlengenerator Ein physikalischer\
+   Zufallszahlengenerator (auch Hardware-Random-Generator) dient der Erzeugung von Zufallszahlen und benutzt dafür physikalische Prozesse
+
+=> https://onerng.info/ OneRNG is an entropy source / hardware random number generator (HWRNG), designed to be connected via USB to your computer.
+=> https://ubld.it/truerng_v3 TrueRNG v3 – Hardware Random Number Generator
+
+=> https://librepgp.org/ LibrePGP - Securing Freedom, Defending Privacy
+
+=> https://de.wikipedia.org/wiki/Wassenaar-Abkommen Wassenaar-Abkommen für Exportkontrollen von\
+   konventionellen Waffen und doppelverwendungsfähigen Gütern und Technologien
+
+=> https://de.wikipedia.org/wiki/Shamir%E2%80%99s_Secret_Sharing Shamir’s Secret Sharing ist ein 1979 von\
+   Adi Shamir entwickeltes Secret-Sharing-Verfahren. Mit Hilfe eines solchen Verfahrens kann man ein Geheimnis\
+   so auf mehrere „Instanzen“ (Mitwisser) aufteilen, dass zur Rekonstruktion des Geheimnisses nur\
+   eine gewisse Teilmenge dieser Instanzen benötigt wird. (wikipedia)
+
+
+==== Rund um Server
+
+=> https://aws.amazon.com/de/products/ AWS Produkte - muss man auch alle lernen
+=> https://media.ccc.de/v/gpn22-270-why-the-cloud-is-evil Talk: "Why the cloud is evil" (media.ccc.de)
+=> https://de.wikipedia.org/wiki/Function_as_a_Service Function as a Service (FaaS) (wikipedia)
+=> https://de.wikipedia.org/wiki/DevOps#DevSecOps DevSecOps (wikipedia)
+
+=> https://de.wikipedia.org/wiki/LXC LXC (Linux Containers) ist ein Verfahren zur\
+   Containervirtualisierung auf Betriebssystemebene, das mehrere voneinander isoliert\
+   laufende Linux-Systeme auf einem einzigen Host ermöglicht.  (wikipedia)
+=> https://wiki.debian.org/nspawn systemd-nspawn may be used to run a command or OS in a light-weight container.\
+  In many ways it is similar to chroot, but more powerful since it uses namespaces to fully virtualise\
+  the process tree, IPC, hostname, domain name and, optionally, networking and user databases. \
+  It is similar to LXC, but much simpler to configure. Most of the necessary software is already\
+  installed on contemporary Debian systems.  (debian.org)
+
+=> https://www.devuan.org/ Devuan GNU+Linux is a fork of Debian without systemd (devuan.org)
+
+=> https://openbuildservice.org/ The Open Build Service (OBS) is a generic system to build and distribute \
+   binary packages from sources in an automatic, consistent and reproducible way. \
+   You can release packages as well as updates, add-ons, appliances and entire distributions\
+   for a wide range of operating systems and hardware architectures.
+=> https://build.opensuse.org/ The openSUSE Build Service is the public instance of\
+   the Open Build Service (OBS) used for development of the openSUSE distribution and\
+   to offer packages from same source for Fedora, Debian, Ubuntu, SUSE Linux Enterprise and other distributions.
+
+=> https://blog.fefe.de/?ts=984c69be "Ich möchte übrigens mal eine Sache klären. Es ist nicht so, dass \
+   Microsoft überhaupt nichts verlässlich und zuverlässig anbieten kann.\
+   Security Bypasses funktionieren jahrelang stabil und zuverlässig!" ­– Fefe (blog.fefe.de)
+=> https://www.alternativlos.org/ Alternativlos, die Netzbeschallung von Frank und Fefe. Sie reden über Politik, Technik, Verschwörungstheorien und was ihnen sonst noch so in den Sinn kommt. (alternativlos.org)
+
+
+==== Sonstiges
+
+=> https://blog.shimps.de/blogpost22-CUII-bono Größte deutsche Provider blockieren Sci-Hub (blog.shimps.de)
+=> https://www.sci-hub.ren/ Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.
+
+* Beispiel eines Buchs das über Crowd-Funding finanziert wurde und nun frei verfügbar ist:
+=> https://www.ctrl-verlust.net/buch1/ Das Neue Spiel – Das Buch zum CTRL-Verlust von Michael Seemann (ctrl-verlust.net)
+
+=> https://www.ardmediathek.de/video/das-cybermobbing-kartell/das-cybermobbing-kartell/das-erste/Y3JpZDovL3dkci5kZS9CZWl0cmFnLXNvcGhvcmEtNTU5ZmQzYzQtZWRkZC00NzQ1LWFlODgtOTQwODA1NGIxOWQ1 Das Cybermobbing-Kartell - Erstmals gelingt es in dieser Doku, tief in das Innere der düsteren Welt des Online-Hasses zu blicken. Die Hater nennen ihre Opfer "Masken", ihre grausamen Spiele mit ihnen die Maskengames. (ardmediathek.de)
+
+=> https://www.zerogpt.com/ ZeroGPT the most Advanced and Reliable Chat GPT, GPT4 & AI Content Detector
+
+
+@last_change:2024-08-19
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end

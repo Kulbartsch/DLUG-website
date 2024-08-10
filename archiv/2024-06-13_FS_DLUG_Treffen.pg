@@ -1,0 +1,82 @@
+@article-name:2024-06-13 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2024-06-13_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== Medien
+
+=> https://de.wikipedia.org/wiki/Kottan_ermittelt Satirische Kriminal-Fernsehserie: "Kottan ermittelt" (wikipedia)
+=> https://www.youtube.com/@kottan-ermittelt "Kottan ermittelt" (youtube)
+
+Leichtgläubigkeit, Fakes und so
+
+=> https://de.wikipedia.org/wiki/Erich_von_D%C3%A4niken Erich von Däniken
+=> https://de.wikipedia.org/wiki/UFO UFOs
+=> https://de.wikipedia.org/wiki/Bigfoot Bigfoot
+
+=> https://www.arte.tv/de/videos/032103-000-A/unternehmen-capricorn/ "Unternehmen Capricorn" (arte)
+=> https://de.wikipedia.org/wiki/Bielefeld-Verschw%C3%B6rung Bielefeld-Verschwörung
+
+* Fakes haben immer eine gewisse Wahrheit
+
+=== Österreich
+
+| Österreichisch | Deutsch |
+| Paradeiser | Tomate |
+| net | ≠ nett |
+| net | nicht |
+| [Bödeledütsch](https://regiowiki.at/wiki/B%C3%B6deled%C3%BCtsch) / Standarddeutsch | Hochdeutsch |
+
+- Bergvölkerischer Anarchismus - Die Bergbahn fährt nicht nach Plan, sondern wie es kommt. "Passt scho!"
+
+=> https://de.wikipedia.org/wiki/%C3%96sterreichisches_Deutsch Österreichisches Deutsch (wikipedia)
+=> https://www.ostarrichi.org/ Österreichisch - Dein Dialekt - Dein Wörterbuch
+=> https://de.wikipedia.org/wiki/%C3%96sterreichisches_W%C3%B6rterbuch Österreichisches Wörterbuch (wikipedia)
+
+==== Und weitere Sprachen
+
+=> https://de.wikipedia.org/wiki/S%C3%BCtterlinschrift?wprov=sfla1
+=> https://de.wikipedia.org/wiki/Hebr%C3%A4isches_Alphabet
+=> http://www.hebraicum.de/index.html
+=> https://www.utb.de/doi/book/10.36198/9783825255596
+
+==== Diktiersystem
+
+__Fußschalter__
+
+=> https://www.diktiersysteme-online.de/Diktiertechnik/Olympus/Fussschalter/56/Olympus-Fussschalter-RS-28
+=> https://forum.ubuntuusers.de/topic/xev-event-fuer-olympus-rs28-fussschalter/
+
+__Spracherkennung__
+
+=> https://github.com/cmusphinx/
+=> https://github.com/cmusphinx/vosk.git
+=> https://alphacephei.com/vosk/models
+
+==== Verschiedenes
+
+=> https://www.mimikama.org/ein-shitstorm-kann-dich-teuer-zu-stehen-kommen/
+
+=> https://de.wikipedia.org/wiki/Zahlentheorie
+
+=> https://blog.shimps.de/blogpost64-Ein-unlosbares-Problem
+
+=> https://picclick.de/Denkspielbuch-Mit-387-Denkspielen-f%C3%BCr-die-ganze-Familie-395199326536.html
+
+=> https://tr.overleaf.com/latex/templates/tagged/german
+
+
+
+@last_change:2024-08-10
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end
