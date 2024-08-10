@@ -1,0 +1,84 @@
+@article-name:2024-07-11 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2024-07-11_FS_DLUG_Treffen.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== Snakeoil Zertifikate
+
+> The ssl-snakeoil.key is a key created by ssl-cert package
+=> https://askubuntu.com/questions/396120/what-is-the-purpose-of-the-ssl-cert-snakeoil-key
+
+
+==== FYMT
+
+Free Your Model Train (FYMT) ist ein Projekt der Freien Software Freunde,
+welches eine Steuerung per Microcontroller, eine Stromversorgung durch
+Akkus und drahtlose Bedienung von Modelleisenbahnen anstrebt.
+Es hat zum Ziel, vorhandene Modelle einfach und preiswert umrüsten zu können
+und dadurch mehr Mensch an Technik im Allgemeinen und Freie Software und
+Freie Hardware im Besonderen heranzuführen.
+
+=> https://freie-software.org/free-your-model-train/ FYMT Homepage
+=> https://freie-software.org/free-your-model-train/fymt-im-freien.html Free Your Model Train — FYMT im Freien
+
+
+==== Werbung
+
+=> https://www.deutschlandfunk.de/em-2024-virtuelle-werbung-bandenwerbung-100.html Die UEFA setzt bei der EM erstmals virtuelle Bandenwerbung ein. Die maßgeschneiderte TV-Werbung zielt auf die unterschiedlichen TV-Konsumenten aus Deutschland, den USA und China ab.
+
+Werbeblocker:
+* Ghostery Tracker- & Werbeblocker | AdBlocker
+* NoScript
+* uBlock Origin
+* Video DownloadHelper
+
+
+==== arm kommt
+
+=> https://pine64.com/product/pinetab2-10-1-8gb-128gb-linux-tablet-with-detached-backlit-keyboard/
+=> https://de.wikipedia.org/wiki/Darwin_(Betriebssystem)
+=> https://www.tuxedocomputers.com/de/Ausblick-auf-das-erste-TUXEDO-ARM-Notebook.tuxedo
+=> https://www.linux-magazin.de/news/xen-laeuft-mit-kernel-5-9-auf-dem-raspberry-pi-4/
+=> https://en.wikipedia.org/wiki/Arm_Holdings
+
+
+==== Künstliches neuronales Netz (aka KI)
+
+=> https://de.wikipedia.org/wiki/ELIZA ELIZA (Wikipedia)
+=> https://de.wikipedia.org/wiki/K%C3%BCnstliches_neuronales_Netz Künstliches neuronales Netz (Wikipedia)
+=> https://www.zerogpt.com/ ZeroGPT the most Advanced and Reliable Chat GPT, GPT4 & AI Content Detector
+=> https://media.ccc.de/v/clt24-186-wie-funktioniert-chatgpt-gibt-es-das-auch-als-open-source Wie funktioniert ChatGPT? Gibt es das auch als Open Source? (media.ccc.de)
+
+
+==== Ausbildung
+
+=> https://www.youtube.com/watch?v=WicpZCklIF0 Kompetenzabitur Mathematik: Österreich 2024 (youtube)
+=> https://www.youtube.com/watch?v=BS8mt9z68GA Aufgabensammlung zur Vorbereitung auf die Mathematikolympiade (youtube)
+
+> Geringe Bildung der Bevölkerung hält die Mächtigen an der Macht.
+
+
+==== Zeugs
+
+=> https://www.computerbase.de/2017-12/test-logitech-mx-500-rueckblick/ Die Logitech MX-500 war die beste Maus (meint Alexander)
+=> https://www.logitech.com/de-de/products/mice/m500s-corded-mouse.910-005784.html M500S der aktuelle Nachfolger
+
+=> https://archive.org/details/Programming_the_Z-80_2nd_Edition_1980_Rodnay_Zaks Buch Klassiker: Programming the Z-80 - Rodnay Zaks (archive.org)
+
+=> https://de.wikipedia.org/wiki/Pike_(Programmiersprache) Pike (Programmiersprache) - (Wikipedia)
+=> http://pike.lysator.liu.se/ Pike Homepage
+
+
+@last_change:2024-08-10
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end
