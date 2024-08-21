@@ -79,6 +79,13 @@ footer.in
 
 ## Links
 
+Links können schnell im Gemini Format `=> URL [TEXT]` geschrieben werden.
+Diese werden als <li> Elemente in einer Liste dargestellt.
+Beispiel:
+```
+=> https://media.ccc.de/ CCC Video Archiv von Vorträgen
+```
+
  *Interne* Links sollten in der Form `[[text|URL]]` angegeben werden.
 Zum Beispiel so:
 ```
