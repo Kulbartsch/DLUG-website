@@ -107,13 +107,13 @@ Dieses aktualisiert das `site` Verzeichnis.
 Bitte beachte, dass das Script das `aswsg` aus dem Verzeichnis
 `bin` nimmt. Dieses ist für _Linux ARM64_
 kompiliert.
-Solltest du auf einer anderen Platform arbeiten schaue [hier](https://github.com/Kulbartsch/AStaticWebSiteGenerator)
+Solltest du auf einer anderen Plattform arbeiten schaue [hier](https://github.com/Kulbartsch/AStaticWebSiteGenerator)
 nach deiner passenden Version.
 
 
 ## Testen der Webseite
 
-Wegen der Unterverzeichnisse und relativen Pfade must du einen lokalen
+Wegen der Unterverzeichnisse und relativen Pfade musst du einen lokalen
 Webserver aus dem `site` Verzeichnis des Repos starten.
 Das ist total einfach, z.B. mit:
 
