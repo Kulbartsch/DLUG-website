@@ -1,0 +1,132 @@
+@article-name:2024-10-11 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2024-10-11_FS_DLUG_Treffen.html
+(cond-if-set teaser)
+* [[{{article-name}}|{{article-link}}]]
+(cond-else)
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== Privatsphärenfreundliches → Nutzerfreundlich und Inklusiv → Spracherkennung
+
+=> https://murena.com/de/ Murena - degegoogelte Telefone und Dienste
+=> https://grapheneos.org/ GrapheneOS: the private and secure mobile OS
+=> https://www.fairphone.com/de Fairphone
+
+=> https://www.falkon.org/ Falkon is a KDE web browser using QtWebEngine rendering engine, previously known as QupZilla. It aims to be a lightweight web browser available through all major platforms.
+=> https://solydxk.com/# SolydXK is an open source operating system for small and medium-sized businesses, non-profit organizations and home users. \
+         It is based on Debian, a Linux operating system that has existed since 1993. \
+         Stability, data security, privacy, self-direction and freedom of personal choice are the foundations on which SolydXK is built.
+
+=> https://www.knopper.net/knoppix-adriane/ \
+   ADRIANE ist ein einfach zu benutzendes, sprechendes Desktop-System mit \
+   optionaler Braille-Unterstützung, das auch völlig ohne visuelle Ausgabegeräte auskommt.
+=> https://speechnotes.co/de/ Speechnotes - Diktier-Notepad
+=> https://github.com/mkiol/dsnote Speech Note Linux desktop and Sailfish OS app for note taking, reading and translating with offline Speech to Text, Text to Speech and Machine Translation
+=> https://flathub.org/apps/net.mkiol.SpeechNote - Install Speech Note on Linux via Flathub
+=> https://lablab.ai/tech/openai/whisper OpenAI Whisper AI technology - The Whisper models are trained for speech recognition and translation tasks, capable of transcribing speech audio into the text in the language it is spoken (ASR) as well as translated into English (speech translation).
+
+==== Spielen
+
+=> https://de.wikipedia.org/wiki/Adventure#Textadventures Textadventures - Wikipedia
+=> https://de.wikipedia.org/wiki/Liste_von_Textadventures Liste von Textadventures – Wikipedia
+=> https://de.wikipedia.org/wiki/Rogue-like \
+   Als  Rogue-like bezeichnet man eine Untergruppe der  Computer-Rollenspiele , die durch  prozedural generierte Level, die fehlende Lademöglichkeit eines Speicherstandes bei Tod der Spielfigur (sogenannter  permanent death , permanenter Tod) sowie oftmals durch kachelbasierte oder auch rein aus Schriftzeichen erzeugte Spieldarstellung und  rundenbasierte Spielweise gekennzeichnet sind.  Rogue-like werden diese Spiele genannt, da sie in Aufbau, Stil und Spielprinzip an das Computerspiel   Rogue angelehnt sind, das als Blaupause für zahlreiche, meist nicht kommerzielle Nachahmer-Projekte diente. \
+   In den 2000er und 2010er Jahren erlangten vor allem im  Indie-Spielebereich Mischformen Beliebtheit, die nur einzelne Elemente des Rogue-like-Genres aufgreifen und andere weglassen. Diesen oft als  Rogue-lite bezeichneten Spielen sind meist die prozedural generierten Spielwelten und der permanente Tod zu eigen, während zum Beispiel die Rollenspiel-Elemente Komponenten anderer Genres, wie etwa  Strategie oder  Jump ’n’ Run , weichen. Durch die begriffliche Abgrenzung soll der Unterschied zu einer engeren Genredefinition, der 2008 veröffentlichten Berlin Interpretation, kenntlich gemacht werden.
+
+=> https://github.com/rothgar/awesome-tuis?tab=readme-ov-file#games CLI/TUI games
+
+=> https://www.steamdeck.com/de/ Valve präsentiert: Steam Deck
+=> https://store.steampowered.com/developer/CandC  Steam Developer: Command & Conquer
+
+=> https://de.wikipedia.org/wiki/Meta_Quest \
+   Meta Quest ist eine Sparte von  Virtual-Reality-Headsets , die von  Meta entwickelt wird. Die Geräte gehen zurück auf das ehemalige Unternehmen  Oculus VR (heute  Reality Labs als Teil von Meta) und dessen Marke  Oculus Quest .
+
+=> https://autodarts.io/de/ Autodarts.io | Automatische Darterkennung
+
+
+==== Verschiedenes Computer Zeug
+
+=> https://de.linux-console.net/?p=12462 \
+   Die 9 kleinsten Linux-Distributionen, die minimal und superleicht sind
+
+=> https://gpg4win.de/ Gpg4win - Sichere E-Mail- und Datei-Verschlüsselung mit GnuPG für Windows
+=> https://www.youtube.com/results?search_query=email+verschl%C3%BCsseln+mit+outlook+und+gpg4win Email verschlüsselne mit Outlook (Youtube)
+
+=> https://sarahspiekermann.com/ Sarah Spiekermann, Ph.D. — Business Informatics Professor and Thinker
+
+=> https://gs.statcounter.com/os-market-share/desktop/worldwide/#monthly-200901-202407 Desktop Operating System Market Share Worldwide (Upadate Stats!)
+
+=> https://de.aliexpress.com/w/wholesale-n100-pc-mini.html \
+   Bmax b4 plus mini pc windows 11 pc intel n100 16gb 512gb ssd 2 * hdmi 1 * typ-c unterstützt 4k @ 60hz 750mhz intel uhd grafik
+
+=> https://krusader.org/ Krusader - Twin panel file management for your desktop
+
+=> https://www.lenovo.com/de/de/p/laptops/thinkpad/thinkpadx1/lenovo-thinkpad-x1-2-in-1-gen-9-14-inch-intel/21kecto1wwde3 \
+   ThinkPad X1 2-in-1 der 9. Generation mit Tablet funktion
+
+=> https://asahilinux.org/  Asahi Linux aims to bring you a polished Linux® experience on Apple Silicon Macs.
+
+=> https://github.com/alexluigit/dirvish \
+   Dirvish is an improved version of the Emacs inbuilt package Dired. It not only gives Dired an appealing and highly customizable user interface, but also comes together with almost all possible parts required for full usability as a modern file manager.
+
+
+==== Computer fernsteuern
+
+=> https://wiki.x2go.org/doku.php  X2Go enables you to access a graphical desktop of a computer over a low bandwidth (or high bandwidth) connection.
+
+=> https://rustdesk.com/ RustDesk: Open-Source Remote Desktop with Self-Hosted Server Solutions. \
+   Bei Rustdesk kann man einen eigenen Vermittlungsserver installieren.
+
+=> https://de.wikipedia.org/wiki/Virtual_Network_Computing \
+   Virtual Network Computing, kurz  VNC, ist eine  Software, die den  Bildschirminhalt eines entfernten \
+   Rechners (Server) auf einem lokalen Rechner (Client) anzeigt und im Gegenzug  Tastatur - und  Mausbewegungen \
+   des lokalen Rechners an den entfernten Rechner sendet. Damit kann man auf einem entfernten Rechner arbeiten, \
+   als säße man direkt davor. VNC  implementiert das  Remote Framebuffer Protocol und ist damit, \
+   im Gegensatz zu anderer  Fernwartungssoftware,  plattformunabhängig benutzbar.
+
+=> https://www.nomachine.com/de NoMachine - Kostenloses Remotedesktop für alle
+
+=> https://unix.stackexchange.com/questions/12755/how-to-forward-x-over-ssh-to-run-graphics-applications-remotely \
+   xorg - How to forward X over SSH to run graphics applications remotely? - Unix & Linux Stack Exchange
+
+=> https://www.howtoforge.de/anleitung/anleitung-zur-einrichtung-von-remote-desktop-rdp-mit-xrdp-unter-debian-12/ \
+   Anleitung zur Einrichtung von Remote Desktop (RDP) mit Xrdp unter Debian 12 – HowtoForge
+
+=> https://store.steampowered.com/remoteplay?l=german  Steam Remote Play
+
+
+==== Rund ums Backup
+
+=> https://medium.com/@peter_hanneman/apple-time-machine-backups-with-freenas-9178d72ea674 \
+   Apple Time Machine backups with FreeNAS - Medium
+
+=> https://apps.gnome.org/de/DejaDup/ \
+   Déjà Dup ist ein einfaches Datensicherungswerkzeug. Es versteckt die Komplexität einer korrekten Datensicherung (Verschlüsselung, getrennter Speicherplatz, Regelmäßigkeit) und benutzt dafür duplicity als Grundlage.   Unterstützung für lokale, entfernte oder Cloud-Datensicherung wie Google Drive  Verschlüsselt und komprimiert Ihre Daten auf sichere Weise  Stufenweise Datensicherungen, Wiederherstellung von beliebigen Sicherungen  Zeitgesteuerte regelmäßige Datensicherungen  Gut in die GNOME-Arbeitsumgebung integriert  Déjà Dup zielt auf bequeme Sicherung und Wiederherstellung von verloren gegangenen Daten.
+
+=> https://www.pollin.de/p/odroid-hc4-811266 \
+   ODROID-HC4 (pollin) Ein handlicher Computer der seine Backup-Platten aufnimmt.
+
+=> https://www.borgbackup.org/ \
+   BorgBackup – Deduplicating archiver with compression and authenticated encryption
+=> https://github.com/borgbase/vorta Desktop Backup Client for Borg Backup
+
+=> https://restic.net/ Restic is a fast and secure backup program.
+=> https://github.com/Mebus/restatic Restatic - A Boring Open Source GUI for Restic Backup   (vorsicht, Python)
+
+=> https://www.truenas.com/ TrueNAS - Open Enterprise Storage
+
+
+==== Und dann war da noch ...
+
+=> https://bigpeat.com/ Big Peat | Islay Malt Scotch Whisky
+
+@last_change:2025-01-19
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end)

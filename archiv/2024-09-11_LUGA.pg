@@ -1,0 +1,145 @@
+@article-date:2024-09-11
+@last_change:2025-01-19
+@author:Alexander
+@article-name:{{article-date}} - LUGA Online Treffen
+@article-link:/archiv/{{article-date}}_LUGA.html
+(cond-if-set teaser
+* [[{{article-name}}|{{article-link}}]]
+(cond-else)
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Hier ein paar Notizen des Online Treffens der [Linux User Group Austria](https://luga.at/).
+
+Warm up:
+
+=> https://pop.system76.com/ Pop!_OS by System76
+
+=> https://obsidian.md/  Obsidian - Sharpen your thinking
+=> https://memory-alpha.fandom.com/de/wiki/Obsidianischer_Orden \
+   Obsidianischer Orden 😄 | Memory Alpha, das Star-Trek-Wiki | Fandom
+=> https://github.com/Linus-Mussmaecher/rucola \
+ Rucola - Terminal-based markdown note manager to view statistics, explore connections and launch editing and viewing applications.
+
+==== Wir hatten eine kleine Foto-Show der Teilnehmer
+
+Die Fotos sind hier nicht verlinkt, nur ein paar Links
+aus dem Gespräch drum herum.
+
+=> https://www.myposter.at/magazin/bokeh-effekt-fotografieren/ So gelingt der Bokeh Effekt (Myposter Magazin)
+
+=> http://artdiscovery.info/wp-content/uploads/2013/07/3-IMG_1871.jpg Eine Escher Zeichnung
+
+=> https://www.sueddeutsche.de/wirtschaft/samsung-smartphone-mond-fotografie-kuenstliche-intelligenz-1.5767932 \
+   Samsung-Handys: Diese Mond-Fotos sind zu schön, um wahr zu sein - Wirtschaft - SZ.de
+
+Mit kleinem Radioaktivitäts Schlenker.
+
+=> https://www.reddit.com/r/shitposting/comments/ycg5tt/can_anyone_tell_me_why_cant_i_take_a_decent/ \
+   "Can anyone tell me why can't i take a decent picture with this Cinnamon stick?" - reddit
+
+=> https://de.wikipedia.org/wiki/Radium_Girls \
+   Als  Radium Girls wurden in den  Vereinigten Staaten   Fabrikarbeiterinnen bezeichnet, die sich bei der Arbeit eine  Radiumvergiftung zugezogen hatten. Ihre Arbeit hatte darin bestanden, Zifferblätter von Uhren mit radioaktiver  Leuchtfarbe zu versehen. \
+   Die Frauen nahmen dabei gefährliche Dosen  Radium auf, weil sie die Pinsel anleckten, um feine Linien ziehen zu können. Zudem bemalten einige ihre Fingernägel mit der Farbe. Viele erkrankten deswegen schwer, eine Anzahl von ihnen starb. \
+   Zwar war die Schädlichkeit von Radium ursprünglich nicht bekannt, aber die auffällige Häufung von Erkrankungen wurde über Jahre hinweg ignoriert und sogar vertuscht.
+
+=> https://de.wikipedia.org/wiki/Uranglas \
+   Uranglas (auch als  Vaselineglas bezeichnet) ist eine Glasart, die  Uranoxidverbindungen als Farbstoff enthält. Diese verleihen dem Glas hellgelbe  (Anna-Gelb) bis hellgrüne  (Eleonoren-Grün) transparente Farbtöne. \
+   Zur Unterscheidung von normalem grünen Glas und Uranglas hält man den Gegenstand unter  Schwarzlicht . Die gelblichen bis grünlichen Uran-VI-Oxid-Verbindungen (  Natriumdiuranat ,  Uranylverbindungen ) beginnen dann grün zu  fluoreszieren .
+
+Und was für's smartphone.
+
+=> https://smartmicrooptics.com/blips/ \
+   Blips - The thinnest portable lenses for smartphone: for macrophotography or microscopy - SmartMicroOptics
+=> https://smartmicrooptics.com/product/full-kit/  Full Kit - SmartMicroOptics
+
+==== Umwelt
+
+=> https://kinsecta.org/insekten/ Kinsekta - Unser Herz schlägt für Insekten
+=> https://kinsecta.org/sensorik-2/ - Sensorik für das Insektenmonitoring
+
+=> https://de.wikipedia.org/wiki/Biomeiler \
+   Ein  Biomeiler (auch  Kompostheizung oder  Humusheizung) ist eine Anlage zur energetischen Nutzung von  Biomasse, vornehmlich zur Erzeugung von  Wärme für  Heizungszwecke. \
+   Dazu wird meist Bioabfall, Heckenschnitt oder zerkleinertes Holz aufgeschichtet und Kunststoffleitungen hindurchgeführt. \
+   Durch  mikrobiologische Abbauprozesse wird in einem Zeitraum von bis zu 12 Monaten Wärme frei, mit der Warmwasser erzeugt werden kann, welches u. a. direkt zur Heizung verwendet werden kann. \
+   Durch ausreichende  Sauerstoffzufuhr wird die eingesetzte Biomasse im Rahmen einer  aeroben   Verwesung abgebaut. Nach der Nutzungsdauer ist aus den Holzabfällen wertvoller  Kompost entstanden.
+
+=> https://www.appropedia.org/Kompostheizung  Kompostheizung - Appropedia
+
+=> https://www.fairment.de/rezepte-artikel/kimchi-rezept/  Kimchi Rezept - so einfach geht's | Fairment
+
+=> https://en.wikipedia.org/wiki/Bokashi_(horticulture)  Bokashi (horticulture) - Wikipedia
+
+=> https://de.wikipedia.org/wiki/Effektive_Mikroorganismen \
+   Als  Effektive Mikroorganismen (   englisch   effective microorganisms ) und  EM werden kommerzielle Mischungen aus verschiedenen, universell vorkommenden  aeroben und  anaeroben   Mikroorganismen aus der Lebensmittelindustrie bezeichnet, die unter anderem zur Verbesserung der Kompostierung, des Stallklimas oder der Tiergesundheit beitragen sollen.
+
+=> https://de.wikipedia.org/wiki/Purpurbakterien \
+   Unter der Bezeichnung  Purpurbakterien werden heute alle obligat oder fakultativ  phototroph lebenden  Proteobakterien (Pseudomonadota) zusammengefasst. \
+
+=> https://de.wikipedia.org/wiki/Biohackers  Biohackers (Film) – Wikipedia
+
+==== Meshtastic - decentralized, mesh networks
+
+=> https://meshtastic.org/ Meshtastic - An open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices
+=> https://muzi.works/ muzi ᴡᴏʀᴋꜱ - meshatstiv hardware
+=> https://meshmap.net/ MeshMap - Meshtastic Node Map
+=> https://www.jeffgeerling.com/blog/2024/getting-started-meshtastic Getting Started with Meshtastic
+=> https://www.heise.de/select/ct/2022/13/2210307225814749688 Katastrophennetz zum Eigenbau | c't | heise magazine
+=> https://www.reddit.com/r/meshtastic/comments/1chgz3s/just_a_birdhouse_nothing_to_see_move_along/ Just a birdhouse. Nothing to see, move along (Meshtastic Repeater) - reddit
+=> https://tuxdigital.com/podcasts/destination-linux/385-meshtastic-go-off-grid-but-stay-connected-with-this-device/ 385: Meshtastic: Go Off-Grid But Stay Connected with this device - Destination Linux Podcast
+
+Oder doch CB Funk?
+
+=> https://www.pmr-funkgeraete.de/Funkgeraete/CB-Funk/President-CB/President-Randy-III-CB-Handfunkgeraet::14408.html President Randy III CB-Handfunkgerät
+
+==== Verschiedenes
+
+;;;;
+publicvoit@graz.social
+leyrer@chaos.social
+:emacs: 😮rgmode: @publicvoit@graz.social
+;;;
+
+> Leute,
+> "[CrashIT! Eine Security Gruselgeschichte](https://media.ccc.de/v/crashit-eine-security-gruselgeschichte)"
+>  auf media.ccc.de ist ein Pflichtvideo für euch! 🤩
+>
+> Das ist dermaßen unglaublich, wie ein Registrierkassenhersteller hier agiert, das kann man kaum glauben. Auf seine Art sehr "lustig". 😯🤦
+> Wenn du Kunde von #CashIT! sein solltest, ist das Video extrem aufschlussreich und für dein Business relevant. ☝️
+
+
+=> https://ninjalab.io/eucleak/ EUCLEAK - NinjaLab - Vulnerable Yubikeys
+
+=> https://wid.cert-bund.de/portal/wid/kurzinformationen Aktuelle CVEs - Warn- und Informationsdienst des CERT Bund (BSI)
+
+=> https://www.heise.de/en/news/DARPA-declares-war-on-memory-errors-AI-to-transfer-old-C-code-to-Rust-9823421.html  DARPA declares war on memory errors: AI to transfer old C code to Rust | heise online
+=> https://www.darpa.mil/program/translating-all-c-to-rust Translating All C to Rust - darpamil
+
+> ChatGPT. Chat = Laberei. GPT = Große PlauderTasche
+
+=> https://stackoverflow.com/questions/46652984/python-jinja2-latex-table  Python Jinja2 LaTeX Table - Stack Overflow
+=> https://blog.datamics.com/templating-mit-jinja2-der-schnelleinstieg-e631a54aff35  Templating mit Jinja2 — Der Schnelleinstieg | by Johannes Bergs | Datamics
+
+=> https://www.luatex.org/ LuaTeX is an extended version of pdfTeX using Lua as an embedded scripting language.
+=> https://mirrors.ibiblio.org/CTAN/systems/doc/luatex/luatex.pdf LuaTEX Reference Manual (PDF)
+
+=> https://en.wikipedia.org/wiki/M4_(computer_language) m4 (computer language) - Wikipedia
+
+=> https://www.sagemath.org/ SageMath - Open-Source Mathematical Software System
+=> https://doc.sagemath.org/html/en/tutorial/sagetex.html Using SageTeX - Tutorial "The SageTeX package allows you to embed the results of Sage computations into a LaTeX document."
+=> https://media.ccc.de/v/froscon2022-2808-sagemath_examples_from_the_cryptool_book SageMath Examples from the CrypTool Book
+
+=> https://de.wikipedia.org/wiki/LaTeX  LaTeX – Wikipedia
+=> https://de.wikipedia.org/wiki/TeX  TeX – Wikipedia
+=> https://en.wikipedia.org/wiki/Xfig  Xfig - Wikipedia
+
+=> https://xkcd.com/378/ xkcd: Real Programmers
+
+=> https://www.linuxday.at/  GNU/LinuxDay in Vorarlberg - am 28. Sept. 2024
+
++../article-end.in
++../footer.in
+(cond-end)

@@ -1,0 +1,146 @@
+@article-name:2024-09-13 - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/2024-09-13_FS_DLUG_Treffen.html
+(cond-if-set teaser)
+* [[{{article-name}}|{{article-link}}]]
+(cond-else)
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Die Themen des Abends, mal ziemlich unsortiert:
+
+=> https://www.capitalbrief.com/article/data-breach-hits-90b-cyber-giant-fortinet-e23ecbe1-c00c-4533-b99c-97ab8f8ad25f/preview/ \
+   (paywall) Data breach hits $90b cyber giant Fortinet — Capital Brief
+=> https://www.cyberdaily.au/security/11098-fortinet-suffers-third-party-data-breach-affecting-asia-pacific-customers \
+   (ohne paywall) Fortinet suffers third-party data breach affecting Asia-Pacific customers - Cyber Daily
+
+=> https://www.linuxday.at/ GNU/LinuxDay in Vorarlberg - am 28. Sept. 2024
+=> https://kilux.de/ Kieler Open Source Tage
+=> https://www.kieler-linuxtage.de/  23. Kieler Open Source und Linux Tage
+
+=> https://www.tagesschau.de/wirtschaft/verbraucher/kartenzahlung-stoerung-102.html \
+   Kartenzahlung in ganz Deutschland gestört | tagesschau.de
+
+=> https://www.zdf.de/nachrichten/panorama/dresden-carolabruecke-einsturz-elbe-100.html \
+   Carolabrücke in Dresden: Weiterer Abschnitt eingestürzt - ZDFheute
+
+=> https://www.sarahspiekermann.com/de/digitale-ethik-das-buch \
+   Digitale Ethik - Das Buch von Dr. Sarah Spiekermann
+
+=> https://pluralistic.net/ Pluralistic: Daily links from Cory Doctorow
+
+=> https://opensource.org/deepdive The Open Source AI Definition — by The Open Source Initiative
+=> https://mistral.ai/ Mistral AI | Frontier AI in your hands
+=> https://de.wikipedia.org/wiki/Mistral_AI Mistral AI – Wikipedia
+
+=> https://www.evz.de/einkaufen-internet/recht-auf-reparatur.html \
+   Was Sie über das Recht auf Reparatur wissen müssen
+
+=> https://de.wikibooks.org/wiki/Datei:MediaWiki2LaTeXTalkRevision4.webm \
+   "MediaWiki to LaTeXTalk" Video von Dirk (wikibooks.org)
+=> https://mediawiki2latex.wmcloud.org/ MediaWiki2LaTeX konvertiert MediaWiki-Sammlungen in LaTeX/PDF
+
+=> https://askubuntu.com/questions/345588/what-is-the-safest-way-to-clean-up-boot-partition \
+   kernel - What is the safest way to clean up /boot partition? - Ask Ubuntu
+=> https://kofler.info/ubuntu-probleme-mit-vollen-boot-partitionen/ \
+   Ubuntu: Probleme mit vollen Boot-Partitionen | kofler.info
+
+=> https://peertube.luga.at/videos/watch/104773d8-1334-4228-896b-621f5f6acf59 \
+   Vortrag "GnuPG für (etwas) fortgeschrittene User" von Alexander (peertube.luga.at)
+=> https://media.ccc.de/v/froscon2024-3152-openpgp-infrastruktur_fur_organisationen_einfach_sicher_open_source \
+   Vortrag "OpenPGP-Infrastruktur für Organisationen: Einfach, Sicher, Open Source" auch von Alexander (media.ccc.de)
+
+=> https://fvwmforums.org/t/intro-nscde-fvwm-based-cde-clone-retro-but-powerful-and-functional/2781 \
+   Intro: NsCDE - FVWM based CDE clone, retro but powerful and functional - NsCDE - FVWM Forums
+
+=> https://www.falkon.org/ Web-Browser \
+   "Falkon is a KDE web browser using QtWebEngine rendering engine, previously known as QupZilla. It aims to be a lightweight web browser available through all major platforms."
+
+=> https://www.xfce-look.org/browse/ \
+   Eyecandy for your XFCE-Desktop - xfce-look.org
+
+=> https://www.wu.ac.at/ec/team-1/sarah-spiekermann-hoff \
+   Sarah Spiekermann-Hoff - Team - Wirtschaftsinformatik & Gesellschaft
+
+*  Firefox Tip: Scrollbar breiter und immer aktiv einstellen:
+*  in about:config:
+** widget.gtk.overlay-scrollbars.enabled = false
+** widget.non-native-theme.scrollbar.style = 4
+
+
+=> https://youtu.be/jgQziHcQAZk?t=179https://youtu.be/jgQziHcQAZk?t=179 \
+   So modern kann Linux Mint Cinnamon sein - Themenvorschlag - YouTube
+
+=> https://www.youtube.com/watch?v=_rnkyRmjW7E \
+   Desktop-/Icon-/Fenster-/Cursor-Themen finden & installieren [Anfänger] - YouTube
+
+=> https://www.xfce-look.org/p/1920644/ \
+   CDE-Reborn icon theme - Eyecandy for your XFCE-Desktop - xfce-look.org
+
+=> https://www.trinitydesktop.org/ \
+   Efficient. Productive. The Trinity Desktop Environment (TDE) project is a computer desktop environment for Unix-like operating systems \
+   with a primary goal of retaining the function and form of traditional desktop computers.
+
+=> https://www.knopper.net/knoppix-adriane/ \
+   ADRIANE ist ein einfach zu benutzendes, sprechendes Desktop-System mit \
+   optionaler Braille-Unterstützung, das auch völlig ohne visuelle Ausgabegeräte auskommt. \
+   Es erleichtert insbesondere den Zugang zu den Standard-Internetdiensten E-Mail und \
+   Surfen im World Wide Web, das Einscannen und Vorlesen lassen von gedruckten Dokumenten und vieles mehr. \
+=> https://nvda.bhvd.de/ NVDA - der  freie ScreenReader für blinde Computernutzer
+=> https://www.nvaccess.org/  NV Access "We believe that  every Blind + Vision Impaired person Deserves the right to  freely & easily access a computer!" \
+   (nur für Windows)
+=> https://alphacephei.com/vosk/ VOSK Offline Speech Recognition API
+
+=> http://www.mutt.org/  The Mutt E-Mail Client - \
+   "All mail clients suck.  This one just sucks less."
+=> https://de.wikipedia.org/wiki/Mutt Mutt – Wikipedia
+
+=> https://solydxk.com \
+   SolydXK is an open source operating system for small and medium-sized businesses, \
+   non-profit organizations and home users. It is based on Debian, a Linux operating system \
+   that has existed since 1993. Stability, data security, privacy, self-direction and \
+   freedom of personal choice are the foundations on which SolydXK is built.
+=> https://distrowatch.com/gallery.php?distribution=solydxk \
+   SolydXK Gallery (distrowatch.com)
+
+=> https://en.wikipedia.org/wiki/Dieter_Rams Dieter Rams (#BauhausDesign #Braun) - Wikipedia
+; => https://designlovr.de/biografien/designer/dieter-rams/ [Seite leider nicht mehr verfügbar]
+
+=> https://www.freebsd.org/ The FreeBSD Project
+=> https://de.wikipedia.org/wiki/FreeBSD FreeBSD – Wikipedia
+=> https://vermaden.wordpress.com/2020/09/07/quare-freebsd/ Quare FreeBSD? | 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+=> https://forums.virtualbox.org/viewtopic.php?t=80931 \
+   Vergrössern der virtuellen Disk mit Terminal - virtualbox.org
+=> https://forums.virtualbox.org/viewtopic.php?t=4831 \
+   HOWTO: Virtuelle Festplatte nachträglich vergrößern - virtualbox.org
+=> https://www.giga.de/downloads/virtualbox/tipps/virtualbox-festplatte-vergroessern-so-geht-s/ \
+   Virtualbox: Festplatte nachträglich vergrößern – so geht's
+
+==== NIS-2-Richtlinie & SBOM
+
+=> https://de.wikipedia.org/wiki/NIS-2-Richtlinie NIS-2-Richtlinie – Wikipedia
+=> https://www.syseleven.de/blog/sbom-software-bill-of-material/ \
+   Einfach erklärt: Was ist die SBOM-Richtlinie
+=> https://www.sit.fraunhofer.de/de/presse/details/news-article/show/eu-cyber-resilience-act-athene-bietet-kompakten-ueberblick-fuer-unternehmen/ \
+   EU Cyber Resilience Act: ATHENE bietet kompakten Überblick für Unternehmen - Fraunhofer SIT
+=> https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/TR-03183-2-SBOM-Anforderungen.html \
+   SBOM-Anforderungen: TR-03183-2 stärkt Sicherheit in der Software-Lieferkette - BSI
+=> https://media.ccc.de/v/clt24-328-warum-nis2-und-cyber-resiliance-act-uns-alle-betreffen \
+   Warum NIS2 und Cyber-Resiliance-Act uns alle betreffen (media.ccc.de)
+
+==== Verschiedenes
+
+=> https://www.ndr.de/nachrichten/schleswig-holstein/Ehemaliger-Kieler-Uni-Computer-erzielt-189000-US-Dollar-bei-Auktion,computer2694.html \
+   Ehemaliger Kieler Uni-Computer erzielt 189.000 US-Dollar bei Auktion | NDR.de - Nachrichten - Schleswig-Holstein
+
+=> https://www.youtube.com/watch?v=l1muuLA_Egc  Nico Semsrott: Brüssel sehen und sterben - Die Show (youtube)
+=> https://have-your-say.ec.europa.eu/index_en  Have Your Say on Europe and its policies - Be an active participant in shaping European policies and share your views with us. (europa.eu)
+
+@last_change:2025-01-18
+@author:Alexander
++../article-end.in
++../footer.in
+(cond-end)
