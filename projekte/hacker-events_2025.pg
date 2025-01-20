@@ -5,27 +5,27 @@ $<article>
 
 ==== FOSDEM
 * Wann: 2025-02-01 - 2025-02-02
-* Wo: Brüssel
+* Wo: Brüssel, Belgien
 => https://fosdem.org/2025/
 
 ==== Hack im Pott (HIP!)
 * Wann: 2025-02-28 - 2025-03-02
-* Wo: WIR-Haus, Wilhelmstr 189, 42489 Wülfrath
+* Wo: WIR-Haus, Wilhelmstr 189, 42489 Wülfrath, Deutschland
 => https://hackimpott.de/
 
 ==== Winterkongress der Digitalen Gesellschaft
 * Wann: 2025-02-28 – 2025-03-01
-* Wo: Winterthur / Schweiz
+* Wo: Winterthur, Schweiz
 => https://www.winterkongress.ch/2025/
 
 ==== Elevate
 * Wann: 2025-03-05 – 2025-03-09
-* Wo: Graz / Austria
+* Wo: Graz, Österreich
 => https://elevate.at/
 
 ==== Chemnitzer Linux-Tage
 * Wann: 2025-03-16 - 2025-03-17
-* Wo: Chemnitz
+* Wo: Chemnitz, Deutschland
 => https://chemnitzer.linux-tage.de/2025/de/
 
 ==== AsiaBSDCon
@@ -35,32 +35,32 @@ $<article>
 
 ==== Easterhegg 2025 – Unhandled Eggception
 * Wann: 2025-04-18 – 2025-04-21
-* Wo: Hamburg
+* Wo: Hamburg, Deutschland
 => https://eh22.easterhegg.eu/
 
 ==== Grazer Linuxtage
 * Wann: 2025-04-25 – 2025-04-26
-* Wo: Grazer / Österreich
+* Wo: Grazer, Österreich
 => https://www.linuxtage.at/de/
 
 ==== Linuxwochen Eisenstadt
 * Wann: 2025-04-05
-* Wo: Eisenstadt / Österreich
+* Wo: Eisenstadt, Österreich
 => http://linuxwochen.at/eisenstadt/
 
 ==== Augsburger Linux-Infotag
 * Wann: 2025-04-26
-* Wo: Augsburg
+* Wo: Augsburg, Deutschland
 => https://www.luga.de/static/LIT-2025/
 
 ==== FSCK ???
 * Wann: ???
-* Wo: Backnang (etwa zwischen Heilbronn und Stuttgart)
+* Wo: Backnang (etwa zwischen Heilbronn und Stuttgart), Deutschland
 => https://wiki.events.hacknang.de/
 
 ==== LUGCamp in Wipperfürth ???
 * Wann: ???
-* Wo: Wipperfürth
+* Wo: Wipperfürth, Deutschland
 => https://lugcamp.wuplug.org/
 
 ==== OpenInfra Day Germany x Sovereign ???
@@ -70,32 +70,37 @@ $<article>
 
 ==== T-DOSE
 * Wann: 2025-05-31 – 2025-06-01
-* Wo: Geldrop (near Eindhoven)
+* Wo: Geldrop (near Eindhoven), Niederlande
 => https://t-dose.org/2025/
 
 ==== Gulaschprogrammiernacht (GPN)
 * Wann: vorraussichtlich 2025-06-19 - 2025-06-22 ?
-* Wo: Karlsruhe ?
+* Wo: Karlsruhe, Deutschland ?
 => https://entropia.de/GPN23
+
+==== GopherCon Europe
+* Wann: 2025-06-16 - 2025-06-19
+* Wo: Alte Münze, Berlin, Deutschland
+=> https://gophercon.eu/
 
 ==== Intergalaktische Erfahrungsreise (IGER) ???
 * Wann: ???
-* Wo: Bamberg ???
+* Wo: Bamberg, Deutschland ???
 => https://www.fairydust.reisen/
 
 ==== Hacken Open Air
 * Wann: 2025-07-01 – 2025-07-05
-* Wo: Gifhorn
+* Wo: Gifhorn, Deutschland
 => https://hackenopenair.de/
 
 ==== Hackover ???
 * Wann: ???
-* Wo: Nordstadt in Hannover ???
+* Wo: Nordstadt in Hannover, Deutschland ???
 => https://hackover.de/
 
 ==== FrOSCon
 * Wann: 2025-08-16 – 2025-08-17
-* Wo: Sankt Augustin an der Hochschule Bonn-Rhein-Sieg
+* Wo: Hochschule Bonn-Rhein-Sieg, Sankt Augustin, Deutschland
 => https://froscon.org/
 
 ==== Chaos Communication Camp
@@ -114,13 +119,23 @@ $<article>
 
 ==== Kieler Open Source und Linux Tage
 * Wann: 2025-09-18 — 2025-09-20
-* Wo: Kiel
+* Wo: Kiel, Deutschland
 => https://kilux.de/
 
 ==== Datenspuren
 * Wann: 2025-09-19 - 2025-09-21
-* Wo: Zentralwerk, Riesaer Str. 32, Dresden
+* Wo: Zentralwerk, Riesaer Str. 32, Dresden, Deutschland
 => https://www.datenspuren.de/2025/
+
+==== Balkan Computer Congress - BalCCon2k25 - Against the Current
+* Wann: 2025-09-19 - 2025-09-21
+* Wo: Novi Sad, Serbien
+=> https://2k25.balccon.org/
+
+==== Kernel Recipes
+* Wann: 2025-09-22 – 2025-09-25
+* Wo: Paris, Frankreich
+=> https://kernel-recipes.org/en/2025
 
 ==== EuroBSDCon
 * Wo: Zagreb, Croatia
@@ -132,15 +147,15 @@ $<article>
 * Wo: weltweit, Veranstaltungen siehe Webseite
 => https://digitalfreedoms.org/en/sfd
 
-==== GNU/LinuxDay in Vorarlberg ???
+==== GNU/LinuxDay in Vorarlberg
 * Wann: ???
-* Wo: Vorarlberg / Österreich
+* Wo: Dornbin, Vorarlberg, Österreich
 => https://www.linuxday.at/
 
 ; ==== Hacks on the Harbour – Maker & Hacker Festival
 ; Webseite ist down, daher keine weiteren Infos
 ; * Wann: (noch?) kein Termin für 2024 (war 2023 im September)
-; * Wo: Sønderborg / Dänemark
+; * Wo: Sønderborg. Dänemark
 ;=> https://hoth.info/de/
 
 ==== MetaRheinMainChaosDays (MRMCD)
@@ -148,19 +163,24 @@ $<article>
 * Wo: ??? (war mal Darmstadt)
 => https://mrmcd.net
 
+==== EuroRust
+* Wann: 2025-10-09 - 2025-10-10
+* Wo: Paris, Frankreich
+=> https://eurorust.org/
+
 ==== BigBrotherAwards ???
 * Wann: ???
-* Wo: Bielefeld ???
+* Wo: Bielefeld, Deutschland ???
 => https://bigbrotherawards.de/
 
 ==== Labortage ???
 * Wann: ???
-* Wo: Bochum
+* Wo: Bochum, Deutschland
 => https://wiki.das-labor.org/w/LABOR_Wiki
 
 ==== Nook
 * Wann: voraussichtlich 2025-11-14 - 2025-11-15 ?
-* Wo: Lübeck
+* Wo: Lübeck, Deutschland
 => https://nook-luebeck.de
 
 ==== Open-Rhein-Ruhr ???
@@ -174,7 +194,7 @@ $<article>
 => https://www.fiffkon.de/
 
 ==== 39C3 ?
-* Wo: Hamburg, CCH ???
+* Wo: CCH, Hamburg, Deutschland ???
 * Wann: 2025-12-27 – 2025-12-30
 => https://events.ccc.de/
 

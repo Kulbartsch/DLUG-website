@@ -9,6 +9,7 @@ auch mal anderen Veranstaltungen).
 @teaser:T
 +archiv/*.pg
 
-@last_change:2023-10-08
+;Inhaltsverzeichnis wird automatisch generiert, daher macht last "last_change" kein Sinn
+;@last_change:2023-10-08
 +article-end.in
 +footer.in
