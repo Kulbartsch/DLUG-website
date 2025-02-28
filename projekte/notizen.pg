@@ -1,0 +1,267 @@
+@page:notizen
++../header.in
+$<article>
+=== Notizen - Apps und Konzepte
+
+Eine alphabetisch sortierte Liste von "Note-taking" Apps und Konzepten.
+
+Teilweise sind die Einträge mit Details versehen, meist die, die mich am meisten interessiert haben.
+Zu einigen Apps gibt es nur einen Link.
+Ergänzungen werden gerne entgegen genommen.
+
+Am Ende des Artikels gibt es noch eine [[Liste von Artikeln und Blogs|#Artikel_und_Blogs]] zum Thema Notizen.
+
+==== A Plain Text Personal Organizer (Konzept)
+=> https://danlucraft.com/blog/2008/04/plain-text-organizer/
+* Plain Text: ja
+* Anmerkung: Das ist ein Konzept und greift Ideen aus anderen "Plain-Text" Ideen auf.
+
+==== amna
+=> https://www.getamna.com/
+
+==== Bangle.io
+=> https://bangle.io/
+
+==== BasKet Note Pads
+=> http://basket-notepads.github.io/index.html
+* Platform: Linux (only?)
+* Lizenz: GPL
+* Anmerkung: Letzte News aus 2010.
+
+==== Dendron
+=> https://wiki.dendron.so/
+* Platform: Linux, Windows, macOS
+* Lizenz: AGPL V3
+* Programmiersprache: "built on top of VSCode" - also Electron in der Basis und ein VSCode Plugin
+* Plain Text: ja, .md (mit Frontmatter)
+* Sync: Einfach text-Dateien syncen.
+
+==== Edna
+=> https://edna.arslexis.io/help
+
+==== EteSync
+=> https://www.etesync.com/
+* Platform: *
+* Programmiersprache:
+** Server: Python
+* Features:
+** Clients and Server
+** End-to-end encrypted
+** contacts, calendars, tasks and notes
+
+==== Foam
+=> https://foambubble.github.io/foam/
+
+==== Johnny.Decimal (Konzept)
+> A system to organise your life
+=> https://johnnydecimal.com/
+* Anmerkung: Johnny.Decimal ist ein Konzept wie man Daten strukturiert ablegt, unabhängig von ihrem Speicherort (Dateien, Mail, Notizen, Notiz-Apps)
+> Johnny.Decimal is designed to help you find things quickly,
+> with more confidence, and less stress.
+
+==== Joplin
+=> https://joplinapp.org/
+* Platform: Linux, Windows, macOS, Android, iOS, für Desktop Systeme sogar mit einer Terminal APP
+* Lizenz: MIT
+* Programmiersprache: Typescipt + Javascript
+* Plain Text: nope -> SQL (SQLite?)
+* Sync: über API oder Sync Verzeichnis
+> The notes can be synchronised with various cloud services including Nextcloud, Dropbox, OneDrive, WebDAV or the file system (for example with a network directory). When synchronising the notes, notebooks, tags and other metadata are saved to plain text files which can be easily inspected, backed up and moved around.
+* Anmerkung:
+** Die Dateien können verschlüsselt werden.
+** Joplin verwaltet die Dokumente selbst in .config in einer SQL Datenbank. Für den Sync werden die Dateien bei Bedarf exportiert. Die Dateien bekommen kryptische Namen.
+
+==== Laverna
+=> https://laverna.cc/
+=> https://github.com/Laverna/laverna
+* Platform: Linux, Windows, macOS
+* Lizenz: MPL 2 - Mozilla Public License 2.0
+* Programmiersprache: Javascript
+* Verschlüsselung: einzelne Notes
+* Anmerkung: Legt Daten wohl in einem transparenten Text-Verzeichnis ab.
+
+==== Leanote
+=> http://leanote.org/
+
+==== LogSeq
+=> https://logseq.com/
+* Plain Text: ja
+
+==== nb
+=> https://xwmx.github.io/nb/
+> nb is a command line and local web note‑taking, bookmarking, archiving, and knowledge base application with:
+
+==== Neuron Zettelkasten
+=> https://neuron.zettel.page/
+
+==== Notable
+=> https://notable.app/
+* Platform: Linux, Windows, macOS
+* Lizenz: "Only older versions of the app are open-sourced" (Quelle: https://github.com/notable/notable)
+* Programmiersprache: Typescript, Electron, react
+* Anmerkung:
+** Ist einfach als SNAP zu installieren.
+** Kann auch [Mermaid Diagramme](https://github.com/mermaid-js/mermaid)
+
+==== Notally
+> A beautiful notes app
+=> https://github.com/OmGodse/Notally
+* Platform: Android
+* Lizenz: GPL-3.0
+* Programmiersprache: Kotlin
+* Plain Text: exportierbar
+* Verschlüsselung: nein
+* Sync: nein
+
+==== Notesnook
+=> https://notesnook.com/
+* Platform: *
+* Lizenz: open source
+* Verschlüsselung: ja
+
+==== NotingSpace
+=> https://notingspace.com/
+
+==== Notion
+=> https://www.notion.com/de
+* Lizenz: kommerziell
+
+==== Notty
+=> https://github.com/Dhravya/notty
+
+==== Obsidian
+=> https://obsidian.md/
+* Platform: Linux, iOS, Android, Windowsm macOS
+* Lizenz: kommerziell?, aber frei nutzbar
+* Sync: kommerziell
+
+==== Pervane
+=> https://github.com/hakanu/pervane
+
+==== QOwnNotes
+=> https://www.qownnotes.org/
+* Platform: Linux, Windows, macOS, FreeBSD
+* Lizenz: GPL V2
+* Programmiersprache: C++ and Qt
+* Plain Text: ja
+* Verschlüsselung: "encryption of notes (AES-256 is built in or you can use custom encryption methods like Keybase.io (encryption-keybase.qml) or PGP (encryption-pgp.qml))"
+* Anmerkung: Ist scriptfähig
+> The notes are stored as plain text markdown files and are synced with Nextcloud's/ownCloud's file sync functionality. Of course other software, like Syncthing or Dropbox can be used too.
+> You can use your existing text or markdown files, no need for an import most of the times
+
+==== Roam
+=> https://roamresearch.com/
+* Platform: Linux, macOS, Windows, Android, iOS
+* Lizenz: kommerziell
+
+==== Rucola
+=> https://github.com/Linus-Mussmaecher/rucola
+> Terminal-based markdown note manager to view statistics, explore connections and launch editing and viewing applications.
+
+==== Sciter
+=> https://notes.sciter.com/
+
+==== SilverBullet
+=> https://silverbullet.md/
+
+==== Standard Notes
+=> https://standardnotes.com/
+* Platform: *
+* Lizenz: open source
+* Plain Text: ja
+* Verschlüsselung: ja
+* Sync: ja
+* Anmerkung: kommerzieller Sync-Service verfügbar
+
+==== TagSpaces
+=> https://www.tagspaces.org/
+=> https://github.com/tagspaces/tagspaces
+> TagSpaces is an offline, open source, document manager with tagging support
+* Platform: *
+* Lizenz: AGPL-3.0 license und kommerziell für erweiterten Funktionsumfang
+* Programmiersprache: Typescript
+* Plain Text: ja, u.a.
+* Verschlüsselung: nein
+* Sync: ja? ("Connect cloud S3 object storage from services like AWS S3, Wasabi, or Cloudflare")
+
+==== The Archive (von Zettelkasten.de)
+=> https://zettelkasten.de/the-archive/
+* Platform: macOS
+* Lizenz: kommerziell
+
+==== TiddlyWiki
+=> https://tiddlywiki.com/
+* Anmkerkungen
+** Funktioniert wie eine Single Page App (Webseite).
+** Notizen werden in der App selbst gespeichert.
+** Da Webseiten - je nach Browser - Daten nicht mehr lokal speichern dürfen,\
+   sind dafür Plugins erforderlich, oder eine minimaler, auch lokaler Webserver.
+
+==== Todoist
+=> https://todoist.com/de
+
+==== wikidPad
+=> http://wikidpad.sourceforge.net/
+* Platform: Windows
+* Lizenz: k.a.
+* Programmiersprache: ?
+* Anmerkung: Länger ohne Updates.
+
+==== ZenJournal
+=> https://thezenjournal.com/
+
+==== Zettelstore
+=> https://zettelstore.de/home/doc/trunk/www/index.wiki
+
+==== Zettlr
+=> https://www.zettlr.com/download
+=> https://github.com/Zettlr/Zettlr
+* Platform: Linux, Windows, macOS
+* Lizenz: GPL 3.0
+* Programmiersprache: Typescript, Javascript, Vue
+* Anmerkung: komplex
+
+==== ZIM
+=> https://zim-wiki.org/index.html
+* Platform: Linux, Windows, macOS
+* Lizenz: GPL
+* Programmiersprache: Python
+* Anmerkungen:
+** Plain Text: Notizen werden als *.txt gespeichert, sind aber in einem proprietären Markdown formatiert.
+** Die Notizen liegen in einem einfachen Verzeichnis, welches auch synchronisiert werden kann.
+** Zim unterstützt direkt mindestens die Versionsverwaltungen GIT und Fossil.
+** Die Überschriften werden "invertiert" formatiert, dh. sechs "=" ergeben ergben ein h1-Tag.
+** ZIM unterstützt diverse Plugins, u.a. [Graphviz](https://graphviz.org/)
+
+==== Zotero
+=> https://www.zotero.org/
+
+==== zk
+=> https://github.com/zk-org/zk
+> zk is a command-line tool helping you to maintain a plain text Zettelkasten or personal wiki.
+
+==== __template
+> Tag Line - Dies ist nur eine Vorlage für weitere Einträge
+=> https://example.link/
+* Platform:
+* Lizenz:
+* Programmiersprache:
+* Plain Text:
+* Verschlüsselung:
+* Sync:
+* Anmerkung:
+> Zitate von der Webseite
+
+
+=== Artikel und Blogs
+
+=> https://gnulinux.ch/artikelindex?search=serie+notiz GNU/Linux.ch Serie: Strukturierte Notizen
+=> https://en.m.wikipedia.org/wiki/Comparison_of_note-taking_software Comparison of note-taking software (Wikipedia)
+=> https://akkshaya.blog/2020/07/19/note-taking/ Tired of note-taking apps
+=> https://got.phillipwills.com/engineers-notebook/ Engineer's Notebook (Ein Konzept für ein Notebook aus Papier)
+
+@last_change:2025-02-28
+@author:Alexander
+@license:CC BY-SA 4.0
++../article-end.in
++../footer.in

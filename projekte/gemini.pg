@@ -16,6 +16,7 @@ $<article>
 
 ==== Gemini-Space Browser (Clients)
 
+* [Buran](https://github.com/Corewala/Buran) ist ein Gemini-Space Browser für Android.
 * [Lagrange](https://flathub.org/apps/details/fi.skyjake.Lagrange) ist ein schöner Gemini-Client. ([GitHub](https://github.com/skyjake/lagrange))
 * [Agregore](https://agregore.mauve.moe/) wurde initial als Webbrowser für Peer-to-Peer Protokolle, \
   wie [HYPER](https://hypercore-protocol.org/) oder [IPFS](https://ipfs.io/), entwickelt. \
@@ -25,6 +26,8 @@ $<article>
 * [Amfora](https://github.com/makeworld-the-better-one/amfora) ist ein Gemini-Client für das Terminal.
 * Ebenfalls für die Nutzung im Terminal ist [Bombadillo](https://bombadillo.colorfield.space/). \
   Der Browser unterstützt neben Gemini auch Gopher und Finger.
+* [asuka](https://git.sr.ht/~julienxx/asuka) ist ein weiterer Gemini-Client für das Terminal, der in Rust geschrieben ist.
+* [deedum](https://github.com/snoe/deedum) ist ein Dart+Flutter Gemini-Client und zumindest für Android verfügbar. (letzte Aktualisierung 2022-04)
 
 ==== Gemini Links
 
