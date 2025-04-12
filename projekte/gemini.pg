@@ -16,6 +16,9 @@ $<article>
 
 ==== Gemini-Space Browser (Clients)
 
+Eigentlich gibt es besser gepflegte Listen im GeminiSpace,
+aber hier sind einige Clients für den Einstieg aufgelistet:
+
 * [Buran](https://github.com/Corewala/Buran) ist ein Gemini-Space Browser für Android.
 * [Lagrange](https://flathub.org/apps/details/fi.skyjake.Lagrange) ist ein schöner Gemini-Client. ([GitHub](https://github.com/skyjake/lagrange))
 * [Agregore](https://agregore.mauve.moe/) wurde initial als Webbrowser für Peer-to-Peer Protokolle, \
@@ -34,25 +37,39 @@ $<article>
 Um die folgenden Links aufzurufen, musst du einen Gemini-Space-Browser installiert haben
 und in deinem Web-Browser das Protocoll `gemini:` mit diesem verknüpft haben.
 
+=> gemini://dlug.de/ Die DLUG Gemini Capsule mit Geminie Links ist in Arbeit. (Probier einfach ob der Link funktioniert)
+
 Infos zu Gemini
 
-=> gemini://gemini.circumlunar.space/ Gemini Project Homepage
+=> gemini://geminiprotocol.net/ Project Gemini Homepage
 => gemini://geminiquickst.art/ Gemini Quickstart!
-=> gemini://gemini.circumlunar.space/docs/specification.gmi Gemini specification
+=> gemini://geminiprotocol.net/docs/specification.gmi Project Gemini specifications
 => gemini://admin.flounder.online/ Flounder - Eine Gemini Portal/Startseite
 
 Einstiegs-Seiten
 
-=> gemini://geminispace.info/ Gemini-Space Suchmaschine
+=> gemini://kennedy.gemi.dev/ 🔭 Kennedy: Search Gemini Space
+=> gemini://taz.de TAZ im Gemini-Space (ohne Werbung)
+=> gemini://gemi.dev/cgi-bin/waffle.cgi 🧇 News-Waffle ist ein Proxy für verschiedene News-Seiten aus dem Internet, aber ohne Bloat und Werbung.
 => gemini://calcuode.com/gmisub-aggregate.gmi Gemini Feed Aggregator
-=> gemini://gemi.dev/cgi-bin/waffle.cgi News-Waffle ist ein Proxy für News-Seiten aus dem Internet, aber ohne Bloat und Werbung.
 
-Homepages
+Homepages und andere Seiten
 
-=> gemini://gemini.ctrl-c.club/ Ctrl-C.club's Gemini server
-=> gemini://metalune.xyz/ metalune's dungeon of pleasure
+=> gemini://gemi.dev/ "🏭 Gemi.dev Heavy Industries" stellt eine Reihe von Services bereit
+=> gemini://gemi.dev/awesome.gmi A list of awesome Gemini things.
+=> gemini://gemini.ctrl-c.club/ Ctrl-C.club's Gemini server.  Hier haben viele Leute ihre Gemini Capsules (Homepages).
 => gemini://capsule.usebox.net/ reidrac's capsule
+=> gemini://gemi.dev/xkcd/archive/ XKCD Archive
+=> gemini://zaibatsu.circumlunar.space/~solderpunk/ Solderpunk's Realm
+=> gemini://zaibatsu.circumlunar.space/ Mare Tranquillitatis People's Circumlunar Zaibatsu
+=> gemini://skyjake.fi/ skyjake's Capsule
+=> gemini://sotd.sysrq.in/ Gemini Server of the Day (und Liste)
+=> gemini://calcuode.com/gmisub-aggregate.gmi gmisub aggregate  (Feed Agregator)
 
+Tote Links
+
+=> gemini://geminispace.info/ Gemini-Space Suchmaschine
+=> gemini://metalune.xyz/ metalune's dungeon of pleasure
 
 @last_change:2022-08-27
 @author:Alexander

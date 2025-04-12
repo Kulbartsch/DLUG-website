@@ -1,0 +1,176 @@
+@article-date:2025-04-10
+@last_change:2025-04-12
+@author:Alexander
+@article-name:{{article-date}} - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/{{article-date}}_FS_DLUG_Treffen.html
+(cond-if-set teaser)
+* [[{{article-name}}|{{article-link}}]]
+(cond-else)
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+
+==== Drucker/Scanner
+
+Die Gummi-Einzugwalzen von Druckern oder Scannern kann man mit folgenden Mittelchen auffrischen:
+
+=> https://www.office-discount.at/sax-design-fingeranfeuchter-478617 Fingeranfeuchter [Office-Discount]
+=> https://www.amazon.de/Olmo-Gummi-Neu-10-ltr/dp/B00LA5EK6O Gummin-Neu [amazon.de]
+
+==== Internet Archive abgeschaltet
+
+=> https://wiki.archiveteam.org/index.php/INTERNETARCHIVE.BAK INTERNETARCHIVE.BAK - Archiveteam
+> IMPORTANT: THE INTERNETARCHIVE.BAK EXPERIMENT CLOSED DOWN AFTER A FEW YEARS.
+>
+> The wonder of the  Internet Archive 's petabytes of stored data is that they're a world treasure, providing access to a mass of information and stored culture, gathered from decades of history (in some case, centuries), and available in a (relatively) easy-to-find fashion. And as media and popular websites begin to cover the Archive's mission in earnest, the audience is growing notably.
+
+==== Die Krise der Kosmologie
+
+=> https://en.wikipedia.org/wiki/Hubble%27s_law#Determining_the_Hubble_constant Hubble's law [Wikipedia]
+=> https://de.wikipedia.org/wiki/Modifizierte_Newtonsche_Dynamik Modifizierte Newtonsche Dynamik [Wikipedia]
+Das James Web-Teleskop soll uns helfen ein besseres Verständnis für das Universum zu bekommen.
+=> https://de.wikipedia.org/wiki/James-Webb-Weltraumteleskop
+> Die ersten Bilder des JWST wurden der Öffentlichkeit am 11. und 12. Juli 2022 präsentiert.
+
+=> https://www.youtube.com/playlist?list=PLI-sk5W8bgBcP57LnbklNkuQmQNaQU3aT "Urknall, Weltall, Leben" von Jenny Wagner (Youtube Kanal)
+; => https://www.youtube.com/watch?v=Ww38zs_bYaY&list=PLI-sk5W8bgBcP57LnbklNkuQmQNaQU3aT&index=2
+
+==== Programmiersprachen
+
+=> https://www.arraycast.com/ The Array Cast - A podcast about the array programming languages
+> In computer science, array programming refers to solutions that allow the application of operations to an entire set of values at once. Such solutions are commonly used in scientific and engineering settings.
+=> https://en.wikipedia.org/wiki/Array_programming Array programming [Wikipedia]
+
+=> https://www.stepstone.de/jobs/cobol-entwickler Cobol-Entwickler (Stepstone)
+> 400 leute suchens...
+
+> kobol oder kobold?
+
+=> https://de.wikipedia.org/wiki/COBOL COBOL  (Wikipedia)
+Eine Addition kann in Cobol so geschrieben werden:
+
+% ADD b TO c GIVING a
+
+Es geht aber auch so:
+
+% COMPUTE a = b + c
+
+==== TUI Browser
+
+=> https://lynx.invisible-island.net/ Lynx is the text web browser
+=> https://github.com/tats/w3m Debian's w3m: WWW browsable pager
+=> https://github.com/browsh-org/browsh browsh-org/browsh: A fully-modern text-based browser, rendering to TTY and browsers (GitHub)
+** Der kann sogar Videos abspielen
+
+==== Alte Betriebssysteme
+
+=> https://de.wikipedia.org/wiki/Xenix Xenix war ein von Microsoft entwickeltes Betriebssystem, das auf Unix basiert. [wikipedia]
+=> https://de.wikipedia.org/wiki/CP/M CP/M (Abkürzung für Control Program for Microcomputers, „Steuerprogramm für Mikrocomputer“) ist eine Reihe von Betriebssystemen, die ab etwa 1974 von Digital Research unter Gary Kildall entwickelt wurden. [wikipedia]
+=> https://en.wikipedia.org/wiki/Sharp_MZ Sharp MZ 800 - konnte CP/M (Wikipedia)
+=> https://de.wikipedia.org/wiki/CP/M#MP/M *MP/M* war eine Mehrbenutzersystem-Version (“multi user system”) von CP/M.  [wikipedia]
+* CP/M ist heute Public Domain
+=> https://www.digitalresearch.biz/CPM.HTM Die "aktuelle" CP/M Homepage bei Digital Research
+
+
+==== Digitale Souveränität
+
+=> https://european-alternatives.eu/de/kategorien  European Alternatives - Kategorien
+=> https://fuckoffgoogle.de/de/ Fuck off Google - Lass uns Google aus unseren Leben und Räumen vertreiben!
+
+=> https://github.com/go-gitea/gitea go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD (GitHub)
+
+Warum werden Webzugriffe nicht mehr über Logs analysiert?
+=> https://goaccess.io/ GoAccess - Visual Web Log Analyzer
+
+=> https://media.ccc.de/v/dgna-56291-freiheit-oder-sicherheit-uber Freiheit oder Sicherheit? Überwachung im digitalen Zeitalter (media.ccc.de)
+=> https://media.ccc.de/v/38c3-databroker-files-wie-uns-apps-und-datenhndler-der-massenberwachung-ausliefern  Databroker Files: Wie uns Apps und Datenhändler der Massenüberwachung ausliefern (media.ccc.de)
+
+==== Meta-Hosting (Backbones, CDNs, etc.)
+
+=> https://hosting-checker.net/ Hosting Checker - Find out where any website is hosted
+=> https://hosting-checker.net/websites/www.diedunkelkammer.at Where is www.diedunkelkammer.at hosted? [Hosting-Checker]
+=> https://www.diedunkelkammer.at  Die Dunkelkammer.at - Der Investigativ-Podcast
+=> https://de.wikipedia.org/wiki/Level_3_CommunicationsLevel 3 Communications [wikipedia]
+> Am 1. November 2017 wurde Level 3 von CenturyLink übernommen. Im September 2020 benannte sich Centurylink in Lumen Technologies um und im November 2023 wurde Lumen durch Colt Technology Services übernommen.
+=> https://de.wikipedia.org/wiki/Content_Delivery_Network Content Delivery Network [wikipedia]
+=> https://en.wikipedia.org/wiki/Firefox Firefox - Wikipedia
+> Since version 60 Firefox includes the option to use DNS over HTTPS (DoH),
+> which causes DNS lookup requests to be sent encrypted over the HTTPS protocol.
+> To use this feature the user must set certain preferences beginning
+> with "network.trr" (Trusted Recursive Resolver) in about:config: if network.trr.mode is 0,
+> DoH is disabled; 1 activates DoH in addition to unencrypted DNS; 2 causes DoH
+> to be used before unencrypted DNS; to use only DoH, the value must be 3.
+> By setting network.trr.uri to the URL, special Cloudflare servers will be activated.
+> Mozilla has a privacy agreement with this server host that restricts
+> their collection of information about incoming DNS requests-
+
+
+==== Gemini & Textmode
+
+=> https://de.wikipedia.org/wiki/Gemini_(Protokoll) Gemini (Protokoll) [Wikipedia]
+=> https://dlug.de/projekte/gemini.html Die Gemini Seite auf DLUG sammelt alles Infos aus den Online Treffen ein.
+
+=> gemini://taz.de TAZ im Gemini-Space (ohne Werbung) [gemini-link]
+
+=> https://f-droid.org/packages/corewala.gemini.buran/ Buran Gemini-Space Browser für Android [F-Droid]
+=> https://github.com/skyjake/lagrange Lagrange, ein schöner Gemini-Space Browser [github]
+
+Ja, Buran war auch Space Shuttle der UDSSR:
+=> https://www.wired.com/story/jonk-buran-photo-gallery/The Quest to Get Photos of the USSR's First Space Shuttle [WIRED]
+
+
+Man kann auch Videos im Text-Mode schauen:
+=> https://itsfoss.com/star-wars-linux/  Watch Star Wars In Linux Terminal
+und hier als Text-Web-Version:
+=> https://der-floh.github.io/StarWars-Ascii-Movie/ "Star Wars"
+
+
+==== Suchmaschinen
+
+=> https://www.qwant.com/ Qwant - The search engine that values you as a user, not as a product
+=> https://marginalia-search.com/ Marginalia Suchmaschine für nicht kommerzielle Seiten
+=> https://yep.com/ Yep Suchmaschine [yep.com]
+=> https://www.yep.one/  Yep – Explore Privately, Search Powerfully! [yep.one]
+> Bin verwirrt was die die verschiedenen yep Seiten angeht.
+
+
+==== Digitalzwang
+
+=> https://media.ccc.de/v/38c3-digitalisierung-mit-der-brechstange Digitalisierung mit der Brechstange (media.ccc.de)
+
+=> https://media.ccc.de/v/38c3-fehlercode-406-request-not-acceptable-digitalzwang-als-human-security-problem Fehlercode 406: Request not acceptable. Digitalzwang als Human Security-Problem [media.ccc.de]
+=> https://media.ccc.de/v/38c3-digitalisierung-mit-der-brechstange#t=694 "4-6 % sind ohne Internet" (Video mit Timecode)
+
+=> https://digitalcourage.de/blog/2024/masterarbeit-digitalzwang-als-human-security-problem Fehlercode 406: Request not acceptable. Digitalzwang als Human Security-Problem (Digitalcourage) [media.ccc.de]
+=> https://digitalcourage.de/sites/default/files/2024-09/Digitalzwang_als_HS_Problem.pdf → Die Masterarbeit von Marieke Lena Petersen ist die Basis für den Vortrag. [PDF] [Digitalcourage]
+
+=> https://media.ccc.de/v/38c3-digitalisierung-mit-der-brechstange#t=694 Digitalisierung mit der Brechstange - media.ccc.de
+
+
+==== Verschiedenes
+
+> kennt jemand ein programm ähnlich wie vnstat das den datenverbrauch per SSID messen kann? oder etwas das datenverbrauch misst, aber nicht in C/C++ geschrieben ist, das man anpassen könnte...
+=> https://medium.com/@redswitches/top-20-linux-bandwidth-monitoring-tools-in-2024-9273d3d3c4dc  Top 20 Linux Bandwidth Monitoring Tools in 2024 (Medium)
+=> https://askubuntu.com/questions/117065/how-do-i-find-out-the-name-of-the-ssid-im-connected-to-from-the-command-line networking - How do I find out the name of the SSID I'm connected to from the command line? (Ask Ubuntu)
+
+
+=> https://blog.shimps.org/blogpost422-First-Anniversary blog.shimps.org | First Anniversary
+
+=> https://forums.linuxmint.com/viewtopic.php?t=173992 nemo cannot handle locations "network://" [SOLVED] [forums.linuxmint.com]
+
+=> https://blog.shimps.de/blogpost7-DLUG-prasentiert-Magnus-Asinus-Abenteuer-des-Zahlens DLUG präsentiert: "Magnus Asinus - Abenteuer des Zählens" [blog.shimps.de]
+=> https://dlug.de/projekte/macount.pdf → Hier auf DLUG das PDF dazu.
+
+=> https://www.uweziegenhagen.de/ Textsatz mit LaTeX, Programmieren, Zahlen, etc.  [uweziegenhagen.de]
+
+=> https://www.upgradetolinux.com/?lang=de Upgrade to Linux
+
+
++../article-end.in
++../footer.in
+(cond-end)

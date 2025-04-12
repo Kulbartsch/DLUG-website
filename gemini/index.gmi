@@ -1,0 +1,45 @@
+# DLUG
+## Düsseldorfer Linux User Group
+
+This is part of the German Düsseldorf-Linux-User-Group (DLUG) project.
+Most of the content is in German.
+=> https://dlug.de DLUG Homepage (HTTP)
+
+This is the first Gemini capsule from DLUG. It's currently only providing some Gemini links.
+
+DE
+Die ist die erste Gemini-Kapsel von DLUG. Sie bietet derzeit nur einige Links zu Gemini-Seiten.
+
+### Infos zu Gemini
+
+=> gemini://geminiprotocol.net/ Project Gemini Homepage
+=> gemini://geminiquickst.art/ Gemini Quickstart!
+=> gemini://geminiprotocol.net/docs/specification.gmi Project Gemini specifications
+=> gemini://admin.flounder.online/ Flounder - Eine Gemini Portal/Startseite
+
+### Einstiegs-Seiten
+
+=> gemini://kennedy.gemi.dev/ 🔭 Kennedy: Search Gemini Space
+=> gemini://taz.de TAZ im Gemini-Space (ohne Werbung)
+=> gemini://gemi.dev/cgi-bin/waffle.cgi 🧇 News-Waffle ist ein Proxy für verschiedene News-Seiten aus dem Internet, aber ohne Bloat und Werbung.
+=> gemini://calcuode.com/gmisub-aggregate.gmi Gemini Feed Aggregator
+
+### Homepages und andere Seiten
+
+=> gemini://gemi.dev/ "🏭 Gemi.dev Heavy Industries" stellt eine Reihe von Services bereit
+=> gemini://gemi.dev/awesome.gmi A list of awesome Gemini things.
+=> gemini://gemini.ctrl-c.club/ Ctrl-C.club's Gemini server.  Hier haben viele Leute ihre Gemini Capsules (Homepages).
+=> gemini://capsule.usebox.net/ reidrac's capsule
+=> gemini://gemi.dev/xkcd/archive/ XKCD Archive
+=> gemini://zaibatsu.circumlunar.space/~solderpunk/ Solderpunk's Realm
+=> gemini://zaibatsu.circumlunar.space/ Mare Tranquillitatis People's Circumlunar Zaibatsu
+=> gemini://skyjake.fi/ skyjake's Capsule
+=> gemini://sotd.sysrq.in/ Gemini Server of the Day (und Liste)
+=> gemini://calcuode.com/gmisub-aggregate.gmi gmisub aggregate  (Feed Agregator)
+
+### Tote Links
+
+=> gemini://geminispace.info/ Gemini-Space Suchmaschine
+=> gemini://metalune.xyz/ metalune's dungeon of pleasure
+
+Das war's.
