@@ -1,0 +1,98 @@
+;Datum des Treffens
+@article-date:2025-11-13
+@last_change:2025-11-16
+@author:Alexander
+@wer:DLUG
+;@wer:LUGA
+(cond-if-equal wer DLUG)
+@article-name:{{article-date}} - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/{{article-date}}_FS_DLUG.html
+(cond-else)
+@article-name:{{article-date}} - LUGA Online Treffen
+@article-link:/archiv/{{article-date}}_LUGA.html
+(cond-end)
+(cond-if-set teaser)
+* [[{{article-name}}|{{article-link}}]]
+(cond-else)
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Im folgenden Links zu den Themen des Abends.
+;Einige Links wurden nachgeliefert und hier ergänzt.
+
+
+; * Heute sind wir auf den LUGA Jistsi Server ausweichen.
+
+==== Verschiedenes
+
+Wolkenlos
+=> https://www.githubstatus.com/incidents/1jw8ltnr1qrj  Github ist teilweise ausgefallen – aber das sollte bei einer dezentralen Versionsverwaltung ja nichts ausmachen ;)  (www.githubstatus.com)
+
+Outsourcing
+=> https://de.wikipedia.org/wiki/Outsourced_%E2%80%93_Auf_Umwegen_zum_Gl%C3%BCck  Outsourced – Auf Umwegen zum Glück (Originaltitel: Outsourced) ist eine US-amerikanische romantische Filmkomödie aus dem Jahr 2006. (de.wikipedia.org)
+
+Was ist eine Dampfmaschine
+=> https://store.steampowered.com/sale/steammachine Steam Machine (store.steampowered.com)
+
+Tanenbaum-Filme
+=> https://media.pearsoncmg.com/ph/streaming/esm/tanenbaum5e_videonotes/tanenbaum_videoNotes.html Video Notes: Tanenbaum, Wetherall Computer Networks 5e (media.pearsoncmg.com)
+
+RU-Roboter
+=> https://www.spiegel.de/wissenschaft/russland-debuet-der-ki-robotik-scheitert-auf-konferenz-panne-bei-moskauer-messe-a-f7d47273-628d-411a-81e7-b112945d1fde Russland: Debüt der KI-Robotik scheitert auf Konferenz - Panne bei Moskauer Messe  (www.spiegel.de)
+=> https://de.euronews.com/video/2025/11/13/russlands-erster-humanoider-ki-roboter-aidol-bricht-beim-buhnendebut-zusammen Russlands erster humanoider KI-Roboter AIDOL bricht beim Bühnendebüt zusammen [VIDEO] (de.euronews.com)
+=> https://www.merkur.de/politik/der-erste-russische-menschliche-roboter-faellt-bei-debuet-auf-der-buehne-um-zr-94035157.html Der erste russische „menschliche“ Roboter fällt bei Debüt auf der Bühne um (www.merkur.de)
+
+Pimp my Thinkpad
+=> https://www.reichelt.at/at/de/shop/produkt/intenso_m_2_ssd_pcie_premium_250_gb_m_2_nvme-338825 31€ für eine 250GB M.2 NVMe SSD (www.reichelt.at)
+=> https://www.ifixit.com/Guide/Lenovo+ThinkPad+T410s+Hard+Drive+Replacement/106710  Lenovo ThinkPad T410s Hard Drive Replacement - iFixit Repair Guide (www.ifixit.com)
+; => https://guide-images.cdn.ifixit.com/igi/uuoRNSCTfPT5RbBH.huge
+; (guide-images.cdn.ifixit.com)
+=> https://forum.thinkpads.com/viewtopic.php?t=116169   Can I install a SSD on my ThinkPad T410? - Thinkpads Forum  (forum.thinkpads.com)
+
+Da ist es ...
+=> https://www.reddit.com/media?url=https%3A%2F%2Fexternal-preview.redd.it%2F6mg2LYLy2O0h-qPo34VhGAFLEN7hGvhoCCMDEeGXh8Y.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Dcdb8d2023a74961231c9e0835b740af5dda7c058     Reddit - The heart of the internet [Bild] (www.reddit.com)
+
+Immer mal wieder
+=> https://dlug.de/projekte/gemini.html       Gemini ist ein neues Internet-Protokoll, welches umfangreicher als  Gopher ist, aber leichtgewichtiger als das Web. -  Projekt Gemini auf DLUG.de
+
+; => https://www.dau.edu/4edacm/faqs
+
+It's Magic!
+=> https://digitaldrui.de/index.php/products.html  Digitaldrui.de -   Esotherisch-ironische "Digital" Produkte
+> "Bei digitaldrui.de versuchen wir einen einzigartigen Ort zu erschaffen, an dem die Grenzen zwischen der digitalen und der spirituellen Welt verschwimmen. In einer Ära, in der unsere Realität zunehmend von Technologie durchdrungen wird, erkennen wir die Sehnsucht der Menschen nach einer tieferen Verbindung und einem spirituellen Gleichgewicht."
+
+Geschichte
+=> https://www.casio.com/us/watches/50th/Heritage/1970s/ Die Geschichte der Casio-Uhren (www.casio.com)
+
+==== (Anti-)Tracking
+
+=> https://airguard.seemoo.de/en/   AirGuard is an App for Android and iOS that gives you the Anti-Stalking protection you deserve. The app scans the surrounding environment to detect Trackers like AirTags, SmartTags or other Trackers. If the app finds that one of these trackers is following you, it will notify you and give you the opportunity to take action. (airguard.seemoo.de)
+=> https://f-droid.org/packages/de.seemoo.at_tracking_detection/    AirGuard - AirTag protection (f-droid.org)
+
+=> https://linux.die.net/man/1/hcitool hcitool - configure Bluetooth connections (man page) - das tool ist deprecated - (linux.die.net)
+
+=> https://media.ccc.de/v/35c3chaoswest-25-track-me-if-you-oh-    Track me, if you … oh.  (media.ccc.de)
+=> https://media.ccc.de/v/2025-532-detect-me-if-you-can-bluetooth-tracker-einfach-erkennen   Detect me if you can! - Bluetooth-Tracker einfach erkennen (media.ccc.de)
+=> https://digitalcourage.de/rfid   RFID | (digitalcourage.de)
+=> https://media.ccc.de/v/gpn23-172-ich-wei-wo-dein-haus-wohnt-grundlagen-zu-bluetooth-trackern  Ich weiß wo dein Haus wohnt (media.ccc.de)
+
+==== Verschiedenes II
+
+=> https://phoniebox.de/   Phoniebox - die freie Musikbox für Kinder, Erwachsene und Bastler/innen (phoniebox.de)
+=> https://en.wikipedia.org/wiki/Nabaztag Nabaztag (Armenian for "hare", նապաստակ (napastak)) is a Wi-Fi enabled ambient electronic device in the shape of a rabbit. (en.wikipedia.org)
+
+=> https://de.wikipedia.org/wiki/Charit%C3%A9_(Fernsehserie)  Charité ist eine deutsche Fernsehserie nach einer Idee von Dorothee Schön und Sabine Thor-Wiedemann, die auch für die Drehbücher der ersten beiden Staffeln verantwortlich zeichneten. Handlungsort ist die namensgebende Berliner Charité, eines der bekanntesten Krankenhäuser der Welt. - Empfehlung
+=> https://www.ardmediathek.de/serie/charite/staffel-4/Y3JpZDovL2Rhc2Vyc3RlLmRlL2NoYXJpdGU/4 Doku zur Serie | Die Charité: Hirschhausen - Medizin von morgen (S04/E07) (www.ardmediathek.de)
+; => https://s.to/serie/stream/charit/staffel-1 Charité (2017 - Heute)
+
+=> https://github.com/trifectatechfoundation/sudo-rs/security/advisories/GHSA-c978-wq47-pvvw `sudo-rs` - Partial password reveal when password timeout occurs. -  "lustig" - (github.com)
+
+=> https://git.sr.ht/~kulbartsch/links  likns – URLs/Links in einem Text-Log erkennen, sie als Markdown (Gemini-Stile) formatieren und Titel und Kopfzeile von der Website abrufen. Entfernt Jitsi Message Artefakte. (git.sr.ht)
+
+
++../article-end.in
++../footer.in
+(cond-end)

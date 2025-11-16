@@ -105,7 +105,7 @@ Einfach das Shellscript `make.sh` im Projektverzeichnis ausführen.
 Dieses aktualisiert das `site` Verzeichnis.
 
 Bitte beachte, dass das Script das `aswsg` aus dem Verzeichnis
-`bin` nimmt. Dieses ist für _Linux ARM64_
+`bin` nimmt. Dieses ist für _Linux AMD64_
 kompiliert.
 Solltest du auf einer anderen Plattform arbeiten schaue [hier](https://github.com/Kulbartsch/AStaticWebSiteGenerator)
 nach deiner passenden Version.

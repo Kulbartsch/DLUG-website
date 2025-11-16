@@ -1,0 +1,134 @@
+;Datume des Treffens
+@article-date:2025-11-12
+@last_change:2025-11-16
+@author:Alexander
+@LUGA:T
+@article-name:{{article-date}} - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/{{article-date}}_FS_DLUG.html
+(cond-if-set LUGA)
+@article-name:{{article-date}} - LUGA Online Treffen
+@article-link:/archiv/{{article-date}}_LUGA.html
+(cond-end)
+(cond-if-set teaser)
+* [[{{article-name}}|{{article-link}}]]
+(cond-else)
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Im folgenden Links zu den Themen des Abends.
+;Einige Links wurden nachgeliefert und hier ergänzt.
+
+==== Verschiedenes
+
+=> https://bereal.com/ BeReal ist eine französische Social-Networking-App. Ihr Hauptmerkmal ist eine tägliche Benachrichtigung, die Nutzer dazu animiert, Fotos von sich selbst aus ihrem Alltag mit Freunden zu teilen, wobei ihnen jeden Tag ein zufällig ausgewähltes Zeitfenster von zwei Minuten zur Verfügung steht. (bereal.com)
+=> https://tube.tchncs.de/ tchncs PeerTube (tube.tchncs.de)
+=> https://www.medien-kindersicher.de/startseite Startseite – Medien-kindersicher.de (www.medien-kindersicher.de)
+=> https://github.com/nextcloud/notify_push GitHub - nextcloud/notify_push: Update notifications for nextcloud clients (github.com)
+=> https://www.youtube.com/watch?v=fk2AocuACAA Selbstwert ohne eigenen Wikipediaeintrag? Stefan Renz-Wikipedia - YouTube (www.youtube.com)
+=> https://de.pluspedia.org/wiki/Ich_habe_keinen_Eintrag_(Song)  Ich habe keinen Eintrag (Song) (de.pluspedia.org)
+=> https://thepopinsider.com/tamagotchi-angel-series/ Tamagotchi - Revival! –  NYCC: Tamagotchi: The Original Angel Series Revival Is Heaven-Sent for Fans - The Pop Insider (thepopinsider.com)
+
+==== Space Weather / Sonnenstürme / Rundfunk/ Funkuhr / Zeitzeichensender / SDR
+
+=> https://meteoagent.com/de/vorhergesagt-warnungen-sonnensturme  Vorhersage und Warnungen zu Sonnenstürmen (meteoagent.com)
+=> https://www.swpc.noaa.gov/ Space Weather Prediction Center (www.swpc.noaa.gov)
+=> https://solarmonitor.org/ Solar Monitor (solarmonitor.org)
+
+=> https://de.wikipedia.org/wiki/Sender_Langenberg   Der Sender Langenberg ist eine Sendeanlage des Westdeutschen Rundfunks (WDR) in Langenberg, einem Stadtteil von Velbert. (de.wikipedia.org)
+=> https://de.wikipedia.org/wiki/DCF77 Der Zeitzeichensender DCF77 ist ein Langwellensender im Ortsteil Mainflingen der Gemeinde Mainhausen etwa 26 km ostsüdöstlich von Frankfurt am Main. (de.wikipedia.org)
+=> https://www.casio.com/de/watches/protrek/product.PRW-35-1A/ Casio ProTrek  PRW-35-1A Multifunktionuhr mit Solarstromversorgung und 6 verschiedene Zeitzeichensender Empfägt. (www.casio.com)
+=> https://de.wikipedia.org/wiki/Zeitzeichensender Als Zeitzeichensender wird eine Sendeanlage bezeichnet, welche die aktuell gültige Zeit als Information in maschinenverarbeitbarer (digitaler) Form ausstrahlt. (de.wikipedia.org)
+=> https://www.casio.com/de/watches/gshock/product.GW-M5610U-1/  Casio G-Sock GW-M5610U-1 - Ursprungs G-Shock auch mit Solar und Zeitzeichenempfang (www.casio.com)
+* In der Schweiz kann man unter der Telefonnummer 0900 161 161  noch eine telefonische Zeitansage erreicht werden.
+=> https://mediathekviewweb.de/#query=!zdfneo%20Der%20Herr%20der%20Ringe MediathekViewWeb - DHDR: Ringe der Macht  (mediathekviewweb.de)
+=> https://blinry.org/50-things-with-sdr/ Fifty Things you can do with a Software Defined Radio 📻 by blinry (blinry.org)
+=> https://de.wikipedia.org/wiki/Software_Defined_Radio#RTLSDR Das RTLSDR-Projekt verwendet normale DAB- und DVB-T-Sticks, die auf dem verbreiteten RTL2832U-Chipsatz von Realtek basieren. (de.wikipedia.org)
+
+==== Delta-Chat Problem
+
+> Returned mail: internationalized email messages (SMTPUTF8) not supported
+Uberspace.de:
+> tut mir leid, SMTPUTF8 im SMTP-Protokoll unterstützen wir nicht.
+
+=> https://uberspace.de/en/ Uberspace - Hosting on Asteroids -  100 % friendly, zero fuss, no frills -  Fair, sustainable, data-economical (uberspace.de)
+=> https://support.delta.chat/t/no-e2ee-with-new-contact-via-invite-link-permanent-smtp-error/3677 No E2EE with new contact via invite link -- permanent SMTP error - Mutual Help - Delta.Chat (support.delta.chat)
+=> https://stalw.art/ Stalwart Mail & Collaboration Server (stalw.art)
+=> https://datatracker.ietf.org/doc/html/rfc5545 (datatracker.ietf.org)
+
+Mögliche Hilfe für SMTPUTF8
+und
+=> https://it-muecke.de/node:20201214-postfix-smtputf8-error Postfix: SMTPUTF8 is required, but was not offered by host  (it-muecke.de)
+=> https://www.postfix.org/COMPATIBILITY_README.html#smtputf8_enable Postfix Backwards-Compatibility Safety Net (www.postfix.org)
+> Postfix 3.0 introduces a safety net that runs Postfix programs
+> with backwards-compatible default settings after an upgrade. The
+> safety net will log a warning whenever a "new" default setting could
+> have an negative effect on your mail flow.
+
+==== Verschiedenes
+
+=> https://sachinlearns.medium.com/the-100-year-bug-microsoft-never-fixed-how-excel-still-carries-a-mistake-from-the-1980s-5fe4dcaedc7d The 100-Year Bug Microsoft Never Fixed: How Excel Still Carries a Mistake from the 1980s | by SachinLearns  (sachinlearns.medium.com)
+
+=> https://www.willhaben.at/iad/kaufen-und-verkaufen/d/15x-odroid-hc2-einplatinencomputer-inkl-festplattenhalterung-zum-stapeln-988686273/ 15x ODROID-HC2 Einplatinencomputer inkl. Festplattenhalterung zum Stapeln (www.willhaben.at)
+=> https://winfuture.de/news,154820.html 2 Jahre Lieferzeit für HDDs: Speicherkrise erreicht historisches Ausmaß (winfuture.de)
+=> https://de.wikipedia.org/wiki/IBM_Model_M  Die Model-M-Tastatur bezeichnet eine Computertastatur-Gattung, die auf die zwischen 1984 und 1999 von IBM millionenfach hergestellte Tastatur „Model M“ zurückgeht. (de.wikipedia.org)
+
+==== Notebook mit "richtigem" Kyboard und Track-Point "Nippel" gesucht
+
+=> https://bilder.lugv.at/v/LinuxDay/linuxDay-2025/domenig/2025+LinuxDay-0180.jpg.html Full-Size Keyboard und extra Lüfter für ein Thinkpad - Foto vom LinuxDay 2025  (bilder.lugv.at)
+
+=> https://mntre.com/ MNT Reform Next: The retro-futuristic daily driver. -  Our latest laptop, MNT Reform Next, takes open source hardware to a new level. By combining high performance and high mobility with modularity, customizability, and repairability, MNT Reform Next has the potential to become more than just a daily driver. -  MNT Reform is Open Hardware. --  MNT Research GmbH -  Open Computing Autonomy (mntre.com)
+
+=> https://www.mediamarkt.at/de/product/_goodram-ssdpr-cx400-128-g2-128-gb-ssd-intern-142537499.html
+
+=> https://hackaday.io/project/191579-workbook-framework-13-classic-kb-trackpoint WorkBook (Framework 13 + Classic KB + TrackPoint) -  Re-implementng the ThinkPad keyboard with mechanical switches and TrackPoint in the FW13 Laptop (Work-In-Progress) (hackaday.io)
+
+==== Verschiedenes
+
+=> https://www.usenix.org/system/files/login/articles/105484-Gutmann.pdf  Do Users Verify SSH Keys? – Peter Gutmann (www.usenix.org)
+
+=> https://de.wikipedia.org/wiki/SSHFP_Resource_Record  Der SSHFP Resource Record (SSHFP für englisch Secure Shell (Key) Fingerprint) ist ein DNS-Resource Record für SSH-Keys. (en.wikipedia.org)
+
+=> https://de.wikipedia.org/wiki/Dunning-Kruger-Effekt Dunning-Kruger-Effekt bezeichnet die kognitive Verzerrung im Selbstverständnis inkompetenter Menschen, das eigene Wissen und Können bezüglich eines bestimmten Bereiches zu überschätzen. (de.wikipedia.org)
+
+=> https://www.galaxus.ch/de/page/schminke-gegen-kamera-wie-du-elektronisch-unsichtbar-wirst-8626 Dazzle Makeup gegen Gesichtserkennung (www.galaxus.ch)
+
+=> https://ambach.at/veranstaltungen/jazzambach-peter-madsen-the-silent-movie-ensemble/ jazzambach: peter madsen & the silent movie ensemble – Kulturbühne AMBACH (ambach.at)
+
+==== Giulia Enders Bücher
+
+=> https://www.buch7.de/produkt/organisch-giulia-enders/1050982380?ean=9783550201776 Organisch – Giulia Enders, Jill Enders  (www.buch7.de)
+> Was es wirklich bedeutet, auf unseren Körper zu hören | Der neue Nr.1-Bestseller von der Autorin von "Darm mit Charme" – Giulia Enders, Jill Enders
+=> https://sound.orf.at/podcast/oe3/fruehstueck-bei-mir/giulia-enders-9112025 Autorin und Ärztin Giulia Enders war zu Gast - Ö3 Sendungen (sound.orf.at)
+=> https://youtu.be/UVRi0tvokPk Kartoffelsalat ist super für den Darm - Giulia Enders | Frank Elstner Menschen - YouTube (youtu.be)
+
+==== Sollte man einen Mailserver betreiben … vielleicht wenn's einfach ist
+
+=> https://stalw.art/ Stalwart Mail & Collaboration Server (stalw.art)
+=> https://github.com/stalwartlabs/stalwart GitHub - stalwartlabs/stalwart: All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV). (github.com)
+=> https://stalw.art/docs/install/platform/linux/
+=> https://github.com/foxcpp/maddy GitHub - foxcpp/maddy: ✉️ Composable all-in-one mail server. (github.com)
+=> https://mailcow.email/de/ mailcow: dockerized (mailcow.email)
+=> https://docs.mailcow.email/de/#was-ist-mailcow-dockerized Informationen & Support - mailcow: dockerized Dokumentation (docs.mailcow.email)
+
+oder Webserver …
+=> https://caddyserver.com/ Caddy - The Ultimate Server with Automatic HTTPS - makes your sites more  secure , more  reliable , and more  scalable than any other solution.  (caddyserver.com)
+=> https://en.wikipedia.org/wiki/In-kernel_web_server An in-kernel web server is an unlimited HTTP server that runs in kernel space or equivalent and can therefore be very fast. (en.wikipedia.org)
+
+==== Rust mach Programme nicht sicher
+
+=> https://www.phoronix.com/news/sudo-rs-security-ubuntu-25.10 sudo-rs Affected By Multiple Security Vulnerabilities - Impacting Ubuntu 25.10 - Phoronix (www.phoronix.com)
+=> https://github.com/trifectatechfoundation/sudo-rs/security/advisories/GHSA-c978-wq47-pvvw Partial password reveal when password timeout occurs · Advisory · trifectatechfoundation/sudo-rs – aua… (github.com)
+
+==== Verschiedenes
+
+=> https://www.galaxus.de/de/s1/product/samsung-galaxy-fit3-40-mm-smartwatch-42574980
+
+=> https://www.iflscience.com/on-november-13-2026-voyager-will-reach-one-full-light-day-away-from-earth-81432 On November 13, 2026, Voyager Will Reach One Full Light-Day Away From Earth (www.iflscience.com)
+
+
++../article-end.in
++../footer.in
+(cond-end)
