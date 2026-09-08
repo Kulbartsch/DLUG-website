@@ -1,8 +1,16 @@
-@article-date:2025-MM-DD
-@last_change:2025-MM-DD
+;Datum des Treffens
+@article-date:202X-XX-XX
+@last_change:202X-XX-XX
 @author:Alexander
+;Bei LUGA folgendes aktivieren
+;@LUGA:T
+(cond-if-not-set LUGA)
 @article-name:{{article-date}} - DLUG und Freie Software Freunde Online Treffen
-@article-link:/archiv/{{article-date}}_FS_DLUG_Treffen.html
+@article-link:/archiv/{{article-date}}_FS_DLUG.html
+(cond-else)
+@article-name:{{article-date}} - LUGA - Linux User Group Austria - Online Treffen
+@article-link:/archiv/{{article-date}}_LUGA.html
+(cond-end)
 (cond-if-set teaser)
 * [[{{article-name}}|{{article-link}}]]
 (cond-else)
@@ -18,7 +26,7 @@ Themen des Abends waren:
 * Lorem [externer link](https://meshtastic.org/)
 * Ipsum
 
-==== sowieso
+==== Verschiedenes
 * DLUG Homepage [[interner link name|https://dlug.de]]
 
 

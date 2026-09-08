@@ -30,21 +30,25 @@ Danach muss der Kopf der Seite eingebunden werden:
 ```
 
 Achtung! Wenn du eine Unterseite (in *archiv* oder *projekte*)
-bearbeitetest must du die `+` include-Dateien mit als
-relativen pfad mit `../` angeben, also z. B.
+bearbeitetest musst du die `+` include-Dateien mit als
+relativen Pfad mit `../` angeben, also z. B.
  `+../header.in`.
-Das Gleiche gilt auch für *article-end.in* und *footer.in*!
+Das Gleiche gilt auch für `+article-end.in` und `+footer.in`!
 
 Der Inhalt einer Seite besteht aus einem oder
-mehreren `$<article>` ... `$</article>` Gruppen.
-Vor dem abschließenden `$</article>` muss eine Leerzeile sein,
-um den vorherigen Paragraph zu beenden.
-Der abschließende Paragraph kann auch durch das Include `+article-end.in`
-ersetzt werden. Damit kann das am Ende eines Artikels durch Variablen
-das Änderungsdatum (last_change), der/die Autor[in|en] (author)
-und eine Lizenz (license) genannt werden.
+mehreren `$<article>` ... `+article-end.in` Gruppen.
+Das Include `+article-end.in` fügt am Ende eines Artikels einen Footer
+ein, der die folgenden Variablen anzeigt, sofern diese gefüllt sind:
+* @last_change:<YYYY-MM-DD> - Datum der letzten Änderung
+* @author:<Name> - Name der Autorin oder des Autors bzw. der Autoren
+* @license:<Lizenz> - Lizenzangabe, z. B. "CC BY 4.0"
 Das Include löscht am Ende die Variablen, um eine automatische
-Vererbung auf Folgeartikel zu verhindern.
+Weitergabe auf Folgeartikel zu verhindern.
+
+Wenn keine der Variablen gefüllt ist, kann der Artikel auch ohne das
+Include `+article-end.in` durch ein `$</article>` abgeschlossen
+werden. Vor dem `$</article>` muss eine Leerzeile sein, um den
+vorherigen Paragraph zu beenden.
 
 Innerhalb eines Artikels wird mit Überschriftebene 3 begonnen.
 
@@ -92,7 +96,8 @@ Zum Beispiel so:
 [[Mailing-Liste|kontakt.html#Mailingliste]]
 ```
 
- *Externe* Links sollten in der Form `[text](URL)` definiert werden, dann wird das Attribut `rel=external` hinzugefügt.
+ *Externe* Links sollten in der Form `[text](URL)` definiert werden,
+dann wird im erzeugten HTML das Attribut `rel=external` hinzugefügt.
 Zum Beispiel so:
 ```
 [Wikipedia](https://www.wikipedia.de/)
@@ -107,7 +112,8 @@ Dieses aktualisiert das `site` Verzeichnis.
 Bitte beachte, dass das Script das `aswsg` aus dem Verzeichnis
 `bin` nimmt. Dieses ist für _Linux AMD64_
 kompiliert.
-Solltest du auf einer anderen Plattform arbeiten schaue [hier](https://github.com/Kulbartsch/AStaticWebSiteGenerator)
+Solltest du auf einer anderen Plattform arbeiten
+schaue [hier](https://github.com/Kulbartsch/AStaticWebSiteGenerator)
 nach deiner passenden Version.
 
 
@@ -119,7 +125,8 @@ Das ist total einfach, z.B. mit:
 
 ### Caddy
 
-1. Installiere das [Caddy](https://caddyserver.com/v2) Binary aus deiner Paketverwaltung,
+1. Installiere das [Caddy](https://caddyserver.com/v2) Binary aus
+   deiner Paketverwaltung,
    oder schaue [hier](https://caddyserver.com/docs/install).
 2. Im Terminal wechsel in das das site Verzeichnis `.../DLUG-website/site`.
 3. Starte caddy mit `caddy file-server --listen :8910`

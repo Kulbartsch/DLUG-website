@@ -1,0 +1,170 @@
+;Datum des Treffens
+@article-date:2026-08-13
+@last_change:2026-09-08
+@author:Alexander
+;Bei LUGA folgendes aktivieren
+;@LUGA:T
+(cond-if-not-set LUGA)
+@article-name:{{article-date}} - DLUG und Freie Software Freunde Online Treffen
+@article-link:/archiv/{{article-date}}_FS_DLUG.html
+(cond-else)
+@article-name:{{article-date}} - LUGA - Linux User Group Austria - Online Treffen
+@article-link:/archiv/{{article-date}}_LUGA.html
+(cond-end)
+(cond-if-set teaser)
+* [[{{article-name}}|{{article-link}}]]
+(cond-else)
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== Backup Software & Hardwar & Service
+
+=> https://backuppc.github.io/backuppc/ \
+    BackupPC: Open Source Backup to disk (backuppc.github.io)
+**  High-performance, enterprise-grade backup.
+*** BackupPC is a high-performance, enterprise-grade system for backing up \
+      Linux, Windows and macOS PCs and laptops to a server's disk. BackupPC is \
+      highly configurable and easy to install and maintain.
+=> https://github.com/bit-team/backintime \
+    bit-team/backintime: A comfortable and well-configurable graphical Frontend for incremental backups, with a command-line version also available. (github.com)
+**  Modified files are transferred, while unchanged files are linked to the new folder using rsync's hard link feature, saving storage space. Restoring is straightforward via file manager, command line or Back In Time itself.
+=> https://www.borgbackup.org/ \
+    BorgBackup – Deduplicating archiver with compression and authenticated encryption (www.borgbackup.org)
+**  deduplicating archiver — est. 2015
+*** Redundancy is futile.  Your data will be deduplicated. \
+    One archiver. Every defense your data needs. \
+    Space-efficient storage.                       \
+    Authenticated encryption.                      \
+    Compression.                                   \
+    Mountable archives.                            \
+    Runs everywhere you do.                        \
+    Free & open source                             \
+    Store it once. Reference it forever.
+=> https://restic.net/ restic · Backups done right! (restic.net)
+=> https://syncthing.net/ Syncthing (syncthing.net)
+**  Syncthing is a  continuous file synchronization program. It synchronizes \
+    files between two or more computers in real time, safely protected from prying \
+    eyes. Your data is your data alone and you deserve to choose where it is stored, \
+    whether it is shared with some third party, and how it’s transmitted over the \
+    internet.
+=> https://git-annex.branchable.com/ git-annex (git-annex.branchable.com)
+**  git-annex allows managing large files with git, without storing the file \
+    contents in git. It can sync, backup, and archive your data, offline     \
+    and online. Checksums and encryption keep your data safe and secure. Bring \
+    the power and distributed nature of git to bear on your large files with \
+    git-annex.
+=> https://www.sync.com/ Sync keeps your files safe, secure, and 100% private with end-to-end encryption — not even we can see them. Simple, fast, and always in your control. *unfree* (www.sync.com)
+=> https://www.hardkernel.com/shop/odroid-hc4/ ODROID-HC4 – ODROID (www.hardkernel.com)
+=> https://www.hetzner.com/de/storage/storage-box/ \
+    Storage Box: Günstiger Online Speicher und Datenarchivierung (www.hetzner.com)
+=> https://www.ovhcloud.com/de/ OVHcloud Deutschland - Cloud Computing und Webhosting (www.ovhcloud.com)
+=> https://github.com/bcpierce00/unison bcpierce00/unison: Unison file synchronizer (github.com)
+
+==== OpenTrafficMap
+
+ *OpenTrafficMap* ist ein offenes Projekt zur Visualisierung und Analyse von C-ITS-Daten (Cooperative Intelligent Transport Systems). Ziel ist es, sichtbar zu machen, welche Daten Ampeln, Straßenbahnen, Busse und moderne Autos bereits heute unverschlüsselt aussenden.
+=> https://opentrafficmap.org/ OpenTrafficMap (opentrafficmap.org)
+=> https://wiki.opentrafficmap.org/ OpenTrafficMap Wiki
+
+==== Hosting und DNS
+
+=> https://joker.com/ Jocker.com - Domainnamen und Mail-Postfach
+** Dahinter steht die CSL GmbH aus Deutschland
+=> selfhost.de
+=> ovhcloud.com
+
+
+Seeed Studio XIAO ESP32-C5 — the first XIAO module with 5 GHz Wi-Fi support, marking a new milestone in the XIAO family.Built on the RISC-V architecture, it brings together 2.4 GHz and 5 GHz dual-band Wi-Fi 6, Bluetooth 5 (LE), and IEEE 802.15.4 (Zigbee, Thread) connectivity, while offering full support for IoT application protocols including Matter, HomeKit, and MQTT. With this versatile combination, your projects gain smoother, faster, and more reliable wireless performancer.
+
+=> www.seeedstudio.com
+Ein sehr simpler, billiger Empfänger für unterwegs (cits-to-go) ist der Seed Studio XIAO C5. Hier für 7€:
+=> https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C5-p-6609.html?warehouse_id=11 XIAO ESP32-C5 Dual-band 2.4/5 GHz Wi‑Fi MCU for IoT Devices (www.seeedstudio.com)
+
+==== (E)Autos
+
+Gerade günstiges E-Auto im Abverkauf:
+=> https://www.gwm-motor.de/ora-03 GWM Ora 03 (www.gwm-motor.de)
+
+=> https://de.wikipedia.org/wiki/Mitsubishi_i-MiEV Mitsubishi i-MiEV (de.wikipedia.org)
+=> https://zackzack.at/2026/08/13/neue-recycling-regeln-fuer-altautos-was-in-oesterreich-bald-gilt \
+    Neue Recycling-Regeln für Altautos: Was in Österreich bald gilt - zackzack.at (zackzack.at)
+
+==== kleine Laptops
+
+=> https://gpdstore.net/product-category/gpd-mini-laptop/ GPD Mini Laptops | Compact & Powerful Laptops (gpdstore.net)
+** die dinger sind aber teuer und lohnen sich nur wenn man wirklich was kleines braucht
+=> https://onexplayerstore.com/collections/one-netbook ONE-NETBOOK – ONEXPLAYER (onexplayerstore.com)
+** One-Netbook 3S is grade im angebot fuer 300$ da kann man nochmal zugreifen
+
+==== Audio
+
+=> https://vcvrack.com/ VCV Rack 2 - The Eurorack Simulator for Windows/Mac/Linux (Digital synthesizer) (vcvrack.com)
+=> https://github.com/WeebLabs/DSPi \
+    GitHub - WeebLabs/DSPi: A fully featured audio DSP firmware for the Raspberry Pi Pico (RP2040) and Pico 2 (RP2350). \
+   (github.com)
+
+==== Verschiedenes
+
+=> https://www.stemwederopenair.de/  \   Stemweder Open Air 2026 – zum 50. Mal Umsonst und Draußen    14. – 15. August 2026 (www.stemwederopenair.de)
+
+=> https://de.wikipedia.org/wiki/Akkordtastatur  \
+   Eine Akkordtastatur ist eine Tastatur, die allein durch Bewegung der Finger und ohne Handbewegungen \
+   und oft auch mit nur einer Hand betätigt werden kann. (de.wikipedia.org)
+
+=> https://de.wikipedia.org/wiki/Tal_der_Ahnungslosen \
+   Tal der Ahnungslosen lautete der sarkastische DDR-Ausdruck für solche Gebiete, in denen Westfernsehen \
+   und der westliche UKW-Rundfunk nur schwer oder gar nicht zu empfangen waren. (de.wikipedia.org)
+
+==== Meshtastic - im wesentlichen Hardware
+
+=> https://meshtastic.org/ Meshtastic (meshtastic.org)
+=> https://www.seeedstudio.com/SenseCAP-Solar-Node-P1-Pro-for-Meshtastic-LoRa-p-6412.html \
+    Meshtastic Solar Powered Node / Repeater with built-in GPS and Battery (www.seeedstudio.com)
+=> https://lilygo.cc/products/t-deck-plus-1 T-Deck Plus – LILYGO® (lilygo.cc)
+=> https://www.berrybase.de/lilygo-t-watch-ultra-esp32-s3-lora-868mhz-meshcore-gnss-nfc-wifi-2-06-zoll-amoled \
+    LILYGO T-Watch Ultra ESP32-S3, LoRa 868Mhz, Meshcore, GNSS, NFC, WIFI, 2,06 Zoll AMOLED | LY-TWATCH-U (www.berrybase.de)
+=> https://meshcore-de.fyi/meshcore:lora_hardware:seeed_studio_xiao_nrf52_wio \
+    meshcore:lora_hardware:seeed_studio_xiao_nrf52_wio [MeshCore Wiki DE] (meshcore-de.fyi)
+=> https://www.seeedstudio.com/Wio-Tracker-L1-E-ink-p-6456.html \
+   Meshtastic kit/Meshtastic Node with Battery, GPS, and Solar Support from Seeed Studio \
+   (www.seeedstudio.com)
+=> https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html \
+    Meshtastic Development Kit (www.seeedstudio.com)
+=> https://flash.meshtastic.org/
+=> https://icssw.org/en/meshcom/ \
+    MeshCom 4.0 - Institute of Citizen Science
+=> https://www.ebay.de/itm/389150680613 Heltec WiFi LoRa 32 V4 V3 ESP32 Bluetooth WIFI Development Board 0.96" OLED GPS (ebay.de)
+=> https://www.berrybase.de/lilygo-t-lora-pager-meshtastic-esp32-s3-gnss-nfc-sensor-audio-lora-868-mhz-space-gray \
+    LILYGO T-LoRa Pager, LoRa 868 MHz, Meshcore / Meshtastic, ESP32-S3, SX1262, GNSS... - kaufen bei BerryBase \
+    (www.berrybase.de)
+=> https://www.youtube.com/watch?v=omvhi_6DfCc \
+    Off-Grid kommunizieren: Das geheime Netzwerk ohne Internet & 5G | ARTE Tracks - YouTube \
+    (www.youtube.com)
+
+==== Peter Gutmann on PQC, IETF and other stuff
+=> https://www.cs.auckland.ac.nz/~pgut001/ Peter Gutmann's Home Page (cs.auckland.ac.nz)
+
+Empfohlene Lektüre von Peter Gutmann:
+
+=> https://www.cs.auckland.ac.nz/~pgut001/pubs/heffalump_crypto.pdf
+=> https://www.cs.auckland.ac.nz/~pgut001/pubs/bollocks.pdf
+=> https://archive.openssl-conference.org/2025/presentations/Peter_Gutmann_ietf.pdf
+
+==== Einhell Akkku Zeug
+
+=> https://www.einhell.at/p/1091320-tc-es-18-150-1-li-solo/ \
+    Einhell Akku-Energiestation TC-ES 18/150/1 Li-Solo (www.einhell.at)
+=> https://www.ebay.de/itm/187263838782 Für Einhell 18V Wechselrichter Inverter 200W Spannungswandler DC 18V to AC 240V (ebay.de)
+=> https://www.ebay.de/itm/318333368192 220W Akku Wechselrichter Für Einhell 18V Akku，Dc 18V Auf AC 220V Spannungswandler (www.ebay.de)
+=> https://www.ebay.de/itm/206304486724 180W Tragbarer Spannungswandler Wechselrichter USB Type-C für Einhell 18V Akku (www.ebay.de)
+=> https://www.ebay.de/itm/187263838782 Für Einhell 18V Wechselrichter Inverter 200W Spannungswandler DC 18V to AC 240V (www.ebay.de)
+
+
++../article-end.in
++../footer.in
+(cond-end)

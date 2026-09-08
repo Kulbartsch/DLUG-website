@@ -7,7 +7,7 @@ $<article>
 da sich Termine verschieben oder ausfallen können.//
 
 Unsere
-$<abbr title="In Real Life - Im wahren Leben (nicht online)">IRL</abbr> 
+$<abbr title="In Real Life - Im wahren Leben (nicht online)">IRL</abbr>
 Linuxtreffen finden *am letzten Mittwoch des Monats* statt.
 
 Die Termine und Orte können sich z. B. durch Feiertage o.ä. verschieben.
@@ -16,8 +16,9 @@ Im Dezember ist es üblicherweise der zweite Donnerstag.
 $<br />
 Änderungen werden über die Mailingliste bekannt gegeben.
 
-Die Treffen finden meist in Düsseldorf im [zakk](https://www.zakk.de/) statt.
+Treffen finden meist in Düsseldorf im Restaurant "[El Greco](https://elgrecoduesseldorf.de/)", [Elisabethstr. 87, 40217 Düsseldorf](https://www.openstreetmap.org/node/1785149517#map=19/51.212275/6.774991) statt.
 
+;Die Treffen finden meist in Düsseldorf im [zakk](https://www.zakk.de/) statt.
 ;;;
 Ort:
 $<br />
@@ -45,6 +46,6 @@ oder Webseite veröffentlicht. Im gewissen Rahmen können Laptops und anderes mi
 Unsere Online-Linuxtreffen finden *jeden zweiten Donnerstag im Monat ab 19:30 Uhr* statt.
 Hierfür steht uns ein Jitsi-Server zur Verfügung.
 
-Die Informationen für den Zugang werden über die Mailingliste verteilt.
+Die Informationen für den Zugang werden über Matrix und die Mailingliste verteilt.
 
 $</article>

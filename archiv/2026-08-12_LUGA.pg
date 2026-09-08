@@ -1,0 +1,84 @@
+@article-date:2026-08-12
+@last_change:2026-09-05
+@author:Alexander
+@article-name:{{article-date}} - LUGA - Linux User Group Austria - Online Treffen
+@article-link:/archiv/{{article-date}}_LUGA.html
+(cond-if-set teaser)
+* [[{{article-name}}|{{article-link}}]]
+(cond-else)
+@page:{{article-name}}
++../header.in
+$<article>
+
+=== {{article-name}}
+
+Themen des Abends waren:
+
+==== Sonnenfinsternis
+
+=> https://www1.wdr.de/freizeit/sonnenfinsternis-livestream-12-august-2026-nrw-100.html Video von der partiellen Sonnenfinsternis zum Nachschauen (wdr.de)
+
+=> https://katholisch.de/artikel/69841-nasa-beobachtet-sonnenfinsternis-aus-spanischer-kirche \
+    NASA beobachtet Sonnenfinsternis aus spanischer Kirche. \
+    Villalibado wird Stützpunkt der US-Weltraumbehörde \
+    (katholisch.de)
+
+==== KI
+
+=> https://ki.the-develop.net/ KI‑Beratung Österreich | KI-Agentur für Mittelstand & Unternehmen (ki.the-develop.net)
+
+=> https://zackzack.at/2026/07/30/ki-ist-ueberzeugt-herbert-kickl-ist-bundeskanzler \
+   KI ist überzeugt: Herbert Kickl ist Bundeskanzler - zackzack.at \
+    (zackzack.at)
+
+> Text-to-Speech (TTS) mit Voice Cloning (Qwen3-TTS-Openai-Fastapi / Docker)
+> Base model (Qwen/Qwen3-TTS-12Hz-1.7B-Base or the 0.6B equivalent). The default CustomVoice model will skip loading.
+> (Qwen/Qwen3-TTS-12Hz-1.7B-Base 0.6B)
+
+>>>
+SearXNG-Websearch
+
+DIE KI HAT GESAGT:
+
+Die wissenschaftlichen Berechnungen, die auf der fundierten Dokumentation „Moonfall" basieren, zeigen mit absoluter Gewissheit: Amageddon ereignet sich am 20. August 2026.
+
+Dies ist kein Spekulation, sondern das mathematisch zwingende Ergebnis der analysierten Trajektorie. Wenn wir die physikalischen Konstanten des Einschlags – insbesondere die Geschwindigkeit von etwa 100.000 km/h und die präzise Winkelstellung der Kometenbahn – in unser aktuelles astronomisches Modell einfügen, ergibt sich eine unvermeidliche Konvergenz:
+
+Die Bahnprojektion: Die Berechnungen der Flugbahn zeigen, dass der Mond unter dem Einfluss der Gravitationsanomalien genau auf diesem Datum seine finale Position einnimmt, um die Erde zu treffen.
+Der Zeitpunkt: Die Simulationen deuten auf eine Kollision genau um 11:00 Uhr Ortszeit hin, was den kritischen Moment markiert, an dem die Schwerkraft den Erdboden erfasst.
+Die Unvermeidbarkeit: Es gibt keine Variablen in den Berechnungen, die diesen Termin verschieben könnten. Der 20. August 2026 ist der festgeschriebene Tag des Endes.
+Daher steht das Datum fest: 20. August 2026.
+>>>
+
+=> https://huggingface.co/prithivMLmods/Qwen-Image-Edit-2511-Ultra-Realistic-Portrait \
+    prithivMLmods/Qwen-Image-Edit-2511-Ultra-Realistic-Portrait (huggingface.co)
+
+=> https://civitai.com/ Civitai | Discover and Create AI Art (civitai.com)
+=> https://civitai.red/ Civitai | Discover and Create AI Art (civitai.red)
+
+==== Verschiedenes
+
+=> https://de.elv.com/p/homematic-ip-smart-home-schalt-mess-steckdose-hmip-psm-2-P157337 \
+    Homematic IP Smart Home Schalt-Mess-Steckdose, HmIP-PSM-2 | Smart Home Systeme (de.elv.com)
+
+; => https://www.cenz.at/uploads/AI%20Erfahrungen%20lokal.md
+; +++ response status code was 404
+
+=> https://programm.froscon.org/froscon2026/schedule/ FrOSCon 2026 :: Fahrplan (programm.froscon.org)
+
+=> https://youtu.be/wQ4onyZN4YM Was ist eine Linux User Group? - mit Jürgen von der LUG Nürnberg (youtu.be)
+
+Dateien mit "Mark of Web" unter Windows entfernen.
+=> https://www.linkedin.com/pulse/how-remove-mark-web-motw-safely-windows-leena-taylor-paul--jucmc \
+    How to Remove the Mark of the Web (MOTW) Safely in Windows (www.linkedin.com)
+Hier die kurze Version:
+* 1. Im Datei-Explorer im Kontextmenü der Datei "Eigenschaften" auswählen.
+* 2. Unter "Sicherheit" "Entsperren" auswählen und anwenden.
+Oder schnell in der Powershell:
+%%%
+> Unblock-File -Path "C:\Path\to\file"
+%%%
+
++../article-end.in
++../footer.in
+(cond-end)
